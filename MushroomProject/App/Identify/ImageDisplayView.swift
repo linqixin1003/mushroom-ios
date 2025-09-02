@@ -7,7 +7,7 @@ struct ImageDisplayView: View {
     let index: Int
     let imageUrls: [String]
     let capturedImage: UIImage?
-    let stone: Stone
+    let stone: Mushroom
     let actionModel: IdentifyResultActionModel
     
     var body: some View {
@@ -47,7 +47,7 @@ struct ImageDisplayView: View {
 struct ImageTabView: View {
     let imageUrls: [String]
     let capturedImage: UIImage?
-    let stone: Stone
+    let stone: Mushroom
     let actionModel: IdentifyResultActionModel
     let imageClick:(String, UIImage?) -> Void
     

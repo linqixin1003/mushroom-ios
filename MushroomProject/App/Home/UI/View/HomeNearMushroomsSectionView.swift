@@ -1,9 +1,9 @@
 import SwiftUI
 import Kingfisher
 
-struct HomeNearStonesSectionView: View {
+struct HomeNearMushroomsSectionView: View {
     let stones: [SimpleMushroom]
-    let onStoneClick: (SimpleMushroom) -> Void
+    let onMushroomClick: (SimpleMushroom) -> Void
     let onViewAllClick: () -> Void
     
     var body: some View {
@@ -33,17 +33,17 @@ struct HomeNearStonesSectionView: View {
             .frame(maxWidth: .infinity)
             .padding(.horizontal, HomePageHorizontalPadding)
             
-            HomeNearStonesView(
+            HomeNearMushroomsView(
                 stones: self.stones,
-                onStoneClick: self.onStoneClick
+                onMushroomClick: self.onMushroomClick
             )
         }
     }
 }
 
-struct HomeNearStonesView: View {
+struct HomeNearMushroomsView: View {
     let stones: [SimpleMushroom]
-    let onStoneClick: (SimpleMushroom) -> Void
+    let onMushroomClick: (SimpleMushroom) -> Void
     
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
@@ -52,9 +52,9 @@ struct HomeNearStonesView: View {
                     .frame(height: 8.rpx)
                 
                 ForEach(self.stones) { stone in
-                    HomeNearStoneItem(stone: stone)
+                    HomeNearMushroomItem(stone: stone)
                         .onTapGesture {
-                            self.onStoneClick(stone)
+                            self.onMushroomClick(stone)
                         }
                 }
                 
@@ -65,7 +65,7 @@ struct HomeNearStonesView: View {
     }
 }
 
-struct HomeNearStoneItem: View {
+struct HomeNearMushroomItem: View {
     let stone: SimpleMushroom
     
     var body: some View {

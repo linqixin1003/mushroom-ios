@@ -1,5 +1,5 @@
 //
-//  StoneFeatures.swift
+//  MushroomFeatures.swift
 //  RockProject
 //
 //  Created by conalin on 2025/6/10.
@@ -7,16 +7,16 @@
 
 import SwiftUI
 
-struct StoneObservation: Codable, Identifiable {
+struct MushroomObservation: Codable, Identifiable {
     let id: Int // sequence_id
-    let colors: StoneColors
-    let environment: StoneEnvironment
-    let behavior: StoneBehavior
-    let size: StoneSize
-    let season: StoneSeason
+    let colors: MushroomColors
+    let environment: MushroomEnvironment
+    let behavior: MushroomBehavior
+    let size: MushroomSize
+    let season: MushroomSeason
     let plumageId: Int
     
-    struct StoneColors: Codable {
+    struct MushroomColors: Codable {
         let black: Bool
         let blue: Bool
         let brown: Bool
@@ -28,7 +28,7 @@ struct StoneObservation: Codable, Identifiable {
         let yellow: Bool
     }
     
-    struct StoneEnvironment: Codable {
+    struct MushroomEnvironment: Codable {
         let feeder: Bool
         let fence: Bool
         let ground: Bool
@@ -36,11 +36,11 @@ struct StoneObservation: Codable, Identifiable {
         let water: Bool
     }
     
-    struct StoneBehavior: Codable {
+    struct MushroomBehavior: Codable {
         let flying: Bool
     }
     
-    struct StoneSize: Codable {
+    struct MushroomSize: Codable {
         let size1: Bool
         let size2: Bool
         let size3: Bool
@@ -50,14 +50,14 @@ struct StoneObservation: Codable, Identifiable {
         let size7: Bool
     }
     
-    struct StoneSeason: Codable {
+    struct MushroomSeason: Codable {
         let monthStart: Int
         let monthEnd: Int
     }
 }
 
-struct StoneDetailView: View {
-    let observation: StoneObservation
+struct MushroomDetailView: View {
+    let observation: MushroomObservation
     
     var body: some View {
         ScrollView {
@@ -92,7 +92,7 @@ struct CardView<Content: View>: View {
 
 // 修改各个卡片组件，使用统一的 CardView
 struct BasicInfoCard: View {
-    let observation: StoneObservation
+    let observation: MushroomObservation
     
     var body: some View {
         CardView {
@@ -126,7 +126,7 @@ struct InfoItem: View {
 }
 
 struct ColorsCard: View {
-    let colors: StoneObservation.StoneColors
+    let colors: MushroomObservation.MushroomColors
 
     var body: some View {
         CardView {
@@ -176,7 +176,7 @@ struct ColorBlock: View {
 }
 
 struct EnvironmentCard: View {
-    let environment: StoneObservation.StoneEnvironment
+    let environment: MushroomObservation.MushroomEnvironment
 
     var body: some View {
         CardView {
@@ -224,7 +224,7 @@ struct EnvironmentItem: View {
 }
 
 struct BehaviorCard: View {
-    let behavior: StoneObservation.StoneBehavior
+    let behavior: MushroomObservation.MushroomBehavior
 
     var body: some View {
         CardView {
@@ -249,7 +249,7 @@ struct BehaviorCard: View {
 }
 
 struct SizeCard: View {
-    let size: StoneObservation.StoneSize
+    let size: MushroomObservation.MushroomSize
 
     var body: some View {
         CardView {
@@ -273,7 +273,7 @@ struct SizeCard: View {
     }
 }
 
-func getSizeRange(size: StoneObservation.StoneSize) -> (min: StoneSizeInfo, max: StoneSizeInfo)? {
+func getSizeRange(size: MushroomObservation.MushroomSize) -> (min: MushroomSizeInfo, max: MushroomSizeInfo)? {
     let flags = [
         size.size1, size.size2, size.size3, size.size4,
         size.size5, size.size6, size.size7
@@ -292,7 +292,7 @@ func getSizeRange(size: StoneObservation.StoneSize) -> (min: StoneSizeInfo, max:
     return nil
 }
 
-func sizeRangeText(min: StoneSizeInfo, max: StoneSizeInfo) -> String {
+func sizeRangeText(min: MushroomSizeInfo, max: MushroomSizeInfo) -> String {
     let cmText: String
     if let maxCm = max.cmMax {
         cmText = "\(min.cmMin)~\(maxCm)cm"
@@ -309,7 +309,7 @@ func sizeRangeText(min: StoneSizeInfo, max: StoneSizeInfo) -> String {
 }
 
 struct SeasonCard: View {
-    let season: StoneObservation.StoneSeason
+    let season: MushroomObservation.MushroomSeason
 
     var body: some View {
         CardView {
@@ -360,7 +360,7 @@ struct PlumageCard: View {
     }
 }
 
-struct StoneSizeInfo {
+struct MushroomSizeInfo {
     let name: String
     let cmMin: Int
     let cmMax: Int?
@@ -368,20 +368,20 @@ struct StoneSizeInfo {
     let inchMax: Int?
 }
 
-let stoneSizeList: [StoneSizeInfo] = [
-    StoneSizeInfo(name: "Very Small", cmMin: 8, cmMax: 12, inchMin: 3, inchMax: 5),
-    StoneSizeInfo(name: "Small", cmMin: 13, cmMax: 16, inchMin: 5, inchMax: 6),
-    StoneSizeInfo(name: "Small-Medium", cmMin: 17, cmMax: 20, inchMin: 6, inchMax: 8),
-    StoneSizeInfo(name: "Medium", cmMin: 21, cmMax: 25, inchMin: 8, inchMax: 10),
-    StoneSizeInfo(name: "Medium-Large", cmMin: 26, cmMax: 30, inchMin: 10, inchMax: 12),
-    StoneSizeInfo(name: "Large", cmMin: 31, cmMax: 40, inchMin: 12, inchMax: 16),
-    StoneSizeInfo(name: "Very Large", cmMin: 41, cmMax: nil, inchMin: 16, inchMax: nil)
+let stoneSizeList: [MushroomSizeInfo] = [
+    MushroomSizeInfo(name: "Very Small", cmMin: 8, cmMax: 12, inchMin: 3, inchMax: 5),
+    MushroomSizeInfo(name: "Small", cmMin: 13, cmMax: 16, inchMin: 5, inchMax: 6),
+    MushroomSizeInfo(name: "Small-Medium", cmMin: 17, cmMax: 20, inchMin: 6, inchMax: 8),
+    MushroomSizeInfo(name: "Medium", cmMin: 21, cmMax: 25, inchMin: 8, inchMax: 10),
+    MushroomSizeInfo(name: "Medium-Large", cmMin: 26, cmMax: 30, inchMin: 10, inchMax: 12),
+    MushroomSizeInfo(name: "Large", cmMin: 31, cmMax: 40, inchMin: 12, inchMax: 16),
+    MushroomSizeInfo(name: "Very Large", cmMin: 41, cmMax: nil, inchMin: 16, inchMax: nil)
 ]
 
 struct ContentView: View {
-    let observation = StoneObservation(
+    let observation = MushroomObservation(
         id: 11651,
-        colors: StoneObservation.StoneColors(
+        colors: MushroomObservation.MushroomColors(
             black: true,
             blue: true,
             brown: true,
@@ -392,15 +392,15 @@ struct ContentView: View {
             white: true,
             yellow: true
         ),
-        environment: StoneObservation.StoneEnvironment(
+        environment: MushroomObservation.MushroomEnvironment(
             feeder: false,
             fence: true,
             ground: true,
             trees: true,
             water: false
         ),
-        behavior: StoneObservation.StoneBehavior(flying: true),
-        size: StoneObservation.StoneSize(
+        behavior: MushroomObservation.MushroomBehavior(flying: true),
+        size: MushroomObservation.MushroomSize(
             size1: false,
             size2: false,
             size3: false,
@@ -409,7 +409,7 @@ struct ContentView: View {
             size6: true,
             size7: true
         ),
-        season: StoneObservation.StoneSeason(
+        season: MushroomObservation.MushroomSeason(
             monthStart: 1,
             monthEnd: 12
         ),
@@ -418,16 +418,16 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            StoneDetailView(observation: observation)
+            MushroomDetailView(observation: observation)
         }
     }
 }
 
 #Preview {
     // 创建示例数据
-    let sampleObservation = StoneObservation(
+    let sampleObservation = MushroomObservation(
         id: 11651,
-        colors: StoneObservation.StoneColors(
+        colors: MushroomObservation.MushroomColors(
             black: true,
             blue: true,
             brown: true,
@@ -438,15 +438,15 @@ struct ContentView: View {
             white: true,
             yellow: true
         ),
-        environment: StoneObservation.StoneEnvironment(
+        environment: MushroomObservation.MushroomEnvironment(
             feeder: false,
             fence: true,
             ground: true,
             trees: true,
             water: false
         ),
-        behavior: StoneObservation.StoneBehavior(flying: true),
-        size: StoneObservation.StoneSize(
+        behavior: MushroomObservation.MushroomBehavior(flying: true),
+        size: MushroomObservation.MushroomSize(
             size1: false,
             size2: false,
             size3: false,
@@ -455,7 +455,7 @@ struct ContentView: View {
             size6: true,
             size7: true
         ),
-        season: StoneObservation.StoneSeason(
+        season: MushroomObservation.MushroomSeason(
             monthStart: 1,
             monthEnd: 12
         ),
@@ -463,7 +463,7 @@ struct ContentView: View {
     )
     
     return NavigationView {
-        StoneDetailView(observation: sampleObservation)
+        MushroomDetailView(observation: sampleObservation)
     }
 }
 

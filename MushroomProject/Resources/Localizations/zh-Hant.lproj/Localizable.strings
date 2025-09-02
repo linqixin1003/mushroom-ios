@@ -152,7 +152,7 @@
 "settings_terms_of_use" = "使用條款";
 "settings_manage_account" = "管理賬戶";
 
-// MARK: - Stone Information
+// MARK: - Mushroom Information
 "stone_info_detailed_not_available" = "詳細信息不可用";
 "stone_info_additional_characteristics" = "額外的特徵和分類數據將在可用時顯示在此處。";
 "stone_info_characteristics" = "特徵";
@@ -231,7 +231,7 @@
 "share_error_no_content" = "沒有可分享的內容";
 "share_image_load_failed" = "圖片載入失敗";
 
-// MARK: - Stone Features
+// MARK: - Mushroom Features
 "stone_basic_information" = "基本信息";
 "stone_color_features" = "顏色特徵";
 "stone_habitat" = "棲息地";
@@ -362,7 +362,7 @@
 // MARK: - Wish List
 "wishlist_estimated_value" = "估值";
 
-// MARK: - Stone Characteristics
+// MARK: - Mushroom Characteristics
 "stone_usage" = "用途";
 "stone_health_risks" = "健康風險";
 "stone_authenticity_identification" = "真偽鑑別";
@@ -499,7 +499,7 @@
 // MARK: - Find Treasure
 "find_treasure_metal_detector" = "金屬探測器";
 
-// MARK: - Stone Detail
+// MARK: - Mushroom Detail
 "stone_durability_rating" = "耐久性評級";
 
 // MARK: - Home Action Types (從HomeActionView.swift提取)

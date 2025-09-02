@@ -135,7 +135,7 @@ class DetailViewController: BaseHostingViewController<DetailPage> {
             }
         }
         
-//        let simpleMushroom = stone.toSimpleStone()
+//        let simpleMushroom = stone.toSimpleMushroom()
 //
 //        LocalRecordItem.addToCollectionOnly(stone: simpleMushroom) { [weak self] success in
 //            DispatchQueue.main.async {

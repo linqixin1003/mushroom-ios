@@ -32,7 +32,7 @@ struct GetDetailRequest: RequestProtocol {
 }
 
 struct GetDetailResponse: Codable {
-    let stone: Stone
+    let stone: Mushroom
     let isInWishlist: Bool
     
     enum CodingKeys: String, CodingKey {

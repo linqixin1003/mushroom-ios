@@ -178,7 +178,7 @@
 "instruction_step_5" = "5. Bare én art per bilde. For mange fugler i bildet kan føre til feil identifikasjon.";
 "instruction_identify" = "Identifiser";
 
-// MARK: - Stone Info Section
+// MARK: - Mushroom Info Section
 "stone_usage" = "Bruk";
 "stone_health_risks" = "Helserisiko";
 "stone_original_vs_fake" = "Autentisering";
@@ -196,7 +196,7 @@
 "stone_info_more" = "Mer>>";
 
 // MARK: - ConvertPage
-"convert_title" = "StoneAI Snap";
+"convert_title" = "MushroomAI Snap";
 "convert_feature_1" = "Dybdeinformasjon om over 12000 fuglearter";
 "convert_feature_2" = "Presis fugleidentifikasjon med foto og lyd";
 "convert_feature_3" = "Lær å tiltrekke fugler til hjemmet ditt";
@@ -308,7 +308,7 @@
 "microphone_permission_desc" = "Mikrofontilgang er nødvendig for å ta opp fuglelyder for artsidentifikasjon";
 "microphone_permission_button" = "Tillat";
 
-// MARK: - Stone Season
+// MARK: - Mushroom Season
 "stone_visible_year_round" = "Året rundt";
 
 // MARK: - Additional Missing Keys

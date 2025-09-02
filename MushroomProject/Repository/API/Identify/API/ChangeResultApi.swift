@@ -3,12 +3,12 @@ import Alamofire
 
 struct ChangeResultRequest: RequestProtocol {
     let identificationId: Int
-    let newStoneId: String
+    let newMushroomId: String
     let confidence: Double
     
-    init(identificationId: Int, newStoneId: String, confidence:Double) {
+    init(identificationId: Int, newMushroomId: String, confidence:Double) {
         self.identificationId = identificationId
-        self.newStoneId = newStoneId
+        self.newMushroomId = newMushroomId
         self.confidence = confidence
     }
     
@@ -25,7 +25,7 @@ struct ChangeResultRequest: RequestProtocol {
     }
     
     var parameters: [String : Any] {
-        return ["identification_id":identificationId, "new_stone_id":newStoneId, "confidence":confidence]
+        return ["identification_id":identificationId, "new_stone_id":newMushroomId, "confidence":confidence]
     }
     
     var multipartFormData: ((MultipartFormData) -> Void)? {

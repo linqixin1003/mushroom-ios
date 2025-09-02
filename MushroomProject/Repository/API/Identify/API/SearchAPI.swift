@@ -1,7 +1,7 @@
 
 import Alamofire
 
-struct SearchStoneRequest: RequestProtocol {
+struct SearchMushroomRequest: RequestProtocol {
     
     let query: String
     let limit: Int
@@ -34,7 +34,7 @@ struct SearchStoneRequest: RequestProtocol {
     }
 }
 
-struct SearchStoneResponse: Codable {
+struct SearchMushroomResponse: Codable {
     let total: Int
     let stones: [SimpleMushroom]
 }

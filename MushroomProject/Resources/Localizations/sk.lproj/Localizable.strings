@@ -152,7 +152,7 @@
 "settings_terms_of_use" = "Podmienky používania";
 "settings_manage_account" = "Spravovať účet";
 
-// MARK: - Stone Information
+// MARK: - Mushroom Information
 "stone_info_detailed_not_available" = "Podrobné informácie nie sú k dispozícii";
 "stone_info_additional_characteristics" = "Ďalšie charakteristiky a klasifikačné údaje sa zobrazia tu, keď budú k dispozícii.";
 "stone_info_characteristics" = "Charakteristiky";
@@ -231,7 +231,7 @@
 "share_error_no_content" = "Žiadny obsah na zdieľanie";
 "share_image_load_failed" = "Načítanie obrázka zlyhalo";
 
-// MARK: - Stone Features
+// MARK: - Mushroom Features
 "stone_basic_information" = "Základné informácie";
 "stone_color_features" = "Farebné charakteristiky";
 "stone_habitat" = "Habitat";
@@ -362,7 +362,7 @@
 // MARK: - Wish List
 "wishlist_estimated_value" = "Odhadovaná hodnota";
 
-// MARK: - Stone Characteristics
+// MARK: - Mushroom Characteristics
 "stone_usage" = "Použitie";
 "stone_health_risks" = "Zdravotné riziká";
 "stone_authenticity_identification" = "Identifikácia pravosti";
@@ -499,7 +499,7 @@
 // MARK: - Find Treasure
 "find_treasure_metal_detector" = "Detektor kovov";
 
-// MARK: - Stone Detail
+// MARK: - Mushroom Detail
 "stone_durability_rating" = "Hodnotenie odolnosti";
 
 // MARK: - Home Action Types (z HomeActionView.swift)

@@ -95,15 +95,15 @@ class HomeViewController: TabItemViewController {
             self.navigationController?.pushViewController(vc, animated: true)
         }.store(in: &cancellables)
         
-        self.actionModel.onDailyStoneClick.sink { [weak self] id in
-            FireBaseEvent.send(eventName: EventName.homeDailyStoneItemClick, params: [EventParam.uid: id])
+        self.actionModel.onDailyMushroomClick.sink { [weak self] id in
+            FireBaseEvent.send(eventName: EventName.homeDailyMushroomItemClick, params: [EventParam.uid: id])
             guard let self else { return }
             let vc = DetailViewController(id: id)
             self.navigationController?.pushViewController(vc, animated: true)
         }.store(in: &cancellables)
         
-        self.actionModel.onDailyStoneCollectClick.sink { [weak self] id in
-            FireBaseEvent.send(eventName: EventName.homeDailyStoneFavoriteClick, params: [EventParam.uid: id])
+        self.actionModel.onDailyMushroomCollectClick.sink { [weak self] id in
+            FireBaseEvent.send(eventName: EventName.homeDailyMushroomFavoriteClick, params: [EventParam.uid: id])
             guard let self else { return }
             self.viewModel.toggleCollectionState(id: id) { success in
                 if success {
@@ -116,15 +116,15 @@ class HomeViewController: TabItemViewController {
             }
         }.store(in: &cancellables)
         
-        self.actionModel.onNearbyStoneItemClick.sink { [weak self] id in
-            FireBaseEvent.send(eventName: EventName.homeNearbyStoneItemClick, params: [EventParam.uid: id])
+        self.actionModel.onNearbyMushroomItemClick.sink { [weak self] id in
+            FireBaseEvent.send(eventName: EventName.homeNearbyMushroomItemClick, params: [EventParam.uid: id])
             guard let self else { return }
             let vc = DetailViewController(id: id)
             self.navigationController?.pushViewController(vc, animated: true)
         }.store(in: &cancellables)
         
-        self.actionModel.onNearbyStoneViewAllClick.sink { [weak self] in
-            FireBaseEvent.send(eventName: EventName.homeNearbyStoneMoreClick)
+        self.actionModel.onNearbyMushroomViewAllClick.sink { [weak self] in
+            FireBaseEvent.send(eventName: EventName.homeNearbyMushroomMoreClick)
             guard let self else { return }
             ToastUtil.showToast("Feature coming soon!")
         }.store(in: &cancellables)
@@ -136,10 +136,10 @@ class HomeViewController: TabItemViewController {
         }.store(in: &cancellables)
         
         // 处理每日石头分享事件
-        self.actionModel.onDailyStoneShareClick.sink { [weak self] id in
-            FireBaseEvent.send(eventName: EventName.homeDailyStoneShareClick, params: [EventParam.uid: id])
+        self.actionModel.onDailyMushroomShareClick.sink { [weak self] id in
+            FireBaseEvent.send(eventName: EventName.homeDailyMushroomShareClick, params: [EventParam.uid: id])
             guard let self else { return }
-            self.handleDailyStoneShare(id: id)
+            self.handleDailyMushroomShare(id: id)
         }.store(in: &cancellables)
     }
     
@@ -212,9 +212,9 @@ class HomeViewController: TabItemViewController {
     
     /// 处理每日石头分享
     /// - Parameter id: 石头的唯一标识符
-    private func handleDailyStoneShare(id: String) {
+    private func handleDailyMushroomShare(id: String) {
         // 从 viewModel 获取石头信息
-        if let stone = viewModel.getDailyStone(by: id) {
+        if let stone = viewModel.getDailyMushroom(by: id) {
             let shareText = stone.name
             let shareData = ShareData(
                 imageUrl: stone.photoUrl ?? "",

@@ -1,11 +1,11 @@
 //
-//  StoneIdentificationRecord.swift
+//  MushroomIdentificationRecord.swift
 //  RockProject
 //
 //  Created by conalin on 2025/5/20.
 //
 
-struct StoneIdentificationRecord: Codable, Identifiable {
+struct MushroomIdentificationRecord: Codable, Identifiable {
     let id: Int
     let uid: String
     let confidence: Double

@@ -1,9 +1,9 @@
 import Foundation
 
 /**
- * Stone detailed information model
+ * Mushroom detailed information model
  */
-struct Stone: Codable {
+struct Mushroom: Codable {
     let id: String
     let name: String
     let image: String?
@@ -61,10 +61,10 @@ struct Stone: Codable {
     let qualityClarity: String?
     let qualityLove: String?
     let tags: [String]?
-    let locations: [StoneLocation]?
-    let photos: [StonePhoto]?
+    let locations: [MushroomLocation]?
+    let photos: [MushroomPhoto]?
     let videos: [String]?
-    let faqs: [StoneFAQ]?
+    let faqs: [MushroomFAQ]?
     let userCollection: String?
     var isFavorite: Bool
     let zodiacs: [String]?
@@ -138,10 +138,10 @@ struct Stone: Codable {
         qualityClarity: String? = nil,
         qualityLove: String? = nil,
         tags: [String]? = nil,
-        locations: [StoneLocation]? = nil,
-        photos: [StonePhoto]? = nil,
+        locations: [MushroomLocation]? = nil,
+        photos: [MushroomPhoto]? = nil,
         videos: [String]? = nil,
-        faqs: [StoneFAQ]? = nil,
+        faqs: [MushroomFAQ]? = nil,
         userCollection: String? = nil,
         isFavorite: Bool = false,
         zodiacs: [String]? = nil,
@@ -319,13 +319,13 @@ struct Stone: Codable {
     }
 }
 
-struct StoneLocation: Codable {
+struct MushroomLocation: Codable {
     let latitude: String?
     let longitude: String?
     let name: String?
 }
 
-struct StonePhoto: Codable {
+struct MushroomPhoto: Codable {
     let id: Int?
     let stone: String?
     let image: String?
@@ -341,7 +341,7 @@ struct StonePhoto: Codable {
     }
 }
 
-struct StoneFAQ: Codable {
+struct MushroomFAQ: Codable {
     let question: String?
     let answer: String?
 }

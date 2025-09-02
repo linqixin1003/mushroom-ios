@@ -66,7 +66,7 @@ struct IdentifyResponse: Codable {
 }
 
 struct IdentifyItem:Codable{
-    let stone: Stone
+    let stone: Mushroom
     let confidence: Double
     let identificationId: Int?
     var isInWishlist: Bool

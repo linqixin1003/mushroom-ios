@@ -178,7 +178,7 @@
 "instruction_step_5" = "5. Görüntü başına sadece bir tür. Görüntüde çok fazla kuş olması yanlış tanımlamaya yol açabilir.";
 "instruction_identify" = "Tanımla";
 
-// MARK: - Stone Info Section
+// MARK: - Mushroom Info Section
 "stone_usage" = "Kullanım";
 "stone_health_risks" = "Sağlık Riskleri";
 "stone_original_vs_fake" = "Doğrulama";
@@ -196,7 +196,7 @@
 "stone_info_more" = "Daha fazla>>";
 
 // MARK: - ConvertPage
-"convert_title" = "StoneAI Snap";
+"convert_title" = "MushroomAI Snap";
 "convert_feature_1" = "12000'den fazla kuş türü hakkında derinlemesine bilgi";
 "convert_feature_2" = "Fotoğraf ve sesle hassas kuş tanımlama";
 "convert_feature_3" = "Kuşları evinize çekmeyi öğrenin";
@@ -308,7 +308,7 @@
 "microphone_permission_desc" = "Tür tanımlama için kuş seslerini kaydetmek üzere mikrofon erişimi gerekiyor";
 "microphone_permission_button" = "İzin ver";
 
-// MARK: - Stone Season
+// MARK: - Mushroom Season
 "stone_visible_year_round" = "Yıl boyunca";
 
 // MARK: - Additional Missing Keys

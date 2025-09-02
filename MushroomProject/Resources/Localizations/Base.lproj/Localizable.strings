@@ -62,8 +62,8 @@
 "home_action_identify" = "Identify";
 "home_action_record" = "Record";
 "home_action_ai_beautify" = "AI Beautify";
-"home_your_daily_stone" = "Your Daily Stone";
-"home_stones_near_you" = "Stones Near You";
+"home_your_daily_stone" = "Your Daily Mushroom";
+"home_stones_near_you" = "Mushrooms Near You";
 "home_app_usage_title" = "App usage instructions";
 "home_app_usage_desc" = "Help you get familar with us more quickly.";
 
@@ -151,7 +151,7 @@
 "settings_terms_of_use" = "Terms of Use";
 "settings_manage_account" = "Manage Account";
 
-// MARK: - Stone Information
+// MARK: - Mushroom Information
 "stone_info_detailed_not_available" = "Detailed information not available";
 "stone_info_additional_characteristics" = "Additional characteristics and classification data will be displayed here when available.";
 "stone_info_characteristics" = "Characteristics";
@@ -228,7 +228,7 @@
 "share_download" = "Download";
 "share_share" = "Share";
 
-// MARK: - Stone Features
+// MARK: - Mushroom Features
 "stone_basic_information" = "Basic Information";
 "stone_color_features" = "Color Features";
 "stone_habitat" = "Habitat";
@@ -258,7 +258,7 @@
 
 // MARK: - Retain Page
 "retain_today" = "Today";
-"retain_today_desc" = "Unlock full access to all Picture Stone Premium features";
+"retain_today_desc" = "Unlock full access to all Picture Mushroom Premium features";
 "retain_day_1_6" = "Day 1 –Day 6";
 "retain_day_1_6_desc" = "Enjoy your Premium and get the most out of your free trial";
 "retain_day_7" = "Day 7";
@@ -290,14 +290,14 @@
 "camera_mode_by_photo" = "By Photo";
 "camera_mode_by_sound" = "By sound";
 
-// Stone Features
+// Mushroom Features
 "stone_observation_number" = "Observation Number";
 
 // Share
 "share_no_content" = "No content to share";
 "share_failed" = "Share Failed";
 "share_ok" = "OK";
-"share_stone_not_found" = "Stone information not found";
+"share_stone_not_found" = "Mushroom information not found";
 
 // Camera
 "camera_retake" = "Retake";
@@ -401,11 +401,11 @@
 
 // MARK: - Recognize Page (from RecognizeViewController.swift)
 "recognize_auto_saved_collection" = "Auto-saved to collection";
-"recognize_stone_loading" = "Stone information is loading, please wait";
+"recognize_stone_loading" = "Mushroom information is loading, please wait";
 "recognize_invalid_id" = "Invalid identification ID";
 "recognize_added_collection_success" = "Added to collection successfully";
 "recognize_added_collection_failed" = "Failed to add to collection, please try again";
-"recognize_stone_loading_wait" = "Stone information is loading, please wait";
+"recognize_stone_loading_wait" = "Mushroom information is loading, please wait";
 "recognize_added_wishlist_success" = "Added to wishlist";
 "recognize_added_wishlist_failed" = "Failed to add to wishlist, please try again";
 "recognize_delete_wishlist_success" = "removed wish";
@@ -413,17 +413,17 @@
 
 // MARK: - Detail Page (from DetailViewController.swift)
 "detail_page_title" = "Result";
-"detail_stone_loading" = "Stone information is loading, please wait";
+"detail_stone_loading" = "Mushroom information is loading, please wait";
 "detail_collected" = "Collected";
 "detail_collected_failed" = "Collected Failed";
 "detail_collected_error" = "add Collected Error";
-"detail_stone_loading_wait" = "Stone information is loading, please wait";
+"detail_stone_loading_wait" = "Mushroom information is loading, please wait";
 "detail_added_wishlist_success" = "Added to wishlist";
 "detail_added_wishlist_failed" = "Failed to add to wishlist, please try again";
 "detail_add_wish" = "addWish";
 "detail_del_wish" = "delWish";
 
-// MARK: - Stone Info Section (from StoneInfoSectionView.swift)
+// MARK: - Mushroom Info Section (from MushroomInfoSectionView.swift)
 "stone_usage" = "Usage";
 "stone_health_risks" = "Health risks";
 "stone_original_vs_fake" = "Authenticity identification";
@@ -456,7 +456,7 @@
 "purchase_bundle_id" = "Bundle ID:";
 "purchase_unknown" = "Unknown";
 
-// MARK: - Stone Detail Components
+// MARK: - Mushroom Detail Components
 "stone_chemical_properties" = "Chemical properties";
 "stone_impurities" = "Impurities";
 "stone_variety" = "Variety";

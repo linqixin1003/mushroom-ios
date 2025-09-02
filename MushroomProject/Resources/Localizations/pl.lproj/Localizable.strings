@@ -62,8 +62,8 @@
 "home_action_identify" = "Identify";
 "home_action_record" = "Record";
 "home_action_ai_beautify" = "AI Beautify";
-"home_your_daily_stone" = "Your Daily Stone";
-"home_stones_near_you" = "Stones Near You";
+"home_your_daily_stone" = "Your Daily Mushroom";
+"home_stones_near_you" = "Mushrooms Near You";
 "home_app_usage_title" = "App usage instructions";
 "home_app_usage_desc" = "Help you get familiar with us more quickly.";
 
@@ -204,7 +204,7 @@
 "microphone_permission_desc" = "Dostęp do mikrofonu jest potrzebny do nagrywania dźwięków ptaków w celu identyfikacji gatunków";
 "microphone_permission_button" = "Zezwól";
 
-// Stone Season
+// Mushroom Season
 "stone_visible_year_round" = "Przez cały rok";
 "convert_cancel_notice" = "Nie musisz płacić, jeśli anulujesz subskrypcję co najmniej dzień przed zakończeniem 7-dniowego bezpłatnego okresu próbnego.";
 "retain_price_then" = "Następnie ";
@@ -229,7 +229,7 @@
 "profile_load_more_button" = "Załaduj więcej";
 "profile_no_more_data" = "Brak więcej danych";
 
-// MARK: - Stone Info Section
+// MARK: - Mushroom Info Section
 "stone_usage" = "Zastosowanie";
 "stone_health_risks" = "Ryzyko zdrowotne";
 "stone_original_vs_fake" = "Autentyczność";

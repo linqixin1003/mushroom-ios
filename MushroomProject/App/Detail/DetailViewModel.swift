@@ -7,7 +7,7 @@ class DetailViewModel: ObservableObject {
     var headerImageUrl: String? = nil
     var mediaType: LocalRecordType? = nil
     
-    @Published var stone: Stone? = nil
+    @Published var stone: Mushroom? = nil
     @Published var isInWish: Bool = false
     @Published var isInFavorite: Bool = false
     var identificationId:Int? = nil
@@ -29,8 +29,8 @@ class DetailViewModel: ObservableObject {
                 self.stone = result.stone
                 self.isInWish = result.isInWishlist
                 self.isInFavorite = result.stone.isFavorite
-                print("🔍 Stone isFavorite from server: \(result.stone.isFavorite)")
-                print("🔍 Stone isInWish from server: \(result.isInWishlist)")
+                print("🔍 Mushroom isFavorite from server: \(result.stone.isFavorite)")
+                print("🔍 Mushroom isInWish from server: \(result.isInWishlist)")
             }
         }
     }

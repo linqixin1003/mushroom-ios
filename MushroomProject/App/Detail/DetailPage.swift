@@ -48,7 +48,7 @@ struct DetailPage: View {
                                     self.actionModel.onImageClick.send((0, [url]))
                                 }
                             
-                            StoneSummaryView(
+                            MushroomSummaryView(
                                 name: stone.name,
                                 description: stone.description ?? "",
                                 tags: (stone.tags ?? []).map { MushroomTag(id: 0, name: $0, slug: $0) }
@@ -62,7 +62,7 @@ struct DetailPage: View {
                             VStack(spacing: 12.rpx) {
                                 
                                 if !stone.images.isEmpty {
-                                    StoneImagesSectionView(
+                                    MushroomImagesSectionView(
                                         imageUrls: stone.images,
                                         onMoreClick: stone.images.count <= 2 ? nil : {
                                             FireBaseEvent.send(eventName: EventName.detailImageMoreClick, params: [EventParam.uid: stone.id])
@@ -75,34 +75,34 @@ struct DetailPage: View {
                                 }
                                 
                                 // 化学属性区域
-                                StoneChemicalPropertiesSectionView(stone: stone)
+                                MushroomChemicalPropertiesSectionView(stone: stone)
                                 
                                 // 物理属性区域
-                                StonePhysicalPropertiesSectionView(stone: stone)
+                                MushroomPhysicalPropertiesSectionView(stone: stone)
                                 
                                 // 护理说明区域
                                 if !(stone.storage ?? "").isEmpty || !(stone.cleaningTips ?? "").isEmpty {
-                                    StoneCareInstructionsSectionView(stone: stone)
+                                    MushroomCareInstructionsSectionView(stone: stone)
                                 }
                                 
                                 // 价格信息区域
                                 if stone.pricePerCaratFrom != nil || stone.pricePerPoundFrom != nil {
-                                    StonePriceSectionView(stone: stone)
+                                    MushroomPriceSectionView(stone: stone)
                                 }
                                 
                                 // 形而上学属性区域
                                 if (stone.showMetaphysical ?? false) {
-                                    StoneMetaphysicalSectionView(stone: stone)
+                                    MushroomMetaphysicalSectionView(stone: stone)
                                 }
                                 
                                 // FAQ区域
                                 if stone.faqs?.isEmpty == false {
-                                    StoneFAQSectionView(stone: stone)
+                                    MushroomFAQSectionView(stone: stone)
                                 }
                                 
                                 // 用途和健康信息区域
                                 if !(stone.usage ?? "").isEmpty || (stone.healthRisks?.isEmpty == false) {
-                                    StoneUsageSectionView(stone: stone)
+                                    MushroomUsageSectionView(stone: stone)
                                 }
                             }
                             
@@ -155,7 +155,7 @@ struct DetailPage: View {
     }
 }
 
-struct StoneSummaryView: View {
+struct MushroomSummaryView: View {
     
     let name: String
     let description: String
@@ -215,10 +215,10 @@ struct StoneSummaryView: View {
     }
 }
 
-struct StoneSummaryView_Previews: PreviewProvider {
+struct MushroomSummaryView_Previews: PreviewProvider {
     
     static var previews: some View {
-        StoneSummaryView(
+        MushroomSummaryView(
             name: "Jasper",
             description: "Jasper is a type of chalcedony mineral that is found in a variety of colors and patterns. It is often used for jewelry, carvings, and other decorative items.",
             tags: [MushroomTag(id: 1, name: "Healing", slug: "healing")]
@@ -227,14 +227,14 @@ struct StoneSummaryView_Previews: PreviewProvider {
 }
 
 
-struct StoneImagesSectionView: View {
+struct MushroomImagesSectionView: View {
     
     let imageUrls: [String]
     let onMoreClick: (() -> Void)?
     let onImageClick: (Int, [String]) -> Void
     
     var body: some View {
-        StoneSectionContainerView(
+        MushroomSectionContainerView(
             sectionTitle: Language.text_images,
             onMoreClick: self.onMoreClick,
             content: {
@@ -260,7 +260,7 @@ struct StoneImagesSectionView: View {
 }
 
 
-struct StoneSectionContainerView<Content>: View where Content: View {
+struct MushroomSectionContainerView<Content>: View where Content: View {
     
     let sectionTitle: String
     let onMoreClick: (() -> Void)?

@@ -202,7 +202,7 @@
 "microphone_permission_desc" = "Microfoontoegang is nodig om vogelgeluiden op te nemen voor soortidentificatie";
 "microphone_permission_button" = "Toestaan";
 
-// Stone Season
+// Mushroom Season
 "stone_visible_year_round" = "Het hele jaar";
 "convert_cancel_notice" = "Je hoeft niet te betalen als je het abonnement minstens een dag voor het einde van de 7-daagse gratis proefperiode opzegt.";
 "retain_price_then" = "Dan ";
@@ -227,7 +227,7 @@
 "profile_load_more_button" = "Meer laden";
 "profile_no_more_data" = "Geen gegevens meer";
 
-// MARK: - Stone Info Section
+// MARK: - Mushroom Info Section
 "stone_usage" = "Gebruik";
 "stone_health_risks" = "Gezondheidsrisico's";
 "stone_original_vs_fake" = "Authenticatie";

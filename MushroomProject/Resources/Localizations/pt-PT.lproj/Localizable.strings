@@ -152,7 +152,7 @@
 "settings_terms_of_use" = "Termos de utilização";
 "settings_manage_account" = "Gerir conta";
 
-// MARK: - Stone Information
+// MARK: - Mushroom Information
 "stone_info_detailed_not_available" = "Informações detalhadas não disponíveis";
 "stone_info_additional_characteristics" = "Características adicionais e dados de classificação serão exibidos aqui quando disponíveis.";
 "stone_info_characteristics" = "Características";
@@ -231,7 +231,7 @@
 "share_error_no_content" = "Nenhum conteúdo para partilhar";
 "share_image_load_failed" = "Falha ao carregar imagem";
 
-// MARK: - Stone Features
+// MARK: - Mushroom Features
 "stone_basic_information" = "Informações básicas";
 "stone_color_features" = "Características de cor";
 "stone_habitat" = "Habitat";
@@ -362,7 +362,7 @@
 // MARK: - Wish List
 "wishlist_estimated_value" = "Valor estimado";
 
-// MARK: - Stone Characteristics
+// MARK: - Mushroom Characteristics
 "stone_usage" = "Utilização";
 "stone_health_risks" = "Riscos para a saúde";
 "stone_authenticity_identification" = "Identificação de autenticidade";
@@ -499,7 +499,7 @@
 // MARK: - Find Treasure
 "find_treasure_metal_detector" = "Detetor de metais";
 
-// MARK: - Stone Detail
+// MARK: - Mushroom Detail
 "stone_durability_rating" = "Classificação de durabilidade";
 
 // MARK: - Home Action Types (extraído de HomeActionView.swift)

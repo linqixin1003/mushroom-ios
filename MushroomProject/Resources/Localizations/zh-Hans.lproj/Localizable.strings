@@ -140,7 +140,7 @@
 "settings_terms_of_use" = "使用条款";
 "settings_manage_account" = "管理账户";
 
-// MARK: - Stone Information
+// MARK: - Mushroom Information
 "stone_info_detailed_not_available" = "详细信息不可用";
 "stone_info_additional_characteristics" = "额外的特征和分类数据将在可用时显示在此处。";
 "stone_info_characteristics" = "特征";
@@ -216,7 +216,7 @@
 "share_download" = "下载";
 "share_share" = "分享";
 
-// MARK: - Stone Features
+// MARK: - Mushroom Features
 "stone_basic_information" = "基本信息";
 "stone_color_features" = "颜色特征";
 "stone_habitat" = "栖息地";
@@ -292,7 +292,7 @@
 "camera_mode_by_photo" = "拍照";
 "camera_mode_by_sound" = "录音";
 
-// Stone Features
+// Mushroom Features
 "stone_observation_number" = "观察编号";
 
 // Share
@@ -417,7 +417,7 @@
 // MARK: - Wish List
 "wishlist_estimated_value" = "估值";
 
-// MARK: - Stone Characteristics
+// MARK: - Mushroom Characteristics
 "stone_usage" = "用途";
 "stone_health_risks" = "健康风险";
 "stone_authenticity_identification" = "真伪鉴别";
@@ -533,7 +533,7 @@
 // MARK: - Find Treasure
 "find_treasure_metal_detector" = "金属探测器";
 
-// MARK: - Stone Detail
+// MARK: - Mushroom Detail
 "stone_durability_rating" = "耐久性评级";
 
 // MARK: - Home Action Types (从HomeActionView.swift提取)
@@ -555,7 +555,7 @@
 "profile_load_more" = "加载更多";
 "profile_no_more_data" = "没有更多数据了";
 
-// MARK: - Stone Info Section (从StoneInfoSectionView.swift提取)
+// MARK: - Mushroom Info Section (从MushroomInfoSectionView.swift提取)
 "stone_usage" = "用途";
 "stone_health_risks" = "健康风险";
 "stone_authenticity_identification" = "真伪鉴别";

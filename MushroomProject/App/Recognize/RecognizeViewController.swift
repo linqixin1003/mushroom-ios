@@ -100,21 +100,21 @@ class RecognizeViewController: BaseHostingViewController<RecognizePage> {
             if (self.viewModel.needChangeResult()) {
                 self.viewModel.changeResultApi { success in
                     if (success) {
-                        FireBaseEvent.send(eventName: EventName.resultCloseClick, params: [EventParam.uid: self.viewModel.currentStone?.id ?? ""])
+                        FireBaseEvent.send(eventName: EventName.resultCloseClick, params: [EventParam.uid: self.viewModel.currentMushroom?.id ?? ""])
                         self.viewModel.reset()
                     } else {
                         ToastUtil.showToast(Language.change_result_failed)
                     }
                 }
             } else {
-                FireBaseEvent.send(eventName: EventName.resultCloseClick, params: [EventParam.uid: self.viewModel.currentStone?.id ?? ""])
+                FireBaseEvent.send(eventName: EventName.resultCloseClick, params: [EventParam.uid: self.viewModel.currentMushroom?.id ?? ""])
                 self.viewModel.reset()
             }
             
         }.store(in: &cancellables)
         
         self.resultActionModel.navCameraClick.sink { [weak self] in
-            FireBaseEvent.send(eventName: EventName.resultRetakeClick, params: [EventParam.uid: self?.viewModel.currentStone?.id ?? "", EventParam.index:"0"])
+            FireBaseEvent.send(eventName: EventName.resultRetakeClick, params: [EventParam.uid: self?.viewModel.currentMushroom?.id ?? "", EventParam.index:"0"])
             guard let self else { return }
             self.viewModel.reset()
         }.store(in: &cancellables)
@@ -158,12 +158,12 @@ class RecognizeViewController: BaseHostingViewController<RecognizePage> {
                 guard let self = self,
                       state == .result else { return }
 //                if (self.autoSaveToCollection) {
-//                    if let stone = self.viewModel.currentStone {
-//                        self.autoSaveStoneToCollection(stone: stone)
+//                    if let stone = self.viewModel.currentMushroom {
+//                        self.autoSaveMushroomToCollection(stone: stone)
 //                    }
 //                }
                 if (self.autoSaveToWishList) {
-                    if let stone = self.viewModel.currentStone{
+                    if let stone = self.viewModel.currentMushroom{
                         handleAddWishAction(onlyAdd: true)
                     }
                 }
@@ -175,7 +175,7 @@ class RecognizeViewController: BaseHostingViewController<RecognizePage> {
     // MARK: - 保存收藏处理
     
     /// 自动保存石头到收藏
-    private func autoSaveStoneToCollection(stone: Stone) {
+    private func autoSaveMushroomToCollection(stone: Mushroom) {
         // 从识别结果中获取identificationId
         guard let identificationId = viewModel.identificationId else {
             print("❌ Invalid identification ID for auto-save")
@@ -197,9 +197,9 @@ class RecognizeViewController: BaseHostingViewController<RecognizePage> {
     /// 处理保存收藏操作
     private func handleSaveAction() {
         // 根据识别模式获取相应的石头数据
-        let stone: Stone?
+        let stone: Mushroom?
         // 图片识别结果
-        stone = viewModel.currentStone
+        stone = viewModel.currentMushroom
         
         guard let stone = stone else {
             ToastUtil.showToast(Language.recognize_stone_loading)
@@ -255,9 +255,9 @@ class RecognizeViewController: BaseHostingViewController<RecognizePage> {
             return
         }
         // 根据识别模式获取相应的石头数据
-        let stone: Stone?
+        let stone: Mushroom?
         // 图片识别结果
-        stone = viewModel.currentStone
+        stone = viewModel.currentMushroom
         
         guard let stone = stone else {
             ToastUtil.showToast(Language.recognize_stone_loading_wait)

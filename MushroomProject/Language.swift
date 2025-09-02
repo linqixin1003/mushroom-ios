@@ -375,7 +375,7 @@ class Language {
     static var snap_tip_blurry: String { return LocalizationManager.shared.localizedString(for: "snap_tip_blurry") }
     static var snap_tip_multiple_species: String { return LocalizationManager.shared.localizedString(for: "snap_tip_multiple_species") }
     
-    // Stone Features
+    // Mushroom Features
     static var stone_observation_number: String { return LocalizationManager.shared.localizedString(for: "stone_observation_number") }
 
     // Share
@@ -541,7 +541,7 @@ class Language {
     static var detail_add_wish: String { return LocalizationManager.shared.localizedString(for: "detail_add_wish") }
     static var detail_del_wish: String { return LocalizationManager.shared.localizedString(for: "detail_del_wish") }
     
-    // Stone Info Section
+    // Mushroom Info Section
     static var stone_usage: String { return LocalizationManager.shared.localizedString(for: "stone_usage") }
     static var stone_health_risks: String { return LocalizationManager.shared.localizedString(for: "stone_health_risks") }
     static var stone_original_vs_fake: String { return LocalizationManager.shared.localizedString(for: "stone_original_vs_fake") }
@@ -605,7 +605,7 @@ class Language {
     static var purchase_year: String { return LocalizationManager.shared.localizedString(for: "purchase_year") }
     static var purchase_unknown: String { return LocalizationManager.shared.localizedString(for: "purchase_unknown") }
     
-    // MARK: - Stone Detail Components
+    // MARK: - Mushroom Detail Components
     static var stone_chemical_properties: String { return LocalizationManager.shared.localizedString(for: "stone_chemical_properties") }
     static var stone_impurities: String { return LocalizationManager.shared.localizedString(for: "stone_impurities") }
     static var stone_variety: String { return LocalizationManager.shared.localizedString(for: "stone_variety") }

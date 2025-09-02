@@ -1,6 +1,6 @@
 import Alamofire
 
-struct RandomStoneRequest: RequestProtocol {
+struct RandomMushroomRequest: RequestProtocol {
     
     let lang: String
     
@@ -31,7 +31,7 @@ struct RandomStoneRequest: RequestProtocol {
     }
 }
 
-struct RandomStoneResponse: Codable {
+struct RandomMushroomResponse: Codable {
     let date: String
     let mushrooms: [SimpleMushroom]
 }

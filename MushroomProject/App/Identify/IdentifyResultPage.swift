@@ -13,7 +13,7 @@ struct IdentifyResultActionModel {
 }
 
 struct IdentifyResultPage: View {
-    let stone: Stone
+    let stone: Mushroom
     let images:[String]
     var isInWish: Bool
     var isInFavorite:Bool = false
@@ -45,7 +45,7 @@ struct IdentifyResultPage: View {
                             actionModel: actionModel) { url, image in
                                 self.compareImageUrl = url
                             }
-                        StoneSummaryView(
+                        MushroomSummaryView(
                             name: stone.name,
                             description: stone.description ?? "",
                             tags: (stone.tags ?? []).map { MushroomTag(id: 0, name: $0, slug: $0) }
@@ -59,7 +59,7 @@ struct IdentifyResultPage: View {
                         VStack(spacing: 12.rpx) {
                             
                             if !stone.images.isEmpty {
-                                StoneImagesSectionView(
+                                MushroomImagesSectionView(
                                     imageUrls: stone.images,
                                     onMoreClick: stone.images.count <= 2 ? nil : {
                                         FireBaseEvent.send(eventName: EventName.resultImageMoreClick, params: [EventParam.uid: self.stone.id])
@@ -72,34 +72,34 @@ struct IdentifyResultPage: View {
                             }
                             
                             // 化学属性区域
-                            StoneChemicalPropertiesSectionView(stone: stone)
+                            MushroomChemicalPropertiesSectionView(stone: stone)
                             
                             // 物理属性区域
-                            StonePhysicalPropertiesSectionView(stone: stone)
+                            MushroomPhysicalPropertiesSectionView(stone: stone)
                             
                             // 护理说明区域
                             if !(stone.storage ?? "").isEmpty || !(stone.cleaningTips ?? "").isEmpty {
-                                StoneCareInstructionsSectionView(stone: stone)
+                                MushroomCareInstructionsSectionView(stone: stone)
                             }
                             
                             // 价格信息区域
                             if stone.pricePerCaratFrom != nil || stone.pricePerPoundFrom != nil {
-                                StonePriceSectionView(stone: stone)
+                                MushroomPriceSectionView(stone: stone)
                             }
                             
                             // 形而上学属性区域
                             if (stone.showMetaphysical ?? false) {
-                                StoneMetaphysicalSectionView(stone: stone)
+                                MushroomMetaphysicalSectionView(stone: stone)
                             }
                             
                             // FAQ区域
                             if stone.faqs?.isEmpty == false {
-                                StoneFAQSectionView(stone: stone)
+                                MushroomFAQSectionView(stone: stone)
                             }
                             
                             // 用途和健康信息区域
                             if !(stone.usage ?? "").isEmpty || (stone.healthRisks?.isEmpty == false) {
-                                StoneUsageSectionView(stone: stone)
+                                MushroomUsageSectionView(stone: stone)
                             }
                         }
                         
@@ -169,10 +169,10 @@ struct IdentifyResultPage: View {
     }
 }
 
-extension StoneObservation {
+extension MushroomObservation {
     init(from observation: Observation) {
         self.id = observation.id
-        self.colors = StoneColors(
+        self.colors = MushroomColors(
             black: observation.black,
             blue: observation.blue,
             brown: observation.brown,
@@ -183,17 +183,17 @@ extension StoneObservation {
             white: observation.white,
             yellow: observation.yellow
         )
-        self.environment = StoneEnvironment(
+        self.environment = MushroomEnvironment(
             feeder: observation.feeder,
             fence: observation.fence,
             ground: observation.ground,
             trees: observation.trees,
             water: observation.water
         )
-        self.behavior = StoneBehavior(
+        self.behavior = MushroomBehavior(
             flying: observation.flying
         )
-        self.size = StoneSize(
+        self.size = MushroomSize(
             size1: observation.size1,
             size2: observation.size2,
             size3: observation.size3,
@@ -202,7 +202,7 @@ extension StoneObservation {
             size6: observation.size6,
             size7: observation.size7
         )
-        self.season = StoneSeason(
+        self.season = MushroomSeason(
             monthStart: observation.monthStart,
             monthEnd: observation.monthEnd
         )

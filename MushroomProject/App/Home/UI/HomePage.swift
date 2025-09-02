@@ -72,18 +72,18 @@ struct HomePage: View {
                         .zIndex(1) // 确保按钮在最上层
                         .allowsHitTesting(true) // 明确允许触摸事件
                         
-                        if let dailyStone = self.viewModel.dailyStones.first {
+                        if let dailyMushroom = self.viewModel.dailyMushrooms.first {
                             Button(action: {
-                                self.actionModel.onDailyStoneClick.send(dailyStone.id)
+                                self.actionModel.onDailyMushroomClick.send(dailyMushroom.id)
                             }) {
-                                HomeDailyStoneSectionView(
-                                    stone: dailyStone,
-                                    collected: self.viewModel.isCollected(id: dailyStone.id),
+                                HomeDailyMushroomSectionView(
+                                    stone: dailyMushroom,
+                                    collected: self.viewModel.isCollected(id: dailyMushroom.id),
                                     onCollectClick: {
-                                        self.actionModel.onDailyStoneCollectClick.send(dailyStone.id)
+                                        self.actionModel.onDailyMushroomCollectClick.send(dailyMushroom.id)
                                     },
                                     onShareClick: {
-                                        self.actionModel.onDailyStoneShareClick.send(dailyStone.id)
+                                        self.actionModel.onDailyMushroomShareClick.send(dailyMushroom.id)
                                     }
                                 )
                             }
@@ -93,13 +93,13 @@ struct HomePage: View {
                             .zIndex(0) // 确保在按钮下层
                         }
                         
-                        HomeNearStonesSectionView(
-                            stones: self.viewModel.nearByStones,
-                            onStoneClick: {
-                                self.actionModel.onNearbyStoneItemClick.send($0.id)
+                        HomeNearMushroomsSectionView(
+                            stones: self.viewModel.nearByMushrooms,
+                            onMushroomClick: {
+                                self.actionModel.onNearbyMushroomItemClick.send($0.id)
                             },
                             onViewAllClick: {
-                                self.actionModel.onNearbyStoneViewAllClick.send()
+                                self.actionModel.onNearbyMushroomViewAllClick.send()
                             }
                         )
                         .padding(.top, 20.rpx)
@@ -124,7 +124,7 @@ struct HomePage: View {
             refreshKey = UUID()
         }
         .fullScreenCover(isPresented: $showingAppInstrcuctionPage) {
-            StoneInstructionPage(
+            MushroomInstructionPage(
                 onBackClick: {
                     FireBaseEvent.send(eventName: EventName.instructionsCloseClick)
                     self.showingAppInstrcuctionPage = false

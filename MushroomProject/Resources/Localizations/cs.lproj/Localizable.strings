@@ -178,7 +178,7 @@
 "instruction_step_5" = "5. Pouze jeden druh na obrázku. Příliš mnoho ptáků na obrázku může vést k nesprávné identifikaci.";
 "instruction_identify" = "Identifikovat";
 
-// MARK: - Stone Info Section
+// MARK: - Mushroom Info Section
 "stone_usage" = "Použití";
 "stone_health_risks" = "Zdravotní rizika";
 "stone_original_vs_fake" = "Ověření pravosti";
@@ -196,7 +196,7 @@
 "stone_info_more" = "Více>>";
 
 // MARK: - ConvertPage
-"convert_title" = "StoneAI Snap";
+"convert_title" = "MushroomAI Snap";
 "convert_feature_1" = "Podrobné informace o více než 12000 druzích ptáků";
 "convert_feature_2" = "Přesná identifikace ptáků pomocí fotografie a zvuku";
 "convert_feature_3" = "Naučte se lákat ptáky do svého domova";
@@ -308,7 +308,7 @@
 "microphone_permission_desc" = "Pro nahrávání ptačích zvuků k identifikaci druhů je potřeba přístup k mikrofonu";
 "microphone_permission_button" = "Povolit";
 
-// MARK: - Stone Season
+// MARK: - Mushroom Season
 "stone_visible_year_round" = "Celoročně";
 
 // MARK: - Additional Missing Keys

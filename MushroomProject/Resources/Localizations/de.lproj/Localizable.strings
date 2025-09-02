@@ -140,7 +140,7 @@
 "settings_terms_of_use" = "Nutzungsbedingungen";
 "settings_manage_account" = "Konto verwalten";
 
-// MARK: - Stone Information
+// MARK: - Mushroom Information
 "stone_info_detailed_not_available" = "Detaillierte Informationen nicht verfügbar";
 "stone_info_additional_characteristics" = "Zusätzliche Eigenschaften und Klassifizierungsdaten werden hier angezeigt, wenn verfügbar.";
 "stone_info_characteristics" = "Eigenschaften";
@@ -224,7 +224,7 @@
 "instruction_identify" = "Identifizieren"; 
 
 // ConvertPage
-"convert_title" = "StoneAI Snap";
+"convert_title" = "MushroomAI Snap";
 "convert_feature_1" = "Detaillierte Informationen zu über 12.000 Vogelarten";
 "convert_feature_2" = "Hochpräzise Vogelidentifikation mit Foto und Ton";
 "convert_feature_3" = "Lernen Sie, wie Sie Vögel zu sich nach Hause locken";
@@ -325,7 +325,7 @@
 "microphone_permission_desc" = "Mikrofonzugriff wird benötigt, um Vogelgeräusche für die Artbestimmung aufzunehmen";
 "microphone_permission_button" = "Erlauben";
 
-// Stone Season
+// Mushroom Season
 "stone_visible_year_round" = "Ganzjährig";
 
 // MARK: - Home Action Types
@@ -347,7 +347,7 @@
 "profile_load_more_button" = "Mehr laden";
 "profile_no_more_data" = "Keine weiteren Daten";
 
-// MARK: - Stone Info Section
+// MARK: - Mushroom Info Section
 "stone_usage" = "Verwendung";
 "stone_health_risks" = "Gesundheitsrisiken";
 "stone_original_vs_fake" = "Echtheitsprüfung";

@@ -178,7 +178,7 @@
 "instruction_step_5" = "5. Vain yksi laji kuvaa kohti. Liian monta lintua kuvassa voi johtaa väärään tunnistukseen.";
 "instruction_identify" = "Tunnista";
 
-// MARK: - Stone Info Section
+// MARK: - Mushroom Info Section
 "stone_usage" = "Käyttö";
 "stone_health_risks" = "Terveysriskit";
 "stone_original_vs_fake" = "Aitouden tarkistus";
@@ -196,7 +196,7 @@
 "stone_info_more" = "Lisää>>";
 
 // MARK: - ConvertPage
-"convert_title" = "StoneAI Snap";
+"convert_title" = "MushroomAI Snap";
 "convert_feature_1" = "Syvällistä tietoa yli 12000 lintulajista";
 "convert_feature_2" = "Tarkka lintutunnistus kuvalla ja äänellä";
 "convert_feature_3" = "Opi houkuttelemaan lintuja kotiisi";
@@ -308,7 +308,7 @@
 "microphone_permission_desc" = "Mikrofonin käyttöoikeus tarvitaan lintujen äänten tallentamiseen lajintunnistusta varten";
 "microphone_permission_button" = "Salli";
 
-// MARK: - Stone Season
+// MARK: - Mushroom Season
 "stone_visible_year_round" = "Ympäri vuoden";
 
 // MARK: - Additional Missing Keys

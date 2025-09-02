@@ -5,20 +5,20 @@ import Foundation
 class HomeViewModel: ObservableObject {
     
     @Published var showVipBanner: Bool = true
-    @Published var dailyStones: [SimpleMushroom] = []
-    @Published var nearByStones: [SimpleMushroom] = []
-    @Published var dailyStoneCollectedStates: [String: Bool] = [:] // id -> isCollected
+    @Published var dailyMushrooms: [SimpleMushroom] = []
+    @Published var nearByMushrooms: [SimpleMushroom] = []
+    @Published var dailyMushroomCollectedStates: [String: Bool] = [:] // id -> isCollected
     
     func loadData(completion: @escaping (Bool) -> ()) {
         self.showVipBanner = !LocalPurchaseManager.shared.isVIP
         Task {
-            async let loadDailyStonesSuccess = await self.loadDailyMushroomsIfNeededAsync()
-            async let loadRandomStonesSuccess = await self.loadNearbyMushroomsIfNeededAsync()
+            async let loadDailyMushroomsSuccess = await self.loadDailyMushroomsIfNeededAsync()
+            async let loadRandomMushroomsSuccess = await self.loadNearbyMushroomsIfNeededAsync()
             
-            let (dailySuccess, randomSuccess) = await (loadDailyStonesSuccess, loadRandomStonesSuccess)
+            let (dailySuccess, randomSuccess) = await (loadDailyMushroomsSuccess, loadRandomMushroomsSuccess)
             
             // 每次进入首页都重新加载收藏状态，确保数据及时更新
-            if !dailyStones.isEmpty {
+            if !dailyMushrooms.isEmpty {
                 await self.loadCollectionStates()
             }
             
@@ -49,20 +49,20 @@ class HomeViewModel: ObservableObject {
     }
     
     private func loadDailyMushroomsIfNeededAsync() async -> Bool {
-        if !self.dailyStones.isEmpty {
+        if !self.dailyMushrooms.isEmpty {
             return true
         }
-        let req = RandomStoneRequest(lang:"en")
-        let result: RandomStoneResponse? = try? await ApiRequest.requestAsync(request: req)
+        let req = RandomMushroomRequest(lang:"en")
+        let result: RandomMushroomResponse? = try? await ApiRequest.requestAsync(request: req)
         guard let stones = result?.mushrooms, !stones.isEmpty else {
             return false
         }
-        self.dailyStones = stones
+        self.dailyMushrooms = stones
         return true
     }
     
     private func loadNearbyMushroomsIfNeededAsync() async -> Bool {
-        if !self.nearByStones.isEmpty {
+        if !self.nearByMushrooms.isEmpty {
             return true
         }
         let req = NearByMushroomRequest(longitude: 0.0, latitude: 0.0)
@@ -70,18 +70,18 @@ class HomeViewModel: ObservableObject {
         guard let stones = result?.mushrooms, !stones.isEmpty else {
             return false
         }
-        self.nearByStones = stones
+        self.nearByMushrooms = stones
         return true
     }
     
     /// 加载每日石头的收藏状态
     private func loadCollectionStates() async {
-        for stone in dailyStones {
+        for stone in dailyMushrooms {
             await withCheckedContinuation { continuation in
                 LocalRecordItem.isCollected(uid: stone.id) { [weak self] isCollected, success in
                     Task { @MainActor in
                         if success {
-                            self?.dailyStoneCollectedStates[stone.id] = isCollected
+                            self?.dailyMushroomCollectedStates[stone.id] = isCollected
                         }
                         continuation.resume()
                     }
@@ -93,7 +93,7 @@ class HomeViewModel: ObservableObject {
     /// 刷新收藏状态（公开方法，可在需要时主动调用）
     func refreshCollectionStates() {
         Task {
-            if !dailyStones.isEmpty {
+            if !dailyMushrooms.isEmpty {
                 await self.loadCollectionStates()
             }
         }
@@ -111,7 +111,7 @@ class HomeViewModel: ObservableObject {
         LocalRecordItem.toggleCollected(stone: simpleMushroom) { [weak self] newState, success in
             Task { @MainActor in
                 if success {
-                    self?.dailyStoneCollectedStates[id] = newState
+                    self?.dailyMushroomCollectedStates[id] = newState
                     // 任何收藏状态变更都通知其他页面刷新
                     NotificationCenter.default.post(name: .ReloadHistoryList, object: nil)
                 }
@@ -124,32 +124,32 @@ class HomeViewModel: ObservableObject {
     /// - Parameter id: 石头 id
     /// - Returns: 是否已收藏
     func isCollected(id: String) -> Bool {
-        return dailyStoneCollectedStates[id] ?? false
+        return dailyMushroomCollectedStates[id] ?? false
     }
     
     // MARK: - 辅助方法
     
     /// 根据id获取每日石头信息
     /// - Parameter id: 石头的唯一标识符
-    /// - Returns: 对应的DailyStone对象，如果找不到则返回nil
-    func getDailyStone(by id: String) -> SimpleMushroom? {
-        return dailyStones.first { $0.id == id }
+    /// - Returns: 对应的DailyMushroom对象，如果找不到则返回nil
+    func getDailyMushroom(by id: String) -> SimpleMushroom? {
+        return dailyMushrooms.first { $0.id == id }
     }
     
     /// 根据id获取附近蘑菇信息
     /// - Parameter id: 蘑菇的唯一标识符
     /// - Returns: 对应的SimpleMushroom对象，如果找不到则返回nil
     func getNearbyMushroom(by id: String) -> SimpleMushroom? {
-        return nearByStones.first { $0.id == id }
+        return nearByMushrooms.first { $0.id == id }
     }
     
     /// 根据id获取任意蘑菇信息（从所有列表中查找）
     /// - Parameter id: 蘑菇的唯一标识符
     /// - Returns: 对应的SimpleMushroom对象，如果找不到则返回nil
     func getMushroom(by id: String) -> SimpleMushroom? {
-        if let dailyStone = getDailyStone(by: id) {
-            // 需要将 DailyStone 转换为 SimpleMushroom
-            return dailyStone
+        if let dailyMushroom = getDailyMushroom(by: id) {
+            // 需要将 DailyMushroom 转换为 SimpleMushroom
+            return dailyMushroom
         }
         if let nearMushroom = getNearbyMushroom(by: id) {
             return nearMushroom

@@ -5,7 +5,7 @@
 ## 文件结构
 
 ```
-StoneProject/Common/Purchase/
+MushroomProject/Common/Purchase/
 ├── LocalPurchaseManager.swift      # 核心购买管理器
 ├── PurchaseHelper.swift           # 购买帮助工具类
 ├── PurchaseUsageExample.swift     # 使用示例

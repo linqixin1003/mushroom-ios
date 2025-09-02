@@ -26,7 +26,7 @@ class RecognizeViewModel: ObservableObject {
     @Published var position:Int = 0
     @Published var identifyItems: [IdentifyItem] = []
     @Published var currentItem: IdentifyItem? = nil
-    @Published var currentStone: Stone? = nil
+    @Published var currentMushroom: Mushroom? = nil
     var identificationId: Int? = nil
     var confidence:Double = 1.0
     
@@ -36,9 +36,9 @@ class RecognizeViewModel: ObservableObject {
     func changeResult(position: Int) {
         self.position = position
         self.currentItem = self.identifyItems[position]
-        self.currentStone = self.currentItem!.stone
+        self.currentMushroom = self.currentItem!.stone
         self.isInWish = self.currentItem!.isInWishlist
-        self.isInFavorite = self.currentStone!.isFavorite
+        self.isInFavorite = self.currentMushroom!.isFavorite
     }
     
     func reset() {
@@ -79,14 +79,14 @@ class RecognizeViewModel: ObservableObject {
     }
     
     func changeResultApi(callBack: @escaping (Bool)->Void) {
-        if (self.identificationId == nil || self.currentStone == nil) {
+        if (self.identificationId == nil || self.currentMushroom == nil) {
             callBack(false)
             return
         }
         
         Task {
             let req = ChangeResultRequest(
-                identificationId: self.identificationId!, newStoneId: self.currentStone!.id, confidence: self.confidence
+                identificationId: self.identificationId!, newMushroomId: self.currentMushroom!.id, confidence: self.confidence
             )
             do {
                 let response: ChangeResultResponse? = try await ApiRequest.requestAsync(request: req)

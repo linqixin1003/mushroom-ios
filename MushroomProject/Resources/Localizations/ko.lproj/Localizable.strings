@@ -271,7 +271,7 @@
 "microphone_permission_desc" = "새 소리를 녹음하여 종을 식별하기 위해 마이크 접근이 필요합니다";
 "microphone_permission_button" = "허용";
 
-// Stone Season
+// Mushroom Season
 "stone_visible_year_round" = "연중";
 
 // MARK: - Home Action Types
@@ -293,7 +293,7 @@
 "profile_load_more_button" = "더 불러오기";
 "profile_no_more_data" = "더 이상 데이터가 없습니다";
 
-// MARK: - Stone Info Section
+// MARK: - Mushroom Info Section
 "stone_usage" = "용도";
 "stone_health_risks" = "건강 위험";
 "stone_original_vs_fake" = "진위 감별";

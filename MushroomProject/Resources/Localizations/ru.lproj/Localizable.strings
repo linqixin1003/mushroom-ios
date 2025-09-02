@@ -158,7 +158,7 @@
 "stone_info_more" = "Больше>>"; 
 
 // ConvertPage
-"convert_title" = "StoneAI Snap";
+"convert_title" = "MushroomAI Snap";
 "convert_feature_1" = "Подробная информация о более чем 12000 видах птиц";
 "convert_feature_2" = "Точная идентификация птиц по фото и звуку";
 "convert_feature_3" = "Узнайте, как привлечь птиц к вашему дому";
@@ -268,7 +268,7 @@
 "microphone_permission_desc" = "Доступ к микрофону необходим для записи птичьих звуков для определения видов";
 "microphone_permission_button" = "Разрешить";
 
-// Stone Season
+// Mushroom Season
 "stone_visible_year_round" = "Круглый год";
 
 // MARK: - Home Action Types
@@ -290,7 +290,7 @@
 "profile_load_more_button" = "Загрузить еще";
 "profile_no_more_data" = "Больше нет данных";
 
-// MARK: - Stone Info Section
+// MARK: - Mushroom Info Section
 "stone_usage" = "Использование";
 "stone_health_risks" = "Риски для здоровья";
 "stone_original_vs_fake" = "Аутентификация";

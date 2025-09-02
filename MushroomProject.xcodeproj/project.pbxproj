@@ -11,12 +11,12 @@
 		140D31982E200762002F5FA6 /* PurchaseUsageExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140D31962E200762002F5FA6 /* PurchaseUsageExample.swift */; };
 		140D31992E200762002F5FA6 /* LocalPurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140D31942E200762002F5FA6 /* LocalPurchaseManager.swift */; };
 		14165B992E03E9F70001C127 /* LocalRecordItemReadWrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14165B982E03E9F70001C127 /* LocalRecordItemReadWrite.swift */; };
-		141E88FF2E190A12007741CF /* StoneInfoSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141E88FE2E190A12007741CF /* StoneInfoSectionView.swift */; };
+		141E88FF2E190A12007741CF /* MushroomInfoSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141E88FE2E190A12007741CF /* MushroomInfoSectionView.swift */; };
 		142DD2FE2E167040000555D3 /* AppReviewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142DD2FD2E16703F000555D3 /* AppReviewManager.swift */; };
 		14473A3B2E1B9D8F004FBEA1 /* LocalizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14473A3A2E1B9D8F004FBEA1 /* LocalizationManager.swift */; };
 		14473A3D2E1B9DBC004FBEA1 /* LanguageSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14473A3C2E1B9DBC004FBEA1 /* LanguageSelectionViewController.swift */; };
 		1489D4772DD61CB5008CB0E1 /* MyCollectionViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1489D4762DD61CB4008CB0E1 /* MyCollectionViews.swift */; };
-		149B592F2DF438E50093EC0B /* StoneInstructionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149B592E2DF438D30093EC0B /* StoneInstructionPage.swift */; };
+		149B592F2DF438E50093EC0B /* MushroomInstructionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149B592E2DF438D30093EC0B /* MushroomInstructionPage.swift */; };
 		14C97CF62E058B9B004C1596 /* SharePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C97CF52E058B8E004C1596 /* SharePage.swift */; };
 		14CBE6E42DE45D7C0066CA7D /* ConvertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBE6E22DE45D640066CA7D /* ConvertViewController.swift */; };
 		14CBE6E72DE45D940066CA7D /* ConvertPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBE6E52DE45D870066CA7D /* ConvertPage.swift */; };
@@ -24,14 +24,14 @@
 		14CBE6ED2DE476580066CA7D /* RetainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBE6EC2DE476500066CA7D /* RetainPage.swift */; };
 		14EEF1D32E0DA0E20011982A /* ShareViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EEF1D22E0DA0D30011982A /* ShareViewModel.swift */; };
 		14EEF1D52E0FC6660011982A /* ProfileActionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EEF1D42E0FC6660011982A /* ProfileActionModel.swift */; };
-		14F575492DF809220092B21F /* StoneFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F575482DF809020092B21F /* StoneFeatures.swift */; };
+		14F575492DF809220092B21F /* MushroomFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F575482DF809020092B21F /* MushroomFeatures.swift */; };
 		8301F9802D9975B100207B4D /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8301F97E2D9975B100207B4D /* SearchViewModel.swift */; };
 		8301F9812D9975B100207B4D /* SearchPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8301F97D2D9975B100207B4D /* SearchPage.swift */; };
 		8301F9862DCF2BB100207B4D /* RPXLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8301F9852DCF2BA500207B4D /* RPXLayout.swift */; };
 		8301F9882DCF4B9400207B4D /* HomeActionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8301F9872DCF4B9000207B4D /* HomeActionModel.swift */; };
 		8301F98B2DCF4EE300207B4D /* HomeActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8301F98A2DCF4EE200207B4D /* HomeActionView.swift */; };
-		8301F9912DD07AD100207B4D /* HomeDailyStoneSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8301F9902DD07AC900207B4D /* HomeDailyStoneSectionView.swift */; };
-		8301F9932DD0854400207B4D /* HomeNearStonesSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8301F9922DD0853700207B4D /* HomeNearStonesSectionView.swift */; };
+		8301F9912DD07AD100207B4D /* HomeDailyMushroomSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8301F9902DD07AC900207B4D /* HomeDailyMushroomSectionView.swift */; };
+		8301F9932DD0854400207B4D /* HomeNearMushroomsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8301F9922DD0853700207B4D /* HomeNearMushroomsSectionView.swift */; };
 		8301F9952DD0D1AA00207B4D /* HomeAppUsageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8301F9942DD0D19D00207B4D /* HomeAppUsageView.swift */; };
 		830731B82DD87F20006CCB53 /* DetailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830731B72DD87F1D006CCB53 /* DetailPage.swift */; };
 		830731BA2DD87F29006CCB53 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830731B92DD87F24006CCB53 /* DetailViewController.swift */; };
@@ -137,10 +137,14 @@
 		DB7B240C2E05902C0089FD72 /* Waveform in Frameworks */ = {isa = PBXBuildFile; productRef = DB7B240B2E05902C0089FD72 /* Waveform */; };
 		DB7B24182E0A4F360089FD72 /* SoundRecognizeBottomActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7B24172E0A4F210089FD72 /* SoundRecognizeBottomActionView.swift */; };
 		DB7B241D2E0A78F20089FD72 /* AudioKitEX in Frameworks */ = {isa = PBXBuildFile; productRef = DB7B241C2E0A78F20089FD72 /* AudioKitEX */; };
+		DB7F7CF62E66D9A200045130 /* MushroomDetailComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7F7CF52E66D9A200045130 /* MushroomDetailComponents.swift */; };
+		DB7F7CF82E66D9CE00045130 /* MushroomFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7F7CF72E66D9CE00045130 /* MushroomFeatures.swift */; };
+		DB7F7CFA2E66D9FB00045130 /* MushroomInstructionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7F7CF92E66D9FB00045130 /* MushroomInstructionPage.swift */; };
+		DB7F7CFC2E66DA4200045130 /* HomeNearMushroomsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7F7CFB2E66DA4200045130 /* HomeNearMushroomsSectionView.swift */; };
 		DB9DCB3E2E0CFBD700CD662D /* Lightbox in Frameworks */ = {isa = PBXBuildFile; productRef = DB9DCB3D2E0CFBD700CD662D /* Lightbox */; };
 		DB9DCB402E0D052D00CD662D /* ViewImageUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9DCB3F2E0D052900CD662D /* ViewImageUtil.swift */; };
 		DBBD06542E0D32180085CFF5 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBD06532E0D32150085CFF5 /* LocationManager.swift */; };
-		DBE17CC72E3B3DC9002BE881 /* StoneDetailComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE17CC62E3B3DC9002BE881 /* StoneDetailComponents.swift */; };
+		DBE17CC72E3B3DC9002BE881 /* MushroomDetailComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE17CC62E3B3DC9002BE881 /* MushroomDetailComponents.swift */; };
 		DBE17EEB2E3B65FD002BE881 /* FindTreasureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE17EE92E3B65FD002BE881 /* FindTreasureViewController.swift */; };
 		DBE17EEC2E3B65FD002BE881 /* FindTreasurePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE17EE82E3B65FD002BE881 /* FindTreasurePage.swift */; };
 		DBF565AB2E13DA4F00666153 /* FirebaseEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF565AA2E13DA3E00666153 /* FirebaseEvent.swift */; };
@@ -172,12 +176,12 @@
 		140D31952E200762002F5FA6 /* PurchaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseHelper.swift; sourceTree = "<group>"; };
 		140D31962E200762002F5FA6 /* PurchaseUsageExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseUsageExample.swift; sourceTree = "<group>"; };
 		14165B982E03E9F70001C127 /* LocalRecordItemReadWrite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalRecordItemReadWrite.swift; sourceTree = "<group>"; };
-		141E88FE2E190A12007741CF /* StoneInfoSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoneInfoSectionView.swift; sourceTree = "<group>"; };
+		141E88FE2E190A12007741CF /* MushroomInfoSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomInfoSectionView.swift; sourceTree = "<group>"; };
 		142DD2FD2E16703F000555D3 /* AppReviewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReviewManager.swift; sourceTree = "<group>"; };
 		14473A3A2E1B9D8F004FBEA1 /* LocalizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationManager.swift; sourceTree = "<group>"; };
 		14473A3C2E1B9DBC004FBEA1 /* LanguageSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSelectionViewController.swift; sourceTree = "<group>"; };
 		1489D4762DD61CB4008CB0E1 /* MyCollectionViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViews.swift; sourceTree = "<group>"; };
-		149B592E2DF438D30093EC0B /* StoneInstructionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoneInstructionPage.swift; sourceTree = "<group>"; };
+		149B592E2DF438D30093EC0B /* MushroomInstructionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomInstructionPage.swift; sourceTree = "<group>"; };
 		14C97CF52E058B8E004C1596 /* SharePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePage.swift; sourceTree = "<group>"; };
 		14CBE6E22DE45D640066CA7D /* ConvertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertViewController.swift; sourceTree = "<group>"; };
 		14CBE6E52DE45D870066CA7D /* ConvertPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertPage.swift; sourceTree = "<group>"; };
@@ -225,14 +229,14 @@
 		14EDEF542E1CDCE400F0F1ED /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
 		14EEF1D22E0DA0D30011982A /* ShareViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewModel.swift; sourceTree = "<group>"; };
 		14EEF1D42E0FC6660011982A /* ProfileActionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileActionModel.swift; sourceTree = "<group>"; };
-		14F575482DF809020092B21F /* StoneFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoneFeatures.swift; sourceTree = "<group>"; };
+		14F575482DF809020092B21F /* MushroomFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomFeatures.swift; sourceTree = "<group>"; };
 		8301F97D2D9975B100207B4D /* SearchPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPage.swift; sourceTree = "<group>"; };
 		8301F97E2D9975B100207B4D /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		8301F9852DCF2BA500207B4D /* RPXLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPXLayout.swift; sourceTree = "<group>"; };
 		8301F9872DCF4B9000207B4D /* HomeActionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeActionModel.swift; sourceTree = "<group>"; };
 		8301F98A2DCF4EE200207B4D /* HomeActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeActionView.swift; sourceTree = "<group>"; };
-		8301F9902DD07AC900207B4D /* HomeDailyStoneSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDailyStoneSectionView.swift; sourceTree = "<group>"; };
-		8301F9922DD0853700207B4D /* HomeNearStonesSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNearStonesSectionView.swift; sourceTree = "<group>"; };
+		8301F9902DD07AC900207B4D /* HomeDailyMushroomSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDailyMushroomSectionView.swift; sourceTree = "<group>"; };
+		8301F9922DD0853700207B4D /* HomeNearMushroomsSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNearMushroomsSectionView.swift; sourceTree = "<group>"; };
 		8301F9942DD0D19D00207B4D /* HomeAppUsageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAppUsageView.swift; sourceTree = "<group>"; };
 		830731B72DD87F1D006CCB53 /* DetailPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPage.swift; sourceTree = "<group>"; };
 		830731B92DD87F24006CCB53 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
@@ -337,9 +341,13 @@
 		DB7B24012E03BB2B0089FD72 /* SuggestionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionScreen.swift; sourceTree = "<group>"; };
 		DB7B24032E04395B0089FD72 /* SuggestionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionViewModel.swift; sourceTree = "<group>"; };
 		DB7B24172E0A4F210089FD72 /* SoundRecognizeBottomActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundRecognizeBottomActionView.swift; sourceTree = "<group>"; };
+		DB7F7CF52E66D9A200045130 /* MushroomDetailComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomDetailComponents.swift; sourceTree = "<group>"; };
+		DB7F7CF72E66D9CE00045130 /* MushroomFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomFeatures.swift; sourceTree = "<group>"; };
+		DB7F7CF92E66D9FB00045130 /* MushroomInstructionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomInstructionPage.swift; sourceTree = "<group>"; };
+		DB7F7CFB2E66DA4200045130 /* HomeNearMushroomsSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNearMushroomsSectionView.swift; sourceTree = "<group>"; };
 		DB9DCB3F2E0D052900CD662D /* ViewImageUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewImageUtil.swift; sourceTree = "<group>"; };
 		DBBD06532E0D32150085CFF5 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
-		DBE17CC62E3B3DC9002BE881 /* StoneDetailComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoneDetailComponents.swift; sourceTree = "<group>"; };
+		DBE17CC62E3B3DC9002BE881 /* MushroomDetailComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomDetailComponents.swift; sourceTree = "<group>"; };
 		DBE17EE82E3B65FD002BE881 /* FindTreasurePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTreasurePage.swift; sourceTree = "<group>"; };
 		DBE17EE92E3B65FD002BE881 /* FindTreasureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTreasureViewController.swift; sourceTree = "<group>"; };
 		DBF565AA2E13DA3E00666153 /* FirebaseEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseEvent.swift; sourceTree = "<group>"; };
@@ -400,7 +408,8 @@
 		149B592D2DF438760093EC0B /* Instruction */ = {
 			isa = PBXGroup;
 			children = (
-				149B592E2DF438D30093EC0B /* StoneInstructionPage.swift */,
+				DB7F7CF92E66D9FB00045130 /* MushroomInstructionPage.swift */,
+				149B592E2DF438D30093EC0B /* MushroomInstructionPage.swift */,
 			);
 			path = Instruction;
 			sourceTree = "<group>";
@@ -445,9 +454,10 @@
 		8301F9892DCF4ECD00207B4D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DB7F7CFB2E66DA4200045130 /* HomeNearMushroomsSectionView.swift */,
 				8301F9942DD0D19D00207B4D /* HomeAppUsageView.swift */,
-				8301F9922DD0853700207B4D /* HomeNearStonesSectionView.swift */,
-				8301F9902DD07AC900207B4D /* HomeDailyStoneSectionView.swift */,
+				8301F9922DD0853700207B4D /* HomeNearMushroomsSectionView.swift */,
+				8301F9902DD07AC900207B4D /* HomeDailyMushroomSectionView.swift */,
 				8301F98A2DCF4EE200207B4D /* HomeActionView.swift */,
 			);
 			path = View;
@@ -465,7 +475,8 @@
 		830731B62DD87F0F006CCB53 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
-				DBE17CC62E3B3DC9002BE881 /* StoneDetailComponents.swift */,
+				DB7F7CF52E66D9A200045130 /* MushroomDetailComponents.swift */,
+				DBE17CC62E3B3DC9002BE881 /* MushroomDetailComponents.swift */,
 				830731BB2DD8AB74006CCB53 /* DetailViewModel.swift */,
 				830731B92DD87F24006CCB53 /* DetailViewController.swift */,
 				830731B72DD87F1D006CCB53 /* DetailPage.swift */,
@@ -625,7 +636,7 @@
 		83F6E7622D6B20AF0021A319 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				141E88FE2E190A12007741CF /* StoneInfoSectionView.swift */,
+				141E88FE2E190A12007741CF /* MushroomInfoSectionView.swift */,
 				83F6E7EF2D6E1E570021A319 /* SwiftUI */,
 				83F6E7692D6B20DA0021A319 /* LinearProgressBar.swift */,
 				83F6E7672D6B20CA0021A319 /* NetworkRequestErrorView.swift */,
@@ -819,9 +830,10 @@
 		83F6E8002D8574780021A319 /* Identify */ = {
 			isa = PBXGroup;
 			children = (
+				DB7F7CF72E66D9CE00045130 /* MushroomFeatures.swift */,
 				DB4CE06D2E5EE37A00F09853 /* CompareImagePage.swift */,
 				DB178B942E57025500998B9D /* ImageDisplayView.swift */,
-				14F575482DF809020092B21F /* StoneFeatures.swift */,
+				14F575482DF809020092B21F /* MushroomFeatures.swift */,
 				83B487C72DEDE1170067C953 /* IdentifyResultPage.swift */,
 				83B487C52DEDDB1E0067C953 /* IdentifyLoadingPage.swift */,
 			);
@@ -1119,9 +1131,10 @@
 				DB4CE06E2E5EE37A00F09853 /* CompareImagePage.swift in Sources */,
 				83F6E7EA2D6E1BA30021A319 /* BaseHostingViewController.swift in Sources */,
 				830731C12DD8B89C006CCB53 /* LoadingView.swift in Sources */,
-				8301F9912DD07AD100207B4D /* HomeDailyStoneSectionView.swift in Sources */,
+				8301F9912DD07AD100207B4D /* HomeDailyMushroomSectionView.swift in Sources */,
 				83B487C12DED317E0067C953 /* SnapTipView.swift in Sources */,
 				8301F9952DD0D1AA00207B4D /* HomeAppUsageView.swift in Sources */,
+				DB7F7CF62E66D9A200045130 /* MushroomDetailComponents.swift in Sources */,
 				83F6E7682D6B20CB0021A319 /* NetworkRequestErrorView.swift in Sources */,
 				83F6E77D2D6CB85D0021A319 /* ToastUtil.swift in Sources */,
 				DB7B24002E03BAF80089FD72 /* SuggestionController.swift in Sources */,
@@ -1130,9 +1143,10 @@
 				83F6E7612D6B20670021A319 /* BaseViewController.swift in Sources */,
 				8361034E2DFC79140088225F /* CameraService.swift in Sources */,
 				14473A3D2E1B9DBC004FBEA1 /* LanguageSelectionViewController.swift in Sources */,
+				DB7F7CF82E66D9CE00045130 /* MushroomFeatures.swift in Sources */,
 				142DD2FE2E167040000555D3 /* AppReviewManager.swift in Sources */,
 				83B487BB2DECA0840067C953 /* CoreGraphicsResize.swift in Sources */,
-				8301F9932DD0854400207B4D /* HomeNearStonesSectionView.swift in Sources */,
+				8301F9932DD0854400207B4D /* HomeNearMushroomsSectionView.swift in Sources */,
 				83B487C62DEDDB200067C953 /* IdentifyLoadingPage.swift in Sources */,
 				83F6E7D02D6E10E00021A319 /* ProfileViewController.swift in Sources */,
 				DBF565AF2E13DECB00666153 /* EventName.swift in Sources */,
@@ -1147,7 +1161,7 @@
 				140D31982E200762002F5FA6 /* PurchaseUsageExample.swift in Sources */,
 				140D31992E200762002F5FA6 /* LocalPurchaseManager.swift in Sources */,
 				83F6E8082D8577840021A319 /* ImagePicker.swift in Sources */,
-				149B592F2DF438E50093EC0B /* StoneInstructionPage.swift in Sources */,
+				149B592F2DF438E50093EC0B /* MushroomInstructionPage.swift in Sources */,
 				83F6E7E22D6E15240021A319 /* TabBar.swift in Sources */,
 				830731BA2DD87F29006CCB53 /* DetailViewController.swift in Sources */,
 				83F6E7722D6B62A20021A319 /* SplashAgreementView.swift in Sources */,
@@ -1191,8 +1205,9 @@
 				83F6E7CA2D6E0FA00021A319 /* TabItemViewController.swift in Sources */,
 				83F6E7662D6B20C30021A319 /* BaseView.swift in Sources */,
 				83F6E8062D85767E0021A319 /* RecognizeViewModel.swift in Sources */,
-				14F575492DF809220092B21F /* StoneFeatures.swift in Sources */,
+				14F575492DF809220092B21F /* MushroomFeatures.swift in Sources */,
 				83F6E7DC2D6E12C70021A319 /* TabBarItem.swift in Sources */,
+				DB7F7CFA2E66D9FB00045130 /* MushroomInstructionPage.swift in Sources */,
 				83F6E8362D8EE82D0021A319 /* UDIDUtil.swift in Sources */,
 				83841F6F2DDB7E56005D04CE /* SearchViewController.swift in Sources */,
 				83841F6B2DDA1CE0005D04CE /* Array+Ext.swift in Sources */,
@@ -1204,10 +1219,10 @@
 				83F6E75F2D6B205F0021A319 /* BaseNavigationViewController.swift in Sources */,
 				83F6E77B2D6CB84F0021A319 /* UIView+ClickListener.swift in Sources */,
 				14EEF1D52E0FC6660011982A /* ProfileActionModel.swift in Sources */,
-				DBE17CC72E3B3DC9002BE881 /* StoneDetailComponents.swift in Sources */,
+				DBE17CC72E3B3DC9002BE881 /* MushroomDetailComponents.swift in Sources */,
 				83F6E7E42D6E15DC0021A319 /* TabBarCenterBaseItem.swift in Sources */,
 				1489D4772DD61CB5008CB0E1 /* MyCollectionViews.swift in Sources */,
-				141E88FF2E190A12007741CF /* StoneInfoSectionView.swift in Sources */,
+				141E88FF2E190A12007741CF /* MushroomInfoSectionView.swift in Sources */,
 				830731C52DD98AA0006CCB53 /* AppPage.swift in Sources */,
 				83FC79D02DF5E4460002BD9A /* CodableCache.swift in Sources */,
 				83F6E7D22D6E11B30021A319 /* TabBarController+Private.swift in Sources */,
@@ -1226,6 +1241,7 @@
 				14473A3B2E1B9D8F004FBEA1 /* LocalizationManager.swift in Sources */,
 				8301F9882DCF4B9400207B4D /* HomeActionModel.swift in Sources */,
 				83B487CB2DEDF3C30067C953 /* MoreImagePage.swift in Sources */,
+				DB7F7CFC2E66DA4200045130 /* HomeNearMushroomsSectionView.swift in Sources */,
 				DB7B23F62E0291070089FD72 /* AboutViewController.swift in Sources */,
 				DB7B23FC2E02B8750089FD72 /* AccountManagerScreen.swift in Sources */,
 				836103502DFC79310088225F /* CameraPreviewView.swift in Sources */,

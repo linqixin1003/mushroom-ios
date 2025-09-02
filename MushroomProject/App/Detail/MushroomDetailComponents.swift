@@ -1,11 +1,11 @@
 import SwiftUI
 
 // MARK: - 化学属性区域
-struct StoneChemicalPropertiesSectionView: View {
-    let stone: Stone
+struct MushroomChemicalPropertiesSectionView: View {
+    let stone: Mushroom
     
     var body: some View {
-        StoneSectionContainerView(
+        MushroomSectionContainerView(
             sectionTitle: Language.stone_chemical_properties,
             onMoreClick: nil,
             content: {
@@ -33,11 +33,11 @@ struct StoneChemicalPropertiesSectionView: View {
 }
 
 // MARK: - 物理属性区域
-struct StonePhysicalPropertiesSectionView: View {
-    let stone: Stone
+struct MushroomPhysicalPropertiesSectionView: View {
+    let stone: Mushroom
     
     var body: some View {
-        StoneSectionContainerView(
+        MushroomSectionContainerView(
             sectionTitle: Language.stone_physical_properties,
             onMoreClick: nil,
             content: {
@@ -96,11 +96,11 @@ struct StonePhysicalPropertiesSectionView: View {
 }
 
 // MARK: - 护理说明区域
-struct StoneCareInstructionsSectionView: View {
-    let stone: Stone
+struct MushroomCareInstructionsSectionView: View {
+    let stone: Mushroom
     
     var body: some View {
-        StoneSectionContainerView(
+        MushroomSectionContainerView(
             sectionTitle: Language.stone_care_instructions,
             onMoreClick: nil,
             content: {
@@ -125,8 +125,8 @@ struct StoneCareInstructionsSectionView: View {
 }
 
 // MARK: - 价格信息区域
-struct StonePriceSectionView: View {
-    let stone: Stone
+struct MushroomPriceSectionView: View {
+    let stone: Mushroom
     
     private var caratPriceRange: String? {
         guard let priceFrom = stone.pricePerCaratFrom else { return nil }
@@ -147,7 +147,7 @@ struct StonePriceSectionView: View {
     }
     
     var body: some View {
-        StoneSectionContainerView(
+        MushroomSectionContainerView(
             sectionTitle: Language.stone_price_information,
             onMoreClick: nil,
             content: {
@@ -167,11 +167,11 @@ struct StonePriceSectionView: View {
 }
 
 // MARK: - 形而上学属性区域
-struct StoneMetaphysicalSectionView: View {
-    let stone: Stone
+struct MushroomMetaphysicalSectionView: View {
+    let stone: Mushroom
     
     var body: some View {
-        StoneSectionContainerView(
+        MushroomSectionContainerView(
             sectionTitle: Language.stone_metaphysical_properties,
             onMoreClick: nil,
             content: {
@@ -278,11 +278,11 @@ struct StoneMetaphysicalSectionView: View {
 }
 
 // MARK: - FAQ区域
-struct StoneFAQSectionView: View {
-    let stone: Stone
+struct MushroomFAQSectionView: View {
+    let stone: Mushroom
     
     var body: some View {
-        StoneSectionContainerView(
+        MushroomSectionContainerView(
             sectionTitle: "常见问题",
             onMoreClick: nil,
             content: {
@@ -305,11 +305,11 @@ struct StoneFAQSectionView: View {
 }
 
 // MARK: - 用途和安全信息区域
-struct StoneUsageSectionView: View {
-    let stone: Stone
+struct MushroomUsageSectionView: View {
+    let stone: Mushroom
     
     var body: some View {
-        StoneSectionContainerView(
+        MushroomSectionContainerView(
             sectionTitle: "用途与安全信息",
             onMoreClick: nil,
             content: {

@@ -1,5 +1,5 @@
 //
-//  StoneInstructionPage.swift
+//  MushroomInstructionPage.swift
 //  RockProject
 //
 //  Created by conalin on 2025/6/7.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct StoneInstruction: Identifiable {
+struct MushroomInstruction: Identifiable {
     let id = UUID()
     let title: String
     let instructionbar: String
 }
 
-struct StoneInstructionItemView: View {
-    let item: StoneInstruction
+struct MushroomInstructionItemView: View {
+    let item: MushroomInstruction
 
     var body: some View {
         VStack(alignment: .leading, spacing: 8.rpx) {
@@ -40,17 +40,17 @@ struct StoneInstructionItemView: View {
     }
 }
 
-struct StoneInstructionPage: View {
+struct MushroomInstructionPage: View {
     
     let onBackClick: () -> Void
     let onIdentifyClick: () -> Void
     
-    let instructions: [StoneInstruction] = [
-        StoneInstruction(title: Language.instruction_step_1, instructionbar: "instruct_banner1"),
-        StoneInstruction(title: Language.instruction_step_2, instructionbar: "instruct_banner2"),
-        StoneInstruction(title: Language.instruction_step_3, instructionbar: "instruct_banner3"),
-        StoneInstruction(title: Language.instruction_step_4, instructionbar: "instruct_banner4"),
-        StoneInstruction(title: Language.instruction_step_5, instructionbar: "instruct_banner5")
+    let instructions: [MushroomInstruction] = [
+        MushroomInstruction(title: Language.instruction_step_1, instructionbar: "instruct_banner1"),
+        MushroomInstruction(title: Language.instruction_step_2, instructionbar: "instruct_banner2"),
+        MushroomInstruction(title: Language.instruction_step_3, instructionbar: "instruct_banner3"),
+        MushroomInstruction(title: Language.instruction_step_4, instructionbar: "instruct_banner4"),
+        MushroomInstruction(title: Language.instruction_step_5, instructionbar: "instruct_banner5")
     ]
     private let sendOpenAndCloseEvent = SendOpenAndCloseEvent(openEventName: EventName.instructionsOpen, closeEventName: EventName.instructionsClose)
     var body: some View {
@@ -75,7 +75,7 @@ struct StoneInstructionPage: View {
                         
                         // 替换原有 ForEach 部分
                         ForEach(instructions) { item in
-                            StoneInstructionItemView(item: item)
+                            MushroomInstructionItemView(item: item)
                         }
                         Spacer()
                             .frame(height: 1.rpx)
@@ -121,9 +121,9 @@ struct StoneInstructionPage: View {
     }
 }
 
-struct StoneInstructionPage_Previews: PreviewProvider {
+struct MushroomInstructionPage_Previews: PreviewProvider {
     static var previews: some View {
-        StoneInstructionPage(
+        MushroomInstructionPage(
             onBackClick: {},
             onIdentifyClick: {}
         )

@@ -1,7 +1,7 @@
 import SwiftUI
 import Kingfisher
 
-struct HomeDailyStoneSectionView: View {
+struct HomeDailyMushroomSectionView: View {
     let stone: SimpleMushroom
     let collected: Bool
     
@@ -16,7 +16,7 @@ struct HomeDailyStoneSectionView: View {
                 .foregroundColor(Color(hex: 0x131C1B))
                 .frame(maxWidth: .infinity, alignment: .leading)
             
-            HomeDailyStoneCardView(
+            HomeDailyMushroomCardView(
                 stone: self.stone,
                 collected: self.collected,
                 onCollectClick: self.onCollectClick,
@@ -26,7 +26,7 @@ struct HomeDailyStoneSectionView: View {
     }
 }
 
-private struct HomeDailyStoneCardView: View {
+private struct HomeDailyMushroomCardView: View {
     let stone: SimpleMushroom
     let collected: Bool
     

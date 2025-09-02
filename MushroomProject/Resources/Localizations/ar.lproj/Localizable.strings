@@ -202,7 +202,7 @@
 "microphone_permission_desc" = "نحتاج إلى الوصول إلى الميكروفون لتسجيل أصوات الطيور للتعرف على الأنواع";
 "microphone_permission_button" = "السماح";
 
-// Stone Season
+// Mushroom Season
 "stone_visible_year_round" = "على مدار السنة";
 "convert_cancel_notice" = "لا حاجة للدفع إذا ألغيت الاشتراك قبل يوم واحد على الأقل من انتهاء الفترة التجريبية المجانية لمدة 7 أيام.";
 "retain_price_then" = "ثم ";
@@ -227,7 +227,7 @@
 "profile_load_more_button" = "تحميل المزيد";
 "profile_no_more_data" = "لا مزيد من البيانات";
 
-// MARK: - Stone Info Section
+// MARK: - Mushroom Info Section
 "stone_usage" = "الاستخدام";
 "stone_health_risks" = "المخاطر الصحية";
 "stone_original_vs_fake" = "المصادقة";

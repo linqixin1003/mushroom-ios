@@ -155,7 +155,7 @@
 "instruction_identify" = "Identifica"; 
 
 // ConvertPage
-"convert_title" = "StoneAI Snap";
+"convert_title" = "MushroomAI Snap";
 "convert_feature_1" = "Informazioni dettagliate su oltre 12000 specie di uccelli";
 "convert_feature_2" = "Identificazione precisa degli uccelli con foto e suono";
 "convert_feature_3" = "Impara ad attirare gli uccelli a casa tua";
@@ -270,7 +270,7 @@
 "microphone_permission_desc" = "L'accesso al microfono è necessario per registrare i suoni degli uccelli per l'identificazione delle specie";
 "microphone_permission_button" = "Consenti";
 
-// Stone Season
+// Mushroom Season
 "stone_visible_year_round" = "Tutto l'anno";
 
 // MARK: - Home Action Types
@@ -292,7 +292,7 @@
 "profile_load_more_button" = "Carica altro";
 "profile_no_more_data" = "Nessun altro dato";
 
-// MARK: - Stone Info Section
+// MARK: - Mushroom Info Section
 "stone_usage" = "Utilizzo";
 "stone_health_risks" = "Rischi per la salute";
 "stone_original_vs_fake" = "Autenticazione";

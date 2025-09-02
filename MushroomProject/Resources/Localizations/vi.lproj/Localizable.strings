@@ -178,7 +178,7 @@
 "instruction_step_5" = "5. Chỉ một loài trên mỗi hình ảnh. Quá nhiều chim trong hình có thể dẫn đến nhận dạng sai.";
 "instruction_identify" = "Nhận dạng";
 
-// MARK: - Stone Info Section
+// MARK: - Mushroom Info Section
 "stone_usage" = "Sử dụng";
 "stone_health_risks" = "Rủi ro sức khỏe";
 "stone_original_vs_fake" = "Xác thực";
@@ -196,7 +196,7 @@
 "stone_info_more" = "Thêm>>";
 
 // MARK: - ConvertPage
-"convert_title" = "StoneAI Snap";
+"convert_title" = "MushroomAI Snap";
 "convert_feature_1" = "Thông tin sâu về hơn 12000 loài chim";
 "convert_feature_2" = "Nhận dạng chim chính xác bằng ảnh và âm thanh";
 "convert_feature_3" = "Học cách thu hút chim về nhà bạn";
@@ -308,7 +308,7 @@
 "microphone_permission_desc" = "Cần truy cập microphone để ghi âm tiếng chim nhằm nhận dạng loài";
 "microphone_permission_button" = "Cho phép";
 
-// MARK: - Stone Season
+// MARK: - Mushroom Season
 "stone_visible_year_round" = "Quanh năm";
 
 // MARK: - Additional Missing Keys

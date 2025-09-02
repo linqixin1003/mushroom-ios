@@ -178,7 +178,7 @@
 "instruction_step_5" = "5. Endast en art per bild. För många fåglar i bilden kan leda till felaktig identifiering.";
 "instruction_identify" = "Identifiera";
 
-// MARK: - Stone Info Section
+// MARK: - Mushroom Info Section
 "stone_usage" = "Användning";
 "stone_health_risks" = "Hälsorisker";
 "stone_original_vs_fake" = "Autentisering";
@@ -196,7 +196,7 @@
 "stone_info_more" = "Mer>>";
 
 // MARK: - ConvertPage
-"convert_title" = "StoneAI Snap";
+"convert_title" = "MushroomAI Snap";
 "convert_feature_1" = "Djupgående information om över 12000 fågelarter";
 "convert_feature_2" = "Precis fågelidentifiering med foto och ljud";
 "convert_feature_3" = "Lär dig att locka fåglar till ditt hem";
@@ -308,7 +308,7 @@
 "microphone_permission_desc" = "Mikrofonåtkomst behövs för att spela in fågelljud för artidentifiering";
 "microphone_permission_button" = "Tillåt";
 
-// MARK: - Stone Season
+// MARK: - Mushroom Season
 "stone_visible_year_round" = "Året runt";
 
 // MARK: - Additional Missing Keys

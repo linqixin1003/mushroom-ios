@@ -82,7 +82,7 @@ extension LocalRecordItem {
     ///   - stone: 要收藏或取消收藏的石头
     ///   - completion: 完成回调，返回 (newCollectedState: Bool, success: Bool)
     static func toggleCollected(stone: SimpleMushroom, completion: @escaping (Bool, Bool) -> Void) {
-        print("🔄 Toggle collection status - Stone ID: \(stone.id)")
+        print("🔄 Toggle collection status - Mushroom ID: \(stone.id)")
         isCollected(uid: stone.id) { isCurrentlyCollected, success in
             guard success else {
                 print("❌ Check collection status failed - ID: \(stone.id)")

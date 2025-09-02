@@ -1,7 +1,7 @@
 import SwiftUI
 
-struct StoneInfoSectionView: View {
-    let stone: Stone
+struct MushroomInfoSectionView: View {
+    let stone: Mushroom
     
     // 检查是否有任何详细信息
     private var hasAnyDetailedInfo: Bool {
@@ -23,10 +23,10 @@ struct StoneInfoSectionView: View {
         if hasAnyDetailedInfo {
             VStack(spacing: 12.rpx) {
                 // Characteristics 特征部分
-                StoneCharacteristicsSection(stone: stone)
+                MushroomCharacteristicsSection(stone: stone)
                 
                 // Chemical classification 化学分类部分
-                StoneChemicalClassificationSection(stone: stone)
+                MushroomChemicalClassificationSection(stone: stone)
             }
             .background(Color.clear)
         } else {
@@ -56,9 +56,9 @@ struct StoneInfoSectionView: View {
     }
 }
 
-// MARK: - Stone Characteristics Section
-struct StoneCharacteristicsSection: View {
-    let stone: Stone
+// MARK: - Mushroom Characteristics Section
+struct MushroomCharacteristicsSection: View {
+    let stone: Mushroom
     
     // 检查是否有任何特征信息
     private var hasCharacteristics: Bool {
@@ -139,9 +139,9 @@ struct CharacteristicItem: View {
     }
 }
 
-// MARK: - Stone Chemical Classification Section
-struct StoneChemicalClassificationSection: View {
-    let stone: Stone
+// MARK: - Mushroom Chemical Classification Section
+struct MushroomChemicalClassificationSection: View {
+    let stone: Mushroom
     
     // 检查是否有任何化学分类信息
     private var hasClassificationInfo: Bool {

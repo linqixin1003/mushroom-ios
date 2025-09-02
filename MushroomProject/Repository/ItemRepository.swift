@@ -13,8 +13,8 @@ class ItemRepository {
         return try? await ApiRequest.requestAsync(request: req)
     }
     
-    public static func randomAsync(lang: String = "en") async -> RandomStoneResponse? {
-        let req = RandomStoneRequest(lang: lang)
+    public static func randomAsync(lang: String = "en") async -> RandomMushroomResponse? {
+        let req = RandomMushroomRequest(lang: lang)
         return try? await ApiRequest.requestAsync(request: req)
     }
     
@@ -23,8 +23,8 @@ class ItemRepository {
         return try? await ApiRequest.requestAsync(request: req)
     }
     
-    public static func searchAsync(query: String, limit: Int = 20, offset: Int = 0, lang: String = "en") async -> SearchStoneResponse? {
-        let req = SearchStoneRequest(query: query, limit: limit, offset: offset, lang: lang)
+    public static func searchAsync(query: String, limit: Int = 20, offset: Int = 0, lang: String = "en") async -> SearchMushroomResponse? {
+        let req = SearchMushroomRequest(query: query, limit: limit, offset: offset, lang: lang)
         return try? await ApiRequest.requestAsync(request: req)
     }
 }
