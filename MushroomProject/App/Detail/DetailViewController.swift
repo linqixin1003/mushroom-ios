@@ -224,7 +224,7 @@ class DetailViewController: BaseHostingViewController<DetailPage> {
          }
          
          // 使用头图（第一张图片）和石头名称
-         let imageUrl = mushroom.images.first
+         let imageUrl = mushroom.imageUrl
          let shareText = mushroom.name
          
          let shareData = ShareData(

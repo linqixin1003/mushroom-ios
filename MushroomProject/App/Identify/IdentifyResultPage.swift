@@ -48,7 +48,7 @@ struct IdentifyResultPage: View {
                         MushroomSummaryView(
                             name: mushroom.name,
                             description: mushroom.description ?? "",
-                            tags: (mushroom.tags ?? []).map { MushroomTag(id: 0, name: $0, slug: $0) }
+                            tags: mushroom.tags ?? []
                         )
                         .frame(maxWidth: .infinity)
                         .background(Color.white)
@@ -58,49 +58,27 @@ struct IdentifyResultPage: View {
                         
                         VStack(spacing: 12.rpx) {
                             
-                            if !mushroom.images.isEmpty {
+                            if !(mushroom.imageUrl ?? "").isEmpty {
                                 MushroomImagesSectionView(
-                                    imageUrls: mushroom.images,
-                                    onMoreClick: mushroom.images.count <= 2 ? nil : {
+                                    imageUrls: [mushroom.imageUrl!],
+                                    onMoreClick: {
                                         FireBaseEvent.send(eventName: EventName.resultImageMoreClick, params: [EventParam.uid: self.mushroom.id])
-                                        self.actionModel.onViewMoreImagesClick.send(mushroom.images)
+                                        self.actionModel.onViewMoreImagesClick.send([mushroom.imageUrl!])
                                         self.showingMoreImagesPage = true
                                     }) { position, imageUrl in
                                         FireBaseEvent.send(eventName: EventName.resultViewImageClick, params: [EventParam.uid: self.mushroom.id, EventParam.index: String(position)])
                                         self.actionModel.onImageClick.send((position, imageUrl))
                                     }
-                            }
+                                }
+
                             
-                            // 化学属性区域
-                            MushroomChemicalPropertiesSectionView(mushroom: mushroom)
+
                             
-                            // 物理属性区域
-                            MushroomPhysicalPropertiesSectionView(mushroom: mushroom)
+
                             
-                            // 护理说明区域
-                            if !(mushroom.storage ?? "").isEmpty || !(mushroom.cleaningTips ?? "").isEmpty {
-                                MushroomCareInstructionsSectionView(mushroom: mushroom)
-                            }
+
                             
-                            // 价格信息区域
-                            if mushroom.pricePerCaratFrom != nil || mushroom.pricePerPoundFrom != nil {
-                                MushroomPriceSectionView(mushroom: mushroom)
-                            }
-                            
-                            // 形而上学属性区域
-                            if (mushroom.showMetaphysical ?? false) {
-                                MushroomMetaphysicalSectionView(mushroom: mushroom)
-                            }
-                            
-                            // FAQ区域
-                            if mushroom.faqs?.isEmpty == false {
-                                MushroomFAQSectionView(mushroom: mushroom)
-                            }
-                            
-                            // 用途和健康信息区域
-                            if !(mushroom.usage ?? "").isEmpty || (mushroom.healthRisks?.isEmpty == false) {
-                                MushroomUsageSectionView(mushroom: mushroom)
-                            }
+
                         }
                         
                         Spacer()
@@ -130,10 +108,10 @@ struct IdentifyResultPage: View {
             }
         }
         .fullScreenCover(isPresented: $showingMoreImagesPage) {
-            MoreImagePage(imageUrls: mushroom.images, onCloseClick: {
+            MoreImagePage(imageUrls: [mushroom.imageUrl ?? ""], onCloseClick: {
                 self.showingMoreImagesPage = false
             }, onImageClick: { index in
-                self.actionModel.onImageClick.send((index, mushroom.images))
+                self.actionModel.onImageClick.send((index, [mushroom.imageUrl ?? ""]))
             })
         }
         .fullScreenCover(isPresented: $showingSharePage) {

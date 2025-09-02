@@ -18,7 +18,7 @@ struct DetailPage: View {
     
     var body: some View {
         AppPage(
-            title: self.viewModel.mushroom?.name ?? "",
+            title: self.viewModel.mushroom?.commonName ?? "",
             leftButtonConfig: .init(imageName: "icon_back_24", onClick: {
                 self.actionModel.navBackClick.send()
             }),
@@ -34,7 +34,7 @@ struct DetailPage: View {
                                 if self.viewModel.mediaType == .image, let headerUrl = self.viewModel.headerImageUrl {
                                     return headerUrl
                                 } else {
-                                    return mushroom.images.first ?? ""
+                                    return mushroom.imageUrl ?? ""
                                 }
                             }()
                             KFImage
@@ -51,7 +51,7 @@ struct DetailPage: View {
                             MushroomSummaryView(
                                 name: mushroom.name,
                                 description: mushroom.description ?? "",
-                                tags: (mushroom.tags ?? []).map { MushroomTag(id: 0, name: $0, slug: $0) }
+                                tags: mushroom.tags ?? []
                             )
                             .frame(maxWidth: .infinity)
                             .background(Color.white)
@@ -61,12 +61,12 @@ struct DetailPage: View {
                             
                             VStack(spacing: 12.rpx) {
                                 
-                                if !mushroom.images.isEmpty {
+                                if !(mushroom.imageUrl ?? "").isEmpty {
                                     MushroomImagesSectionView(
-                                        imageUrls: mushroom.images,
-                                        onMoreClick: mushroom.images.count <= 2 ? nil : {
+                                        imageUrls: [mushroom.imageUrl!],
+                                        onMoreClick: {
                                             FireBaseEvent.send(eventName: EventName.detailImageMoreClick, params: [EventParam.uid: mushroom.id])
-                                            self.actionModel.onViewMoreImagesClick.send(mushroom.images)
+                                            self.actionModel.onViewMoreImagesClick.send([mushroom.imageUrl!])
                                             self.showingMoreImagesPage = true
                                         }) { position, imageUrl in
                                             FireBaseEvent.send(eventName: EventName.detailMainImageClick, params: [EventParam.uid: mushroom.id, EventParam.index: String(position)])
@@ -74,36 +74,12 @@ struct DetailPage: View {
                                         }
                                 }
                                 
-                                // 化学属性区域
-                                MushroomChemicalPropertiesSectionView(mushroom: mushroom)
                                 
-                                // 物理属性区域
-                                MushroomPhysicalPropertiesSectionView(mushroom: mushroom)
                                 
-                                // 护理说明区域
-                                if !(mushroom.storage ?? "").isEmpty || !(mushroom.cleaningTips ?? "").isEmpty {
-                                    MushroomCareInstructionsSectionView(mushroom: mushroom)
-                                }
                                 
-                                // 价格信息区域
-                                if mushroom.pricePerCaratFrom != nil || mushroom.pricePerPoundFrom != nil {
-                                    MushroomPriceSectionView(mushroom: mushroom)
-                                }
                                 
-                                // 形而上学属性区域
-                                if (mushroom.showMetaphysical ?? false) {
-                                    MushroomMetaphysicalSectionView(mushroom: mushroom)
-                                }
                                 
-                                // FAQ区域
-                                if mushroom.faqs?.isEmpty == false {
-                                    MushroomFAQSectionView(mushroom: mushroom)
-                                }
                                 
-                                // 用途和健康信息区域
-                                if !(mushroom.usage ?? "").isEmpty || (mushroom.healthRisks?.isEmpty == false) {
-                                    MushroomUsageSectionView(mushroom: mushroom)
-                                }
                             }
                             
                             Spacer()
@@ -144,11 +120,11 @@ struct DetailPage: View {
             }
         }
         .fullScreenCover(isPresented: $showingMoreImagesPage) {
-            if let imageUrls = self.viewModel.mushroom?.images {
-                MoreImagePage(imageUrls: imageUrls, onCloseClick: {
+            if let imageUrls = self.viewModel.mushroom?.imageUrl {
+                MoreImagePage(imageUrls: [imageUrls], onCloseClick: {
                     self.showingMoreImagesPage = false
                 }, onImageClick: { index in
-                    self.actionModel.onImageClick.send((index, imageUrls))
+                    self.actionModel.onImageClick.send((index, [imageUrls]))
                 })
             }
         }

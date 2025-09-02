@@ -58,9 +58,7 @@ struct RecognizePage: View {
         .fullScreenCover(isPresented: .constant(viewModel.identifyState == .result)) {
             if let currentMushroom = viewModel.currentMushroom{
                 let images = viewModel.identifyItems.map { identifyItem in
-                    identifyItem.mushroom.photos?.first.map { mushroomPhoto in
-                        mushroomPhoto.url ?? ""
-                    } ?? ""
+                    identifyItem.mushroom.imageUrl ?? ""
                 }
                 
                 IdentifyResultPage(mushroom: currentMushroom,

@@ -60,21 +60,21 @@ struct IdentifyRequest: RequestProtocol {
 
 struct IdentifyResponse: Codable {
     let results: [IdentifyItem]
+    let identificationId: Int?
     enum CodingKeys: String, CodingKey {
         case results
+        case identificationId = "identification_id"
     }
 }
 
 struct IdentifyItem:Codable{
     let mushroom: Mushroom
     let confidence: Double
-    let identificationId: Int?
     var isInWishlist: Bool
     
     enum CodingKeys: String, CodingKey {
         case mushroom
         case confidence
-        case identificationId = "identification_id"
         case isInWishlist = "is_in_wishlist"
     }
 }

@@ -38,7 +38,6 @@ class RecognizeViewModel: ObservableObject {
         self.currentItem = self.identifyItems[position]
         self.currentMushroom = self.currentItem!.mushroom
         self.isInWish = self.currentItem!.isInWishlist
-        self.isInFavorite = self.currentMushroom!.isFavorite
     }
     
     func reset() {
@@ -116,7 +115,7 @@ extension RecognizeViewModel {
                 if self.identifyState  == .result {
                     self.identifyItems = Array(response!.results.prefix(3))
                     changeResult(position: 0)
-                    self.identificationId = self.identifyItems.first?.identificationId
+                    self.identificationId = self.identifyResult?.identificationId
                     self.confidence = self.identifyItems.first?.confidence ?? 1.0
                     NotificationCenter.default.post(name: .ReloadHistoryList, object: nil)
                     if PersistUtil.autoSaveImage {

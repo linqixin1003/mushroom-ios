@@ -28,8 +28,6 @@ class DetailViewModel: ObservableObject {
                 }
                 self.mushroom = result.mushroom
                 self.isInWish = result.isInWishlist
-                self.isInFavorite = result.mushroom.isFavorite
-                print("🔍 Mushroom isFavorite from server: \(result.mushroom.isFavorite)")
                 print("🔍 Mushroom isInWish from server: \(result.isInWishlist)")
             }
         }
