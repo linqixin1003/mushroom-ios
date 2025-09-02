@@ -70,12 +70,7 @@ class HomeViewController: TabItemViewController {
         }.store(in: &cancellables)
 
         self.actionModel.onValuationClick.sink { [weak self] in
-            FireBaseEvent.send(eventName: EventName.homeValuationClick)
-            guard let self else { return }
-            if let tabbarController = TabBarController.tabBarController {
-                let vc = ValuationViewController()
-                tabbarController.present(vc, animated: true)
-            }
+            
         }.store(in: &cancellables)
         
         self.actionModel.onRecordClick.sink { [weak self] in

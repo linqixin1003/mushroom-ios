@@ -118,11 +118,6 @@
 		83FC79D02DF5E4460002BD9A /* CodableCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FC79CF2DF5E4410002BD9A /* CodableCache.swift */; };
 		83FC79D22DF5E4AF0002BD9A /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FC79D12DF5E4AB0002BD9A /* ProfileViewModel.swift */; };
 		DB178B952E57025500998B9D /* ImageDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB178B942E57025500998B9D /* ImageDisplayView.swift */; };
-		DB4CDF8C2E5D62E000F09853 /* ValuationLoadingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4CDF862E5D62E000F09853 /* ValuationLoadingPage.swift */; };
-		DB4CDF8D2E5D62E000F09853 /* ValuationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4CDF8A2E5D62E000F09853 /* ValuationViewModel.swift */; };
-		DB4CDF8E2E5D62E000F09853 /* ValuationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4CDF872E5D62E000F09853 /* ValuationPage.swift */; };
-		DB4CDF8F2E5D62E000F09853 /* ValuationResultPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4CDF882E5D62E000F09853 /* ValuationResultPage.swift */; };
-		DB4CDF902E5D62E000F09853 /* ValuationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4CDF892E5D62E000F09853 /* ValuationViewController.swift */; };
 		DB4CE06E2E5EE37A00F09853 /* CompareImagePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4CE06D2E5EE37A00F09853 /* CompareImagePage.swift */; };
 		DB7B23F22E019B6A0089FD72 /* SettingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7B23F12E019B6A0089FD72 /* SettingPage.swift */; };
 		DB7B23F42E0290DC0089FD72 /* AboutScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7B23F32E0290D50089FD72 /* AboutScreen.swift */; };
@@ -322,11 +317,6 @@
 		DB178B0C2E4EE48F00998B9D /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		DB178B0D2E4EE48F00998B9D /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Main.strings; sourceTree = "<group>"; };
 		DB178B942E57025500998B9D /* ImageDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDisplayView.swift; sourceTree = "<group>"; };
-		DB4CDF862E5D62E000F09853 /* ValuationLoadingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValuationLoadingPage.swift; sourceTree = "<group>"; };
-		DB4CDF872E5D62E000F09853 /* ValuationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValuationPage.swift; sourceTree = "<group>"; };
-		DB4CDF882E5D62E000F09853 /* ValuationResultPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValuationResultPage.swift; sourceTree = "<group>"; };
-		DB4CDF892E5D62E000F09853 /* ValuationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValuationViewController.swift; sourceTree = "<group>"; };
-		DB4CDF8A2E5D62E000F09853 /* ValuationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValuationViewModel.swift; sourceTree = "<group>"; };
 		DB4CE06D2E5EE37A00F09853 /* CompareImagePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareImagePage.swift; sourceTree = "<group>"; };
 		DB7B23F12E019B6A0089FD72 /* SettingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingPage.swift; sourceTree = "<group>"; };
 		DB7B23F32E0290D50089FD72 /* AboutScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutScreen.swift; sourceTree = "<group>"; };
@@ -711,7 +701,6 @@
 			isa = PBXGroup;
 			children = (
 				DB7F7D6B2E66FDCE00045130 /* Common */,
-				DB4CDF8B2E5D62E000F09853 /* Valuation */,
 				DBE17EEA2E3B65FD002BE881 /* FindTreasure */,
 				14C97CF42E058B67004C1596 /* Share */,
 				8361034C2DFC79030088225F /* Camera */,
@@ -866,18 +855,6 @@
 				83FC79CF2DF5E4410002BD9A /* CodableCache.swift */,
 			);
 			path = Storage;
-			sourceTree = "<group>";
-		};
-		DB4CDF8B2E5D62E000F09853 /* Valuation */ = {
-			isa = PBXGroup;
-			children = (
-				DB4CDF862E5D62E000F09853 /* ValuationLoadingPage.swift */,
-				DB4CDF872E5D62E000F09853 /* ValuationPage.swift */,
-				DB4CDF882E5D62E000F09853 /* ValuationResultPage.swift */,
-				DB4CDF892E5D62E000F09853 /* ValuationViewController.swift */,
-				DB4CDF8A2E5D62E000F09853 /* ValuationViewModel.swift */,
-			);
-			path = Valuation;
 			sourceTree = "<group>";
 		};
 		DB7F7D6A2E66FDCE00045130 /* Components */ = {
@@ -1200,11 +1177,6 @@
 				83F6E75C2D6B20290021A319 /* AppTheme.swift in Sources */,
 				DB7B23F42E0290DC0089FD72 /* AboutScreen.swift in Sources */,
 				14CBE6ED2DE476580066CA7D /* RetainPage.swift in Sources */,
-				DB4CDF8C2E5D62E000F09853 /* ValuationLoadingPage.swift in Sources */,
-				DB4CDF8D2E5D62E000F09853 /* ValuationViewModel.swift in Sources */,
-				DB4CDF8E2E5D62E000F09853 /* ValuationPage.swift in Sources */,
-				DB4CDF8F2E5D62E000F09853 /* ValuationResultPage.swift in Sources */,
-				DB4CDF902E5D62E000F09853 /* ValuationViewController.swift in Sources */,
 				83F6E74F2D6B1FC80021A319 /* AppDelegate.swift in Sources */,
 				83F6E7FF2D85670A0021A319 /* RecognizeViewController.swift in Sources */,
 				83F6E8382D9050EA0021A319 /* HomeViewModel.swift in Sources */,
