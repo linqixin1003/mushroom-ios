@@ -1,0 +1,419 @@
+/* 
+   Localizable.strings - Japanese
+   RockProject
+
+   Created for localization support.
+*/
+
+// MARK: - App Basic
+"app_name" = "RockAiSnap";
+"tab_bar_home" = "ホーム";
+"tab_bar_profile" = "プロフィール";
+
+// MARK: - Permissions
+"NSMicrophoneUsageDescription" = "鳥の種類を識別するために、鳥の鳴き声を録音するためにマイクへのアクセスが必要です";
+
+// MARK: - General Titles
+"title_home" = "ホーム";
+"title_dashboard" = "ダッシュボード";
+"title_notifications" = "通知";
+
+// MARK: - Splash Screen
+"splash_start_now" = "今すぐ始める";
+"splash_first_launch_slogan" = "瞬時に友達を作る魔法の杖！";
+
+// MARK: - Common Text
+"text_policy_tapping_continue" = "続行することで、以下に同意したものとみなされます";
+"text_terms_of_use" = "利用規約";
+"text_privacy_policy" = "プライバシーポリシー";
+"text_refund_policy" = "返金ポリシー";
+"text_contact_us" = "お問い合わせ";
+"text_customer_service" = "カスタマーサービス";
+"text_email_prefix" = "メール: %@";
+"text_next" = "次へ";
+"text_copied" = "コピーしました";
+"text_continue" = "続行";
+"text_cancel" = "キャンセル";
+"text_game" = "ゲーム";
+"text_profile" = "プロフィール";
+"text_yes" = "はい";
+"text_no" = "いいえ";
+"text_maybe_later" = "後で";
+"text_submit" = "送信";
+"text_confirm" = "確認";
+"text_loading" = "読み込み中";
+"text_view_all" = "すべて表示";
+"text_try_again" = "再試行";
+"text_save" = "保存";
+"text_new" = "新規";
+"text_share" = "シェア";
+"text_common_error_try_again" = "おっと！何かが間違っています。後でもう一度お試しください :)";
+"text_also_known_as" = "別名";
+"text_scientific_name" = "学名";
+"text_more" = "詳細";
+"text_images" = "画像";
+"text_sound" = "音声";
+"text_map" = "地図";
+"text_description" = "説明";
+"text_ok" = "OK";
+"text_photo" = "写真";
+"text_tips" = "ヒント";
+"text_expand" = "展開";
+
+// MARK: - Home Screen
+"home_search_hint" = "30,000種以上から検索";
+"home_vip_banner_text" = "7日間無料プレミアムがまだ請求されていません。タップして請求してください。";
+"home_action_identify" = "識別";
+"home_action_record" = "録音";
+"home_action_ai_beautify" = "AI美化";
+"home_your_daily_stone" = "今日の鳥";
+"home_stones_near_you" = "近くの鳥";
+"home_app_usage_title" = "アプリ使用方法";
+"home_app_usage_desc" = "より迅速に慣れるのに役立ちます。";
+
+// MARK: - Survey/Onboarding
+"survey1_title" = "ユーザー名を設定しましょう";
+"survey1_input_name_placeholder" = "あなたのユーザー名";
+"survey2_title" = "あなたの性別は...";
+"survey2_option_she" = "女性";
+"survey2_option_he" = "男性";
+"survey2_option_they" = "その他";
+"survey3_title" = "何について話したいですか？";
+"survey3_option1" = "チャットゲーム";
+"survey3_option2" = "バーチャルフレンド";
+"survey3_option3" = "感情の共有";
+"survey3_option4" = "楽しむ";
+"survey3_option5" = "寂しさを和らげる";
+"survey3_option6" = "その他";
+"survey4_title" = "あなたの興味は何ですか？";
+"survey5_title" = "友達を選ぶ時間です";
+"survey5_reset_all_blocked_roles_warning_message" = "すべてのキャラクターがブロックされました。すべてのキャラクターを回復しますか？";
+"survey6_title" = "AIフレンドに名前を付けてください。";
+"survey6_input_name_placeholder" = "AIフレンドの名前を入力";
+"survey7_creating" = "作成中...";
+
+// MARK: - Chat
+"text_ai_chat" = "AIチャット";
+"chat_input_bar_placeholder" = "メッセージを入力";
+"chat_error_oops" = "おっと！何かが間違っています。後でもう一度お試しください :)";
+"chat_report_bot_response_warning_messasge" = "AIコミュニケーションコンテンツを継続的に最適化し、このコンテンツを削除しました。このAIキャラクターも同時に報告する必要がありますか？";
+"chat_report_ai_character" = "AIキャラクターを報告";
+"chat_just_report_content" = "コンテンツのみ報告";
+
+// MARK: - Welcome
+"welcome_title" = "ようこそ！";
+"welcome_content" = "はじめまして！楽しんでください！";
+"welcome_got_it" = "了解！";
+
+// MARK: - Report
+"report_title" = "問題を報告";
+"report_edit_text_hint" = "詳細をここに追加";
+"report_success" = "報告が成功しました";
+"report_block_character" = "キャラクターをブロック";
+"report_block_character_warning_message" = "このAIキャラクターを削除し、AIコミュニケーションコンテンツを再度最適化します";
+
+// MARK: - Profile
+"profile_about_app" = "RockAiSnap について";
+"profile_restart_chat" = "チャットを再開";
+"profile_delete_account" = "アカウントを削除";
+
+// MARK: - Warnings
+"restart_chat_warning_title" = "チャットを再開してもよろしいですか？";
+"restart_chat_warning_content" = "確認すると現在のチャットセッションが失われます";
+"delete_account_warning_title" = "削除してもよろしいですか？";
+"delete_account_warning_content" = "この操作は元に戻せません";
+
+// MARK: - Camera
+"camera_permission_request_title" = "カメラの許可が必要です";
+"camera_permission_request_desc" = "カメラの許可が必要です";
+"camera_permisson_request_button" = "許可";
+"camera_preview_tip" = "鳥を識別するために写真を撮り、撮影時は被写体を鮮明に保ってください";
+
+// MARK: - Settings
+"settings_title" = "設定";
+"settings_premium_service" = "プレミアムサービス";
+"settings_free" = "無料";
+"settings_set_language" = "言語を設定";
+"settings_autosave_photos" = "写真を自動保存";
+"settings_encourage_us" = "応援する";
+"settings_suggestion" = "提案";
+"settings_app_info" = "アプリ情報";
+"settings_tell_friends" = "友達に教える";
+"settings_privacy_policy" = "プライバシーポリシー";
+"settings_terms_of_use" = "利用規約";
+"settings_manage_account" = "アカウント管理";
+
+// MARK: - Stone Information
+"stone_info_detailed_not_available" = "詳細情報は利用できません";
+"stone_info_additional_characteristics" = "追加の特徴と分類データは、利用可能になったときにここに表示されます。";
+"stone_info_characteristics" = "特徴";
+"stone_info_scientific_classification" = "科学的分類";
+"stone_info_additional_classification" = "追加分類情報：";
+"stone_info_more" = "もっと>>";
+
+// MARK: - Identification
+"identify_recognition_failed" = "認識に失敗しました";
+"identify_wait_moment" = "少々お待ちください、識別中...";
+"identify_progress_percent" = "%d%%";
+
+// MARK: - Camera
+"camera_zoom" = "ズーム";
+"camera_photography_tips" = "撮影のヒント";
+"camera_keep_stone_centered" = "鳥をフレームの中央に保つ";
+"camera_good_image_quality" = "良い画質は識別精度の向上に役立ちます。";
+
+// MARK: - Sound
+"sound_permission_required" = "音声の許可が必要です";
+"sound_take_to_identify" = "鳥を識別するために音を録音し、被写体を保持してください";
+
+// MARK: - Search
+"search_enter_keywords" = "関連情報を検索するためにキーワードを入力してください";
+"search_no_search" = "検索なし";
+
+// MARK: - Profile
+"profile_me" = "私";
+"profile_vip" = "VIP";
+"profile_privileges" = "特典";
+"profile_subscribe_now" = "今すぐ購読";
+"profile_my_collection" = "マイコレクション (%d)";
+"profile_history_record" = "履歴記録 (%d)";
+"profile_no_more_collection" = "これ以上のコレクションはありません";
+
+// MARK: - Subscription
+"subscription_try_7_days_free" = "7日間無料でお試し";
+"subscription_then_yearly" = "その後%@/年。いつでもキャンセル可能。";
+"subscription_loading_price" = "価格を読み込み中...いつでもキャンセル可能。";
+"subscription_cancel_anytime" = "いつでもキャンセル可能";
+"subscription_start_free_trial" = "無料トライアルを開始";
+"subscription_yearly" = "年間";
+"subscription_monthly" = "月間";
+"subscription_no_commitment" = "コミットメントなし。いつでもキャンセル可能。";
+"subscription_payment_charged" = "トライアルを開始していない場合、トライアル終了時または購入確認時にGoogle Playアカウントに料金が請求されます。現在の期間が終了する少なくとも24時間前にキャンセルされない限り、サブスクリプションは自動的に更新されます。";
+"subscription_restore" = "復元";
+
+// MARK: - Account Management
+"account_manage_title" = "アカウント管理";
+"account_delete_warning" = "アカウントをクリアすることを選択した場合、すべてのファイルと情報がクリアされ、復元できません。本当にこれを行いますか？";
+"account_delete_information" = "情報を削除";
+"account_delete_confirmation" = "アカウントを削除することを選択した場合、すべてのデータが削除され、復元できません！";
+
+// MARK: - About
+"about_app_name" = "RockAiSnap";
+"about_version" = "V%@";
+"about_description" = "鳥の名前がわからない？RockAiSnapは、未知の鳥を識別し、最もシンプルで楽しい方法で自然を発見するのに役立ちます。また、より良いユーザーエクスペリエンスを提供し、認識機能を常に最適化するために懸命に取り組んでいます！鳥を愛する人が私たちの家族に参加することを歓迎します。世界中の最も愛らしい鳥に出会う旅を始めましょう。";
+"about_email" = "lingjuetech@gmail.com";
+"about_email_address" = "Gmail.com";
+
+// MARK: - Suggestion
+"suggestion_send" = "送信";
+"suggestion_required_field" = "*";
+"my_collection_no_more" = "これ以上のコレクションはありません";
+"snap_tip_photography_tips" = "撮影のコツ";
+"snap_tip_keep_stone_centered" = "鳥をフレームの中央に配置";
+"sound_take_to_identify_stones" = "鳥を識別するために音を録音し、被写体を保持";
+
+// MARK: - Stone Features
+"stone_basic_information" = "基本情報";
+"stone_color_features" = "色の特徴";
+"stone_habitat" = "生息地";
+"stone_behavior" = "行動";
+"stone_flying" = "飛行";
+"stone_size" = "サイズ";
+"stone_no_data" = "データなし";
+"stone_season_info" = "季節情報";
+"stone_visible_months" = "観察可能月：";
+"stone_visible_year_round" = "通年";
+"stone_plumage" = "羽毛";
+
+// MARK: - Subscription Page Specific
+"subscription_app_name" = "RockAiSnap";
+"subscription_feature_12000_species" = "12000種以上の鳥類の詳細情報";
+"subscription_feature_high_accuracy" = "写真と音声による高精度な鳥類識別";
+"subscription_feature_attract_stones" = "鳥を自宅に引き寄せる方法を学ぶ";
+"subscription_feature_unlimited_id" = "無制限の鳥類識別";
+"subscription_feature_expand_knowledge" = "鳥類の学習と知識を拡張";
+"subscription_try_it_free" = "無料で試す";
+"subscription_continue" = "続行";
+"subscription_7_days_then_yearly" = "7日間無料、その後%@/年";
+"subscription_7_days_free_trial_yearly" = "7日間無料トライアル、その後年間サブスクリプション";
+"subscription_payment_terms" = "トライアルを開始していない場合、トライアル終了時または購入確認時にGoogle Playアカウントに料金が請求されます。現在の期間が終了する少なくとも24時間前にキャンセルされない限り、サブスクリプションは自動的に更新されます。現在の期間が終了する前の24時間以内にアカウントに更新料金が請求されます。Google Playストアの設定でサブスクリプションを管理およびキャンセルできます。詳細については、";
+"subscription_terms_and" = "および";
+
+// MARK: - Retain Page
+"retain_today" = "今日";
+"retain_today_desc" = "Picture Stoneプレミアムの全機能へのフルアクセスをアンロック";
+"retain_day_1_6" = "1日目〜6日目";
+"retain_day_1_6_desc" = "プレミアムを楽しみ、無料トライアルを最大限に活用";
+"retain_day_7" = "7日目";
+"retain_day_7_desc" = "サブスクリプションが開始されます。それまでにいつでもキャンセル可能。";
+"retain_then_yearly_price" = "その後%@/年。いつでもキャンセル可能。";
+
+// MARK: - Valuation
+"possible_price_range" = "可能な価格帯";
+"note" = "メモ";
+"are_you_satisfied_with_the_result" = "結果に満足していますか";
+"thanks_for_your_feedback" = "フィードバックありがとうございます";
+"valuation_in_progress" = "評価進行中";
+"valuation_step_identification" = "識別";
+"valuation_step_quality_evaluation" = "品質評価";
+"valuation_step_market_price_search" = "市場価格検索";
+"valuation_not_found" = "石が見つかりません";
+"stone_estimated_value" = "推定価値";
+"metal_detector_tips_content" = "このツールは、携帯電話に内蔵されている磁気センサーによって動作します。この検出器は、磁鉄鉱、磁硫鉄鉱、隕石などの磁性岩石や鉱物で動作します。また、主に鉄、コバルト、またはニッケルで構成された金属も検出できます。磁気センサーは各携帯電話で異なる位置にあるため、検出オブジェクトを電話の周りで動かして最適な感度を見つけ、ダイヤルゲージで明確な読み取りを得てください。ダイヤルゲージの読み取りは、検出されたオブジェクトの強度を示します。磁気の正確な値を表すものではありません。";
+"valuation_camera_tips" = "鮮明で高品質な写真は、より正確な評価結果につながります";
+
+// MARK: - Other Pages
+"share_image_load_failed" = "画像の読み込みに失敗しました";
+"instruction_good_image_quality" = "良好な画質により識別精度が向上します。";
+"instruction_identify" = "識別";
+"suggestion_send" = "送信";
+"suggestion_required_field" = "*";
+"my_collection_no_more" = "これ以上のコレクションはありません";
+"snap_tip_photography_tips" = "撮影のコツ";
+"snap_tip_keep_stone_centered" = "鳥をフレームの中央に配置";
+"sound_take_to_identify_stones" = "鳥を識別するために音を録音し、被写体を保持";
+
+// MARK: - Camera Mode Selection
+"camera_mode_by_photo" = "写真で";
+"camera_mode_by_sound" = "音声で"; 
+
+// Instruction Page
+"instruction_page_title" = "鳥の撮影ガイド";
+"instruction_good_image_quality" = "良好な画質は識別精度の向上に役立ちます。";
+"instruction_step_1" = "1. 鳥をフレームの中央に配置し、遠すぎないようにしてください。";
+"instruction_step_2" = "2. 鳥の前に植物、ケージ、その他の障害物がないようにしてください。";
+"instruction_step_3" = "3. コントラストを高めるために十分な光を確保してください。鳥が見えない場合、アプリも識別できません。";
+"instruction_step_4" = "4. 可能な限り鳥の正面を撮影してください。少なくとも頭部が見えるようにしてください。";
+"instruction_step_5" = "5. 1枚の写真に1種類の鳥のみを撮影してください。写真に多くの鳥がいると誤認識の原因となる可能性があります。";
+"instruction_identify" = "識別を開始"; 
+
+// ConvertPage
+"convert_title" = "バードAIスナップ";
+"convert_feature_1" = "12000種以上の鳥類の詳細情報";
+"convert_feature_2" = "写真と音声による高精度の鳥類識別";
+"convert_feature_3" = "鳥を自宅に引き寄せる方法を学ぶ";
+"convert_feature_4" = "無制限の鳥類識別";
+"convert_feature_5" = "鳥類の学習と知識を拡大";
+"convert_yearly" = "年間";
+"convert_monthly" = "月間";
+"convert_loading_price" = "価格読み込み中...";
+"convert_free_trial_yearly" = "7日間無料、その後 %@ /年";
+"convert_free_trial_loading" = "7日間無料トライアル、その後年間サブスクリプション";
+"convert_try_free" = "無料で試す";
+"convert_continue" = "続ける";
+"convert_cancel_anytime" = "契約義務なし、いつでもキャンセル可能";
+"convert_cancel_notice" = "7日間の無料トライアル期間が終了する少なくとも1日前にサブスクリプションをキャンセルすれば、支払う必要はありません。";
+"convert_payment_terms" = "トライアルを開始しない場合、トライアル終了時または購入確認時にApp Storeアカウントに課金されます。トライアルまたは現在の期間終了の24時間前までにキャンセルしない限り、サブスクリプションは自動的に更新されます。現在の期間終了の24時間前までに更新料金がアカウントに課金されます。App Storeの設定でサブスクリプションの管理とキャンセルができます。詳細については、以下をご覧ください：";
+"convert_terms_of_use" = "利用規約";
+"convert_and" = "および";
+"convert_privacy_policy" = "プライバシーポリシー。";
+
+// RetainPage
+"retain_title" = "バードピクチャー";
+"retain_restore" = "復元";
+"retain_timeline_today" = "今日";
+"retain_timeline_today_desc" = "バードピクチャープレミアム機能のすべてにアクセス可能";
+"retain_timeline_day1_6" = "1日目～6日目";
+"retain_timeline_day1_6_desc" = "プレミアム機能を楽しみ、無料トライアルを最大限に活用";
+"retain_timeline_day7" = "7日目";
+"retain_timeline_day7_desc" = "サブスクリプション開始。それまでならいつでもキャンセル可能。";
+"retain_try_free" = "7日間無料で試す";
+"retain_then_yearly" = "その後 %@/年。いつでもキャンセル可能。";
+"retain_loading_price" = "価格読み込み中... いつでもキャンセル可能。";
+"retain_start_trial" = "無料トライアルを開始"; 
+"retain_price_then" = "その後 ";
+"retain_price_year_cancel" = "/年。いつでもキャンセル可能。";
+
+// MARK: - Snap Tips
+"snap_tip_too_far" = "遠すぎる";
+"snap_tip_too_close" = "近すぎる";
+"snap_tip_blurry" = "ぼやけている";
+"snap_tip_multiple_species" = "複数の種";
+
+// MARK: - Purchase
+"purchase_choose_subscription_plan" = "サブスクリプションプランを選択";
+"purchase_unlock_premium_features" = "すべてのプレミアム機能をアンロック";
+"purchase_restore_purchases" = "購入を復元";
+"purchase_cancel" = "キャンセル";
+"purchase_user_cancelled" = "ユーザーがキャンセル";
+"purchase_please_wait" = "お待ちください";
+"purchase_processing" = "処理中...";
+"purchase_success" = "成功";
+"purchase_success_message" = "購入が成功しました！ご支援ありがとうございます。";
+"purchase_failed" = "購入失敗";
+"purchase_restore_failed" = "復元失敗";
+"purchase_restored_successfully" = "購入が正常に復元されました";
+"purchase_already_vip" = "すでにVIPユーザーです";
+"purchase_product_not_found" = "商品が見つかりません";
+"purchase_not_available" = "アプリ内購入は利用できません";
+"purchase_no_purchases_to_restore" = "復元する購入が見つかりません";
+"purchase_error" = "エラー";
+"purchase_unable_to_load_products" = "商品情報を読み込めません";
+"purchase_check_network_try_again" = "商品情報を読み込めません。ネットワーク接続を確認して再試行してください。";
+"purchase_premium_feature" = "プレミアム機能";
+"purchase_premium_feature_message" = "%@はプレミアム機能です。ご利用にはプレミアムへのアップグレードが必要です。";
+"purchase_upgrade_now" = "今すぐアップグレード";
+"purchase_maybe_later" = "後で";
+"purchase_upgrade_to_premium" = "プレミアムにアップグレード";
+"purchase_premium_user" = "プレミアムユーザー";
+"purchase_free_user" = "無料ユーザー";
+"purchase_operation_successful" = "操作が成功しました";
+
+// MARK: - Debug
+"debug_options" = "デバッグオプション";
+"debug_mode_only" = "デバッグモードのみ";
+"debug_set_as_vip" = "VIPに設定";
+"debug_remove_vip" = "VIPを削除";
+"debug_clear_purchase_records" = "すべての購入記録をクリア";
+"debug_title" = "デバッグ";
+"debug_vip_set" = "VIPに設定されました";
+"debug_vip_removed" = "VIPが削除されました";
+"debug_records_cleared" = "すべての購入記録がクリアされました";
+
+// MARK: - More Images
+"more_images" = "もっと見る"; "profile_privileges" = "特典";
+
+// MARK: - Permissions
+"microphone_permission_title" = "マイクのアクセスが必要です";
+"microphone_permission_desc" = "鳥の種類を識別するために鳥の鳴き声を録音するにはマイクのアクセスが必要です";
+"microphone_permission_button" = "許可";
+
+// MARK: - Home Action Types
+"home_action_type_valuation" = "評価";
+"home_action_type_identify" = "識別";
+"home_action_type_detector" = "探知機";
+
+// MARK: - FindTreasure Page
+"find_treasure_title" = "金属探知機";
+"find_treasure_status_normal" = "正常環境";
+"find_treasure_status_slight" = "軽微な異常";
+"find_treasure_status_detected" = "金属を検出";
+"find_treasure_status_strong" = "強い金属信号";
+
+// MARK: - Profile Page
+"profile_wishlist" = "ウィッシュリスト (%d)";
+"profile_refreshing" = "更新中...";
+"profile_load_more" = "さらに読み込む...";
+"profile_load_more_button" = "さらに読み込む";
+"profile_no_more_data" = "これ以上のデータはありません";
+
+// MARK: - Stone Info Section
+"stone_usage" = "用途";
+"stone_health_risks" = "健康リスク";
+"stone_original_vs_fake" = "真贋鑑定";
+"stone_storage" = "保存方法";
+"stone_cleaning_tips" = "清掃のコツ";
+"stone_chemical_formula" = "化学分子式";
+"stone_chemical_classification" = "化学分類";
+"stone_crystal_system" = "結晶系";
+"stone_hardness" = "硬度";
+"stone_density" = "密度";
+"stone_chemical_elements" = "化学元素";
+"stone_estimated_value" = "評価額";
+"add_to_collection" = "マイコレクションに追加";
+
+// MARK: - Additional Missing Keys
+"subscription_cancel_notice" = "7日間の無料トライアル期間が終了する少なくとも1日前にサブスクリプションをキャンセルすれば、支払う必要はありません。";
+"profile_error_load_more_data" = "さらなるデータの読み込みに失敗しました";
+"profile_error_load_wishlist" = "ウィッシュリストの読み込みに失敗しました";
+"profile_error_load_more_wishlist" = "さらなるウィッシュリストの読み込みに失敗しました";

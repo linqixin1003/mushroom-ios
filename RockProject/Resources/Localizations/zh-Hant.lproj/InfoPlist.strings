@@ -1,0 +1,6 @@
+/* 
+   InfoPlist.strings
+   RockProject
+*/
+
+"NSMicrophoneUsageDescription" = "需要訪問麥克風來錄製鳥叫聲，以便識別鳥類種類"; 

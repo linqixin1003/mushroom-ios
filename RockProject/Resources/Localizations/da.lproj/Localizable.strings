@@ -1,0 +1,20 @@
+/* 
+   Localizable.strings - Danish
+   RockProject
+
+   Created for localization support.
+*/
+
+// MARK: - Valuation
+"possible_price_range" = "Muligt prisinterval";
+"note" = "Bemærk";
+"are_you_satisfied_with_the_result" = "Er du tilfreds med resultatet";
+"thanks_for_your_feedback" = "Tak for din feedback";
+"valuation_in_progress" = "Vurdering i gang";
+"valuation_step_identification" = "Identifikation";
+"valuation_step_quality_evaluation" = "Kvalitetsvurdering";
+"valuation_step_market_price_search" = "Søgning efter markedspris";
+"valuation_not_found" = "Ingen sten fundet";
+"valuation_camera_tips" = "Klare billeder i høj kvalitet fører til mere nøjagtige vurderingsresultater";
+"stone_estimated_value" = "Estimeret værdi";
+"metal_detector_tips_content" = "Dette værktøj drives af den magnetiske sensor, der er indbygget i din mobiltelefon. Denne detektor fungerer med magnetiske sten eller mineraler, såsom magnetit, pyrrotin og meteorit. Den kan også detektere metal, der hovedsageligt består af jern, kobolt eller nikkel. Da den magnetiske sensor er placeret forskelligt på hver mobiltelefon, skal du flytte det detekterende objekt rundt om din telefon for at finde dens bedste følsomhed og få en klar aflæsning på urskiven. Aflæsningen på urskiven angiver styrken af dit detekterede objekt; den repræsenterer ikke den nøjagtige værdi af magnetisme.";

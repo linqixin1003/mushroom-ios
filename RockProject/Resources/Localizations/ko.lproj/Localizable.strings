@@ -1,0 +1,315 @@
+/* 
+   Localizable.strings - Korean
+   RockProject
+
+   Created for localization support.
+*/
+
+// MARK: - App Basic
+"app_name" = "RockAiSnap";
+"tab_bar_home" = "홈";
+"tab_bar_profile" = "프로필";
+
+// MARK: - Permissions
+"NSMicrophoneUsageDescription" = "새의 종류를 식별하기 위해 새소리를 녹음하려면 마이크 접근이 필요합니다";
+
+// MARK: - General Titles
+"title_home" = "홈";
+"title_dashboard" = "대시보드";
+"title_notifications" = "알림";
+
+// MARK: - Splash Screen
+"splash_start_now" = "지금 시작";
+"splash_first_launch_slogan" = "즉석 우정을 위한 마법 지팡이!";
+
+// MARK: - Common Text
+"text_policy_tapping_continue" = "계속하면 다음에 동의하는 것입니다";
+"text_terms_of_use" = "이용 약관";
+"text_privacy_policy" = "개인정보 보호정책";
+"text_refund_policy" = "환불 정책";
+"text_contact_us" = "문의하기";
+"text_customer_service" = "고객 서비스";
+"text_email_prefix" = "이메일: %@";
+"text_next" = "다음";
+"text_copied" = "복사됨";
+"text_continue" = "계속";
+"text_cancel" = "Avbryt";
+"text_game" = "게임";
+"text_profile" = "프로필";
+"text_yes" = "예";
+"text_no" = "아니오";
+"text_maybe_later" = "나중에";
+"text_submit" = "제출";
+"text_confirm" = "확인";
+"text_loading" = "로딩 중";
+"text_view_all" = "모두 보기";
+"text_try_again" = "다시 시도";
+"text_save" = "저장";
+"text_new" = "새로운";
+"text_share" = "공유";
+"text_common_error_try_again" = "앗! 문제가 발생했습니다. 나중에 다시 시도해 주세요 :)";
+"text_also_known_as" = "별명";
+"text_scientific_name" = "학명";
+"text_more" = "더보기";
+"text_images" = "이미지";
+"text_sound" = "소리";
+"text_map" = "지도";
+"text_description" = "설명";
+"text_ok" = "확인";
+"text_photo" = "사진";
+"text_tips" = "팁";
+"text_expand" = "펼치기";
+"stone_info_more" = "더보기>>";
+
+// MARK: - Home Screen
+"home_search_hint" = "30,000종 이상 검색";
+"home_vip_banner_text" = "7일 무료 프리미엄이 아직 청구되지 않았습니다. 눌러서 청구하세요.";
+"home_action_identify" = "식별";
+"home_action_record" = "녹음";
+"home_action_ai_beautify" = "AI 미화";
+"home_your_daily_stone" = "오늘의 새";
+"home_stones_near_you" = "주변의 새들";
+"home_app_usage_title" = "앱 사용 설명서";
+"home_app_usage_desc" = "더 빠르게 익숙해지도록 도와드립니다.";
+
+// MARK: - Survey/Onboarding
+"survey1_title" = "사용자 이름을 설정해 드리겠습니다";
+"survey1_input_name_placeholder" = "사용자 이름";
+"survey2_title" = "자신을 다음과 같이 식별합니다...";
+"survey2_option_she" = "그녀";
+"survey2_option_he" = "그";
+"survey2_option_they" = "논바이너리";
+"survey3_title" = "무엇에 대해 이야기하고 싶나요?";
+"survey3_option1" = "채팅 게임 하기";
+"survey3_option2" = "가상 친구 만들기";
+"survey3_option3" = "감정 공유";
+"survey3_option4" = "재미있게 보내기";
+"survey3_option5" = "덜 외롭게 느끼기";
+"survey3_option6" = "기타";
+"survey4_title" = "관심사는 무엇인가요?";
+"survey5_title" = "친구를 선택할 시간입니다";
+"survey5_reset_all_blocked_roles_warning_message" = "모든 캐릭터가 차단되었습니다. 모든 캐릭터를 복구하시겠습니까?";
+"survey6_title" = "AI 친구에게 이름을 지어주세요.";
+"survey6_input_name_placeholder" = "AI 친구 이름 입력";
+"survey7_creating" = "생성 중...";
+
+// MARK: - Chat
+"text_ai_chat" = "AI 채팅";
+"chat_input_bar_placeholder" = "메시지 입력";
+"chat_error_oops" = "앗! 문제가 발생했습니다. 나중에 다시 시도해 주세요 :)";
+"chat_report_bot_response_warning_messasge" = "AI 소통 콘텐츠를 지속적으로 최적화하고 있으며 이 콘텐츠를 제거했습니다. 동시에 이 AI 캐릭터를 신고하시겠습니까?";
+"chat_report_ai_character" = "AI 캐릭터 신고";
+"chat_just_report_content" = "콘텐츠만 신고";
+
+// MARK: - Welcome
+"welcome_title" = "환영합니다!";
+"welcome_content" = "만나서 반갑습니다! 즐겁게 보내세요!";
+"welcome_got_it" = "알겠습니다!";
+
+// MARK: - Report
+"report_title" = "문제 신고";
+"report_edit_text_hint" = "여기에 세부사항 추가";
+"report_success" = "신고 성공";
+"report_block_character" = "캐릭터 차단";
+"report_block_character_warning_message" = "이 AI 캐릭터를 제거하고 AI 소통 콘텐츠를 다시 최적화하겠습니다";
+
+// MARK: - Profile
+"profile_about_app" = "새 식별기 정보";
+"profile_restart_chat" = "채팅 다시 시작";
+"profile_delete_account" = "계정 삭제";
+"profile_my_collection" = "내 컬렉션 (%d)";
+"profile_history_record" = "기록 (%d)";
+"profile_no_more_collection" = "더 이상 컬렉션이 없습니다";
+"my_collection_no_more" = "더 이상 컬렉션이 없습니다";
+"profile_subscribe_now" = "지금 구독하기";
+
+// MARK: - Warnings
+"restart_chat_warning_title" = "채팅을 다시 시작하시겠습니까?";
+"restart_chat_warning_content" = "확인하면 현재 채팅 세션이 손실됩니다";
+"delete_account_warning_title" = "삭제하시겠습니까?";
+"delete_account_warning_content" = "이 작업은 취소할 수 없습니다";
+
+// MARK: - Camera
+"camera_permission_request_title" = "카메라 권한이 필요합니다";
+"camera_permission_request_desc" = "카메라 권한이 필요합니다";
+"camera_permisson_request_button" = "허용";
+"camera_preview_tip" = "새를 식별하기 위해 사진을 찍고 촬영할 때 피사체를 선명하게 유지하세요";
+
+// MARK: - Settings
+"settings_title" = "설정";
+"settings_premium_service" = "내 프리미엄 서비스";
+"settings_free" = "무료";
+"settings_set_language" = "Angi språk";
+"settings_autosave_photos" = "앨범에 사진 자동 저장";
+"settings_encourage_us" = "격려해 주세요";
+"settings_suggestion" = "제안";
+"settings_app_info" = "앱 정보";
+"settings_tell_friends" = "친구들에게 알리기";
+"settings_privacy_policy" = "개인정보 보호정책";
+"settings_terms_of_use" = "이용 약관";
+"settings_manage_account" = "계정 관리"; 
+
+// Instruction Page
+"instruction_page_title" = "새 사진 촬영 지침";
+"instruction_good_image_quality" = "좋은 이미지 품질은 식별 정확도를 향상시키는 데 도움이 됩니다.";
+"instruction_step_1" = "1. 새를 프레임 중앙에 두고 너무 멀리 있지 않도록 하세요.";
+"instruction_step_2" = "2. 새 앞에 식물, 케이지 또는 다른 물체가 있는 것을 피하세요.";
+"instruction_step_3" = "3. 높은 대비를 위해 좋은 조명을 확보하세요. 당신이 새를 볼 수 없다면 앱도 볼 수 없습니다.";
+"instruction_step_4" = "4. 새의 정면을 캡처하도록 노력하세요. 최소한 머리는 보여야 합니다.";
+"instruction_step_5" = "5. 사진에는 한 종류의 새만 있어야 합니다. 사진에 새가 너무 많으면 잘못된 식별로 이어질 수 있습니다.";
+"instruction_identify" = "식별하기"; 
+
+// ConvertPage
+"convert_title" = "버드AI스냅";
+"convert_feature_1" = "12000종 이상의 조류에 대한 심층 정보";
+"convert_feature_2" = "사진과 소리로 고정밀 조류 식별";
+"convert_feature_3" = "새를 집으로 유인하는 방법 학습";
+"convert_feature_4" = "무제한 조류 식별";
+"convert_feature_5" = "조류 학습과 지식 확장";
+"convert_yearly" = "연간";
+"convert_monthly" = "월간";
+"convert_loading_price" = "가격 로딩 중...";
+"convert_free_trial_yearly" = "7일 무료, 이후 %@ /년";
+"convert_free_trial_loading" = "7일 무료 체험, 이후 연간 구독";
+"convert_try_free" = "무료로 시작하기";
+"convert_continue" = "계속하기";
+"convert_cancel_anytime" = "약정 없음, 언제든지 취소 가능";
+"convert_cancel_notice" = "7일 무료 체험 기간이 끝나기 최소 하루 전에 구독을 취소하면 결제할 필요가 없습니다.";
+"convert_payment_terms" = "무료 체험을 시작하지 않는 경우, 체험 종료 시 또는 구매 확인 시 App Store 계정으로 요금이 청구됩니다. 체험 기간 또는 현재 기간 종료 24시간 전까지 취소하지 않으면 구독이 자동으로 갱신됩니다. 현재 기간 종료 24시간 전에 계정으로 갱신 요금이 청구됩니다. App Store 설정에서 구독을 관리하고 취소할 수 있습니다. 자세한 내용은 다음을 참조하세요:";
+"convert_terms_of_use" = "이용 약관";
+"convert_and" = "및";
+"convert_privacy_policy" = "개인정보 처리방침.";
+
+// RetainPage
+"retain_title" = "버드 픽처";
+"retain_restore" = "복원";
+"retain_timeline_today" = "오늘";
+"retain_timeline_today_desc" = "버드 픽처 프리미엄 기능 전체 이용 가능";
+"retain_timeline_day1_6" = "1일 ~ 6일";
+"retain_timeline_day1_6_desc" = "프리미엄 기능을 즐기고 무료 체험을 최대한 활용하세요";
+"retain_timeline_day7" = "7일차";
+"retain_timeline_day7_desc" = "구독이 시작됩니다. 그 전에 언제든 취소 가능합니다.";
+"retain_try_free" = "7일 무료 체험";
+"retain_then_yearly" = "이후 %@/년. 언제든 취소 가능.";
+"retain_loading_price" = "가격 로딩 중... 언제든 취소 가능.";
+"retain_start_trial" = "무료 체험 시작하기"; 
+"retain_price_then" = "그 다음 ";
+"retain_price_year_cancel" = "/년. 언제든지 취소 가능.";
+
+// MARK: - Snap Tips
+"snap_tip_too_far" = "너무 멀어요";
+"snap_tip_too_close" = "너무 가까워요";
+"snap_tip_blurry" = "흐릿해요";
+"snap_tip_multiple_species" = "여러 종이 있어요";
+
+// MARK: - More Images
+"more_images" = "더 보기";
+
+// MARK: - Share
+"share_image_failed" = "이미지 로드 실패";
+"share_alert_title" = "알림";
+"share_alert_message" = "공유 완료";
+"share_title" = "공유";
+"share_download" = "다운로드";
+"share_share" = "공유"; "profile_privileges" = "특권";
+// MARK: - Purchase
+"purchase_choose_subscription_plan" = "구독 플랜 선택";
+"purchase_unlock_premium_features" = "모든 프리미엄 기능 잠금 해제";
+"purchase_restore_purchases" = "구매 복원";
+"purchase_cancel" = "취소";
+"purchase_user_cancelled" = "사용자 취소됨";
+"purchase_please_wait" = "잠시 기다려 주세요";
+"purchase_processing" = "처리 중...";
+"purchase_success" = "성공";
+"purchase_success_message" = "구매 성공! 지원해주셔서 감사합니다.";
+"purchase_failed" = "구매 실패";
+"purchase_restore_failed" = "복원 실패";
+"purchase_restored_successfully" = "구매가 성공적으로 복원되었습니다";
+"purchase_already_vip" = "이미 VIP 사용자입니다";
+"purchase_product_not_found" = "제품을 찾을 수 없습니다";
+"purchase_not_available" = "인앱 구매를 사용할 수 없습니다";
+"purchase_no_purchases_to_restore" = "복원할 구매를 찾을 수 없습니다";
+"purchase_error" = "오류";
+"purchase_unable_to_load_products" = "제품 정보를 로드할 수 없습니다";
+"purchase_check_network_try_again" = "제품 정보를 로드할 수 없습니다. 네트워크 연결을 확인하고 다시 시도하세요.";
+"purchase_premium_feature" = "프리미엄 기능";
+"purchase_premium_feature_message" = "%@는 프리미엄 기능입니다. 사용하려면 프리미엄으로 업그레이드하세요.";
+"purchase_upgrade_now" = "지금 업그레이드";
+"purchase_maybe_later" = "나중에";
+"purchase_upgrade_to_premium" = "프리미엄으로 업그레이드";
+"purchase_premium_user" = "프리미엄 사용자";
+"purchase_free_user" = "무료 사용자";
+"purchase_operation_successful" = "작업 성공";
+
+// MARK: - Debug
+"debug_options" = "디버그 옵션";
+"debug_mode_only" = "디버그 모드만";
+"debug_set_as_vip" = "VIP로 설정";
+"debug_remove_vip" = "VIP 제거";
+"debug_clear_purchase_records" = "모든 구매 기록 지우기";
+"debug_title" = "디버그";
+
+// MARK: - Valuation
+"possible_price_range" = "가능한 가격 범위";
+"note" = "참고";
+"are_you_satisfied_with_the_result" = "결과에 만족하십니까";
+"thanks_for_your_feedback" = "피드백 감사합니다";
+"valuation_in_progress" = "평가 진행 중";
+"valuation_step_identification" = "식별";
+"valuation_step_quality_evaluation" = "품질 평가";
+"valuation_step_market_price_search" = "시장 가격 검색";
+"stone_estimated_value" = "추정 가치";
+"metal_detector_tips_content" = "이 도구는 휴대폰에 내장된 자기 센서로 구동됩니다. 이 탐지기는 자철광, 자황철광, 운석과 같은 자성 암석이나 광물과 함께 작동합니다. 또한 주로 철, 코발트 또는 니켈로 구성된 금속도 탐지할 수 있습니다. 자기 센서는 각 휴대폰마다 다르게 위치하므로, 탐지 객체를 휴대폰 주위로 움직여 최적의 감도를 찾고 다이얼 게이지에서 명확한 판독값을 얻으십시오. 다이얼 게이지의 판독값은 탐지된 객체의 강도를 나타냅니다. 자기의 정확한 값을 나타내지는 않습니다.";
+"valuation_not_found" = "돌을 찾을 수 없음";
+"valuation_camera_tips" = "선명하고 고품질의 사진은 더 정확한 평가 결과로 이어집니다";
+"debug_vip_set" = "VIP로 설정됨";
+"debug_vip_removed" = "VIP 제거됨";
+"debug_records_cleared" = "모든 구매 기록이 지워졌습니다";
+
+// MARK: - Permissions
+"microphone_permission_title" = "마이크 접근 권한 필요";
+"microphone_permission_desc" = "새 소리를 녹음하여 종을 식별하기 위해 마이크 접근이 필요합니다";
+"microphone_permission_button" = "허용";
+
+// Stone Season
+"stone_visible_year_round" = "연중";
+
+// MARK: - Home Action Types
+"home_action_type_valuation" = "평가";
+"home_action_type_identify" = "식별";
+"home_action_type_detector" = "탐지기";
+
+// MARK: - FindTreasure Page
+"find_treasure_title" = "금속 탐지기";
+"find_treasure_status_normal" = "정상 환경";
+"find_treasure_status_slight" = "약간의 이상";
+"find_treasure_status_detected" = "금속 감지됨";
+"find_treasure_status_strong" = "강한 금속 신호";
+
+// MARK: - Profile Page
+"profile_wishlist" = "위시리스트 (%d)";
+"profile_refreshing" = "새로고침 중...";
+"profile_load_more" = "더 불러오기...";
+"profile_load_more_button" = "더 불러오기";
+"profile_no_more_data" = "더 이상 데이터가 없습니다";
+
+// MARK: - Stone Info Section
+"stone_usage" = "용도";
+"stone_health_risks" = "건강 위험";
+"stone_original_vs_fake" = "진위 감별";
+"stone_storage" = "보관";
+"stone_cleaning_tips" = "청소 팁";
+"stone_chemical_formula" = "화학 분자식";
+"stone_chemical_classification" = "화학 분류";
+"stone_crystal_system" = "결정계";
+"stone_hardness" = "경도";
+"stone_density" = "밀도";
+"stone_chemical_elements" = "화학 원소";
+"stone_estimated_value" = "추정 가치";
+"add_to_collection" = "내 컬렉션에 추가";
+
+// MARK: - Additional Missing Keys
+"subscription_cancel_notice" = "7일 무료 체험 기간이 끝나기 최소 하루 전에 구독을 취소하면 결제할 필요가 없습니다.";
+"profile_error_load_more_data" = "더 많은 데이터 로드 실패";
+"profile_error_load_wishlist" = "위시리스트 로드 실패";
+"profile_error_load_more_wishlist" = "더 많은 위시리스트 로드 실패";

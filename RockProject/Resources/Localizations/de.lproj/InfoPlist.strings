@@ -1,0 +1,6 @@
+/* 
+   InfoPlist.strings
+   RockProject
+*/
+
+"NSMicrophoneUsageDescription" = "Mikrofonzugriff wird benötigt, um Vogelgeräusche zur Artbestimmung aufzunehmen"; 

@@ -1,0 +1,6 @@
+/* 
+   InfoPlist.strings
+   RockProject
+*/
+
+"NSMicrophoneUsageDescription" = "需要访问麦克风来录制石头叫声，以便识别石头种类"; 

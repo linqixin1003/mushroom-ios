@@ -1,0 +1,6 @@
+/* 
+   InfoPlist.strings
+   RockProject
+*/
+
+"NSMicrophoneUsageDescription" = "Доступ к микрофону необходим для записи птичьих голосов с целью определения видов"; 

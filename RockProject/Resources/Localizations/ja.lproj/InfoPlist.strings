@@ -1,0 +1,6 @@
+/* 
+   InfoPlist.strings
+   RockProject
+*/
+
+"NSMicrophoneUsageDescription" = "鳥の種類を識別するために、鳥の鳴き声を録音するためにマイクへのアクセスが必要です"; 

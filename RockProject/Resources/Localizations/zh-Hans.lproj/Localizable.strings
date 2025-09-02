@@ -1,0 +1,577 @@
+/* 
+   Localizable.strings - 简体中文
+   RockProject
+
+   Created for localization support.
+*/
+
+// MARK: - App Basic
+"app_name" = "RockAiSnap";
+"tab_bar_home" = "首页";
+"tab_bar_profile" = "我的";
+
+// MARK: - General Titles
+"title_home" = "首页";
+"title_dashboard" = "仪表盘";
+"title_notifications" = "通知";
+
+// MARK: - Splash Screen
+"splash_start_now" = "立即开始";
+"splash_first_launch_slogan" = "您的石头识别魔法棒!";
+
+// MARK: - Common Text
+"text_policy_tapping_continue" = "继续使用即表示您同意";
+"text_terms_of_use" = "使用条款";
+"text_privacy_policy" = "隐私政策";
+"text_refund_policy" = "退款政策";
+"text_contact_us" = "联系我们";
+"text_customer_service" = "客户服务";
+"text_email_prefix" = "邮箱: %@";
+"text_next" = "下一步";
+"text_copied" = "已复制";
+"text_continue" = "继续";
+"text_cancel" = "取消";
+"text_game" = "游戏";
+"text_profile" = "个人资料";
+"text_yes" = "是";
+"text_no" = "否";
+"text_maybe_later" = "稍后再说";
+"text_submit" = "提交";
+"text_confirm" = "确认";
+"text_loading" = "加载中";
+"text_view_all" = "查看全部";
+"text_try_again" = "重试";
+"text_save" = "保存";
+"text_new" = "新建";
+"text_share" = "分享";
+"text_common_error_try_again" = "糟糕！出了点问题。请稍后再试 :)";
+"text_also_known_as" = "又名";
+"text_scientific_name" = "学名";
+"text_more" = "更多";
+"text_images" = "图片";
+"text_sound" = "声音";
+"text_map" = "地图";
+"text_description" = "描述";
+"text_ok" = "确定";
+"text_photo" = "照片";
+"text_tips" = "提示";
+"text_expand" = "展开";
+
+// MARK: - Home Screen
+"home_search_hint" = "搜索超过30,000种石头";
+"home_vip_banner_text" = "您的7天免费高级会员尚未领取。点击领取。";
+"home_action_identify" = "识别";
+"home_action_record" = "录音";
+"home_action_ai_beautify" = "AI美化";
+"home_your_daily_stone" = "每日石头";
+"home_stones_near_you" = "附近的石头";
+"home_app_usage_title" = "应用使用说明";
+"home_app_usage_desc" = "帮助您更快地熟悉我们。";
+
+// MARK: - Survey/Onboarding
+"survey1_title" = "让我们为您设置一个用户名";
+"survey1_input_name_placeholder" = "您的用户名";
+"survey2_title" = "您的性别认同是...";
+"survey2_option_she" = "她";
+"survey2_option_he" = "他";
+"survey2_option_they" = "非二元";
+"survey3_title" = "您想聊什么？";
+"survey3_option1" = "玩聊天游戏";
+"survey3_option2" = "交个虚拟朋友";
+"survey3_option3" = "分享情感";
+"survey3_option4" = "寻找乐趣";
+"survey3_option5" = "减少孤独感";
+"survey3_option6" = "其他";
+"survey4_title" = "您的兴趣是什么？";
+"survey5_title" = "是时候选择您的朋友了";
+"survey5_reset_all_blocked_roles_warning_message" = "所有角色都被屏蔽了。您要恢复所有角色吗？";
+"survey6_title" = "给您的AI朋友起个名字。";
+"survey6_input_name_placeholder" = "输入AI朋友的名字";
+"survey7_creating" = "创建中...";
+
+// MARK: - Chat
+"text_ai_chat" = "AI聊天";
+"chat_input_bar_placeholder" = "输入消息";
+"chat_error_oops" = "哎呀！出了点问题。请稍后重试 :)";
+"chat_report_bot_response_warning_messasge" = "我们正在不断优化AI交流内容，已为您移除此内容。您需要同时举报这个AI角色吗？";
+"chat_report_ai_character" = "举报AI角色";
+"chat_just_report_content" = "仅举报内容";
+
+// MARK: - Welcome
+"welcome_title" = "欢迎！";
+"welcome_content" = "很高兴认识您！玩得开心！";
+"welcome_got_it" = "知道了！";
+
+// MARK: - Report
+"report_title" = "举报问题";
+"report_edit_text_hint" = "在此添加详细信息";
+"report_success" = "举报成功";
+"report_block_character" = "屏蔽角色";
+"report_block_character_warning_message" = "我们将移除此AI角色并再次优化AI交流内容";
+
+// MARK: - Profile
+"profile_about_app" = "关于 RockAiSnap";
+"profile_restart_chat" = "重新开始聊天";
+"profile_delete_account" = "删除账户";
+
+// MARK: - Warnings
+"restart_chat_warning_title" = "您确定要重新开始聊天吗？";
+"restart_chat_warning_content" = "确认后您将失去当前聊天会话";
+"delete_account_warning_title" = "您确定要删除吗？";
+"delete_account_warning_content" = "此操作无法撤销";
+
+// MARK: - Camera
+"camera_permission_request_title" = "我们需要相机权限";
+"camera_permission_request_desc" = "需要相机权限";
+"camera_permisson_request_button" = "允许";
+"camera_preview_tip" = "拍照识别石头，拍摄时请保持主体清晰";
+
+// MARK: - Settings
+"settings_title" = "设置";
+"settings_premium_service" = "我的高级服务";
+"settings_free" = "免费";
+"settings_set_language" = "设置语言";
+"settings_autosave_photos" = "自动保存照片到相册";
+"settings_encourage_us" = "鼓励我们";
+"settings_suggestion" = "建议";
+"settings_app_info" = "应用信息";
+"settings_tell_friends" = "告诉朋友";
+"settings_privacy_policy" = "隐私政策";
+"settings_terms_of_use" = "使用条款";
+"settings_manage_account" = "管理账户";
+
+// MARK: - Stone Information
+"stone_info_detailed_not_available" = "详细信息不可用";
+"stone_info_additional_characteristics" = "额外的特征和分类数据将在可用时显示在此处。";
+"stone_info_characteristics" = "特征";
+"stone_info_scientific_classification" = "科学分类";
+"stone_info_additional_classification" = "额外分类信息：";
+"stone_info_more" = "更多>>";
+
+// MARK: - Identification
+"identify_recognition_failed" = "识别失败";
+"identify_wait_moment" = "请稍等，正在识别...";
+"identify_progress_percent" = "%d%%";
+
+// MARK: - Camera
+"camera_zoom" = "缩放";
+"camera_photography_tips" = "拍摄技巧";
+"camera_keep_stone_centered" = "保持石头在画面中央";
+"camera_good_image_quality" = "良好的图像质量有助于提高识别精度。";
+
+// MARK: - Sound
+"sound_permission_required" = "需要声音权限";
+"sound_take_to_identify" = "录制声音以识别石头并保持主体";
+
+// MARK: - Search
+"search_enter_keywords" = "请输入关键词搜索相关信息";
+"search_no_search" = "无搜索";
+
+// MARK: - Profile
+"profile_me" = "我";
+"profile_vip" = "VIP";
+"profile_privileges" = "特权";
+"profile_subscribe_now" = "立即订阅";
+"profile_my_collection" = "我的收藏 (%d)";
+"profile_history_record" = "历史记录 (%d)";
+"profile_no_more_collection" = "没有更多收藏";
+
+// MARK: - Subscription
+"subscription_try_7_days_free" = "免费试用7天";
+"subscription_then_yearly" = "然后%@/年。随时取消。";
+"subscription_loading_price" = "价格加载中...随时取消。";
+"subscription_cancel_anytime" = "随时取消";
+"subscription_start_free_trial" = "开始免费试用";
+"subscription_yearly" = "年度";
+"subscription_monthly" = "月度";
+"subscription_no_commitment" = "无承诺。随时取消。";
+"subscription_payment_charged" = "如果您没有开始试用，费用将在试用结束时或购买确认时从您的Google Play账户扣除。除非在当前期间结束前至少24小时取消，否则订阅会自动续订。";
+"subscription_restore" = "恢复";
+
+// MARK: - Account Management
+"account_manage_title" = "管理账户";
+"account_delete_warning" = "如果您选择清除账户，所有文件和信息将被清除且无法恢复。您确定要这样做吗？";
+"account_delete_information" = "删除信息";
+"account_delete_confirmation" = "如果您选择删除账户，所有数据将被删除且无法恢复！";
+
+// MARK: - About
+"about_app_name" = "RockAiSnap";
+"about_version" = "V%@";
+"about_description" = "不知道石头的名字？RockAiSnap帮助您识别未知石头，以最简单有趣的方式发现自然。我们也一直在努力提供更好的用户体验并不断优化我们的识别功能！我们希望任何爱石头的人都能加入我们的大家庭。让我们开始遇见来自世界各地最可爱石头的旅程。";
+"about_email" = "lingjuetech@gmail.com";
+"about_email_address" = "lingjuetech@gmail.com";
+
+// MARK: - Suggestion
+"suggestion_send" = "发送";
+"suggestion_required_field" = "*";
+"my_collection_no_more" = "没有更多收藏";
+"snap_tip_photography_tips" = "拍摄技巧";
+"snap_tip_keep_stone_centered" = "保持石头在画面中央";
+
+// MARK: - Share
+"share_image_failed" = "图片加载失败";
+"share_alert_title" = "提示";
+"share_alert_message" = "分享完成";
+"share_title" = "分享";
+"share_download" = "下载";
+"share_share" = "分享";
+
+// MARK: - Stone Features
+"stone_basic_information" = "基本信息";
+"stone_color_features" = "颜色特征";
+"stone_habitat" = "栖息地";
+"stone_behavior" = "行为";
+"stone_flying" = "飞行";
+"stone_size" = "大小";
+"stone_no_data" = "无数据";
+"stone_season_info" = "季节信息";
+"stone_visible_months" = "可见月份：";
+"stone_visible_year_round" = "全年可见";
+"stone_plumage" = "羽毛";
+"stone_observation_number" = "观察编号";
+
+// MARK: - Subscription Page Specific
+"subscription_app_name" = "RockAiSnap";
+"subscription_feature_12000_species" = "12000+种石头的深度信息";
+"subscription_feature_high_accuracy" = "通过照片和声音进行高精度石头识别";
+"subscription_feature_attract_stones" = "学习如何吸引石头来到您的家";
+"subscription_feature_unlimited_id" = "无限次石头识别";
+"subscription_feature_expand_knowledge" = "扩展您对石头的学习和知识";
+"subscription_try_it_free" = "免费试用";
+"subscription_continue" = "继续";
+"subscription_7_days_then_yearly" = "免费7天，然后%@/年";
+"subscription_7_days_free_trial_yearly" = "7天免费试用，然后年度订阅";
+"subscription_payment_terms" = "如果您没有开始试用，费用将在试用结束时或购买确认时从您的Google Play账户扣除。除非在当前期间结束前至少24小时取消，否则订阅会自动续订。您的账户将在当前期间结束前24小时内扣费续订。您可以在Google Play商店的设置中管理和取消订阅。更多信息，请查看我们的";
+"subscription_terms_and" = "和";
+
+// MARK: - Retain Page
+"retain_today" = "今天";
+"retain_today_desc" = "解锁石头识别高级版的全部功能";
+"retain_day_1_6" = "第1-6天";
+
+// MARK: - Valuation
+"possible_price_range" = "可能价格范围";
+"note" = "备注";
+"are_you_satisfied_with_the_result" = "您对结果满意吗";
+"thanks_for_your_feedback" = "感谢您的反馈";
+"valuation_in_progress" = "估值进行中";
+"valuation_step_identification" = "识别";
+"valuation_step_quality_evaluation" = "品质评估";
+"valuation_step_market_price_search" = "市场价格搜索";
+"stone_estimated_value" = "估计价值";
+"metal_detector_tips_content" = "此工具由手机内置的磁传感器提供支持。此探测器适用于磁性岩石或矿物，如磁铁矿、磁黄铁矿和陨石。它还可以检测主要由铁、钴或镍组成的金属。由于磁传感器在每部手机上的位置不同，请在手机周围移动检测物体以找到其最佳灵敏度，并在表盘上获得清晰的读数。表盘读数表示检测到的物体的强度；它不代表磁性的确切值。";
+"valuation_not_found" = "未找到石头";
+"valuation_camera_tips" = "清晰、高质量的照片会带来更准确的估值结果";
+"retain_day_1_6_desc" = "享受您的高级版并充分利用免费试用";
+"retain_day_7" = "第7天";
+"retain_day_7_desc" = "您的订阅开始。可随时在此之前取消。";
+"retain_then_yearly_price" = "然后%@/年。随时取消。";
+
+// MARK: - Other Pages
+"share_image_load_failed" = "图片加载失败";
+"instruction_good_image_quality" = "良好的图像质量有助于提高识别精度。";
+"instruction_identify" = "识别";
+"suggestion_send" = "发送";
+"suggestion_required_field" = "*";
+"my_collection_no_more" = "没有更多收藏";
+"about_email_address" = "lingjuetech@gmail.com";
+"snap_tip_photography_tips" = "拍摄技巧";
+"snap_tip_keep_stone_centered" = "保持石头在画面中央";
+"sound_take_to_identify_stones" = "录制声音以识别石头并保持主体";
+
+// MARK: - Snap Tips
+"snap_tip_too_far" = "太远";
+"snap_tip_too_close" = "太近";
+"snap_tip_blurry" = "模糊";
+"snap_tip_multiple_species" = "多个物种";
+
+// MARK: - More Images
+"more_images" = "更多图片";
+
+// MARK: - Camera Mode Selection
+"camera_mode_by_photo" = "拍照";
+"camera_mode_by_sound" = "录音";
+
+// Stone Features
+"stone_observation_number" = "观察编号";
+
+// Share
+"share_no_content" = "没有可分享的内容";
+"share_failed" = "分享失败";
+"share_ok" = "确定";
+"share_stone_not_found" = "未找到石头信息";
+
+// Camera
+"camera_retake" = "重新拍摄";
+"camera_mode_ai_enhancer" = "AI 增强";
+
+// Account Manager
+"account_warning" = "警告";
+"account_cancel" = "取消";
+"account_delete" = "删除";
+
+// Share
+"share_error" = "错误";
+"share_image_not_available" = "图片不可用，无法保存";
+"share_success" = "成功";
+"share_image_saved" = "图片已保存到相册";
+"share_permission_denied" = "权限被拒绝";
+"share_permission_message" = "请在设置中允许访问相册以保存图片";
+"share_card_saved" = "分享卡片已保存到相册";
+
+// Share Error
+"share_error_invalid_url" = "图片链接无效";
+"share_error_download_failed" = "图片下载失败";
+"share_error_no_content" = "没有可分享的内容";
+
+// Debug
+"debug_refresh_products" = "🔄 刷新产品";
+
+// Profile
+"profile_error_load_history" = "加载历史记录失败，请检查网络连接";
+"profile_error_load_sound_history" = "加载声音历史记录失败，请检查网络连接";
+
+// Debug Messages
+"debug_price_not_retrieved" = "价格未获取，无法进行购买操作";
+"debug_load_image_history_failed" = "加载图片识别历史记录失败";
+
+// Debug Messages - Convert Page
+"debug_sandbox_test_info" = "=== 沙盒测试调试信息 ===";
+"debug_unknown" = "未知";
+"debug_empty_product_list" = "⚠️ 产品列表为空，可能的原因：";
+"debug_product_not_configured" = "1. App Store Connect 产品未配置";
+"debug_product_not_ready" = "2. 产品状态不是 'Ready for Sale'";
+"debug_bundle_id_mismatch" = "3. Bundle ID 不匹配";
+"debug_sandbox_not_logged_in" = "4. 未登录沙盒测试账户";
+"debug_network_issue" = "5. 网络连接问题";
+"debug_manual_request_products" = "🔄 手动请求产品...";
+"debug_request_complete" = "请求完成：%d 个产品";
+"debug_manual_refresh_complete" = "✅ 手动刷新完成";
+"debug_product_info" = "✅ 产品：%@";
+"debug_product_price" = "   - 价格：%@";
+"debug_product_title" = "   - 标题：%@";
+"debug_product_description" = "   - 描述：%@";
+
+// Instruction Page
+"instruction_page_title" = "拍石头指南";
+"instruction_step_1" = "1. 保持石头在画面中央，确保它不会太远。";
+"instruction_step_2" = "2. 尽量避免石头前方有植被、笼子或其他遮挡物。";
+"instruction_step_3" = "3. 确保光线充足以获得高对比度。如果您看不清石头，应用也无法识别。";
+"instruction_step_4" = "4. 尽量拍摄石头的正面。至少要能看到头部。";
+"instruction_step_5" = "5. 一张照片只拍一种石头。照片中有太多石头可能导致识别错误。";
+
+// ConvertPage
+"convert_title" = "石头AI快拍";
+"convert_feature_1" = "12000+种石头的深度信息";
+"convert_feature_2" = "高精度的照片和声音识别";
+"convert_feature_3" = "学习如何吸引石头来到您家";
+"convert_feature_4" = "无限次石头识别";
+"convert_feature_5" = "扩展您的石头学习和知识";
+"convert_yearly" = "年度";
+"convert_monthly" = "月度";
+"convert_loading_price" = "价格加载中...";
+"convert_free_trial_yearly" = "免费试用7天，之后 %@ /年";
+"convert_free_trial_loading" = "7天免费试用，之后年度订阅";
+"convert_try_free" = "免费试用";
+"convert_continue" = "继续";
+"convert_cancel_anytime" = "无承诺，随时取消";
+"convert_cancel_notice" = "如果您在7天免費試用期結束前至少一天取消訂閱，則無需付費。";
+"convert_payment_terms" = "如果您没有开始试用，费用将在试用结束时或购买确认时从您的App Store账户扣除。除非在当前期间结束前至少24小时取消，否则订阅会自动续订。您的账户将在当前期间结束前24小时内收取续订费用。您可以在App Store的设置中管理和取消订阅。更多信息，请查看我们的";
+"convert_terms_of_use" = "使用条款";
+"convert_and" = "和";
+"convert_privacy_policy" = "隐私政策。";
+
+// RetainPage
+"retain_title" = "石头AI快拍";
+"retain_restore" = "恢复";
+"retain_timeline_today" = "今天";
+"retain_timeline_today_desc" = "解锁所有石头图片高级功能的完整访问权限";
+"retain_timeline_day1_6" = "第1天至第6天";
+"retain_timeline_day1_6_desc" = "享受您的高级服务，充分利用免费试用期";
+"retain_timeline_day7" = "第7天";
+"retain_timeline_day7_desc" = "您的订阅开始。此前可随时取消。";
+"retain_try_free" = "免费试用7天";
+"retain_then_yearly" = "之后 %@/年。随时可取消。";
+"retain_loading_price" = "价格加载中... 随时可取消。";
+"retain_start_trial" = "开始免费试用";
+"retain_price_then" = "然后 ";
+"retain_price_year_cancel" = "/年。随时取消。";
+
+// MARK: - Features
+"feature_wishlist" = "心愿单";
+"feature_refreshing" = "正在刷新...";
+"feature_loading_more" = "加载更多...";
+"feature_load_more" = "加载更多";
+"feature_no_more_data" = "没有更多数据了";
+"feature_metal_detector" = "金属探测器";
+"feature_durability_rating" = "耐久性评级";
+"feature_estimated_value" = "估值";
+
+// MARK: - Profile Features
+"profile_refreshing" = "正在刷新...";
+"profile_loading_more" = "加载更多...";
+"profile_load_more" = "加载更多";
+"profile_no_more_data" = "没有更多数据了";
+"profile_wishlist" = "心愿单 (%d)";
+
+// MARK: - Wish List
+"wishlist_estimated_value" = "估值";
+
+// MARK: - Stone Characteristics
+"stone_usage" = "用途";
+"stone_health_risks" = "健康风险";
+"stone_authenticity_identification" = "真伪鉴别";
+"stone_storage_method" = "存储方法";
+"stone_cleaning_tips" = "清洁技巧";
+"stone_chemical_formula" = "化学分子式";
+"stone_crystal_system" = "晶体系统";
+"stone_hardness" = "硬度";
+"stone_density" = "密度";
+"stone_chemical_elements" = "化学元素";
+
+// MARK: - Purchase
+"purchase_choose_subscription_plan" = "选择订阅方案";
+"purchase_unlock_premium_features" = "解锁所有高级功能";
+"purchase_restore_purchases" = "恢复购买";
+"purchase_cancel" = "取消";
+"purchase_user_cancelled" = "用户取消";
+"purchase_please_wait" = "请稍候";
+"purchase_processing" = "正在处理...";
+"purchase_success" = "成功";
+"purchase_success_message" = "购买成功！感谢您的支持。";
+"purchase_failed" = "购买失败";
+"purchase_restore_failed" = "恢复失败";
+"purchase_restored_successfully" = "购买已恢复成功";
+"purchase_already_vip" = "您已经是VIP用户";
+"purchase_product_not_found" = "产品未找到";
+"purchase_not_available" = "设备不支持应用内购买";
+"purchase_no_purchases_to_restore" = "没有找到可恢复的购买记录";
+"purchase_error" = "错误";
+"purchase_unable_to_load_products" = "无法加载产品信息";
+"purchase_check_network_try_again" = "无法加载产品信息，请检查网络连接后重试。";
+"purchase_premium_feature" = "高级功能";
+"purchase_premium_feature_message" = "%@是高级功能，需要升级到高级版才能使用。";
+"purchase_upgrade_now" = "立即升级";
+"purchase_maybe_later" = "稍后再说";
+"purchase_upgrade_to_premium" = "升级到高级版";
+"purchase_premium_user" = "高级版用户";
+"purchase_free_user" = "免费版用户";
+"purchase_operation_successful" = "操作成功";
+
+// MARK: - Debug
+"debug_options" = "调试选项";
+"debug_mode_only" = "仅限调试模式";
+"debug_set_as_vip" = "设置为VIP";
+"debug_remove_vip" = "移除VIP";
+"debug_clear_purchase_records" = "清除所有购买记录";
+"debug_title" = "调试";
+"debug_vip_set" = "已设置为VIP";
+"debug_vip_removed" = "已移除VIP";
+"debug_records_cleared" = "已清除所有购买记录";
+
+// MARK: - Enhanced Purchase System
+"purchase_loading_products" = "加载产品中...";
+"purchase_restoring" = "恢复购买中...";
+"common_ok" = "确定";
+
+// MARK: - Debug Messages
+"debug_testing_sandbox_pricing" = "正在测试沙盒价格";
+"debug_please_wait" = "请稍等...";
+"debug_sandbox_test_results" = "沙盒价格测试结果";
+"debug_retest" = "重新测试";
+"debug_test_purchase" = "测试购买";
+"debug_close" = "关闭";
+"debug_cannot_purchase" = "无法购买";
+"debug_load_products_first" = "请先成功加载产品信息";
+"debug_select_product" = "选择要购买的产品";
+"debug_purchasing" = "正在购买";
+"debug_purchase_successful" = "购买成功";
+"debug_purchase_failed" = "购买失败";
+"debug_congratulations" = "恭喜！您已成功购买";
+"debug_purchase_incomplete" = "购买未完成或被取消";
+"debug_purchase_error" = "购买错误";
+"debug_error_message" = "错误信息";
+"debug_restoring_purchases" = "正在恢复购买";
+"debug_restore_completed" = "恢复完成";
+"debug_vip_status" = "VIP 状态";
+"debug_activated" = "已激活";
+"debug_not_activated" = "未激活";
+"debug_restore_failed" = "恢复失败";
+"debug_checking_sandbox" = "正在检查沙盒环境";
+
+// MARK: - UI Text
+"ui_detailed_info_unavailable" = "详细信息暂不可用";
+"ui_more_stone_info_future" = "更多石头特征信息将在后续版本中提供";
+"ui_stone_characteristics" = "石头特征";
+"ui_description" = "描述";
+"ui_usage" = "用途";
+"ui_health_risks" = "健康风险";
+"ui_authenticity_identification" = "真伪鉴别";
+"ui_storage_method" = "存储方法";
+"ui_cleaning_tips" = "清洁技巧";
+"ui_chemical_classification" = "化学分类";
+"ui_chemical_formula" = "化学分子式";
+"ui_crystal_system" = "晶体系统";
+"ui_hardness" = "硬度";
+"ui_density" = "密度";
+"ui_chemical_elements" = "化学元素";
+"ui_more" = "更多>>";
+
+// MARK: - Email
+"email_cannot_send" = "无法发送邮件";
+"email_confirm_installation" = "请确认您已安装邮件应用并登录账户";
+"email_confirm" = "确认";
+
+// MARK: - System Errors
+"error_response_conversion" = "响应无法转换为所需类型";
+
+// MARK: - Permissions
+"microphone_permission_title" = "需要麦克风权限";
+"microphone_permission_desc" = "需要访问麦克风来录制石头叫声，以便识别石头种类";
+"microphone_permission_button" = "允许";
+
+// MARK: - Find Treasure
+"find_treasure_metal_detector" = "金属探测器";
+
+// MARK: - Stone Detail
+"stone_durability_rating" = "耐久性评级";
+
+// MARK: - Home Action Types (从HomeActionView.swift提取)
+"home_action_type_valuation" = "估值";
+"home_action_type_identify" = "识别";
+"home_action_type_detector" = "探测器";
+
+// MARK: - FindTreasure Page (从FindTreasurePage.swift提取)
+"find_treasure_title" = "金属探测器";
+"find_treasure_status_normal" = "正常环境";
+"find_treasure_status_slight" = "轻微异常";
+"find_treasure_status_detected" = "检测到金属";
+"find_treasure_status_strong" = "强金属信号";
+
+// MARK: - Profile Page (从ProfilePage.swift提取)
+"profile_wishlist" = "心愿单 (%d)";
+"profile_refreshing" = "正在刷新...";
+"profile_loading_more" = "加载更多...";
+"profile_load_more" = "加载更多";
+"profile_no_more_data" = "没有更多数据了";
+
+// MARK: - Stone Info Section (从StoneInfoSectionView.swift提取)
+"stone_usage" = "用途";
+"stone_health_risks" = "健康风险";
+"stone_authenticity_identification" = "真伪鉴别";
+"stone_storage_method" = "存储方法";
+"stone_cleaning_tips" = "清洁技巧";
+"stone_chemical_formula" = "化学分子式";
+"stone_crystal_system" = "晶体系统";
+"stone_hardness" = "硬度";
+"stone_density" = "密度";
+"stone_chemical_elements" = "化学元素";
+
+// MARK: - 错误处理
+"error_load_failed" = "加载失败";
+"error_network_connection" = "网络连接错误";
+"error_try_again_later" = "请稍后重试";
+
+// MARK: - 订阅取消
+"subscription_cancel_subscription" = "取消订阅";
+"subscription_cancel_confirmation" = "您确定要取消订阅吗？";

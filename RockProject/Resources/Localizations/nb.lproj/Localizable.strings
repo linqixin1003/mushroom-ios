@@ -1,0 +1,318 @@
+/* 
+   Localizable.strings - Norwegian
+   RockProject
+
+   Created for localization support.
+*/
+
+// MARK: - App Basic
+"app_name" = "RockAiSnap";
+"tab_bar_home" = "Hjem";
+"tab_bar_profile" = "Profil";
+
+// MARK: - General Titles
+"title_home" = "Hjem";
+"title_dashboard" = "Dashboard";
+"title_notifications" = "Varsler";
+
+// MARK: - Splash Screen
+"splash_start_now" = "Start Nå";
+"splash_first_launch_slogan" = "Din Magiske Stav for Øyeblikkelig Vennskap!";
+
+// MARK: - Common Text
+"text_policy_tapping_continue" = "Ved å fortsette godtar du";
+"text_terms_of_use" = "Bruksvilkår";
+"text_privacy_policy" = "Personvernregler";
+"text_refund_policy" = "Refusjonsregler";
+"text_contact_us" = "Kontakt Oss";
+"text_customer_service" = "Kundeservice";
+"text_email_prefix" = "E-post: %@";
+"text_next" = "Neste";
+"text_copied" = "Kopiert";
+"text_continue" = "Fortsett";
+"text_cancel" = "Avbryt";
+"text_game" = "Spill";
+"text_profile" = "Profil";
+"text_yes" = "Ja";
+"text_no" = "Nei";
+"text_maybe_later" = "Kanskje senere";
+"text_submit" = "Send inn";
+"text_confirm" = "Bekreft";
+"text_loading" = "Laster";
+"text_view_all" = "Se alle";
+"text_try_again" = "Prøv igjen";
+"text_save" = "Lagre";
+"text_new" = "Ny";
+"text_share" = "Del";
+"text_common_error_try_again" = "Oops! Noe gikk galt. Prøv igjen senere :)";
+"text_also_known_as" = "Også kjent som";
+"text_scientific_name" = "Vitenskapelig navn";
+"text_more" = "Mer";
+"text_images" = "Bilder";
+"text_sound" = "Lyd";
+"text_map" = "Kart";
+"text_description" = "Beskrivelse";
+"text_ok" = "OK";
+"text_photo" = "Foto";
+"text_tips" = "Tips";
+"text_expand" = "Utvid";
+
+// MARK: - Home Screen
+"home_search_hint" = "Søk blant over 30 000 arter";
+"home_vip_banner_text" = "Din gratis 7-dagers Premium er ikke krevd ennå. Trykk for å kreve.";
+"home_action_identify" = "Identifiser";
+"home_action_record" = "Ta opp";
+"home_action_ai_beautify" = "AI Forskjønnelse";
+"home_your_daily_stone" = "Din Daglige Fugl";
+"home_stones_near_you" = "Fugler Nær Deg";
+"home_app_usage_title" = "App bruksinstruksjoner";
+"home_app_usage_desc" = "Vi hjelper deg å bli kjent med oss raskere.";
+
+// MARK: - Home Action Types
+"home_action_type_valuation" = "Vurdering";
+"home_action_type_identify" = "Identifiser";
+"home_action_type_detector" = "Detektor";
+
+// MARK: - FindTreasure Page
+"find_treasure_title" = "Metalldetektor";
+"find_treasure_status_normal" = "Normalt miljø";
+"find_treasure_status_slight" = "Lett anomali";
+"find_treasure_status_detected" = "Metall oppdaget";
+"find_treasure_status_strong" = "Sterkt metallsignal";
+
+// MARK: - Survey/Onboarding
+"survey1_title" = "La oss sette opp et brukernavn for deg";
+"survey1_input_name_placeholder" = "Ditt Brukernavn";
+"survey2_title" = "Du identifiserer deg som...";
+"survey2_option_she" = "Hun";
+"survey2_option_he" = "Han";
+"survey2_option_they" = "Ikke-binær";
+"survey3_title" = "Hva vil du snakke om?";
+"survey3_option1" = "Spille Chat-spill";
+"survey3_option2" = "Lage en Virtuell Venn";
+"survey3_option3" = "Dele Følelser";
+"survey3_option4" = "Ha det gøy";
+"survey3_option5" = "Føle Seg Mindre Ensom";
+"survey3_option6" = "Annet";
+"survey4_title" = "Hva er dine interesser?";
+"survey5_title" = "Det er på tide å velge din venn";
+"survey5_reset_all_blocked_roles_warning_message" = "Alle Karakterer ble blokkert. Vil du gjenopprette alle karakterer?";
+"survey6_title" = "Gi din AI-venn et navn.";
+"survey6_input_name_placeholder" = "Skriv inn AI-vennens navn";
+"survey7_creating" = "Oppretter...";
+
+// MARK: - Chat
+"text_ai_chat" = "AI Chat";
+"chat_input_bar_placeholder" = "Skriv en melding";
+"chat_error_oops" = "Oops! Noe gikk galt. Prøv igjen senere :)";
+"chat_report_bot_response_warning_messasge" = "Vi optimaliserer kontinuerlig AI-kommunikasjonsinnhold og har fjernet dette innholdet for deg. Trenger du å rapportere denne AI-karakteren samtidig?";
+"chat_report_ai_character" = "Rapporter AI-karakter";
+"chat_just_report_content" = "Bare rapporter innhold";
+
+// MARK: - Welcome
+"welcome_title" = "VELKOMMEN!";
+"welcome_content" = "Hyggelig å møte deg! Ha det gøy!";
+"welcome_got_it" = "Skjønt!";
+
+// MARK: - Report
+"report_title" = "Rapporter et problem";
+"report_edit_text_hint" = "Legg til detaljer her";
+"report_success" = "Rapport vellykket";
+"report_block_character" = "Blokker karakter";
+"report_block_character_warning_message" = "Vi vil fjerne denne AI-karakteren og optimalisere AI-kommunikasjonsinnhold igjen";
+
+// MARK: - Profile
+"profile_about_app" = "Om Fugleidentifikator";
+"profile_restart_chat" = "Start Chat på nytt";
+"profile_delete_account" = "Slett Konto";
+"profile_my_collection" = "Min Samling (%d)";
+"profile_history_record" = "Historikk (%d)";
+"profile_no_more_collection" = "Ingen flere samlinger";
+"my_collection_no_more" = "Ingen flere samlinger";
+"profile_subscribe_now" = "Abonner Nå";
+"profile_wishlist" = "Ønskeliste (%d)";
+"profile_refreshing" = "Oppdaterer...";
+"profile_load_more" = "Last mer...";
+"profile_load_more_button" = "Last mer";
+"profile_no_more_data" = "Ingen flere data";
+
+// MARK: - Warnings
+"restart_chat_warning_title" = "Er du sikker på at du vil starte chatten på nytt?";
+"restart_chat_warning_content" = "Du vil miste gjeldende chat-økt når du bekrefter";
+"delete_account_warning_title" = "Er du sikker på at du vil slette?";
+"delete_account_warning_content" = "Denne operasjonen kan ikke angres";
+
+// MARK: - Camera
+"camera_permission_request_title" = "Vi trenger Kamera-tillatelse";
+"camera_permission_request_desc" = "Kamera-tillatelse er påkrevd";
+"camera_permisson_request_button" = "Tillat";
+"camera_preview_tip" = "Ta bilder for å identifisere fugler og hold motivet klart når du tar bildet";
+"camera_zoom" = "Zoom";
+"camera_photography_tips" = "Fotograferingstips";
+"camera_keep_stone_centered" = "Hold fuglen sentrert i rammen";
+"camera_good_image_quality" = "God bildekvalitet kan hjelpe med å forbedre identifikasjonsøyaktigheten.";
+"camera_mode_by_photo" = "Med foto";
+"camera_mode_by_sound" = "Med lyd";
+
+// MARK: - Settings
+"settings_title" = "Innstillinger";
+"settings_premium_service" = "Min Premium-tjeneste";
+"settings_free" = "Gratis";
+"settings_set_language" = "Angi språk";
+"settings_autosave_photos" = "Autolagre Bilder til Album";
+"settings_encourage_us" = "Oppmuntre Oss";
+"settings_suggestion" = "Forslag";
+"settings_app_info" = "App-info";
+"settings_tell_friends" = "Fortell Venner";
+"settings_privacy_policy" = "Personvernregler";
+"settings_terms_of_use" = "Bruksvilkår";
+"settings_manage_account" = "Administrer Konto";
+
+// MARK: - Instruction Page
+"instruction_page_title" = "Fuglefotografering guide";
+"instruction_good_image_quality" = "God bildekvalitet kan hjelpe med å forbedre identifikasjonsøyaktigheten.";
+"instruction_step_1" = "1. Hold fuglen sentrert i rammen, sørg for at den ikke er for langt unna.";
+"instruction_step_2" = "2. Prøv å unngå vegetasjon, bur eller andre gjenstander foran fuglen.";
+"instruction_step_3" = "3. Sørg for god belysning for høy kontrast. Hvis du ikke kan se fuglen, kan ikke appen det heller.";
+"instruction_step_4" = "4. Prøv å fange forsiden av fuglen. Som minimum må hodet være synlig.";
+"instruction_step_5" = "5. Bare én art per bilde. For mange fugler i bildet kan føre til feil identifikasjon.";
+"instruction_identify" = "Identifiser";
+
+// MARK: - Stone Info Section
+"stone_usage" = "Bruk";
+"stone_health_risks" = "Helserisiko";
+"stone_original_vs_fake" = "Autentisering";
+"stone_storage" = "Lagring";
+"stone_cleaning_tips" = "Rengjøringstips";
+"stone_chemical_formula" = "Kjemisk formel";
+"stone_chemical_classification" = "Kjemisk klassifisering";
+"stone_crystal_system" = "Krystallsystem";
+"stone_hardness" = "Hardhet";
+"stone_density" = "Tetthet";
+"stone_chemical_elements" = "Kjemiske elementer";
+"stone_estimated_value" = "Estimert verdi";
+"metal_detector_tips_content" = "Dette verktøyet drives av den magnetiske sensoren som er bygget inn i mobiltelefonen din. Denne detektoren fungerer med magnetiske steiner eller mineraler, som magnetitt, pyrrotin og meteoritt. Den kan også oppdage metall som hovedsakelig består av jern, kobolt eller nikkel. Siden den magnetiske sensoren er plassert forskjellig på hver mobiltelefon, flytt det detekterende objektet rundt telefonen din for å finne dens beste følsomhet og få en klar avlesning på urskiven. Avlesningen på urskiven indikerer styrken til det detekterte objektet ditt; den representerer ikke den nøyaktige verdien av magnetisme.";
+"add_to_collection" = "Legg til i min samling";
+"stone_info_more" = "Mer>>";
+
+// MARK: - ConvertPage
+"convert_title" = "StoneAI Snap";
+"convert_feature_1" = "Dybdeinformasjon om over 12000 fuglearter";
+"convert_feature_2" = "Presis fugleidentifikasjon med foto og lyd";
+"convert_feature_3" = "Lær å tiltrekke fugler til hjemmet ditt";
+"convert_feature_4" = "Ubegrenset fugleidentifikasjon";
+"convert_feature_5" = "Utvid din fuglestudie og kunnskap";
+"convert_yearly" = "Årlig";
+"convert_monthly" = "Månedlig";
+"convert_loading_price" = "Laster pris...";
+"convert_free_trial_yearly" = "7 dager gratis, deretter %@ /år";
+"convert_free_trial_loading" = "7 dagers gratis prøveperiode, deretter årlig abonnement";
+"convert_try_free" = "PRØV GRATIS";
+"convert_continue" = "FORTSETT";
+"convert_cancel_anytime" = "Ingen forpliktelse. Avbryt når som helst.";
+"convert_cancel_notice" = "Du trenger ikke å betale hvis du avbryter abonnementet minst en dag før den 7-dagers gratis prøveperioden slutter.";
+"convert_payment_terms" = "Betaling vil bli belastet App Store-kontoen din ved slutten av prøveperioden eller ved bekreftelse av kjøp hvis du ikke starter en prøveperiode. Abonnementet fornyes automatisk med mindre det avbrytes minst 24 timer før slutten av gjeldende periode. Kontoen din vil bli belastet for fornyelse innen 24 timer før slutten av gjeldende periode. Du kan administrere og avbryte abonnementene dine i App Store-innstillingene. For mer informasjon, se våre";
+"convert_terms_of_use" = "Bruksvilkår";
+"convert_and" = "og";
+"convert_privacy_policy" = "Personvernregler.";
+
+// MARK: - RetainPage
+"retain_title" = "RockAiSnap";
+"retain_restore" = "Gjenopprett";
+"retain_timeline_today" = "I dag";
+"retain_timeline_today_desc" = "Lås opp full tilgang til alle Premium-funksjoner";
+"retain_timeline_day1_6" = "Dag 1 - Dag 6";
+"retain_timeline_day1_6_desc" = "Nyt Premium og få mest mulig ut av din gratis prøveperiode";
+"retain_timeline_day7" = "Dag 7";
+"retain_timeline_day7_desc" = "Abonnementet ditt starter. Avbryt før hvis du ønsker det.";
+"retain_try_free" = "Prøv 7 dager gratis";
+"retain_then_yearly" = "Deretter %@/år. Avbryt når som helst.";
+"retain_loading_price" = "Laster pris... Avbryt når som helst.";
+"retain_start_trial" = "START MIN GRATIS PRØVEPERIODE";
+"retain_price_then" = "Deretter ";
+"retain_price_year_cancel" = "/år. Avbryt når som helst.";
+
+// MARK: - Snap Tips
+"snap_tip_too_far" = "For langt unna";
+"snap_tip_too_close" = "For nærme";
+"snap_tip_blurry" = "Uskarp";
+"snap_tip_multiple_species" = "Flere arter";
+
+// MARK: - More Images
+"more_images" = "Flere bilder";
+
+// MARK: - Share
+"share_image_failed" = "Kunne ikke laste bilde";
+"share_alert_title" = "Varsel";
+"share_alert_message" = "Deling fullført";
+"share_title" = "Del";
+"share_download" = "Last ned";
+"share_share" = "Del";
+"profile_privileges" = "Privilegier";
+
+// MARK: - Valuation
+"possible_price_range" = "Mulig prisområde";
+"note" = "Merk";
+"are_you_satisfied_with_the_result" = "Er du fornøyd med resultatet";
+"thanks_for_your_feedback" = "Takk for tilbakemeldingen";
+"valuation_in_progress" = "Verdivurdering pågår";
+"valuation_step_identification" = "Identifikasjon";
+"valuation_step_quality_evaluation" = "Kvalitetsvurdering";
+"valuation_step_market_price_search" = "Søk etter markedspris";
+"stone_estimated_value" = "Estimert verdi";
+"valuation_not_found" = "Ingen stein funnet";
+"valuation_camera_tips" = "Klare bilder av høy kvalitet fører til mer nøyaktige verdivurderingsresultater";
+
+// MARK: - Purchase
+"purchase_choose_subscription_plan" = "Velg Abonnementsplan";
+"purchase_unlock_premium_features" = "Lås opp alle premium-funksjoner";
+"purchase_restore_purchases" = "Gjenopprett Kjøp";
+"purchase_cancel" = "Avbryt";
+"purchase_user_cancelled" = "Bruker avbrutt";
+"purchase_please_wait" = "Vennligst vent";
+"purchase_processing" = "Behandler...";
+"purchase_success" = "Suksess";
+"purchase_success_message" = "Kjøp vellykket! Takk for din støtte.";
+"purchase_failed" = "Kjøp Mislyktes";
+"purchase_restore_failed" = "Gjenoppretting Mislyktes";
+"purchase_restored_successfully" = "Kjøp gjenopprettet vellykket";
+"purchase_already_vip" = "Du er allerede en VIP-bruker";
+"purchase_product_not_found" = "Produkt ikke funnet";
+"purchase_not_available" = "Kjøp i appen er ikke tilgjengelig";
+"purchase_no_purchases_to_restore" = "Ingen kjøp funnet å gjenopprette";
+"purchase_error" = "Feil";
+"purchase_unable_to_load_products" = "Kan ikke laste produktinformasjon";
+"purchase_check_network_try_again" = "Kan ikke laste produktinformasjon. Sjekk nettverkstilkoblingen og prøv igjen.";
+"purchase_premium_feature" = "Premium-funksjon";
+"purchase_premium_feature_message" = "%@ er en premium-funksjon. Oppgrader til premium for å bruke den.";
+"purchase_upgrade_now" = "Oppgrader Nå";
+"purchase_maybe_later" = "Kanskje Senere";
+"purchase_upgrade_to_premium" = "Oppgrader til Premium";
+"purchase_premium_user" = "Premium-bruker";
+"purchase_free_user" = "Gratis Bruker";
+"purchase_operation_successful" = "Operasjon vellykket";
+
+// MARK: - Debug
+"debug_options" = "Feilsøkingsalternativer";
+"debug_mode_only" = "Kun feilsøkingsmodus";
+"debug_set_as_vip" = "Sett som VIP";
+"debug_remove_vip" = "Fjern VIP";
+"debug_clear_purchase_records" = "Tøm Alle Kjøpsregistre";
+"debug_title" = "Feilsøking";
+"debug_vip_set" = "Satt som VIP";
+"debug_vip_removed" = "VIP fjernet";
+"debug_records_cleared" = "Alle kjøpsregistre tømt";
+
+// MARK: - Permissions
+"microphone_permission_title" = "Mikrofontilgang påkrevd";
+"microphone_permission_desc" = "Mikrofontilgang er nødvendig for å ta opp fuglelyder for artsidentifikasjon";
+"microphone_permission_button" = "Tillat";
+
+// MARK: - Stone Season
+"stone_visible_year_round" = "Året rundt";
+
+// MARK: - Additional Missing Keys
+"subscription_cancel_notice" = "Du trenger ikke å betale hvis du avbryter abonnementet minst en dag før den 7-dagers gratis prøveperioden slutter.";
+"profile_error_load_more_data" = "Feil ved lasting av flere data";
+"profile_error_load_wishlist" = "Feil ved lasting av ønskeliste";
+"profile_error_load_more_wishlist" = "Feil ved lasting av flere ønskelister";

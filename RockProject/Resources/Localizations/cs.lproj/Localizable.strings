@@ -1,0 +1,318 @@
+/* 
+   Localizable.strings - Czech
+   RockProject
+
+   Created for localization support.
+*/
+
+// MARK: - App Basic
+"app_name" = "RockAiSnap";
+"tab_bar_home" = "Domů";
+"tab_bar_profile" = "Profil";
+
+// MARK: - General Titles
+"title_home" = "Domů";
+"title_dashboard" = "Nástěnka";
+"title_notifications" = "Oznámení";
+
+// MARK: - Splash Screen
+"splash_start_now" = "Začít nyní";
+"splash_first_launch_slogan" = "Vaše kouzelná hůlka pro okamžitá přátelství!";
+
+// MARK: - Common Text
+"text_policy_tapping_continue" = "Pokračováním souhlasíte s";
+"text_terms_of_use" = "Podmínky použití";
+"text_privacy_policy" = "Zásady ochrany osobních údajů";
+"text_refund_policy" = "Zásady vrácení peněz";
+"text_contact_us" = "Kontaktujte nás";
+"text_customer_service" = "Zákaznický servis";
+"text_email_prefix" = "Email: %@";
+"text_next" = "Další";
+"text_copied" = "Zkopírováno";
+"text_continue" = "Pokračovat";
+"text_cancel" = "Zrušit";
+"text_game" = "Hra";
+"text_profile" = "Profil";
+"text_yes" = "Ano";
+"text_no" = "Ne";
+"text_maybe_later" = "Možná později";
+"text_submit" = "Odeslat";
+"text_confirm" = "Potvrdit";
+"text_loading" = "Načítání";
+"text_view_all" = "Zobrazit vše";
+"text_try_again" = "Zkusit znovu";
+"text_save" = "Uložit";
+"text_new" = "Nový";
+"text_share" = "Sdílet";
+"text_common_error_try_again" = "Ups! Něco se pokazilo. Zkuste to prosím později :)";
+"text_also_known_as" = "Také známý jako";
+"text_scientific_name" = "Vědecký název";
+"text_more" = "Více";
+"text_images" = "Obrázky";
+"text_sound" = "Zvuk";
+"text_map" = "Mapa";
+"text_description" = "Popis";
+"text_ok" = "OK";
+"text_photo" = "Fotografie";
+"text_tips" = "Tipy";
+"text_expand" = "Rozbalit";
+
+// MARK: - Home Screen
+"home_search_hint" = "Hledejte mezi více než 30 000 druhy";
+"home_vip_banner_text" = "Vaše bezplatné 7denní Premium ještě nebylo vyžádáno. Klepněte pro vyžádání.";
+"home_action_identify" = "Identifikovat";
+"home_action_record" = "Nahrát";
+"home_action_ai_beautify" = "AI zkrášlení";
+"home_your_daily_stone" = "Váš denní pták";
+"home_stones_near_you" = "Ptáci ve vašem okolí";
+"home_app_usage_title" = "Pokyny k použití aplikace";
+"home_app_usage_desc" = "Pomůže vám rychleji se s námi seznámit.";
+
+// MARK: - Home Action Types
+"home_action_type_valuation" = "Ocenění";
+"home_action_type_identify" = "Identifikovat";
+"home_action_type_detector" = "Detektor";
+
+// MARK: - FindTreasure Page
+"find_treasure_title" = "Detektor kovů";
+"find_treasure_status_normal" = "Normální prostředí";
+"find_treasure_status_slight" = "Mírná anomálie";
+"find_treasure_status_detected" = "Kov detekován";
+"find_treasure_status_strong" = "Silný kovový signál";
+
+// MARK: - Survey/Onboarding
+"survey1_title" = "Nastavme vám uživatelské jméno";
+"survey1_input_name_placeholder" = "Vaše uživatelské jméno";
+"survey2_title" = "Identifikujete se jako...";
+"survey2_option_she" = "Ona";
+"survey2_option_he" = "On";
+"survey2_option_they" = "Nebinární";
+"survey3_title" = "O čem chcete mluvit?";
+"survey3_option1" = "Hrát chatovací hry";
+"survey3_option2" = "Mít virtuálního přítele";
+"survey3_option3" = "Sdílet emoce";
+"survey3_option4" = "Bavit se";
+"survey3_option5" = "Cítit se méně osamělý";
+"survey3_option6" = "Jiné";
+"survey4_title" = "Jaké jsou vaše zájmy?";
+"survey5_title" = "Je čas vybrat si přítele";
+"survey5_reset_all_blocked_roles_warning_message" = "Všechny postavy byly zablokovány. Chcete obnovit všechny postavy?";
+"survey6_title" = "Dejte svému AI příteli jméno.";
+"survey6_input_name_placeholder" = "Zadejte jméno AI přítele";
+"survey7_creating" = "Vytváření...";
+
+// MARK: - Chat
+"text_ai_chat" = "AI chat";
+"chat_input_bar_placeholder" = "Napište zprávu";
+"chat_error_oops" = "Ups! Něco se pokazilo. Zkuste to prosím později :)";
+"chat_report_bot_response_warning_messasge" = "Neustále optimalizujeme obsah AI komunikace a odstranili jsme tento obsah za vás. Potřebujete současně nahlásit tuto AI postavu?";
+"chat_report_ai_character" = "Nahlásit AI postavu";
+"chat_just_report_content" = "Pouze nahlásit obsah";
+
+// MARK: - Welcome
+"welcome_title" = "VÍTEJTE!";
+"welcome_content" = "Těší mě, že vás poznávám! Bavte se!";
+"welcome_got_it" = "Rozumím!";
+
+// MARK: - Report
+"report_title" = "Nahlásit problém";
+"report_edit_text_hint" = "Přidejte zde podrobnosti";
+"report_success" = "Nahlášení úspěšné";
+"report_block_character" = "Zablokovat postavu";
+"report_block_character_warning_message" = "Odstraníme tuto AI postavu a znovu optimalizujeme obsah AI komunikace";
+
+// MARK: - Profile
+"profile_about_app" = "O aplikaci pro identifikaci ptáků";
+"profile_restart_chat" = "Restartovat chat";
+"profile_delete_account" = "Smazat účet";
+"profile_my_collection" = "Moje sbírka (%d)";
+"profile_history_record" = "Historie (%d)";
+"profile_no_more_collection" = "Žádné další sbírky";
+"my_collection_no_more" = "Žádné další sbírky";
+"profile_subscribe_now" = "Předplatit nyní";
+"profile_wishlist" = "Seznam přání (%d)";
+"profile_refreshing" = "Obnovování...";
+"profile_load_more" = "Načíst více...";
+"profile_load_more_button" = "Načíst více";
+"profile_no_more_data" = "Žádná další data";
+
+// MARK: - Warnings
+"restart_chat_warning_title" = "Jste si jisti, že chcete restartovat chat?";
+"restart_chat_warning_content" = "Po potvrzení ztratíte aktuální chatovou relaci";
+"delete_account_warning_title" = "Jste si jisti, že chcete smazat?";
+"delete_account_warning_content" = "Tuto operaci nelze vrátit zpět";
+
+// MARK: - Camera
+"camera_permission_request_title" = "Potřebujeme oprávnění ke kameře";
+"camera_permission_request_desc" = "Oprávnění ke kameře je vyžadováno";
+"camera_permisson_request_button" = "Povolit";
+"camera_preview_tip" = "Pořiďte fotografie pro identifikaci ptáků a při fotografování udržujte objekt jasný";
+"camera_zoom" = "Přiblížit";
+"camera_photography_tips" = "Tipy pro fotografování";
+"camera_keep_stone_centered" = "Udržujte ptáka ve středu rámečku";
+"camera_good_image_quality" = "Dobrá kvalita obrazu může pomoci zlepšit přesnost identifikace.";
+"camera_mode_by_photo" = "Pomocí fotografie";
+"camera_mode_by_sound" = "Pomocí zvuku";
+
+// MARK: - Settings
+"settings_title" = "Nastavení";
+"settings_premium_service" = "Moje Premium služba";
+"settings_free" = "Zdarma";
+"settings_set_language" = "Nastavit jazyk";
+"settings_autosave_photos" = "Automaticky ukládat fotografie do alba";
+"settings_encourage_us" = "Podpořte nás";
+"settings_suggestion" = "Návrh";
+"settings_app_info" = "Informace o aplikaci";
+"settings_tell_friends" = "Řekněte přátelům";
+"settings_privacy_policy" = "Zásady ochrany osobních údajů";
+"settings_terms_of_use" = "Podmínky použití";
+"settings_manage_account" = "Spravovat účet";
+
+// MARK: - Instruction Page
+"instruction_page_title" = "Průvodce fotografováním ptáků";
+"instruction_good_image_quality" = "Dobrá kvalita obrazu může pomoci zlepšit přesnost identifikace.";
+"instruction_step_1" = "1. Udržujte ptáka ve středu záběru, ujistěte se, že není příliš daleko.";
+"instruction_step_2" = "2. Snažte se vyhnout vegetaci, klecím nebo jiným předmětům před ptákem.";
+"instruction_step_3" = "3. Zajistěte dobré osvětlení pro vysoký kontrast. Pokud ptáka nevidíte vy, aplikace ho také nemůže vidět.";
+"instruction_step_4" = "4. Snažte se zachytit přední část ptáka. Minimálně musí být vidět hlava.";
+"instruction_step_5" = "5. Pouze jeden druh na obrázku. Příliš mnoho ptáků na obrázku může vést k nesprávné identifikaci.";
+"instruction_identify" = "Identifikovat";
+
+// MARK: - Stone Info Section
+"stone_usage" = "Použití";
+"stone_health_risks" = "Zdravotní rizika";
+"stone_original_vs_fake" = "Ověření pravosti";
+"stone_storage" = "Skladování";
+"stone_cleaning_tips" = "Tipy pro čištění";
+"stone_chemical_formula" = "Chemický vzorec";
+"stone_chemical_classification" = "Chemická klasifikace";
+"stone_crystal_system" = "Krystalový systém";
+"stone_hardness" = "Tvrdost";
+"stone_density" = "Hustota";
+"stone_chemical_elements" = "Chemické prvky";
+"stone_estimated_value" = "Odhadovaná hodnota";
+"metal_detector_tips_content" = "Tento nástroj je poháněn magnetickým senzorem, který je vestavěn ve vašem mobilním telefonu. Tento detektor funguje s magnetickými horninami nebo minerály, jako je magnetit, pyrotin a meteorit. Může také detekovat kov, který se skládá hlavně ze železa, kobaltu nebo niklu. Protože magnetický senzor je na každém mobilním telefonu umístěn jinak, pohybujte detekovaným objektem kolem vašeho telefonu, abyste našli jeho nejlepší citlivost a získali jasný údaj na ciferníku. Údaj na ciferníku označuje sílu vašeho detekovaného objektu; nepředstavuje přesnou hodnotu magnetismu.";
+"add_to_collection" = "Přidat do mé sbírky";
+"stone_info_more" = "Více>>";
+
+// MARK: - ConvertPage
+"convert_title" = "StoneAI Snap";
+"convert_feature_1" = "Podrobné informace o více než 12000 druzích ptáků";
+"convert_feature_2" = "Přesná identifikace ptáků pomocí fotografie a zvuku";
+"convert_feature_3" = "Naučte se lákat ptáky do svého domova";
+"convert_feature_4" = "Neomezená identifikace ptáků";
+"convert_feature_5" = "Rozšiřte své studium a znalosti ptáků";
+"convert_yearly" = "Ročně";
+"convert_monthly" = "Měsíčně";
+"convert_loading_price" = "Načítání ceny...";
+"convert_free_trial_yearly" = "7 dní zdarma, poté %@ /rok";
+"convert_free_trial_loading" = "7denní bezplatná zkušební verze, poté roční předplatné";
+"convert_try_free" = "VYZKOUŠET ZDARMA";
+"convert_continue" = "POKRAČOVAT";
+"convert_cancel_anytime" = "Žádný závazek. Zrušte kdykoli.";
+"convert_cancel_notice" = "Nemusíte platit, pokud zrušíte předplatné alespoň den před koncem 7denní bezplatné zkušební doby.";
+"convert_payment_terms" = "Platba bude účtována na váš účet App Store na konci zkušební doby nebo při potvrzení nákupu, pokud nezačnete zkušební dobu. Předplatné se automaticky obnovuje, pokud není zrušeno alespoň 24 hodin před koncem aktuálního období. Váš účet bude účtován za obnovení do 24 hodin před koncem aktuálního období. Svá předplatná můžete spravovat a rušit v nastavení App Store. Pro více informací viz naše";
+"convert_terms_of_use" = "Podmínky použití";
+"convert_and" = "a";
+"convert_privacy_policy" = "Zásady ochrany osobních údajů.";
+
+// MARK: - RetainPage
+"retain_title" = "RockAiSnap";
+"retain_restore" = "Obnovit";
+"retain_timeline_today" = "Dnes";
+"retain_timeline_today_desc" = "Odemkněte plný přístup ke všem Premium funkcím";
+"retain_timeline_day1_6" = "Den 1 - Den 6";
+"retain_timeline_day1_6_desc" = "Užívejte si své Premium a vytěžte maximum ze své bezplatné zkušební doby";
+"retain_timeline_day7" = "Den 7";
+"retain_timeline_day7_desc" = "Vaše předplatné začíná. Zrušte dříve, pokud chcete.";
+"retain_try_free" = "Vyzkoušet 7 dní zdarma";
+"retain_then_yearly" = "Poté %@/rok. Zrušte kdykoli.";
+"retain_loading_price" = "Načítání ceny... Zrušte kdykoli.";
+"retain_start_trial" = "ZAČÍT MOJI BEZPLATNOU ZKUŠEBNÍ DOBU";
+"retain_price_then" = "Poté ";
+"retain_price_year_cancel" = "/rok. Zrušte kdykoli.";
+
+// MARK: - Snap Tips
+"snap_tip_too_far" = "Příliš daleko";
+"snap_tip_too_close" = "Příliš blízko";
+"snap_tip_blurry" = "Rozmazané";
+"snap_tip_multiple_species" = "Více druhů";
+
+// MARK: - More Images
+"more_images" = "Více obrázků";
+
+// MARK: - Share
+"share_image_failed" = "Nepodařilo se načíst obrázek";
+"share_alert_title" = "Zpráva";
+"share_alert_message" = "Sdílení dokončeno";
+"share_title" = "Sdílet";
+"share_download" = "Stáhnout";
+"share_share" = "Sdílet";
+"profile_privileges" = "Výsady";
+
+// MARK: - Valuation
+"possible_price_range" = "Možný cenový rozsah";
+"note" = "Poznámka";
+"are_you_satisfied_with_the_result" = "Jste spokojeni s výsledkem";
+"thanks_for_your_feedback" = "Děkujeme za vaši zpětnou vazbu";
+"valuation_in_progress" = "Probíhá oceňování";
+"valuation_step_identification" = "Identifikace";
+"valuation_step_quality_evaluation" = "Hodnocení kvality";
+"valuation_step_market_price_search" = "Vyhledávání tržní ceny";
+"stone_estimated_value" = "Odhadovaná hodnota";
+"valuation_not_found" = "Nebyl nalezen žádný kámen";
+"valuation_camera_tips" = "Jasné, vysoce kvalitní fotografie vedou k přesnějším výsledkům ocenění";
+
+// MARK: - Purchase
+"purchase_choose_subscription_plan" = "Vyberte plán předplatného";
+"purchase_unlock_premium_features" = "Odemkněte všechny premium funkce";
+"purchase_restore_purchases" = "Obnovit nákupy";
+"purchase_cancel" = "Zrušit";
+"purchase_user_cancelled" = "Uživatel zrušil";
+"purchase_please_wait" = "Prosím čekejte";
+"purchase_processing" = "Zpracovávání...";
+"purchase_success" = "Úspěch";
+"purchase_success_message" = "Nákup úspěšný! Děkujeme za vaši podporu.";
+"purchase_failed" = "Nákup se nezdařil";
+"purchase_restore_failed" = "Obnovení se nezdařilo";
+"purchase_restored_successfully" = "Nákupy úspěšně obnoveny";
+"purchase_already_vip" = "Již jste VIP uživatel";
+"purchase_product_not_found" = "Produkt nenalezen";
+"purchase_not_available" = "Nákupy v aplikaci nejsou k dispozici";
+"purchase_no_purchases_to_restore" = "Nenalezeny žádné nákupy k obnovení";
+"purchase_error" = "Chyba";
+"purchase_unable_to_load_products" = "Nelze načíst informace o produktu";
+"purchase_check_network_try_again" = "Nelze načíst informace o produktu. Zkontrolujte připojení k síti a zkuste to znovu.";
+"purchase_premium_feature" = "Premium funkce";
+"purchase_premium_feature_message" = "%@ je premium funkce. Pro použití prosím upgradujte na premium.";
+"purchase_upgrade_now" = "Upgradovat nyní";
+"purchase_maybe_later" = "Možná později";
+"purchase_upgrade_to_premium" = "Upgradovat na Premium";
+"purchase_premium_user" = "Premium uživatel";
+"purchase_free_user" = "Bezplatný uživatel";
+"purchase_operation_successful" = "Operace úspěšná";
+
+// MARK: - Debug
+"debug_options" = "Možnosti ladění";
+"debug_mode_only" = "Pouze režim ladění";
+"debug_set_as_vip" = "Nastavit jako VIP";
+"debug_remove_vip" = "Odebrat VIP";
+"debug_clear_purchase_records" = "Vymazat všechny záznamy o nákupech";
+"debug_title" = "Ladění";
+"debug_vip_set" = "Nastaveno jako VIP";
+"debug_vip_removed" = "VIP odebráno";
+"debug_records_cleared" = "Všechny záznamy o nákupech vymazány";
+
+// MARK: - Permissions
+"microphone_permission_title" = "Vyžadován přístup k mikrofonu";
+"microphone_permission_desc" = "Pro nahrávání ptačích zvuků k identifikaci druhů je potřeba přístup k mikrofonu";
+"microphone_permission_button" = "Povolit";
+
+// MARK: - Stone Season
+"stone_visible_year_round" = "Celoročně";
+
+// MARK: - Additional Missing Keys
+"subscription_cancel_notice" = "Nemusíte platit, pokud zrušíte předplatné alespoň den před koncem 7denní bezplatné zkušební doby.";
+"profile_error_load_more_data" = "Chyba při načítání dalších dat";
+"profile_error_load_wishlist" = "Chyba při načítání seznamu přání";
+"profile_error_load_more_wishlist" = "Chyba při načítání dalšího seznamu přání";

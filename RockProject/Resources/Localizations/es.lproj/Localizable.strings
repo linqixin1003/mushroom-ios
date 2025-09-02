@@ -1,0 +1,317 @@
+/* 
+   Localizable.strings - Spanish
+   RockProject
+
+   Created for localization support.
+*/
+
+// MARK: - App Basic
+"app_name" = "RockAiSnap";
+"tab_bar_home" = "Inicio";
+"tab_bar_profile" = "Perfil";
+
+// MARK: - General Titles
+"title_home" = "Inicio";
+"title_dashboard" = "Panel";
+"title_notifications" = "Notificaciones";
+
+// MARK: - Splash Screen
+"splash_start_now" = "Comenzar Ahora";
+"splash_first_launch_slogan" = "¡Tu Varita Mágica para Amistades Instantáneas!";
+
+// MARK: - Common Text
+"text_policy_tapping_continue" = "Al continuar aceptas los";
+"text_terms_of_use" = "Términos de Uso";
+"text_privacy_policy" = "Política de Privacidad";
+"text_refund_policy" = "Política de Reembolso";
+"text_contact_us" = "Contáctanos";
+"text_customer_service" = "Servicio al cliente";
+"text_email_prefix" = "Correo: %@";
+"text_next" = "Siguiente";
+"text_copied" = "Copiado";
+"text_continue" = "Continuar";
+"text_cancel" = "Cancelar";
+"text_game" = "Juego";
+"text_profile" = "Perfil";
+"text_yes" = "Sí";
+"text_no" = "No";
+"text_maybe_later" = "Tal vez después";
+"text_submit" = "Enviar";
+"text_confirm" = "Confirmar";
+"text_loading" = "Cargando";
+"text_view_all" = "Ver todo";
+"text_try_again" = "Intentar de Nuevo";
+"text_save" = "Guardar";
+"text_new" = "Nuevo";
+"text_share" = "Compartir";
+"text_common_error_try_again" = "¡Ups! Algo salió mal. Por favor intenta de nuevo más tarde :)";
+"text_also_known_as" = "También conocido como";
+"text_scientific_name" = "Nombre científico";
+"text_more" = "Más";
+"text_images" = "Imágenes";
+"text_sound" = "Sonido";
+"text_map" = "Mapa";
+"text_description" = "Descripción";
+"text_ok" = "OK";
+"text_photo" = "Foto";
+"text_tips" = "Consejos";
+
+// MARK: - Home Screen
+"home_search_hint" = "Buscar entre más de 30,000 especies";
+"home_vip_banner_text" = "Tu Premium gratuito de 7 días aún no ha sido reclamado. Toca para reclamar.";
+"home_action_identify" = "Identificar";
+"home_action_record" = "Grabar";
+"home_action_ai_beautify" = "Embellecimiento IA";
+"home_your_daily_stone" = "Tu Ave Diaria";
+"home_stones_near_you" = "Aves Cerca de Ti";
+"home_app_usage_title" = "Instrucciones de uso de la aplicación";
+"home_app_usage_desc" = "Te ayudamos a familiarizarte con nosotros más rápidamente.";
+
+// MARK: - Survey/Onboarding
+"survey1_title" = "Vamos a establecer un nombre de usuario para ti";
+"survey1_input_name_placeholder" = "Tu Nombre de Usuario";
+"survey2_title" = "Te identificas como...";
+"survey2_option_she" = "Ella";
+"survey2_option_he" = "Él";
+"survey2_option_they" = "No binario";
+"survey3_title" = "¿De qué quieres hablar?";
+"survey3_option1" = "Jugar Juegos de Chat";
+"survey3_option2" = "Hacer un Amigo Virtual";
+"survey3_option3" = "Compartir Emociones";
+"survey3_option4" = "Divertirse";
+"survey3_option5" = "Sentirse Menos Solo";
+"survey3_option6" = "Otro";
+"survey4_title" = "¿Cuáles son tus intereses?";
+"survey5_title" = "Es hora de elegir tu amigo";
+"survey5_reset_all_blocked_roles_warning_message" = "Todos los Personajes fueron bloqueados. ¿Quieres recuperar todos los personajes?";
+"survey6_title" = "Dale un nombre a tu amigo IA.";
+"survey6_input_name_placeholder" = "Ingresa el nombre del amigo IA";
+"survey7_creating" = "Creando...";
+
+// MARK: - Chat
+"text_ai_chat" = "Chat IA";
+"chat_input_bar_placeholder" = "Escribe un mensaje";
+"chat_error_oops" = "¡Ups! Algo salió mal. Por favor intenta de nuevo más tarde :)";
+"chat_report_bot_response_warning_messasge" = "Estamos optimizando continuamente el contenido de comunicación de IA y hemos eliminado este contenido para ti. ¿Necesitas reportar este personaje IA al mismo tiempo?";
+"chat_report_ai_character" = "Reportar Personaje IA";
+"chat_just_report_content" = "Solo reportar contenido";
+
+// MARK: - Welcome
+"welcome_title" = "¡BIENVENIDO!";
+"welcome_content" = "¡Encantado de conocerte! ¡Diviértete!";
+"welcome_got_it" = "¡Entendido!";
+
+// MARK: - Report
+"report_title" = "Reportar un problema";
+"report_edit_text_hint" = "Agregar detalles aquí";
+"report_success" = "Reporte exitoso";
+"report_block_character" = "Bloquear personaje";
+"report_block_character_warning_message" = "Eliminaremos este personaje IA y optimizaremos el contenido de comunicación IA nuevamente";
+
+// MARK: - Profile
+"profile_about_app" = "Acerca de RockAiSnap";
+"profile_restart_chat" = "Reiniciar Chat";
+"profile_delete_account" = "Eliminar Cuenta";
+"profile_my_collection" = "Mi Colección (%d)";
+"profile_history_record" = "Historial (%d)";
+"profile_no_more_collection" = "No hay más colecciones";
+"my_collection_no_more" = "No hay más colecciones";
+"profile_subscribe_now" = "Suscríbete Ahora";
+
+// MARK: - Warnings
+"restart_chat_warning_title" = "¿Estás seguro de reiniciar el chat?";
+"restart_chat_warning_content" = "Perderás la sesión de chat actual cuando confirmes";
+"delete_account_warning_title" = "¿Estás seguro de eliminar?";
+"delete_account_warning_content" = "Esta operación no se puede deshacer";
+
+// MARK: - Camera
+"camera_permission_request_title" = "Necesitamos permisos de Cámara";
+"camera_permission_request_desc" = "Se requieren permisos de cámara";
+"camera_permisson_request_button" = "Permitir";
+"camera_preview_tip" = "Toma fotos para identificar aves y mantén el sujeto claro al disparar";
+"camera_zoom" = "Zoom";
+"camera_photography_tips" = "Consejos de fotografía";
+"camera_keep_stone_centered" = "Mantén el ave centrada en el marco";
+"camera_good_image_quality" = "Una buena calidad de imagen puede ayudar a mejorar la precisión de la identificación.";
+"camera_mode_by_photo" = "Por foto";
+"camera_mode_by_sound" = "Por sonido";
+
+// MARK: - Settings
+"settings_title" = "Configuración";
+"settings_premium_service" = "Mi Servicio Premium";
+"settings_free" = "Gratis";
+"settings_set_language" = "Angi språk";
+"settings_autosave_photos" = "Autoguardar Fotos en el Álbum";
+"settings_encourage_us" = "Anímanos";
+"settings_suggestion" = "Sugerencia";
+"settings_app_info" = "Información de la App";
+"settings_tell_friends" = "Recomendar a Amigos";
+"settings_privacy_policy" = "Política de Privacidad";
+"settings_terms_of_use" = "Términos de Uso";
+"settings_manage_account" = "Administrar Cuenta"; 
+
+// Instruction Page
+"instruction_page_title" = "Guía de fotografía de aves";
+"instruction_good_image_quality" = "Una buena calidad de imagen puede ayudar a mejorar la precisión de la identificación.";
+"instruction_step_1" = "1. Mantén el ave centrada en el marco, asegúrate de que no esté demasiado lejos.";
+"instruction_step_2" = "2. Intenta evitar vegetación, jaulas u otros objetos frente al ave.";
+"instruction_step_3" = "3. Asegura una buena iluminación para alto contraste. Si no puedes ver el ave, la aplicación tampoco puede.";
+"instruction_step_4" = "4. Intenta capturar el frente del ave. Como mínimo, la cabeza debe ser visible.";
+"instruction_step_5" = "5. Solo una especie por imagen. Demasiadas aves en la imagen pueden llevar a una identificación incorrecta.";
+"instruction_identify" = "Identificar"; 
+
+// ConvertPage
+"convert_title" = "StoneAI Snap";
+"convert_feature_1" = "Información detallada de más de 12000 especies de aves";
+"convert_feature_2" = "Identificación precisa de aves con foto y sonido";
+"convert_feature_3" = "Aprende a atraer aves a tu hogar";
+"convert_feature_4" = "Identificaciones ilimitadas de aves";
+"convert_feature_5" = "Amplía tu estudio y conocimiento de las aves";
+"convert_yearly" = "Anual";
+"convert_monthly" = "Mensual";
+"convert_loading_price" = "Cargando precio...";
+"convert_free_trial_yearly" = "7 días gratis, luego %@ /año";
+"convert_free_trial_loading" = "7 días de prueba gratis, luego suscripción anual";
+"convert_try_free" = "PRUÉBALO GRATIS";
+"convert_continue" = "CONTINUAR";
+"convert_cancel_anytime" = "Sin compromiso. Cancela cuando quieras.";
+"convert_cancel_notice" = "No necesitas pagar si cancelas la suscripción al menos un día antes de que termine el período de prueba gratuito de 7 días.";
+"convert_payment_terms" = "El pago se cargará a tu cuenta de App Store al final del período de prueba o al confirmar la compra si no inicias una prueba. La suscripción se renueva automáticamente a menos que se cancele al menos 24 horas antes del final del período actual. Se cargará a tu cuenta la renovación dentro de las 24 horas anteriores al final del período actual. Puedes gestionar y cancelar tus suscripciones en la configuración de la App Store. Para más información, consulta nuestra";
+"convert_terms_of_use" = "Términos de uso";
+"convert_and" = "y";
+"convert_privacy_policy" = "Política de privacidad.";
+
+// RetainPage
+"retain_title" = "RockAiSnap";
+"retain_restore" = "Restaurar";
+"retain_timeline_today" = "Hoy";
+"retain_timeline_today_desc" = "Desbloquea acceso completo a todas las funciones Premium";
+"retain_timeline_day1_6" = "Día 1 - Día 6";
+"retain_timeline_day1_6_desc" = "Disfruta de tu Premium y aprovecha al máximo tu prueba gratuita";
+"retain_timeline_day7" = "Día 7";
+"retain_timeline_day7_desc" = "Tu suscripción comienza. Cancela antes si lo deseas.";
+"retain_try_free" = "Prueba 7 días gratis";
+"retain_then_yearly" = "Luego %@/año. Cancela cuando quieras.";
+"retain_loading_price" = "Cargando precio... Cancela cuando quieras.";
+"retain_start_trial" = "COMENZAR MI PRUEBA GRATUITA"; 
+"retain_price_then" = "Luego ";
+"retain_price_year_cancel" = "/año. Cancela en cualquier momento.";
+
+// MARK: - Snap Tips
+"snap_tip_too_far" = "Demasiado lejos";
+"snap_tip_too_close" = "Demasiado cerca";
+"snap_tip_blurry" = "Borroso";
+"snap_tip_multiple_species" = "Múltiples especies";
+
+// MARK: - More Images
+"more_images" = "Más imágenes";
+
+// MARK: - Share
+"share_image_failed" = "Error al cargar la imagen";
+"share_alert_title" = "Aviso";
+"share_alert_message" = "Compartir completado";
+"share_title" = "Compartir";
+"share_download" = "Descargar";
+"share_share" = "Compartir"; "profile_privileges" = "Privilegios";
+// MARK: - Purchase
+"purchase_choose_subscription_plan" = "Elegir Plan de Suscripción";
+"purchase_unlock_premium_features" = "Desbloquear todas las funciones premium";
+"purchase_restore_purchases" = "Restaurar Compras";
+"purchase_cancel" = "Cancelar";
+"purchase_user_cancelled" = "Usuario cancelado";
+"purchase_please_wait" = "Por favor espere";
+"purchase_processing" = "Procesando...";
+"purchase_success" = "Éxito";
+"purchase_success_message" = "¡Compra exitosa! Gracias por su apoyo.";
+"purchase_failed" = "Compra Fallida";
+"purchase_restore_failed" = "Restauración Fallida";
+"purchase_restored_successfully" = "Compras restauradas exitosamente";
+"purchase_already_vip" = "Ya eres un usuario VIP";
+"purchase_product_not_found" = "Producto no encontrado";
+"purchase_not_available" = "Las compras en la aplicación no están disponibles";
+"purchase_no_purchases_to_restore" = "No se encontraron compras para restaurar";
+"purchase_error" = "Error";
+"purchase_unable_to_load_products" = "No se puede cargar la información del producto";
+"purchase_check_network_try_again" = "No se puede cargar la información del producto. Por favor verifique su conexión de red e intente nuevamente.";
+"purchase_premium_feature" = "Función Premium";
+"purchase_premium_feature_message" = "%@ es una función premium. Por favor actualice a premium para usarla.";
+"purchase_upgrade_now" = "Actualizar Ahora";
+"purchase_maybe_later" = "Tal vez Más Tarde";
+"purchase_upgrade_to_premium" = "Actualizar a Premium";
+"purchase_premium_user" = "Usuario Premium";
+"purchase_free_user" = "Usuario Gratuito";
+"purchase_operation_successful" = "Operación exitosa";
+
+// MARK: - Debug
+"debug_options" = "Opciones de Depuración";
+"debug_mode_only" = "Solo modo de depuración";
+"debug_set_as_vip" = "Establecer como VIP";
+"debug_remove_vip" = "Eliminar VIP";
+"debug_clear_purchase_records" = "Borrar Todos los Registros de Compra";
+
+// MARK: - Valuation
+"possible_price_range" = "Rango de precio posible";
+"note" = "Nota";
+"are_you_satisfied_with_the_result" = "¿Está satisfecho con el resultado";
+"thanks_for_your_feedback" = "Gracias por su comentario";
+"valuation_in_progress" = "Valoración en progreso";
+"valuation_step_identification" = "Identificación";
+"valuation_step_quality_evaluation" = "Evaluación de calidad";
+"valuation_step_market_price_search" = "Búsqueda de precio de mercado";
+"stone_estimated_value" = "Valor estimado";
+"metal_detector_tips_content" = "Esta herramienta está alimentada por el sensor magnético que está integrado en su teléfono móvil. Este detector funciona con rocas o minerales magnéticos, como magnetita, pirrotina y meteorito. También puede detectar metal que está compuesto principalmente de hierro, cobalto o níquel. Dado que el sensor magnético está ubicado de manera diferente en cada teléfono móvil, mueva el objeto de detección alrededor de su teléfono para encontrar su mejor sensibilidad y obtener una lectura clara en el indicador. La lectura del indicador indica la fuerza de su objeto detectado; no representa el valor exacto del magnetismo.";
+"valuation_not_found" = "No se encontró ninguna piedra";
+"valuation_camera_tips" = "Las fotos claras y de alta calidad conducen a resultados de valoración más precisos";
+"debug_title" = "Depuración";
+"debug_vip_set" = "Establecido como VIP";
+"debug_vip_removed" = "VIP eliminado";
+"debug_records_cleared" = "Todos los registros de compra borrados";
+
+// MARK: - Permissions
+"microphone_permission_title" = "Acceso al micrófono requerido";
+"microphone_permission_desc" = "Se necesita acceso al micrófono para grabar sonidos de aves para la identificación de especies";
+"microphone_permission_button" = "Permitir";
+
+// Stone Season
+"stone_visible_year_round" = "Todo el año";
+
+// MARK: - Home Action Types
+"home_action_type_valuation" = "Valoración";
+"home_action_type_identify" = "Identificar";
+"home_action_type_detector" = "Detector";
+
+// MARK: - FindTreasure Page
+"find_treasure_title" = "Detector de metales";
+"find_treasure_status_normal" = "Ambiente normal";
+"find_treasure_status_slight" = "Anomalía leve";
+"find_treasure_status_detected" = "Metal detectado";
+"find_treasure_status_strong" = "Señal metálica fuerte";
+
+// MARK: - Profile Page
+"profile_wishlist" = "Lista de deseos (%d)";
+"profile_refreshing" = "Actualizando...";
+"profile_load_more" = "Cargar más...";
+"profile_load_more_button" = "Cargar más";
+"profile_no_more_data" = "No hay más datos";
+
+// MARK: - Stone Info Section
+"stone_usage" = "Uso";
+"stone_health_risks" = "Riesgos para la salud";
+"stone_original_vs_fake" = "Autenticación";
+"stone_storage" = "Almacenamiento";
+"stone_cleaning_tips" = "Consejos de limpieza";
+"stone_chemical_formula" = "Fórmula química";
+"stone_chemical_classification" = "Clasificación química";
+"stone_crystal_system" = "Sistema cristalino";
+"stone_hardness" = "Dureza";
+"stone_density" = "Densidad";
+"stone_chemical_elements" = "Elementos químicos";
+"stone_estimated_value" = "Valor estimado";
+"add_to_collection" = "Agregar a mi colección";
+
+// MARK: - Additional Missing Keys
+"text_expand" = "Expandir";
+"subscription_cancel_notice" = "No necesitas pagar si cancelas la suscripción al menos un día antes de que termine el período de prueba gratuito de 7 días.";
+"profile_error_load_more_data" = "Error al cargar más datos";
+"profile_error_load_wishlist" = "Error al cargar la lista de deseos";
+"profile_error_load_more_wishlist" = "Error al cargar más lista de deseos";

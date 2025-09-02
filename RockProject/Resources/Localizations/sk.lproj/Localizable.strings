@@ -1,0 +1,532 @@
+/* 
+   Localizable.strings - Slovenčina
+   RockProject
+
+   Created for localization support.
+*/
+
+// MARK: - App Basic
+"app_name" = "RockAiSnap";
+"tab_bar_home" = "Domov";
+"tab_bar_profile" = "Môj profil";
+
+// MARK: - General Titles
+"title_home" = "Domov";
+"title_dashboard" = "Dashboard";
+"title_notifications" = "Oznámenia";
+
+// MARK: - Splash Screen
+"splash_start_now" = "Začať teraz";
+"splash_first_launch_slogan" = "Vaša čarovná palička na identifikáciu kameňov!";
+
+// MARK: - Common Text
+"text_policy_tapping_continue" = "Pokračovaním súhlasíte s";
+"text_terms_of_use" = "Podmienkami používania";
+"text_privacy_policy" = "Zásadami ochrany súkromia";
+"text_refund_policy" = "Zásadami vrátenia peňazí";
+"text_contact_us" = "Kontaktujte nás";
+"text_customer_service" = "Zákaznícky servis";
+"text_email_prefix" = "Email: %@";
+"text_next" = "Ďalej";
+"text_copied" = "Skopírované";
+"text_continue" = "Pokračovať";
+"text_cancel" = "Zrušiť";
+"text_game" = "Hra";
+"text_profile" = "Profil";
+"text_yes" = "Áno";
+"text_no" = "Nie";
+"text_maybe_later" = "Možno neskôr";
+"text_submit" = "Odoslať";
+"text_confirm" = "Potvrdiť";
+"text_loading" = "Načítava sa";
+"text_view_all" = "Zobraziť všetko";
+"text_try_again" = "Skúsiť znovu";
+"text_save" = "Uložiť";
+"text_new" = "Nový";
+"text_share" = "Zdieľať";
+"text_common_error_try_again" = "Ups! Niečo sa pokazilo. Skúste to neskôr :)";
+"text_also_known_as" = "Tiež známy ako";
+"text_scientific_name" = "Vedecký názov";
+"text_more" = "Viac";
+"text_images" = "Obrázky";
+"text_sound" = "Zvuk";
+"text_map" = "Mapa";
+"text_description" = "Popis";
+"text_ok" = "OK";
+"text_photo" = "Fotografia";
+"text_tips" = "Tipy";
+"text_expand" = "Rozbaliť";
+
+// MARK: - Home Screen
+"home_search_hint" = "Vyhľadajte medzi viac ako 30 000 kameňmi";
+"home_vip_banner_text" = "Vaše 7-dňové bezplatné prémiové členstvo ešte nebolo aktivované. Kliknite pre aktiváciu.";
+"home_action_identify" = "Identifikovať";
+"home_action_record" = "Nahrávať";
+"home_action_ai_beautify" = "AI skrášlenie";
+"home_your_daily_stone" = "Váš denný kameň";
+"home_stones_near_you" = "Kamene vo vašom okolí";
+"home_app_usage_title" = "Návod na používanie aplikácie";
+"home_app_usage_desc" = "Pomôže vám rýchlejšie sa s nami oboznámiť.";
+
+// MARK: - Survey/Onboarding
+"survey1_title" = "Nastavme vám používateľské meno";
+"survey1_input_name_placeholder" = "Vaše používateľské meno";
+"survey2_title" = "Vaša rodová identita je...";
+"survey2_option_she" = "Ona";
+"survey2_option_he" = "On";
+"survey2_option_they" = "Nebinárne";
+"survey3_title" = "O čom by ste chceli rozprávať?";
+"survey3_option1" = "Hrať chatové hry";
+"survey3_option2" = "Nájsť virtuálneho priateľa";
+"survey3_option3" = "Zdieľať emócie";
+"survey3_option4" = "Hľadať zábavu";
+"survey3_option5" = "Znížiť pocit osamelosti";
+"survey3_option6" = "Iné";
+"survey4_title" = "Aké sú vaše záujmy?";
+"survey5_title" = "Je čas vybrať si svojho priateľa";
+"survey5_reset_all_blocked_roles_warning_message" = "Všetky postavy sú zablokované. Chcete obnoviť všetky postavy?";
+"survey6_title" = "Dajte svojmu AI priateľovi meno.";
+"survey6_input_name_placeholder" = "Zadajte meno AI priateľa";
+"survey7_creating" = "Vytvára sa...";
+
+// MARK: - Chat
+"text_ai_chat" = "AI chat";
+"chat_input_bar_placeholder" = "Zadajte správu";
+"chat_error_oops" = "Ups! Niečo sa pokazilo. Skúste to neskôr :)";
+"chat_report_bot_response_warning_messasge" = "Neustále optimalizujeme obsah AI komunikácie, odstránili sme tento obsah pre vás. Chcete nahlásiť aj túto AI postavu?";
+"chat_report_ai_character" = "Nahlásiť AI postavu";
+"chat_just_report_content" = "Nahlásiť len obsah";
+
+// MARK: - Welcome
+"welcome_title" = "Vitajte!";
+"welcome_content" = "Teší ma, že vás poznám! Bavte sa!";
+"welcome_got_it" = "Rozumiem!";
+
+// MARK: - Report
+"report_title" = "Nahlásiť problém";
+"report_edit_text_hint" = "Pridajte podrobnosti tu";
+"report_success" = "Úspešne nahlásené";
+"report_block_character" = "Zablokovať postavu";
+"report_block_character_warning_message" = "Odstránime túto AI postavu a znovu optimalizujeme obsah AI komunikácie";
+
+// MARK: - Profile
+"profile_about_app" = "O aplikácii RockAiSnap";
+"profile_restart_chat" = "Reštartovať chat";
+"profile_delete_account" = "Vymazať účet";
+"profile_my_collection" = "Moja zbierka (%d)";
+"profile_history_record" = "História (%d)";
+"profile_subscribe_now" = "Prihlásiť sa teraz";
+"profile_me" = "Ja";
+"profile_vip" = "VIP";
+"profile_privileges" = "Privilégiá";
+"profile_no_more_collection" = "Žiadne ďalšie zbierky";
+
+// MARK: - Warnings
+"restart_chat_warning_title" = "Ste si istí, že chcete reštartovať chat?";
+"restart_chat_warning_content" = "Po potvrdení stratíte aktuálnu chatovú reláciu";
+"delete_account_warning_title" = "Ste si istí, že chcete vymazať?";
+"delete_account_warning_content" = "Táto akcia sa nedá vrátiť späť";
+
+// MARK: - Camera
+"camera_permission_request_title" = "Potrebujeme povolenie kamery";
+"camera_permission_request_desc" = "Potrebné povolenie kamery";
+"camera_permisson_request_button" = "Povoliť";
+"camera_preview_tip" = "Odfotografujte kameň na identifikáciu, pri fotografovaní udržujte objekt ostrý";
+"camera_zoom" = "Priblíženie";
+"camera_photography_tips" = "Tipy na fotografovanie";
+"camera_keep_stone_centered" = "Udržujte kameň v strede záberu";
+"camera_retake" = "Odfotiť znovu";
+"camera_mode_ai_enhancer" = "AI vylepšovač";
+
+// MARK: - Settings
+"settings_title" = "Nastavenia";
+"settings_premium_service" = "Moja prémiová služba";
+"settings_free" = "Bezplatné";
+"settings_set_language" = "Nastaviť jazyk";
+"settings_autosave_photos" = "Automaticky uložiť fotografie do albumu";
+"settings_encourage_us" = "Povzbuďte nás";
+"settings_suggestion" = "Návrh";
+"settings_app_info" = "Informácie o aplikácii";
+"settings_tell_friends" = "Povedať priateľom";
+"settings_privacy_policy" = "Zásady ochrany súkromia";
+"settings_terms_of_use" = "Podmienky používania";
+"settings_manage_account" = "Spravovať účet";
+
+// MARK: - Stone Information
+"stone_info_detailed_not_available" = "Podrobné informácie nie sú k dispozícii";
+"stone_info_additional_characteristics" = "Ďalšie charakteristiky a klasifikačné údaje sa zobrazia tu, keď budú k dispozícii.";
+"stone_info_characteristics" = "Charakteristiky";
+"stone_info_scientific_classification" = "Vedecká klasifikácia";
+"stone_info_additional_classification" = "Ďalšie klasifikačné informácie:";
+"stone_info_more" = "Viac>>";
+
+// MARK: - Identification
+"identify_recognition_failed" = "Identifikácia zlyhala";
+"identify_wait_moment" = "Počkajte chvíľu, identifikuje sa...";
+"identify_progress_percent" = "%d%%";
+
+// MARK: - Sound
+"sound_permission_required" = "Potrebné povolenie zvuku";
+"sound_take_to_identify" = "Nahrajte zvuk na identifikáciu kameňa a udržujte objekt";
+
+// MARK: - Search
+"search_enter_keywords" = "Zadajte kľúčové slová na vyhľadávanie súvisiacich informácií";
+"search_no_search" = "Žiadne vyhľadávanie";
+
+// MARK: - Subscription
+"subscription_try_7_days_free" = "Vyskúšajte 7 dní zadarmo";
+"subscription_then_yearly" = "Potom %@/rok. Zrušte kedykoľvek.";
+"subscription_loading_price" = "Načítava sa cena... Zrušte kedykoľvek.";
+"subscription_cancel_anytime" = "Zrušte kedykoľvek";
+"subscription_start_free_trial" = "Začať bezplatnú skúšku";
+"subscription_yearly" = "Ročne";
+"subscription_monthly" = "Mesačne";
+"subscription_no_commitment" = "Žiadny záväzok. Zrušte kedykoľvek.";
+"subscription_payment_charged" = "Ak nezačnete skúšku, poplatok sa strhne z vašeho Google Play účtu na konci skúšky alebo pri potvrdení nákupu. Predplatné sa automaticky obnoví, pokiaľ sa nezruší aspoň 24 hodín pred koncom aktuálneho obdobia.";
+"subscription_restore" = "Obnoviť";
+
+// MARK: - Account Management
+"account_manage_title" = "Spravovať účet";
+"account_delete_warning" = "Ak sa rozhodnete vymazať účet, všetky súbory a informácie budú vymazané a nebude možné ich obnoviť. Ste si istí, že to chcete urobiť?";
+"account_delete_information" = "Vymazať informácie";
+"account_delete_confirmation" = "Ak sa rozhodnete vymazať účet, všetky údaje budú vymazané a nebude možné ich obnoviť!";
+"account_warning" = "Upozornenie";
+"account_cancel" = "Zrušiť";
+"account_delete" = "Vymazať";
+
+// MARK: - About
+"about_app_name" = "RockAiSnap";
+"about_version" = "V%@";
+"about_description" = "Neviete názov kameňa? RockAiSnap vám pomôže identifikovať neznáme kamene najjednoduchším a najzábavnejším způsobom objavovania prírody. Neustále sa snažíme poskytovať lepší používateľský zážitok a neustále optimalizujeme našu identifikačnú funkciu! Dúfame, že sa k našej veľkej rodine pripojí každý, kto miluje kamene. Začnime cestu stretávania s najroztomilejšími kameňmi z celého sveta.";
+"about_email" = "lingjuetech@gmail.com";
+"about_email_address" = "lingjuetech@gmail.com";
+
+// MARK: - Suggestion
+"suggestion_send" = "Odoslať";
+"suggestion_required_field" = "*";
+"my_collection_no_more" = "Žiadne ďalšie zbierky";
+"snap_tip_photography_tips" = "Tipy na fotografovanie";
+"snap_tip_keep_stone_centered" = "Udržujte kameň v strede záberu";
+
+// MARK: - Share
+"share_image_failed" = "Načítanie obrázka zlyhalo";
+"share_alert_title" = "Tip";
+"share_alert_message" = "Zdieľanie dokončené";
+"share_title" = "Zdieľať";
+"share_download" = "Stiahnuť";
+"share_share" = "Zdieľať";
+"share_no_content" = "Žiadny obsah na zdieľanie";
+"share_failed" = "Zdieľanie zlyhalo";
+"share_ok" = "OK";
+"share_stone_not_found" = "Informácie o kameni sa nenašli";
+"share_error" = "Chyba";
+"share_image_not_available" = "Obrázok nie je k dispozícii, nedá sa uložiť";
+"share_success" = "Úspech";
+"share_image_saved" = "Obrázok uložený do albumu";
+"share_permission_denied" = "Povolenie zamietnuté";
+"share_permission_message" = "Povoľte prístup k albumu v nastaveniach na uloženie obrázka";
+"share_card_saved" = "Karta na zdieľanie uložená do albumu";
+"share_error_invalid_url" = "Neplatný odkaz na obrázok";
+"share_error_download_failed" = "Sťahovanie obrázka zlyhalo";
+"share_error_no_content" = "Žiadny obsah na zdieľanie";
+"share_image_load_failed" = "Načítanie obrázka zlyhalo";
+
+// MARK: - Stone Features
+"stone_basic_information" = "Základné informácie";
+"stone_color_features" = "Farebné charakteristiky";
+"stone_habitat" = "Habitat";
+"stone_behavior" = "Správanie";
+"stone_flying" = "Lietanie";
+"stone_size" = "Veľkosť";
+"stone_no_data" = "Žiadne údaje";
+"stone_season_info" = "Sezónne informácie";
+"stone_visible_months" = "Viditeľné mesiace:";
+"stone_visible_year_round" = "Celoročne";
+"stone_plumage" = "Perie";
+"stone_observation_number" = "Číslo pozorovania";
+
+// MARK: - Subscription Page Specific
+"subscription_app_name" = "RockAiSnap";
+"subscription_feature_12000_species" = "Podrobné informácie o viac ako 12 000 kameňoch";
+
+// MARK: - Valuation
+"possible_price_range" = "Možný cenový rozsah";
+"note" = "Poznámka";
+"are_you_satisfied_with_the_result" = "Ste spokojní s výsledkom";
+"thanks_for_your_feedback" = "Ďakujeme za vašu spätnú väzbu";
+"valuation_in_progress" = "Oceňovanie prebieha";
+"valuation_step_identification" = "Identifikácia";
+"valuation_step_quality_evaluation" = "Hodnotenie kvality";
+"valuation_step_market_price_search" = "Vyhľadávanie trhovej ceny";
+"stone_estimated_value" = "Odhadovaná hodnota";
+"metal_detector_tips_content" = "Tento nástroj je poháňaný magnetickým senzorom, ktorý je zabudovaný vo vašom mobilnom telefóne. Tento detektor funguje s magnetickými horninami alebo minerálmi, ako sú magnetit, pyrotín a meteorit. Môže tiež detegovať kov, ktorý sa skladá hlavne zo železa, kobaltu alebo niklu. Keďže magnetický senzor je na každom mobilnom telefóne umiestnený inak, pohybujte detekovaným objektom okolo vášho telefónu, aby ste našli jeho najlepšiu citlivosť a získali jasný údaj na ciferníku. Údaj na ciferníku označuje silu vášho detekovaného objektu; nepredstavuje presnú hodnotu magnetizmu.";
+"valuation_not_found" = "Nenašiel sa žiadny kameň";
+"valuation_camera_tips" = "Jasné, vysokokvalitné fotografie vedú k presnejším výsledkom ocenenia";
+"subscription_feature_high_accuracy" = "Vysoká presnosť identifikácie kameňov pomocou fotografií a zvuku";
+"subscription_feature_attract_stones" = "Naučte sa, ako prilákať kamene do vášho domova";
+"subscription_feature_unlimited_id" = "Neobmedzená identifikácia kameňov";
+"subscription_feature_expand_knowledge" = "Rozšírte svoje učenie a vedomosti o kameňoch";
+"subscription_try_it_free" = "Vyskúšajte zadarmo";
+"subscription_continue" = "Pokračovať";
+"subscription_7_days_then_yearly" = "7 dní zadarmo, potom %@/rok";
+"subscription_7_days_free_trial_yearly" = "7-dňová bezplatná skúška, potom ročné predplatné";
+"subscription_payment_terms" = "Ak nezačnete skúšku, poplatok sa strhne z vašeho Google Play účtu na konci skúšky alebo pri potvrdení nákupu. Predplatné sa automaticky obnoví, pokiaľ sa nezruší aspoň 24 hodín pred koncom aktuálneho obdobia. Váš účet sa bude účtovať za obnovenie do 24 hodín pred koncom aktuálneho obdobia. Predplatné môžete spravovať a zrušiť v nastaveniach Google Play Store. Pre viac informácií si pozrite naše";
+"subscription_terms_and" = "a";
+
+// MARK: - Retain Page
+"retain_today" = "Dnes";
+"retain_today_desc" = "Odomknite plný prístup k prémiovým funkciám identifikácie kameňov";
+"retain_day_1_6" = "1.-6. deň";
+"retain_day_1_6_desc" = "Užívajte si svoje prémium a naplno využite bezplatnú skúšku";
+"retain_day_7" = "7. deň";
+"retain_day_7_desc" = "Vaše predplatné sa začína. Môžete zrušiť kedykoľvek predtým.";
+"retain_then_yearly_price" = "Potom %@/rok. Zrušte kedykoľvek.";
+
+// MARK: - Instruction Page
+"instruction_page_title" = "Návod na fotografovanie kameňov";
+"instruction_good_image_quality" = "Dobrá kvalita obrázka pomáha zlepšiť presnosť identifikácie.";
+"instruction_step_1" = "1. Udržujte kameň v strede záberu, uistite sa, že nie je príliš ďaleko.";
+"instruction_step_2" = "2. Snažte sa vyhnúť vegetácii, klietkam alebo iným prekážkam pred kameňom.";
+"instruction_step_3" = "3. Zabezpečte dostatočné osvetlenie pre vysoký kontrast. Ak nevidíte kameň jasne, aplikácia ho tiež nedokáže identifikovať.";
+"instruction_step_4" = "4. Snažte sa odfotiť kameň spredu. Aspoň hlava by mala byť viditeľná.";
+"instruction_step_5" = "5. Fotografujte len jeden kameň na fotografii. Príliš veľa kameňov na fotografii môže viesť k chybnej identifikácii.";
+"instruction_identify" = "Identifikovať";
+
+// MARK: - ConvertPage
+"convert_title" = "RockAI Snap";
+"convert_feature_1" = "Podrobné informácie o viac ako 12 000 kameňoch";
+"convert_feature_2" = "Vysoká presnosť identifikácie fotografií a zvuku";
+"convert_feature_3" = "Naučte sa, ako prilákať kamene do vášho domova";
+"convert_feature_4" = "Neobmedzená identifikácia kameňov";
+"convert_feature_5" = "Rozšírte svoje učenie a vedomosti o kameňoch";
+"convert_yearly" = "Ročne";
+"convert_monthly" = "Mesačne";
+"convert_loading_price" = "Načítava sa cena...";
+"convert_free_trial_yearly" = "7-dňová bezplatná skúška, potom %@ /rok";
+"convert_free_trial_loading" = "7-dňová bezplatná skúška, potom ročné predplatné";
+"convert_try_free" = "Vyskúšajte zadarmo";
+"convert_continue" = "Pokračovať";
+"convert_cancel_anytime" = "Žiadny záväzok, zrušte kedykoľvek";
+"convert_cancel_notice" = "Nemusíte platiť, ak zrušíte predplatné aspoň deň pred koncom 7-dňového bezplatného skúšobného obdobia.";
+"convert_payment_terms" = "Ak nezačnete skúšku, poplatok sa strhne z vašeho App Store účtu na konci skúšky alebo pri potvrdení nákupu. Predplatné sa automaticky obnoví, pokiaľ sa nezruší aspoň 24 hodín pred koncom aktuálneho obdobia. Váš účet sa bude účtovať za obnovenie do 24 hodín pred koncom aktuálneho obdobia. Predplatné môžete spravovať a zrušiť v nastaveniach App Store. Pre viac informácií si pozrite naše";
+"convert_terms_of_use" = "Podmienky používania";
+"convert_and" = "a";
+"convert_privacy_policy" = "Zásady ochrany súkromia.";
+
+// MARK: - RetainPage
+"retain_title" = "RockAI Snap";
+"retain_restore" = "Obnoviť";
+"retain_timeline_today" = "Dnes";
+"retain_timeline_today_desc" = "Odomknite plný prístup k všetkým prémiovým funkciám obrázkov kameňov";
+"retain_timeline_day1_6" = "1. až 6. deň";
+"retain_timeline_day1_6_desc" = "Užívajte si svoju prémiovú službu, naplno využite bezplatnú skúšku";
+"retain_timeline_day7" = "7. deň";
+"retain_timeline_day7_desc" = "Vaše predplatné sa začína. Môžete zrušiť kedykoľvek predtým.";
+"retain_try_free" = "Vyskúšajte 7 dní zadarmo";
+"retain_then_yearly" = "Potom %@/rok. Zrušte kedykoľvek.";
+"retain_loading_price" = "Načítava sa cena... Zrušte kedykoľvek.";
+"retain_start_trial" = "Začať bezplatnú skúšku";
+"retain_price_then" = "Potom ";
+"retain_price_year_cancel" = "/rok. Zrušte kedykoľvek.";
+
+// MARK: - Snap Tips
+"snap_tip_too_far" = "Príliš ďaleko";
+"snap_tip_too_close" = "Príliš blízko";
+"snap_tip_blurry" = "Rozmazané";
+"snap_tip_multiple_species" = "Viacero druhov";
+
+// MARK: - More Images
+"more_images" = "Viac obrázkov";
+
+// MARK: - Camera Mode Selection
+"camera_mode_by_photo" = "Fotografovanie";
+"camera_mode_by_sound" = "Nahrávanie";
+
+// MARK: - Features
+"feature_wishlist" = "Zoznam prianí";
+"feature_refreshing" = "Obnovuje sa...";
+"feature_loading_more" = "Načítava sa viac...";
+"feature_load_more" = "Načítať viac";
+"feature_no_more_data" = "Žiadne ďalšie údaje";
+"feature_metal_detector" = "Detektor kovov";
+"feature_durability_rating" = "Hodnotenie odolnosti";
+"feature_estimated_value" = "Odhadovaná hodnota";
+
+// MARK: - Profile Features
+"profile_refreshing" = "Obnovuje sa...";
+"profile_loading_more" = "Načítava sa viac...";
+"profile_load_more" = "Načítať viac";
+"profile_no_more_data" = "Žiadne ďalšie údaje";
+"profile_wishlist" = "Zoznam prianí (%d)";
+
+// MARK: - Wish List
+"wishlist_estimated_value" = "Odhadovaná hodnota";
+
+// MARK: - Stone Characteristics
+"stone_usage" = "Použitie";
+"stone_health_risks" = "Zdravotné riziká";
+"stone_authenticity_identification" = "Identifikácia pravosti";
+"stone_storage_method" = "Spôsob skladovania";
+"stone_cleaning_tips" = "Tipy na čistenie";
+"stone_chemical_formula" = "Chemický vzorec";
+"stone_crystal_system" = "Kryštálový systém";
+"stone_hardness" = "Tvrdosť";
+"stone_density" = "Hustota";
+"stone_chemical_elements" = "Chemické prvky";
+
+// MARK: - Purchase
+"purchase_choose_subscription_plan" = "Vyberte plán predplatného";
+"purchase_unlock_premium_features" = "Odomknite všetky prémiové funkcie";
+"purchase_restore_purchases" = "Obnoviť nákupy";
+"purchase_cancel" = "Zrušiť";
+"purchase_user_cancelled" = "Používateľ zrušil";
+"purchase_please_wait" = "Počkajte prosím";
+"purchase_processing" = "Spracováva sa...";
+"purchase_success" = "Úspech";
+"purchase_success_message" = "Nákup úspešný! Ďakujeme za vašu podporu.";
+"purchase_failed" = "Nákup zlyhal";
+"purchase_restore_failed" = "Obnovenie zlyhalo";
+"purchase_restored_successfully" = "Nákupy úspešne obnovené";
+"purchase_already_vip" = "Už ste VIP používateľ";
+"purchase_product_not_found" = "Produkt sa nenašiel";
+"purchase_not_available" = "Nákupy v aplikácii nie sú k dispozícii";
+"purchase_no_purchases_to_restore" = "Nenašli sa žiadne nákupy na obnovenie";
+"purchase_error" = "Chyba";
+"purchase_unable_to_load_products" = "Nedá sa načítať informácie o produkte";
+"purchase_check_network_try_again" = "Nedá sa načítať informácie o produkte, skontrolujte pripojenie k sieti a skúste znovu.";
+"purchase_premium_feature" = "Prémiová funkcia";
+"purchase_premium_feature_message" = "%@ je prémiová funkcia. Upgradujte na prémium, aby ste ju mohli používať.";
+"purchase_upgrade_now" = "Upgradovať teraz";
+"purchase_maybe_later" = "Možno neskôr";
+"purchase_upgrade_to_premium" = "Upgradovať na prémium";
+"purchase_premium_user" = "Prémiový používateľ";
+"purchase_free_user" = "Bezplatný používateľ";
+"purchase_operation_successful" = "Operácia úspešná";
+
+// MARK: - Debug
+"debug_options" = "Možnosti ladenia";
+"debug_mode_only" = "Len režim ladenia";
+"debug_set_as_vip" = "Nastaviť ako VIP";
+"debug_remove_vip" = "Odstrániť VIP";
+"debug_clear_purchase_records" = "Vymazať všetky záznamy o nákupoch";
+"debug_title" = "Ladenie";
+"debug_vip_set" = "Nastavené ako VIP";
+"debug_vip_removed" = "VIP odstránené";
+"debug_records_cleared" = "Všetky záznamy o nákupoch vymazané";
+"debug_refresh_products" = "🔄 Obnoviť produkty";
+
+// MARK: - Enhanced Purchase System
+"purchase_loading_products" = "Načítavaju sa produkty...";
+"purchase_restoring" = "Obnovujú sa nákupy...";
+"common_ok" = "OK";
+
+// MARK: - Debug Messages
+"debug_testing_sandbox_pricing" = "Testuje sa sandbox cena";
+"debug_please_wait" = "Počkajte prosím...";
+"debug_sandbox_test_results" = "Výsledky testu sandbox ceny";
+"debug_retest" = "Testovať znovu";
+"debug_test_purchase" = "Testovať nákup";
+"debug_close" = "Zavrieť";
+"debug_cannot_purchase" = "Nedá sa nakupovať";
+"debug_load_products_first" = "Najprv úspešne načítajte informácie o produkte";
+"debug_select_product" = "Vyberte produkt na nákup";
+"debug_purchasing" = "Nakupuje sa";
+"debug_purchase_successful" = "Nákup úspešný";
+"debug_purchase_failed" = "Nákup zlyhal";
+"debug_congratulations" = "Gratulujeme! Úspešne ste si kúpili";
+"debug_purchase_incomplete" = "Nákup nebol dokončený alebo bol zrušený";
+"debug_purchase_error" = "Chyba nákupu";
+"debug_error_message" = "Chybová správa";
+"debug_restoring_purchases" = "Obnovujú sa nákupy";
+"debug_restore_completed" = "Obnovenie dokončené";
+"debug_vip_status" = "VIP stav";
+"debug_activated" = "Aktivované";
+"debug_not_activated" = "Neaktivované";
+"debug_restore_failed" = "Obnovenie zlyhalo";
+"debug_checking_sandbox" = "Kontroluje sa sandbox prostredie";
+"debug_price_not_retrieved" = "Cena nebola získaná, nedá sa vykonať nákup";
+"debug_load_image_history_failed" = "Načítanie histórie identifikácie obrázkov zlyhalo";
+"debug_sandbox_test_info" = "=== Informácie o teste sandbox ===";
+"debug_unknown" = "Neznáme";
+"debug_empty_product_list" = "⚠️ Zoznam produktov je prázdny, možné príčiny:";
+"debug_product_not_configured" = "1. Produkt App Store Connect nie je nakonfigurovaný";
+"debug_product_not_ready" = "2. Stav produktu nie je 'Ready for Sale'";
+"debug_bundle_id_mismatch" = "3. Bundle ID sa nezhoduje";
+"debug_sandbox_not_logged_in" = "4. Nie ste prihlásení do sandbox testovacieho účtu";
+"debug_network_issue" = "5. Problém so sieťovým pripojením";
+"debug_manual_request_products" = "🔄 Manuálne požiadať o produkty...";
+"debug_request_complete" = "Požiadavka dokončená: %d produktov";
+"debug_manual_refresh_complete" = "✅ Manuálne obnovenie dokončené";
+"debug_product_info" = "✅ Produkt: %@";
+"debug_product_price" = "   - Cena: %@";
+"debug_product_title" = "   - Názov: %@";
+"debug_product_description" = "   - Popis: %@";
+
+// MARK: - UI Text
+"ui_detailed_info_unavailable" = "Podrobné informácie momentálne nie sú k dispozícii";
+"ui_more_stone_info_future" = "Viac informácií o charakteristikách kameňov bude k dispozícii v budúcich verziách";
+"ui_stone_characteristics" = "Charakteristiky kameňa";
+"ui_description" = "Popis";
+"ui_usage" = "Použitie";
+"ui_health_risks" = "Zdravotné riziká";
+"ui_authenticity_identification" = "Identifikácia pravosti";
+"ui_storage_method" = "Spôsob skladovania";
+"ui_cleaning_tips" = "Tipy na čistenie";
+"ui_chemical_classification" = "Chemická klasifikácia";
+"ui_chemical_formula" = "Chemický vzorec";
+"ui_crystal_system" = "Kryštálový systém";
+"ui_hardness" = "Tvrdosť";
+"ui_density" = "Hustota";
+"ui_chemical_elements" = "Chemické prvky";
+"ui_more" = "Viac>>";
+
+// MARK: - Email
+"email_cannot_send" = "Nedá sa odoslať email";
+"email_confirm_installation" = "Potvrďte, že máte nainštalovanú emailovú aplikáciu a ste prihlásení do účtu";
+"email_confirm" = "Potvrdiť";
+
+// MARK: - System Errors
+"error_response_conversion" = "Odpoveď sa nedá konvertovať na požadovaný typ";
+"error_load_failed" = "Načítanie zlyhalo";
+"error_network_connection" = "Chyba sieťového pripojenia";
+"error_try_again_later" = "Skúste to neskôr";
+
+// MARK: - Permissions
+"microphone_permission_title" = "Potrebné povolenie mikrofónu";
+"microphone_permission_desc" = "Potrebný prístup k mikrofónu na nahrávanie zvukov kameňov na identifikáciu druhov kameňov";
+"microphone_permission_button" = "Povoliť";
+
+// MARK: - Find Treasure
+"find_treasure_metal_detector" = "Detektor kovov";
+
+// MARK: - Stone Detail
+"stone_durability_rating" = "Hodnotenie odolnosti";
+
+// MARK: - Home Action Types (z HomeActionView.swift)
+"home_action_type_valuation" = "Ohodnotenie";
+"home_action_type_identify" = "Identifikovať";
+"home_action_type_detector" = "Detektor";
+
+// MARK: - FindTreasure Page (z FindTreasurePage.swift)
+"find_treasure_title" = "Detektor kovov";
+"find_treasure_status_normal" = "Normálne prostredie";
+"find_treasure_status_slight" = "Mierna anomália";
+"find_treasure_status_detected" = "Detekovaný kov";
+"find_treasure_status_strong" = "Silný kovový signál";
+
+// MARK: - Spracovanie chýb
+"error_load_failed" = "Načítanie zlyhalo";
+"error_network_connection" = "Chyba sieťového pripojenia";
+"error_try_again_later" = "Skúste to neskôr";
+
+// MARK: - Zrušenie predplatného
+"subscription_cancel_subscription" = "Zrušiť predplatné";
+"subscription_cancel_confirmation" = "Ste si istí, že chcete zrušiť predplatné?";
+
+// MARK: - Identifikácia zvuku
+"sound_take_to_identify_stones" = "Nahrajte zvuk na identifikáciu kameňa a udržujte objekt";
+
+// MARK: - Warnings
+"warning_no_camera_permission" = "Chýba povolenie pre kameru";
+"warning_no_photo_permission" = "Chýba povolenie pre fotografie";
+"warning_no_microphone_permission" = "Chýba povolenie pre mikrofón";

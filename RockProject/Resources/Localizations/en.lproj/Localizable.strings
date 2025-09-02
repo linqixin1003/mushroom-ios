@@ -1,0 +1,618 @@
+/* 
+   Localizable.strings - English
+   RockProject
+
+   Created for localization support.
+*/
+
+// MARK: - App Basic
+"app_name" = "RockAiSnap";
+"tab_bar_home" = "Home";
+"tab_bar_profile" = "Profile";
+
+// MARK: - General Titles
+"title_home" = "Home";
+"title_dashboard" = "Dashboard";
+"title_notifications" = "Notifications";
+
+// MARK: - Splash Screen
+"splash_start_now" = "Start Now";
+"splash_first_launch_slogan" = "Your Magic Wand For Instant Friendships!";
+
+// MARK: - Common Text
+"text_policy_tapping_continue" = "By continuing you agree to the";
+"text_terms_of_use" = "Terms of Use";
+"text_privacy_policy" = "Privacy Policy";
+"text_refund_policy" = "Refund Policy";
+"text_contact_us" = "Contact Us";
+"text_customer_service" = "Customer service";
+"text_email_prefix" = "Email: %@";
+"text_next" = "Next";
+"text_copied" = "Copied";
+"text_continue" = "Continue";
+"text_cancel" = "Cancel";
+"text_game" = "Game";
+"text_profile" = "Profile";
+"text_yes" = "Yes";
+"text_no" = "No";
+"text_maybe_later" = "Maybe later";
+"text_submit" = "Submit";
+"text_confirm" = "Confirm";
+"text_loading" = "Loading";
+"text_view_all" = "View all";
+"text_try_again" = "Try Again";
+"text_save" = "Save";
+"text_new" = "New";
+"text_share" = "Share";
+"text_common_error_try_again" = "Oops! Something went wrong. Please try again later :)";
+"text_also_known_as" = "Also known as";
+"text_scientific_name" = "Scientific name";
+"text_more" = "More";
+"text_images" = "Images";
+"text_sound" = "Sound";
+"text_map" = "Map";
+"text_description" = "Description";
+"text_ok" = "OK";
+"text_photo" = "Photo";
+"text_tips" = "Tips";
+"text_expand" = "Expand";
+
+// MARK: - Home Action Types
+"home_action_type_valuation" = "Valuation";
+"home_action_type_identify" = "Identify";
+"home_action_type_detector" = "Detector";
+
+// MARK: - FindTreasure Page
+"find_treasure_title" = "Metal Detector";
+"find_treasure_status_normal" = "Normal Environment";
+"find_treasure_status_slight" = "Slight Anomaly";
+"find_treasure_status_detected" = "Metal Detected";
+"find_treasure_status_strong" = "Strong Metal Signal";
+
+// MARK: - Home Screen
+"home_search_hint" = "Search over 30,000 species";
+"home_vip_banner_text" = "Your free 7-day Premium hasn't been claimed yet. Tap to claim.";
+"home_action_identify" = "Identify";
+"home_action_record" = "Record";
+"home_action_ai_beautify" = "AI Beautify";
+"home_your_daily_stone" = "Your Daily Stone";
+"home_stones_near_you" = "Stones Near You";
+"home_app_usage_title" = "App usage instructions";
+"home_app_usage_desc" = "Help you get familiar with us more quickly.";
+
+// MARK: - Survey/Onboarding
+"survey1_title" = "Let's set a username for you";
+"survey1_input_name_placeholder" = "Your Username";
+"survey2_title" = "You identify yourself as...";
+"survey2_option_she" = "She";
+"survey2_option_he" = "He";
+"survey2_option_they" = "Non-binary";
+"survey3_title" = "What do you want to talk about?";
+"survey3_option1" = "Play Chat Games";
+"survey3_option2" = "Make a Virtual Friend";
+"survey3_option3" = "Share Emotions";
+"survey3_option4" = "Have Fun";
+"survey3_option5" = "Feel Less Lonely";
+"survey3_option6" = "Other";
+"survey4_title" = "What are your interests?";
+"survey5_title" = "It's time to choose your friend";
+"survey5_reset_all_blocked_roles_warning_message" = "All Characters were blocked. Do you want to recover all characters?";
+"survey6_title" = "Give your AI friend a name.";
+"survey6_input_name_placeholder" = "Input AI friend's name";
+"survey7_creating" = "Creating...";
+
+// MARK: - Chat
+"text_ai_chat" = "AI Chat";
+"chat_input_bar_placeholder" = "Type a message";
+"chat_error_oops" = "Oops! Something went wrong. Please try again later :)";
+"chat_report_bot_response_warning_messasge" = "We are continuously optimizing AI communication content and have removed this content for you. Do you need to report this AI character at the same time?";
+"chat_report_ai_character" = "Report AI Character";
+"chat_just_report_content" = "Just report content";
+
+// MARK: - Welcome
+"welcome_title" = "WELCOME!";
+"welcome_content" = "Nice to meet you! Have fun!";
+"welcome_got_it" = "Got it!";
+
+// MARK: - Report
+"report_title" = "Report a problem";
+"report_edit_text_hint" = "Add details here";
+"report_success" = "Report succeed";
+"report_block_character" = "Block character";
+"report_block_character_warning_message" = "We will remove this AI character and optimize the AI communication content again";
+
+// MARK: - Profile
+"profile_about_app" = "About RockAiSnap";
+"profile_restart_chat" = "Restart Chat";
+"profile_delete_account" = "Delete Account";
+"profile_me" = "Me";
+"profile_vip" = "VIP";
+"profile_privileges" = "Privileges";
+"profile_subscribe_now" = "Subscribe Now";
+"profile_my_collection" = "My collection (%d)";
+"profile_history_record" = "History record (%d)";
+"profile_no_more_collection" = "NO More Collection";
+"profile_wishlist" = "Wishlist (%d)";
+"profile_refreshing" = "Refreshing...";
+"profile_load_more" = "Load more...";
+"profile_load_more_button" = "Load more";
+"profile_no_more_data" = "No more data";
+"profile_error_load_history" = "Failed to load history. Please check your network connection.";
+"profile_error_load_sound_history" = "Failed to load sound history. Please check your network connection.";
+"profile_error_load_more_data" = "Failed to load more data";
+"profile_error_load_wishlist" = "Failed to load wishlist";
+"profile_error_load_more_wishlist" = "Failed to load more wishlist";
+
+// MARK: - Warnings
+"restart_chat_warning_title" = "Are you sure to restart chat?";
+"restart_chat_warning_content" = "You will lose current chat session when you confirm";
+"delete_account_warning_title" = "Are you sure to Delete?";
+"delete_account_warning_content" = "This operation cannot be undone";
+
+// MARK: - Camera
+"camera_permission_request_title" = "We need Camera permission";
+"camera_permission_request_desc" = "Camera permission is required";
+"camera_permisson_request_button" = "Allow";
+"camera_preview_tip" = "Take photos to identify stones and keep the subject clear when shooting";
+"camera_zoom" = "Zoom";
+"camera_photography_tips" = "Photography tips";
+"camera_keep_stone_centered" = "Keep stone centered in frame";
+"camera_good_image_quality" = "Good image quality can help improve the accuracy of identification.";
+"camera_retake" = "Retake";
+"camera_mode_ai_enhancer" = "AI Enhancer";
+"camera_mode_by_photo" = "By Photo";
+"camera_mode_by_sound" = "By sound";
+"camera_go_button" = "Go";
+
+// MARK: - Settings
+"settings_title" = "Settings";
+"settings_premium_service" = "My Premium Service";
+"settings_free" = "Free";
+"settings_set_language" = "Set Language";
+"settings_autosave_photos" = "Autosave Photos to Album";
+"settings_encourage_us" = "Encourage Us";
+"settings_suggestion" = "Suggestion";
+"settings_app_info" = "App Info";
+"settings_tell_friends" = "Tell Friends";
+"settings_privacy_policy" = "Privacy Policy";
+"settings_terms_of_use" = "Terms of Use";
+"settings_manage_account" = "Manage Account";
+
+// MARK: - Stone Information
+"stone_info_detailed_not_available" = "Detailed information not available";
+"stone_info_additional_characteristics" = "Additional characteristics and classification data will be displayed here when available.";
+"stone_info_characteristics" = "Characteristics";
+"stone_info_scientific_classification" = "Scientific classification";
+"stone_info_additional_classification" = "Additional Classification Info:";
+"stone_info_more" = "More>>";
+
+// MARK: - Identification
+"identify_recognition_failed" = "Recognition Failed";
+"identify_wait_moment" = "Wait for a moment, identifying...";
+"identify_progress_percent" = "%d%%";
+
+// MARK: - Sound
+"sound_permission_required" = "Sound permission is required";
+"sound_take_to_identify" = "Take sound to identify stones and keep the subject";
+"sound_take_to_identify_stones" = "Take sound to identify stones and keep the subject";
+
+// MARK: - Search
+"search_enter_keywords" = "Please enter keywords to search for relevant information";
+"search_no_search" = "No Search";
+
+// MARK: - Subscription
+"subscription_try_7_days_free" = "Try 7 days for free";
+"subscription_then_yearly" = "Then %@/year. Cancel anytime.";
+"subscription_loading_price" = "Loading price... Cancel anytime.";
+"subscription_cancel_anytime" = "Cancel anytime";
+"subscription_start_free_trial" = "START MY FREE TRIAL";
+"subscription_yearly" = "Yearly";
+"subscription_monthly" = "Monthly";
+"subscription_no_commitment" = "No commitment. Cancel anytime.";
+"subscription_payment_charged" = "Payment will be charged to your Google Play account at the end of your trial or confirmation of purchase if you are not starting a trial. Subscription automatically renews unless it is canceled at least 24 hours before the end of the current period.";
+"subscription_restore" = "Restore";
+"subscription_cancel_notice" = "No need to pay if you cancel the subscription at least a day before the 7-day free trial ends.";
+"subscription_app_name" = "RockAiSnap";
+"subscription_feature_12000_species" = "In-depth info for 12000+ stone species";
+"subscription_feature_high_accuracy" = "High-accuracy stone ID with photo & sound";
+"subscription_feature_attract_stones" = "Learn how to attract stones to your home";
+"subscription_feature_unlimited_id" = "Unlimited stone identifications";
+"subscription_feature_expand_knowledge" = "Expand your study and knowledge of stones";
+"subscription_try_it_free" = "TRY IT FREE";
+"subscription_continue" = "CONTINUE";
+"subscription_7_days_then_yearly" = "7 days for free, then %@/yearly";
+"subscription_7_days_free_trial_yearly" = "7 days free trial, then yearly subscription";
+"subscription_payment_terms" = "Payment will be charged to your Google Play account at the end of your trial or confirmation of purchase if you are not starting a trial. Subscription automatically renews unless it is canceled at least 24 hours before the end of your trial or current period. Your account will be charged for renewal within 24 hours prior to the end of the current period. You can manage and cancel your subscriptions in settings in the Google Play store. For more information, please see our";
+"subscription_terms_and" = " and ";
+
+// MARK: - Account Management
+"account_manage_title" = "Manage Account";
+"account_delete_warning" = "If you choose to clear your account, all your files and information will be cleared and cannot be recovered. Are you sure you want to do this?";
+"account_delete_information" = "Delete Information";
+"account_delete_confirmation" = "If you choose to delete your account, all your data will be deleted and cannot be recovered!";
+"account_warning" = "Warning";
+"account_cancel" = "Cancel";
+"account_delete" = "Delete";
+"account_manager_title" = "Manage Account";
+"account_manager_language" = "en";
+
+// MARK: - About
+"about_app_name" = "RockAiSnap";
+"about_version" = "V%@";
+"about_description" = "Don't know the stone's name? RockAiSnap helps you identify unknown stones and discover nature in the simplest and most fun way. We are also constantly working to provide a better user experience and optimize our identification features! We hope that anyone who loves stones can join our family. Let's start meeting the most adorable stones from around the world.";
+"about_email" = "lingjuetech@gmail.com";
+"about_email_address" = "lingjuetech@gmail.com";
+"about_page_title" = "App Info";
+
+// MARK: - Suggestion
+"suggestion_send" = "Send";
+"suggestion_required_field" = "*";
+"suggestion_email_subject" = "suggestion";
+"suggestion_cant_send_email" = "Can't send email";
+"suggestion_email_setup_message" = "Please confirm that you have installed email and your account has been logged in";
+"suggestion_confirm" = "Confirm";
+
+// MARK: - Share
+"share_image_failed" = "Image failed to load";
+"share_alert_title" = "Alert";
+"share_alert_message" = "Share completed";
+"share_title" = "Share";
+"share_download" = "Download";
+"share_share" = "Share";
+"share_image_load_failed" = "Image failed to load";
+"share_no_content" = "No content to share";
+"share_failed" = "Share Failed";
+"share_ok" = "OK";
+"share_stone_not_found" = "Stone information not found";
+"share_error" = "Error";
+"share_image_not_available" = "Image is not available to save";
+"share_success" = "Success";
+"share_image_saved" = "Image has been saved to your photo library";
+"share_permission_denied" = "Permission Denied";
+"share_permission_message" = "Please grant access to the photo library in Settings to save the image";
+"share_card_saved" = "Share card has been saved to your photo library";
+"share_error_invalid_url" = "Invalid image URL";
+"share_error_download_failed" = "Image download failed";
+"share_error_no_content" = "No content to share";
+
+// MARK: - Stone Features
+"stone_basic_information" = "Basic Information";
+"stone_color_features" = "Color Features";
+"stone_habitat" = "Habitat";
+"stone_behavior" = "Behavior";
+"stone_flying" = "Flying";
+"stone_size" = "Size";
+"stone_no_data" = "No Data";
+"stone_season_info" = "Season Info";
+"stone_visible_months" = "Visible Months:";
+"stone_visible_year_round" = "Year-round";
+"stone_plumage" = "Plumage";
+"stone_observation_number" = "Observation Number";
+"stone_usage" = "Usage";
+"stone_health_risks" = "Health risks";
+"stone_authenticity_identification" = "Authenticity identification";
+"stone_storage_method" = "Storage method";
+"stone_cleaning_tips" = "Cleaning tips";
+"stone_chemical_formula" = "Chemical formula";
+"stone_crystal_system" = "Crystal system";
+"stone_hardness" = "Hardness";
+"stone_density" = "Density";
+"stone_chemical_elements" = "Chemical elements";
+"stone_estimated_value" = "Estimated value";
+"add_to_collection" = "Add to my collection";
+
+// MARK: - Stone Detail Components
+"stone_chemical_properties" = "Chemical properties";
+"stone_impurities" = "Impurities";
+"stone_variety" = "Variety";
+"stone_physical_properties" = "Physical properties";
+"stone_colors" = "Colors";
+"stone_luster" = "Luster";
+"stone_diaphaneity" = "Diaphaneity";
+"stone_magnetism" = "Magnetism";
+"stone_streak" = "Streak";
+"stone_tenacity" = "Tenacity";
+"stone_cleavage" = "Cleavage";
+"stone_fracture" = "Fracture";
+"stone_durability_rating" = "Durability rating";
+"stone_scratch_resistance" = "Scratch resistance";
+"stone_toughness" = "Toughness";
+"stone_stability" = "Stability";
+"stone_care_instructions" = "Care instructions";
+"stone_light" = "Light";
+"stone_temperature" = "Temperature";
+"stone_price_information" = "Price information";
+"stone_per_carat" = "Per carat";
+"stone_per_pound" = "Per pound";
+"stone_metaphysical_properties" = "Metaphysical properties";
+"stone_chakra_root" = "Root chakra";
+"stone_chakra_sacral" = "Sacral chakra";
+"stone_chakra_solar" = "Solar plexus chakra";
+"stone_chakra_heart" = "Heart chakra";
+"stone_chakra_throat" = "Throat chakra";
+"stone_chakra_third_eye" = "Third eye chakra";
+"stone_chakra_crown" = "Crown chakra";
+"stone_quality_tranquillity" = "Tranquillity";
+"stone_quality_grounding" = "Grounding";
+"stone_quality_protection" = "Protection";
+"stone_quality_healing" = "Healing";
+"stone_quality_clarity" = "Clarity";
+"stone_quality_spiritual" = "Spiritual";
+"stone_quality_energy" = "Energy";
+"stone_quality_prosperity" = "Prosperity";
+"stone_quality_balance" = "Balance";
+"stone_quality_love" = "Love";
+"stone_enhancing" = "Enhancing";
+"stone_charging" = "Charging";
+"stone_cleansing" = "Cleansing";
+
+// MARK: - Retain Page
+"retain_today" = "Today";
+"retain_today_desc" = "Unlock full access to all Picture Stone Premium features";
+"retain_day_1_6" = "Day 1 –Day 6";
+"retain_day_1_6_desc" = "Enjoy your Premium and get the most out of your free trial";
+"retain_day_7" = "Day 7";
+"retain_day_7_desc" = "Your subscription starts. Cancel anytime before.";
+"retain_then_yearly_price" = "Then %@/year. Cancel anytime.";
+"retain_title" = "RockAiSnap";
+"retain_restore" = "Restore";
+"retain_timeline_today" = "Today";
+"retain_timeline_today_desc" = "Unlock full access to all Picture Stone Premium features";
+"retain_timeline_day1_6" = "Day 1 –Day 6";
+"retain_timeline_day1_6_desc" = "Enjoy your Premium and get the most out of your free trial";
+"retain_timeline_day7" = "Day 7";
+"retain_timeline_day7_desc" = "Your subscription starts. Cancel anytime before.";
+"retain_try_free" = "Try 7 days for free";
+"retain_then_yearly" = "Then %@/year. Cancel anytime.";
+"retain_loading_price" = "Loading price... Cancel anytime.";
+"retain_start_trial" = "START MY FREE TRIAL";
+"retain_price_then" = "Then ";
+"retain_price_year_cancel" = "/year. Cancel anytime.";
+
+// MARK: - Snap Tips
+"snap_tip_too_far" = "Too far";
+"snap_tip_too_close" = "Too close";
+"snap_tip_blurry" = "Blurry";
+"snap_tip_multiple_species" = "Multiple species";
+"snap_tip_photography_tips" = "Photography tips";
+"snap_tip_keep_stone_centered" = "Keep stone centered in frame";
+
+// MARK: - More Images
+"more_images" = "More Images";
+
+// MARK: - Features
+"feature_wishlist" = "Wishlist";
+"feature_refreshing" = "Refreshing...";
+"feature_loading_more" = "Loading more...";
+"feature_load_more" = "Load more";
+"feature_no_more_data" = "No more data";
+"feature_metal_detector" = "Metal detector";
+"feature_durability_rating" = "Durability rating";
+"feature_estimated_value" = "Estimated value";
+
+// MARK: - Wish List
+"wishlist_estimated_value" = "Estimated value";
+
+// MARK: - Purchase
+"purchase_choose_subscription_plan" = "Choose Subscription Plan";
+"purchase_unlock_premium_features" = "Unlock all premium features";
+"purchase_restore_purchases" = "Restore Purchases";
+"purchase_cancel" = "Cancel";
+"purchase_user_cancelled" = "User cancelled";
+"purchase_please_wait" = "Please Wait";
+"purchase_processing" = "Processing...";
+"purchase_success" = "Success";
+"purchase_success_message" = "Purchase successful! Thank you for your support.";
+"purchase_failed" = "Purchase Failed";
+"purchase_restore_failed" = "Restore Failed";
+"purchase_restored_successfully" = "Purchases restored successfully";
+"purchase_already_vip" = "You are already a VIP user";
+"purchase_product_not_found" = "Product not found";
+"purchase_not_available" = "In-app purchases are not available";
+"purchase_no_purchases_to_restore" = "No purchases found to restore";
+"purchase_error" = "Error";
+"purchase_unable_to_load_products" = "Unable to load product information";
+"purchase_check_network_try_again" = "Unable to load product information. Please check your network connection and try again.";
+"purchase_premium_feature" = "Premium Feature";
+"purchase_premium_feature_message" = "%@ is a premium feature. Please upgrade to premium to use it.";
+"purchase_upgrade_now" = "Upgrade Now";
+"purchase_maybe_later" = "Maybe Later";
+"purchase_upgrade_to_premium" = "Upgrade to Premium";
+"purchase_premium_user" = "Premium User";
+"purchase_free_user" = "Free User";
+"purchase_operation_successful" = "Operation successful";
+"purchase_loading_products" = "Loading products...";
+"purchase_restoring" = "Restoring purchases...";
+
+// MARK: - Purchase Testing
+"purchase_testing_sandbox_pricing" = "Testing sandbox pricing";
+"purchase_sandbox_test_results" = "Sandbox test results";
+"purchase_error_info" = "❌ Error info:";
+"purchase_loading_status" = "🔄 Loading...";
+"purchase_no_products_error" = "❌ No products retrieved\n\nPossible reasons:\n• Network connection issue\n• Bundle ID mismatch\n• Product not configured in App Store Connect\n• Sandbox account not logged in";
+"purchase_products_found" = "✅ Successfully retrieved";
+"purchase_product_name" = "Product:";
+"purchase_product_id" = "ID:";
+"purchase_product_price" = "Price:";
+"purchase_product_type" = "Type:";
+"purchase_subscription_period" = "Subscription period:";
+"purchase_trial_offer" = "Trial:";
+"purchase_system_info" = "\n📱 System info:\n";
+"purchase_bundle_id" = "Bundle ID:";
+"purchase_unknown" = "Unknown";
+"purchase_vip_status" = "VIP Status:";
+"purchase_vip_yes" = "Yes";
+"purchase_vip_no" = "No";
+"purchase_retest" = "Retest";
+"purchase_test_purchase" = "Test Purchase";
+"purchase_close" = "Close";
+"purchase_cannot_purchase" = "Cannot purchase";
+"purchase_load_products_first" = "Please load products first";
+"purchase_select_product_to_buy" = "Select product to purchase";
+"purchase_purchasing" = "Purchasing";
+"purchase_purchase_success" = "Purchase successful";
+"purchase_purchase_failed" = "Purchase failed";
+"purchase_congratulations" = "Congratulations! You have successfully purchased";
+"purchase_not_completed" = "Purchase not completed or cancelled";
+"purchase_purchase_error" = "Purchase error";
+"purchase_error_message" = "Error message:";
+"purchase_restoring_purchases" = "Restoring purchases";
+"purchase_restore_complete" = "Restore complete";
+"purchase_vip_activated" = "Activated";
+"purchase_vip_not_activated" = "Not activated";
+"purchase_restore_failed" = "Restore failed";
+"purchase_auto_renewable" = "Auto-renewable subscription";
+"purchase_non_renewable" = "Non-renewable subscription";
+"purchase_consumable" = "Consumable";
+"purchase_non_consumable" = "Non-consumable";
+"purchase_unknown_type" = "Unknown type";
+"purchase_day" = "day";
+"purchase_week" = "week";
+"purchase_month" = "month";
+"purchase_year" = "year";
+
+// MARK: - Debug
+"debug_options" = "Debug Options";
+"debug_mode_only" = "Debug mode only";
+"debug_set_as_vip" = "Set as VIP";
+"debug_remove_vip" = "Remove VIP";
+"debug_clear_purchase_records" = "Clear All Purchase Records";
+"debug_title" = "Debug";
+"debug_vip_set" = "Set as VIP";
+"debug_vip_removed" = "VIP removed";
+"debug_records_cleared" = "All purchase records cleared";
+"debug_refresh_products" = "🔄 Refresh Products";
+"debug_price_not_retrieved" = "Price not retrieved, purchase operation prohibited";
+"debug_load_image_history_failed" = "Failed to load image identification history";
+"debug_sandbox_test_info" = "=== Sandbox Test Debug Info ===";
+"debug_unknown" = "Unknown";
+"debug_empty_product_list" = "⚠️ Product list is empty, possible reasons:";
+"debug_product_not_configured" = "1. App Store Connect product not configured";
+"debug_product_not_ready" = "2. Product status is not 'Ready for Sale'";
+"debug_bundle_id_mismatch" = "3. Bundle ID mismatch";
+"debug_sandbox_not_logged_in" = "4. Sandbox test account not logged in";
+"debug_network_issue" = "5. Network connection issue";
+"debug_manual_request_products" = "🔄 Manually requesting products...";
+"debug_request_complete" = "Request completed: %d products";
+"debug_manual_refresh_complete" = "✅ Manual refresh completed";
+"debug_product_info" = "✅ Product: %@";
+"debug_product_price" = "   - Price: %@";
+"debug_product_title" = "   - Title: %@";
+"debug_product_description" = "   - Description: %@";
+"debug_testing_sandbox_pricing" = "Testing Sandbox Pricing";
+"debug_please_wait" = "Please wait...";
+"debug_sandbox_test_results" = "Sandbox Test Results";
+"debug_retest" = "Retest";
+"debug_test_purchase" = "Test Purchase";
+"debug_close" = "Close";
+"debug_cannot_purchase" = "Cannot Purchase";
+"debug_load_products_first" = "Please load products first";
+"debug_select_product" = "Select Product to Purchase";
+"debug_purchasing" = "Purchasing...";
+"debug_purchase_successful" = "Purchase Successful";
+"debug_purchase_failed" = "Purchase Failed";
+"debug_congratulations" = "Congratulations! You are now a VIP user.";
+"debug_purchase_incomplete" = "Purchase was not completed successfully.";
+"debug_purchase_error" = "Purchase Error";
+"debug_error_message" = "Error";
+"debug_restoring_purchases" = "Restoring Purchases...";
+"debug_restore_completed" = "Restore Completed";
+"debug_vip_status" = "VIP Status";
+"debug_activated" = "Activated";
+"debug_not_activated" = "Not Activated";
+"debug_restore_failed" = "Restore Failed";
+
+// MARK: - Setting Page
+"setting_checking_sandbox" = "Checking sandbox environment";
+"setting_please_wait" = "Please wait...";
+"setting_sandbox_test_result" = "Sandbox test result";
+"setting_test_purchase" = "Test purchase";
+"setting_restore_purchase" = "Restore purchase";
+"setting_close" = "Close";
+"setting_select_product" = "Select product to purchase";
+"setting_cannot_purchase" = "Cannot purchase";
+"setting_load_products_first" = "Please load products first";
+"setting_confirm" = "Confirm";
+"setting_cancel" = "Cancel";
+"setting_purchasing" = "Purchasing";
+"setting_purchase_success" = "Purchase successful";
+"setting_purchase_failed" = "Purchase failed";
+"setting_purchase_success_message" = "Congratulations! You have successfully purchased";
+"setting_purchase_failed_message" = "Purchase not completed or cancelled";
+"setting_purchase_error" = "Purchase error";
+"setting_error_message" = "Error message: %@";
+"setting_restoring_purchase" = "Restoring purchase";
+"setting_restore_complete" = "Restore complete";
+"setting_vip_status" = "VIP Status: %@";
+"setting_vip_activated" = "Activated";
+"setting_vip_not_activated" = "Not activated";
+"setting_restore_failed" = "Restore failed";
+
+// MARK: - Recognize Page
+"recognize_auto_saved_collection" = "Auto-saved to collection";
+"recognize_stone_loading" = "Stone information is loading, please wait";
+"recognize_invalid_id" = "Invalid identification ID";
+"recognize_added_collection_success" = "Added to collection successfully";
+"recognize_added_collection_failed" = "Failed to add to collection, please try again";
+"recognize_stone_loading_wait" = "Stone information is loading, please wait";
+"recognize_added_wishlist_success" = "Added to wishlist";
+"recognize_added_wishlist_failed" = "Failed to add to wishlist, please try again";
+
+// MARK: - Detail Page
+"detail_page_title" = "Result";
+"detail_stone_loading" = "Stone information is loading, please wait";
+"detail_collected" = "Collected";
+"detail_collected_failed" = "Collected Failed";
+"detail_collected_error" = "add Collected Error";
+"detail_stone_loading_wait" = "Stone information is loading, please wait";
+"detail_added_wishlist_success" = "Added to wishlist";
+"detail_added_wishlist_failed" = "Failed to add to wishlist, please try again";
+
+// MARK: - Instruction Page
+"instruction_page_title" = "Picture Stone instructions";
+"instruction_step_1" = "1. Keep stone centered in frame, make sure it isn't too far away.";
+"instruction_step_2" = "2. Try to avoid having vegetation, cages, or other things in front of the stone.";
+"instruction_step_3" = "3. Ensure good lighting for high contrast. If you can't see the stone, the app can't either.";
+"instruction_step_4" = "4. Try to capture the front of the stone. At the very least, the head should be visible.";
+"instruction_step_5" = "5. Only one species in picture. Too many stones in picture may result in false identification.";
+"instruction_good_image_quality" = "Good image quality can help improve the accuracy of identification.";
+"instruction_identify" = "Identify";
+
+// MARK: - ConvertPage
+"convert_title" = "RockAiSnap";
+"convert_feature_1" = "In-depth info for 12000+ stone species";
+"convert_feature_2" = "High-accuracy stone ID with photo & sound";
+"convert_feature_3" = "Learn how to attract stones to your home";
+"convert_feature_4" = "Unlimited stone identifications";
+"convert_feature_5" = "Expand your study and knowledge of stones";
+"convert_yearly" = "Yearly";
+"convert_monthly" = "Monthly";
+"convert_loading_price" = "Loading price...";
+"convert_free_trial_yearly" = "7 days for free, then %@ /yearly";
+"convert_free_trial_loading" = "7 days free trial, then yearly subscription";
+"convert_try_free" = "TRY IT FREE";
+"convert_continue" = "Continue";
+"convert_cancel_anytime" = "No commitment. Cancel anytime.";
+"convert_cancel_notice" = "No need to pay if you cancel the subscription at least a day before the 7-day free trial ends.";
+"convert_payment_terms" = "Payment will be charged to your App Store account at the end of your trial or confirmation of purchase if you are not starting a trial. Subscription automatically renews unless it is canceled at least 24 hours before the end of your trial or current period. Your account will be charged for renewal within 24 hours prior to the end of the current period. You can manage and cancel your subscriptions in settings in the App Store. For more information, please see our";
+"convert_terms_of_use" = "Terms of Use";
+"convert_and" = "and";
+"convert_privacy_policy" = "Privacy Policy.";
+
+// MARK: - Common
+"common_ok" = "OK";
+"my_collection_no_more" = "NO More Collection";
+
+// MARK: - API Errors
+"error_response_conversion" = "Response conversion failed";
+"possible_price_range" = "Possible price range";
+"note" = "Note";
+"are_you_satisfied_with_the_result" = "Are you satisfied with the result";
+"thanks_for_your_feedback" = "Thanks for your feedback";
+"valuation_in_progress" = "Valuation in progress";
+"valuation_step_identification" = "Identification";
+"valuation_step_quality_evaluation" = "Quality evaluation";
+"valuation_step_market_price_search" = "Market price search";
+"valuation_not_found" = "No stone found";
+"valuation_camera_tips" = "Clear,high-quality photos lead to more accurate valuation results";
+"metal_detector_tips_content" = "This tool is empowered by the magneticsensor that is built into your cell phone.Thisdetector works with magnetic rocks orminerals, such as magnetite, pyrrhotite, andmeteorite. It can also detect metal that iscomposed mainly of iron, cobalt, or nickel.Since the magnetic sensor is located differently on each cell phone, move thedetecting object around your phone to findits best sensitivity and get a clear read onthe dial gauge.The read of the dial gaugeindicates the strength of your detectedobject; it does not represent the exact valueof magnetism.";

@@ -1,0 +1,370 @@
+/* 
+   Localizable.strings - German
+   RockProject
+
+   Created for localization support.
+*/
+
+// MARK: - App Basic
+"app_name" = "RockAiSnap";
+"tab_bar_home" = "Startseite";
+"tab_bar_profile" = "Profil";
+
+// MARK: - General Titles
+"title_home" = "Startseite";
+"title_dashboard" = "Dashboard";
+"title_notifications" = "Benachrichtigungen";
+
+// MARK: - Splash Screen
+"splash_start_now" = "Jetzt Starten";
+"splash_first_launch_slogan" = "Ihr Zauberstab für sofortige Freundschaften!";
+
+// MARK: - Common Text
+"text_policy_tapping_continue" = "Durch Fortfahren stimmen Sie den";
+"text_terms_of_use" = "Nutzungsbedingungen";
+"text_privacy_policy" = "Datenschutzrichtlinie";
+"text_refund_policy" = "Rückerstattungsrichtlinie";
+"text_contact_us" = "Kontaktieren Sie uns";
+"text_customer_service" = "Kundendienst";
+"text_email_prefix" = "E-Mail: %@";
+"text_next" = "Weiter";
+"text_copied" = "Kopiert";
+"text_continue" = "Fortfahren";
+"text_cancel" = "Avbryt";
+"text_game" = "Spiel";
+"text_profile" = "Profil";
+"text_yes" = "Ja";
+"text_no" = "Nein";
+"text_maybe_later" = "Vielleicht später";
+"text_submit" = "Senden";
+"text_confirm" = "Bestätigen";
+"text_loading" = "Laden";
+"text_view_all" = "Alle anzeigen";
+"text_try_again" = "Erneut versuchen";
+"text_save" = "Speichern";
+"text_new" = "Neu";
+"text_share" = "Teilen";
+"text_common_error_try_again" = "Ups! Etwas ist schiefgelaufen. Bitte versuchen Sie es später erneut :)";
+"text_also_known_as" = "Auch bekannt als";
+"text_scientific_name" = "Wissenschaftlicher Name";
+"text_more" = "Mehr";
+"text_images" = "Bilder";
+"text_sound" = "Ton";
+"text_map" = "Karte";
+"text_description" = "Beschreibung";
+"text_ok" = "OK";
+"text_photo" = "Foto";
+"text_tips" = "Tipps";
+"text_expand" = "Erweitern";
+
+// MARK: - Home Screen
+"home_search_hint" = "Durchsuchen Sie über 30.000 Arten";
+"home_vip_banner_text" = "Ihr kostenloses 7-Tage-Premium wurde noch nicht beansprucht. Tippen Sie zum Beanspruchen.";
+"home_action_identify" = "Identifizieren";
+"home_action_record" = "Aufnehmen";
+"home_action_ai_beautify" = "KI-Verschönerung";
+"home_your_daily_stone" = "Ihr täglicher Vogel";
+"home_stones_near_you" = "Vögel in Ihrer Nähe";
+"home_app_usage_title" = "Anwendungsanweisungen";
+"home_app_usage_desc" = "Hilft Ihnen, sich schneller mit uns vertraut zu machen.";
+
+// MARK: - Survey/Onboarding
+"survey1_title" = "Lassen Sie uns einen Benutzernamen für Sie festlegen";
+"survey1_input_name_placeholder" = "Ihr Benutzername";
+"survey2_title" = "Sie identifizieren sich als...";
+"survey2_option_she" = "Sie";
+"survey2_option_he" = "Er";
+"survey2_option_they" = "Nicht-binär";
+"survey3_title" = "Worüber möchten Sie sprechen?";
+"survey3_option1" = "Chat-Spiele spielen";
+"survey3_option2" = "Einen virtuellen Freund finden";
+"survey3_option3" = "Emotionen teilen";
+"survey3_option4" = "Spaß haben";
+"survey3_option5" = "Sich weniger einsam fühlen";
+"survey3_option6" = "Anderes";
+"survey4_title" = "Was sind Ihre Interessen?";
+"survey5_title" = "Es ist Zeit, Ihren Freund zu wählen";
+"survey5_reset_all_blocked_roles_warning_message" = "Alle Charaktere wurden blockiert. Möchten Sie alle Charaktere wiederherstellen?";
+"survey6_title" = "Geben Sie Ihrem KI-Freund einen Namen.";
+"survey6_input_name_placeholder" = "Namen des KI-Freundes eingeben";
+"survey7_creating" = "Erstellen...";
+
+// MARK: - Chat
+"text_ai_chat" = "KI-Chat";
+"chat_input_bar_placeholder" = "Nachricht eingeben";
+"chat_error_oops" = "Ups! Etwas ist schiefgelaufen. Bitte versuchen Sie es später erneut :)";
+"chat_report_bot_response_warning_messasge" = "Wir optimieren kontinuierlich KI-Kommunikationsinhalte und haben diesen Inhalt für Sie entfernt. Müssen Sie diesen KI-Charakter gleichzeitig melden?";
+"chat_report_ai_character" = "KI-Charakter melden";
+"chat_just_report_content" = "Nur Inhalt melden";
+
+// MARK: - Welcome
+"welcome_title" = "WILLKOMMEN!";
+"welcome_content" = "Schön, Sie kennenzulernen! Viel Spaß!";
+"welcome_got_it" = "Verstanden!";
+
+// MARK: - Report
+"report_title" = "Problem melden";
+"report_edit_text_hint" = "Details hier hinzufügen";
+"report_success" = "Meldung erfolgreich";
+"report_block_character" = "Charakter blockieren";
+"report_block_character_warning_message" = "Wir werden diesen KI-Charakter entfernen und die KI-Kommunikationsinhalte erneut optimieren";
+
+// MARK: - Profile
+"profile_about_app" = "Über Vogel-Identifikator";
+"profile_restart_chat" = "Chat neu starten";
+"profile_delete_account" = "Konto löschen";
+
+// MARK: - Warnings
+"restart_chat_warning_title" = "Sind Sie sicher, dass Sie den Chat neu starten möchten?";
+"restart_chat_warning_content" = "Sie verlieren die aktuelle Chat-Sitzung, wenn Sie bestätigen";
+"delete_account_warning_title" = "Sind Sie sicher, dass Sie löschen möchten?";
+"delete_account_warning_content" = "Dieser Vorgang kann nicht rückgängig gemacht werden";
+
+// MARK: - Camera
+"camera_permission_request_title" = "Wir benötigen Kamera-Berechtigung";
+"camera_permission_request_desc" = "Kamera-Berechtigung ist erforderlich";
+"camera_permisson_request_button" = "Erlauben";
+"camera_preview_tip" = "Machen Sie Fotos zur Vogelidentifikation und halten Sie das Motiv beim Aufnehmen klar";
+
+// MARK: - Settings
+"settings_title" = "Einstellungen";
+"settings_premium_service" = "Mein Premium-Service";
+"settings_free" = "Kostenlos";
+"settings_set_language" = "Angi språk";
+"settings_autosave_photos" = "Fotos automatisch im Album speichern";
+"settings_encourage_us" = "Ermutigen Sie uns";
+"settings_suggestion" = "Vorschlag";
+"settings_app_info" = "App-Informationen";
+"settings_tell_friends" = "Freunden erzählen";
+"settings_privacy_policy" = "Datenschutzrichtlinie";
+"settings_terms_of_use" = "Nutzungsbedingungen";
+"settings_manage_account" = "Konto verwalten";
+
+// MARK: - Stone Information
+"stone_info_detailed_not_available" = "Detaillierte Informationen nicht verfügbar";
+"stone_info_additional_characteristics" = "Zusätzliche Eigenschaften und Klassifizierungsdaten werden hier angezeigt, wenn verfügbar.";
+"stone_info_characteristics" = "Eigenschaften";
+"stone_info_scientific_classification" = "Wissenschaftliche Klassifizierung";
+"stone_info_additional_classification" = "Zusätzliche Klassifizierungsinformationen:";
+"stone_info_more" = "Mehr>>";
+
+// MARK: - Identification
+"identify_recognition_failed" = "Erkennung fehlgeschlagen";
+"identify_wait_moment" = "Bitte warten, Erkennung läuft...";
+"identify_progress_percent" = "%d%%";
+
+// MARK: - Camera
+"camera_zoom" = "Zoom";
+"camera_photography_tips" = "Aufnahmetipps";
+"camera_keep_stone_centered" = "Vogel im Bildmittelpunkt halten";
+"camera_good_image_quality" = "Gute Bildqualität kann die Genauigkeit der Identifizierung verbessern.";
+
+// MARK: - Sound
+"sound_permission_required" = "Tonberechtigung erforderlich";
+"sound_take_to_identify" = "Ton aufnehmen, um Vögel zu identifizieren und das Motiv zu halten";
+
+// MARK: - Search
+"search_enter_keywords" = "Bitte geben Sie Schlüsselwörter ein, um relevante Informationen zu suchen";
+"search_no_search" = "Keine Suche";
+
+// MARK: - Profile
+"profile_me" = "Ich";
+"profile_vip" = "VIP";
+"profile_privileges" = "Privilegien";
+"profile_subscribe_now" = "Jetzt abonnieren";
+"profile_my_collection" = "Meine Sammlung (%d)";
+"profile_history_record" = "Verlauf (%d)";
+"profile_no_more_collection" = "Keine weitere Sammlung";
+
+// MARK: - Subscription
+"subscription_try_7_days_free" = "7 Tage kostenlos testen";
+"subscription_then_yearly" = "Dann %@/Jahr. Jederzeit kündbar.";
+"subscription_loading_price" = "Preis wird geladen... Jederzeit kündbar.";
+"subscription_cancel_anytime" = "Jederzeit kündbar";
+"subscription_start_free_trial" = "KOSTENLOSEN TEST STARTEN";
+"subscription_yearly" = "Jährlich";
+"subscription_monthly" = "Monatlich";
+"subscription_no_commitment" = "Keine Verpflichtung. Jederzeit kündbar.";
+"subscription_payment_charged" = "Die Zahlung wird am Ende Ihrer Testversion oder bei Kaufbestätigung von Ihrem Google Play-Konto abgebucht, wenn Sie keine Testversion starten. Das Abonnement verlängert sich automatisch, es sei denn, es wird mindestens 24 Stunden vor Ende des aktuellen Zeitraums gekündigt.";
+"subscription_restore" = "Wiederherstellen";
+
+// MARK: - Account Management
+"account_manage_title" = "Konto verwalten";
+"account_delete_warning" = "Wenn Sie sich entscheiden, Ihr Konto zu löschen, werden alle Ihre Dateien und Informationen gelöscht und können nicht wiederhergestellt werden. Sind Sie sicher, dass Sie dies tun möchten?";
+"account_delete_information" = "Informationen löschen";
+"account_delete_confirmation" = "Wenn Sie sich entscheiden, Ihr Konto zu löschen, werden alle Ihre Daten gelöscht und können nicht wiederhergestellt werden!";
+
+// MARK: - About
+"about_app_name" = "RockAiSnap";
+"about_version" = "V%@";
+"about_description" = "Sie kennen den Namen des Vogels nicht? RockAiSnap hilft Ihnen, unbekannte Vögel zu identifizieren und die Natur auf die einfachste und unterhaltsamste Weise zu entdecken.";
+"about_email" = "lingjuetech@gmail.com";
+"about_email_address" = "Gmail.com";
+
+// MARK: - Suggestion
+"suggestion_send" = "Senden";
+"suggestion_required_field" = "*";
+"my_collection_no_more" = "Keine weitere Sammlung";
+"snap_tip_photography_tips" = "Fotografie-Tipps";
+"snap_tip_keep_stone_centered" = "Vogel im Bildmittelpunkt halten";
+"sound_take_to_identify_stones" = "Ton aufnehmen, um Vögel zu identifizieren und das Motiv zu halten";
+
+// MARK: - Camera Mode Selection
+"camera_mode_by_photo" = "Über Foto";
+"camera_mode_by_sound" = "Über Ton"; 
+
+// Instruction Page
+"instruction_page_title" = "Anleitung zum Fotografieren von Vögeln";
+"instruction_good_image_quality" = "Eine gute Bildqualität kann die Genauigkeit der Identifizierung verbessern.";
+"instruction_step_1" = "1. Halten Sie den Vogel im Bildmittelpunkt und stellen Sie sicher, dass er nicht zu weit entfernt ist.";
+"instruction_step_2" = "2. Vermeiden Sie Vegetation, Käfige oder andere Hindernisse vor dem Vogel.";
+"instruction_step_3" = "3. Sorgen Sie für gute Beleuchtung für hohen Kontrast. Wenn Sie den Vogel nicht sehen können, kann die App ihn auch nicht erkennen.";
+"instruction_step_4" = "4. Versuchen Sie, die Vorderseite des Vogels aufzunehmen. Mindestens der Kopf sollte sichtbar sein.";
+"instruction_step_5" = "5. Nur eine Art pro Bild. Zu viele Vögel im Bild können zu einer falschen Identifizierung führen.";
+"instruction_identify" = "Identifizieren"; 
+
+// ConvertPage
+"convert_title" = "StoneAI Snap";
+"convert_feature_1" = "Detaillierte Informationen zu über 12.000 Vogelarten";
+"convert_feature_2" = "Hochpräzise Vogelidentifikation mit Foto und Ton";
+"convert_feature_3" = "Lernen Sie, wie Sie Vögel zu sich nach Hause locken";
+"convert_feature_4" = "Unbegrenzte Vogelidentifikationen";
+"convert_feature_5" = "Erweitern Sie Ihr Vogelwissen";
+"convert_yearly" = "Jährlich";
+"convert_monthly" = "Monatlich";
+"convert_loading_price" = "Preis wird geladen...";
+"convert_free_trial_yearly" = "7 Tage kostenlos, dann %@ /Jahr";
+"convert_free_trial_loading" = "7 Tage kostenlose Testversion, dann Jahresabonnement";
+"convert_try_free" = "KOSTENLOS TESTEN";
+"convert_continue" = "WEITER";
+"convert_cancel_anytime" = "Keine Bindung. Jederzeit kündbar.";
+"convert_cancel_notice" = "Sie müssen nicht bezahlen, wenn Sie das Abonnement mindestens einen Tag vor Ende der 7-tägigen kostenlosen Testphase kündigen.";
+"convert_payment_terms" = "Die Zahlung wird am Ende Ihrer Testphase oder bei Kaufbestätigung, wenn Sie keine Testphase beginnen, von Ihrem App Store-Konto abgebucht. Das Abonnement verlängert sich automatisch, wenn es nicht mindestens 24 Stunden vor Ende der aktuellen Periode gekündigt wird. Ihrem Konto wird die Verlängerung innerhalb von 24 Stunden vor Ende der aktuellen Periode in Rechnung gestellt. Sie können Ihre Abonnements in den App Store-Einstellungen verwalten und kündigen. Weitere Informationen finden Sie in unseren";
+"convert_terms_of_use" = "Nutzungsbedingungen";
+"convert_and" = "und";
+"convert_privacy_policy" = "Datenschutzrichtlinie.";
+
+// RetainPage
+"retain_title" = "RockAiSnap";
+"retain_restore" = "Wiederherstellen";
+"retain_timeline_today" = "Heute";
+
+// MARK: - Valuation
+"possible_price_range" = "Mögliche Preisspanne";
+"note" = "Hinweis";
+"are_you_satisfied_with_the_result" = "Sind Sie mit dem Ergebnis zufrieden";
+"thanks_for_your_feedback" = "Vielen Dank für Ihr Feedback";
+"valuation_in_progress" = "Bewertung läuft";
+"valuation_step_identification" = "Identifikation";
+"valuation_step_quality_evaluation" = "Qualitätsbewertung";
+"valuation_step_market_price_search" = "Marktpreissuche";
+"valuation_not_found" = "Kein Stein gefunden";
+"valuation_camera_tips" = "Klare, hochwertige Fotos führen zu genaueren Bewertungsergebnissen";
+"retain_timeline_today_desc" = "Schalten Sie den vollständigen Zugriff auf alle Premium-Funktionen frei";
+"retain_timeline_day1_6" = "Tag 1 - Tag 6";
+"retain_timeline_day1_6_desc" = "Genießen Sie Ihr Premium und holen Sie das Beste aus Ihrer kostenlosen Testversion heraus";
+"retain_timeline_day7" = "Tag 7";
+"retain_timeline_day7_desc" = "Ihr Abonnement beginnt. Kündigen Sie vorher, wenn Sie möchten.";
+"retain_try_free" = "7 Tage kostenlos testen";
+"retain_then_yearly" = "Dann %@/Jahr. Jederzeit kündbar.";
+"retain_loading_price" = "Preis wird geladen... Jederzeit kündbar.";
+"retain_start_trial" = "KOSTENLOSE TESTVERSION STARTEN"; 
+"retain_price_then" = "Dann ";
+"retain_price_year_cancel" = "/Jahr. Jederzeit kündbar.";
+
+// MARK: - Snap Tips
+"snap_tip_too_far" = "Zu weit";
+"snap_tip_too_close" = "Zu nah";
+"snap_tip_blurry" = "Unscharf";
+"snap_tip_multiple_species" = "Mehrere Arten";
+
+// MARK: - More Images
+"more_images" = "Mehr Bilder"; "profile_privileges" = "Privilegien";
+// MARK: - Purchase
+"purchase_choose_subscription_plan" = "Abonnement-Plan wählen";
+"purchase_unlock_premium_features" = "Alle Premium-Funktionen freischalten";
+"purchase_restore_purchases" = "Käufe wiederherstellen";
+"purchase_cancel" = "Abbrechen";
+"purchase_user_cancelled" = "Benutzer abgebrochen";
+"purchase_please_wait" = "Bitte warten";
+"purchase_processing" = "Verarbeitung...";
+"purchase_success" = "Erfolg";
+"purchase_success_message" = "Kauf erfolgreich! Vielen Dank für Ihre Unterstützung.";
+"purchase_failed" = "Kauf fehlgeschlagen";
+"purchase_restore_failed" = "Wiederherstellung fehlgeschlagen";
+"purchase_restored_successfully" = "Käufe erfolgreich wiederhergestellt";
+"purchase_already_vip" = "Sie sind bereits ein VIP-Benutzer";
+"purchase_product_not_found" = "Produkt nicht gefunden";
+"purchase_not_available" = "In-App-Käufe sind nicht verfügbar";
+"purchase_no_purchases_to_restore" = "Keine Käufe zum Wiederherstellen gefunden";
+"purchase_error" = "Fehler";
+"purchase_unable_to_load_products" = "Produktinformationen können nicht geladen werden";
+"purchase_check_network_try_again" = "Produktinformationen können nicht geladen werden. Bitte überprüfen Sie Ihre Netzwerkverbindung und versuchen Sie es erneut.";
+"purchase_premium_feature" = "Premium-Funktion";
+"purchase_premium_feature_message" = "%@ ist eine Premium-Funktion. Bitte upgraden Sie auf Premium, um sie zu nutzen.";
+"purchase_upgrade_now" = "Jetzt upgraden";
+"purchase_maybe_later" = "Vielleicht später";
+"purchase_upgrade_to_premium" = "Auf Premium upgraden";
+"purchase_premium_user" = "Premium-Benutzer";
+"purchase_free_user" = "Kostenloser Benutzer";
+"purchase_operation_successful" = "Vorgang erfolgreich";
+
+// MARK: - Debug
+"debug_options" = "Debug-Optionen";
+"debug_mode_only" = "Nur Debug-Modus";
+"debug_set_as_vip" = "Als VIP setzen";
+"debug_remove_vip" = "VIP entfernen";
+"debug_clear_purchase_records" = "Alle Kaufdatensätze löschen";
+"debug_title" = "Debug";
+"debug_vip_set" = "Als VIP gesetzt";
+"debug_vip_removed" = "VIP entfernt";
+"debug_records_cleared" = "Alle Kaufdatensätze gelöscht";
+
+// MARK: - Permissions
+"microphone_permission_title" = "Mikrofonzugriff erforderlich";
+"microphone_permission_desc" = "Mikrofonzugriff wird benötigt, um Vogelgeräusche für die Artbestimmung aufzunehmen";
+"microphone_permission_button" = "Erlauben";
+
+// Stone Season
+"stone_visible_year_round" = "Ganzjährig";
+
+// MARK: - Home Action Types
+"home_action_type_valuation" = "Bewertung";
+"home_action_type_identify" = "Identifizieren";
+"home_action_type_detector" = "Detektor";
+
+// MARK: - FindTreasure Page
+"find_treasure_title" = "Metalldetektor";
+"find_treasure_status_normal" = "Normale Umgebung";
+"find_treasure_status_slight" = "Leichte Anomalie";
+"find_treasure_status_detected" = "Metall erkannt";
+"find_treasure_status_strong" = "Starkes Metallsignal";
+
+// MARK: - Profile Page
+"profile_wishlist" = "Wunschliste (%d)";
+"profile_refreshing" = "Aktualisierung...";
+"profile_load_more" = "Mehr laden...";
+"profile_load_more_button" = "Mehr laden";
+"profile_no_more_data" = "Keine weiteren Daten";
+
+// MARK: - Stone Info Section
+"stone_usage" = "Verwendung";
+"stone_health_risks" = "Gesundheitsrisiken";
+"stone_original_vs_fake" = "Echtheitsprüfung";
+"stone_storage" = "Lagerung";
+"stone_cleaning_tips" = "Reinigungstipps";
+"stone_chemical_formula" = "Chemische Formel";
+"stone_chemical_classification" = "Chemische Klassifizierung";
+"stone_crystal_system" = "Kristallsystem";
+"stone_hardness" = "Härte";
+"stone_density" = "Dichte";
+"stone_chemical_elements" = "Chemische Elemente";
+"stone_estimated_value" = "Geschätzter Wert";
+"metal_detector_tips_content" = "Dieses Werkzeug wird von dem Magnetsensor angetrieben, der in Ihr Mobiltelefon eingebaut ist. Dieser Detektor funktioniert mit magnetischen Gesteinen oder Mineralien wie Magnetit, Pyrrhotin und Meteorit. Er kann auch Metall erkennen, das hauptsächlich aus Eisen, Kobalt oder Nickel besteht. Da der Magnetsensor bei jedem Mobiltelefon unterschiedlich positioniert ist, bewegen Sie das zu erkennende Objekt um Ihr Telefon herum, um seine beste Empfindlichkeit zu finden und eine klare Ablesung auf dem Zifferblatt zu erhalten. Die Ablesung des Zifferblatts zeigt die Stärke Ihres erkannten Objekts an; sie stellt nicht den exakten Wert des Magnetismus dar.";
+"add_to_collection" = "Zur Sammlung hinzufügen";
+
+// MARK: - Additional Missing Keys
+"subscription_cancel_notice" = "Sie müssen nicht bezahlen, wenn Sie das Abonnement mindestens einen Tag vor Ende der 7-tägigen kostenlosen Testphase kündigen.";
+"profile_error_load_more_data" = "Fehler beim Laden weiterer Daten";
+"profile_error_load_wishlist" = "Fehler beim Laden der Wunschliste";
+"profile_error_load_more_wishlist" = "Fehler beim Laden weiterer Wunschliste";

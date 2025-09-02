@@ -1,0 +1,6 @@
+/* 
+   InfoPlist.strings
+   RockProject
+*/
+
+"NSMicrophoneUsageDescription" = "L'accès au microphone est nécessaire pour enregistrer les chants d'oiseaux afin d'identifier les espèces"; 

@@ -1,0 +1,20 @@
+/* 
+   Localizable.strings - Brazilian Portuguese
+   RockProject
+
+   Created for localization support.
+*/
+
+// MARK: - Valuation
+"possible_price_range" = "Faixa de preço possível";
+"note" = "Nota";
+"are_you_satisfied_with_the_result" = "Você está satisfeito com o resultado";
+"thanks_for_your_feedback" = "Obrigado pelo seu feedback";
+"valuation_in_progress" = "Avaliação em andamento";
+"valuation_step_identification" = "Identificação";
+"valuation_step_quality_evaluation" = "Avaliação de qualidade";
+"valuation_step_market_price_search" = "Pesquisa de preço de mercado";
+"valuation_not_found" = "Nenhuma pedra encontrada";
+"valuation_camera_tips" = "Fotos claras e de alta qualidade levam a resultados de avaliação mais precisos";
+"stone_estimated_value" = "Valor estimado";
+"metal_detector_tips_content" = "Esta ferramenta é alimentada pelo sensor magnético integrado ao seu celular. Este detector funciona com rochas ou minerais magnéticos, como magnetita, pirrotita e meteorito. Também pode detectar metal composto principalmente de ferro, cobalto ou níquel. Como o sensor magnético está localizado de forma diferente em cada celular, mova o objeto de detecção ao redor do seu telefone para encontrar sua melhor sensibilidade e obter uma leitura clara no medidor. A leitura do medidor indica a força do seu objeto detectado; não representa o valor exato do magnetismo.";

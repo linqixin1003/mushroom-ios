@@ -1,0 +1,318 @@
+/* 
+   Localizable.strings - Swedish
+   RockProject
+
+   Created for localization support.
+*/
+
+// MARK: - App Basic
+"app_name" = "RockAiSnap";
+"tab_bar_home" = "Hem";
+"tab_bar_profile" = "Profil";
+
+// MARK: - General Titles
+"title_home" = "Hem";
+"title_dashboard" = "Dashboard";
+"title_notifications" = "Notifikationer";
+
+// MARK: - Splash Screen
+"splash_start_now" = "Börja Nu";
+"splash_first_launch_slogan" = "Din Magiska Stav för Omedelbar Vänskap!";
+
+// MARK: - Common Text
+"text_policy_tapping_continue" = "Genom att fortsätta godkänner du";
+"text_terms_of_use" = "Användarvillkor";
+"text_privacy_policy" = "Integritetspolicy";
+"text_refund_policy" = "Återbetalningspolicy";
+"text_contact_us" = "Kontakta Oss";
+"text_customer_service" = "Kundservice";
+"text_email_prefix" = "E-post: %@";
+"text_next" = "Nästa";
+"text_copied" = "Kopierat";
+"text_continue" = "Fortsätt";
+"text_cancel" = "Avbryt";
+"text_game" = "Spel";
+"text_profile" = "Profil";
+"text_yes" = "Ja";
+"text_no" = "Nej";
+"text_maybe_later" = "Kanske senare";
+"text_submit" = "Skicka";
+"text_confirm" = "Bekräfta";
+"text_loading" = "Laddar";
+"text_view_all" = "Visa alla";
+"text_try_again" = "Försök igen";
+"text_save" = "Spara";
+"text_new" = "Ny";
+"text_share" = "Dela";
+"text_common_error_try_again" = "Hoppsan! Något gick fel. Försök igen senare :)";
+"text_also_known_as" = "Även känd som";
+"text_scientific_name" = "Vetenskapligt namn";
+"text_more" = "Mer";
+"text_images" = "Bilder";
+"text_sound" = "Ljud";
+"text_map" = "Karta";
+"text_description" = "Beskrivning";
+"text_ok" = "OK";
+"text_photo" = "Foto";
+"text_tips" = "Tips";
+"text_expand" = "Expandera";
+
+// MARK: - Home Screen
+"home_search_hint" = "Sök bland över 30 000 arter";
+"home_vip_banner_text" = "Din gratis 7-dagars Premium har inte hämtats än. Tryck för att hämta.";
+"home_action_identify" = "Identifiera";
+"home_action_record" = "Spela in";
+"home_action_ai_beautify" = "AI Försköning";
+"home_your_daily_stone" = "Din Dagliga Fågel";
+"home_stones_near_you" = "Fåglar Nära Dig";
+"home_app_usage_title" = "Appanvändningsinstruktioner";
+"home_app_usage_desc" = "Hjälper dig att bekanta dig med oss snabbare.";
+
+// MARK: - Home Action Types
+"home_action_type_valuation" = "Värdering";
+"home_action_type_identify" = "Identifiera";
+"home_action_type_detector" = "Detektor";
+
+// MARK: - FindTreasure Page
+"find_treasure_title" = "Metalldetektor";
+"find_treasure_status_normal" = "Normal miljö";
+"find_treasure_status_slight" = "Lätt anomali";
+"find_treasure_status_detected" = "Metall upptäckt";
+"find_treasure_status_strong" = "Stark metallsignal";
+
+// MARK: - Survey/Onboarding
+"survey1_title" = "Låt oss sätta ett användarnamn för dig";
+"survey1_input_name_placeholder" = "Ditt Användarnamn";
+"survey2_title" = "Du identifierar dig som...";
+"survey2_option_she" = "Hon";
+"survey2_option_he" = "Han";
+"survey2_option_they" = "Icke-binär";
+"survey3_title" = "Vad vill du prata om?";
+"survey3_option1" = "Spela Chattspel";
+"survey3_option2" = "Skaffa en Virtuell Vän";
+"survey3_option3" = "Dela Känslor";
+"survey3_option4" = "Ha Kul";
+"survey3_option5" = "Känna Sig Mindre Ensam";
+"survey3_option6" = "Annat";
+"survey4_title" = "Vilka är dina intressen?";
+"survey5_title" = "Det är dags att välja din vän";
+"survey5_reset_all_blocked_roles_warning_message" = "Alla Karaktärer blockerades. Vill du återställa alla karaktärer?";
+"survey6_title" = "Ge din AI-vän ett namn.";
+"survey6_input_name_placeholder" = "Ange AI-vännens namn";
+"survey7_creating" = "Skapar...";
+
+// MARK: - Chat
+"text_ai_chat" = "AI Chatt";
+"chat_input_bar_placeholder" = "Skriv ett meddelande";
+"chat_error_oops" = "Hoppsan! Något gick fel. Försök igen senare :)";
+"chat_report_bot_response_warning_messasge" = "Vi optimerar kontinuerligt AI-kommunikationsinnehåll och har tagit bort detta innehåll för dig. Behöver du rapportera denna AI-karaktär samtidigt?";
+"chat_report_ai_character" = "Rapportera AI-Karaktär";
+"chat_just_report_content" = "Rapportera bara innehåll";
+
+// MARK: - Welcome
+"welcome_title" = "VÄLKOMMEN!";
+"welcome_content" = "Trevligt att träffa dig! Ha kul!";
+"welcome_got_it" = "Förstått!";
+
+// MARK: - Report
+"report_title" = "Rapportera ett problem";
+"report_edit_text_hint" = "Lägg till detaljer här";
+"report_success" = "Rapport lyckades";
+"report_block_character" = "Blockera karaktär";
+"report_block_character_warning_message" = "Vi kommer att ta bort denna AI-karaktär och optimera AI-kommunikationsinnehållet igen";
+
+// MARK: - Profile
+"profile_about_app" = "Om Fågelidentifierare";
+"profile_restart_chat" = "Starta om Chatt";
+"profile_delete_account" = "Ta bort Konto";
+"profile_my_collection" = "Min Samling (%d)";
+"profile_history_record" = "Historik (%d)";
+"profile_no_more_collection" = "Ingen mer samling";
+"my_collection_no_more" = "Ingen mer samling";
+"profile_subscribe_now" = "Prenumerera Nu";
+"profile_wishlist" = "Önskelista (%d)";
+"profile_refreshing" = "Uppdaterar...";
+"profile_load_more" = "Ladda mer...";
+"profile_load_more_button" = "Ladda mer";
+"profile_no_more_data" = "Inga fler data";
+
+// MARK: - Warnings
+"restart_chat_warning_title" = "Är du säker på att du vill starta om chatten?";
+"restart_chat_warning_content" = "Du kommer att förlora nuvarande chattsession när du bekräftar";
+"delete_account_warning_title" = "Är du säker på att du vill ta bort?";
+"delete_account_warning_content" = "Denna operation kan inte ångras";
+
+// MARK: - Camera
+"camera_permission_request_title" = "Vi behöver Kameratillstånd";
+"camera_permission_request_desc" = "Kameratillstånd krävs";
+"camera_permisson_request_button" = "Tillåt";
+"camera_preview_tip" = "Ta foton för att identifiera fåglar och håll motivet tydligt när du fotograferar";
+"camera_zoom" = "Zoom";
+"camera_photography_tips" = "Fotograferingstips";
+"camera_keep_stone_centered" = "Håll fågeln centrerad i ramen";
+"camera_good_image_quality" = "Bra bildkvalitet kan hjälpa till att förbättra identifieringens noggrannhet.";
+"camera_mode_by_photo" = "Med foto";
+"camera_mode_by_sound" = "Med ljud";
+
+// MARK: - Settings
+"settings_title" = "Inställningar";
+"settings_premium_service" = "Min Premium-tjänst";
+"settings_free" = "Gratis";
+"settings_set_language" = "Ange språk";
+"settings_autosave_photos" = "Spara Foton Automatiskt till Album";
+"settings_encourage_us" = "Uppmuntra Oss";
+"settings_suggestion" = "Förslag";
+"settings_app_info" = "App-info";
+"settings_tell_friends" = "Berätta för Vänner";
+"settings_privacy_policy" = "Integritetspolicy";
+"settings_terms_of_use" = "Användarvillkor";
+"settings_manage_account" = "Hantera Konto";
+
+// MARK: - Instruction Page
+"instruction_page_title" = "Guide för fågelfotografering";
+"instruction_good_image_quality" = "Bra bildkvalitet kan hjälpa till att förbättra identifieringens noggrannhet.";
+"instruction_step_1" = "1. Håll fågeln centrerad i ramen, se till att den inte är för långt borta.";
+"instruction_step_2" = "2. Försök undvika vegetation, burar eller andra föremål framför fågeln.";
+"instruction_step_3" = "3. Se till att ha bra belysning för hög kontrast. Om du inte kan se fågeln kan appen inte heller göra det.";
+"instruction_step_4" = "4. Försök fånga framsidan av fågeln. Åtminstone måste huvudet vara synligt.";
+"instruction_step_5" = "5. Endast en art per bild. För många fåglar i bilden kan leda till felaktig identifiering.";
+"instruction_identify" = "Identifiera";
+
+// MARK: - Stone Info Section
+"stone_usage" = "Användning";
+"stone_health_risks" = "Hälsorisker";
+"stone_original_vs_fake" = "Autentisering";
+"stone_storage" = "Förvaring";
+"stone_cleaning_tips" = "Rengöringstips";
+"stone_chemical_formula" = "Kemisk formel";
+"stone_chemical_classification" = "Kemisk klassificering";
+"stone_crystal_system" = "Kristallsystem";
+"stone_hardness" = "Hårdhet";
+"stone_density" = "Densitet";
+"stone_chemical_elements" = "Kemiska element";
+"stone_estimated_value" = "Uppskattat värde";
+"metal_detector_tips_content" = "Detta verktyg drivs av den magnetiska sensorn som är inbyggd i din mobiltelefon. Denna detektor fungerar med magnetiska stenar eller mineraler, såsom magnetit, pyrrotin och meteorit. Den kan också upptäcka metall som huvudsakligen består av järn, kobolt eller nickel. Eftersom den magnetiska sensorn är placerad olika på varje mobiltelefon, flytta det detekterande objektet runt din telefon för att hitta dess bästa känslighet och få en tydlig avläsning på mätaren. Avläsningen på mätaren indikerar styrkan hos ditt detekterade objekt; den representerar inte det exakta värdet av magnetism.";
+"add_to_collection" = "Lägg till i min samling";
+"stone_info_more" = "Mer>>";
+
+// MARK: - ConvertPage
+"convert_title" = "StoneAI Snap";
+"convert_feature_1" = "Djupgående information om över 12000 fågelarter";
+"convert_feature_2" = "Precis fågelidentifiering med foto och ljud";
+"convert_feature_3" = "Lär dig att locka fåglar till ditt hem";
+"convert_feature_4" = "Obegränsad fågelidentifiering";
+"convert_feature_5" = "Utöka din fågelstudie och kunskap";
+"convert_yearly" = "Årlig";
+"convert_monthly" = "Månadsvis";
+"convert_loading_price" = "Laddar pris...";
+"convert_free_trial_yearly" = "7 dagar gratis, sedan %@ /år";
+"convert_free_trial_loading" = "7 dagars gratis provperiod, sedan årlig prenumeration";
+"convert_try_free" = "PROVA GRATIS";
+"convert_continue" = "FORTSÄTT";
+"convert_cancel_anytime" = "Ingen förpliktelse. Avbryt när som helst.";
+"convert_cancel_notice" = "Du behöver inte betala om du avbryter prenumerationen minst en dag innan den 7-dagars gratis provperioden slutar.";
+"convert_payment_terms" = "Betalning kommer att debiteras ditt App Store-konto i slutet av provperioden eller vid bekräftelse av köp om du inte startar en provperiod. Prenumerationen förnyas automatiskt om den inte avbryts minst 24 timmar före slutet av den aktuella perioden. Ditt konto kommer att debiteras för förnyelse inom 24 timmar före slutet av den aktuella perioden. Du kan hantera och avbryta dina prenumerationer i App Store-inställningarna. För mer information, se våra";
+"convert_terms_of_use" = "Användarvillkor";
+"convert_and" = "och";
+"convert_privacy_policy" = "Integritetspolicy.";
+
+// MARK: - RetainPage
+"retain_title" = "RockAiSnap";
+"retain_restore" = "Återställ";
+"retain_timeline_today" = "Idag";
+"retain_timeline_today_desc" = "Lås upp full åtkomst till alla Premium-funktioner";
+"retain_timeline_day1_6" = "Dag 1 - Dag 6";
+"retain_timeline_day1_6_desc" = "Njut av din Premium och få ut det mesta av din gratis provperiod";
+"retain_timeline_day7" = "Dag 7";
+"retain_timeline_day7_desc" = "Din prenumeration börjar. Avbryt innan om du vill.";
+"retain_try_free" = "Prova 7 dagar gratis";
+"retain_then_yearly" = "Sedan %@/år. Avbryt när som helst.";
+"retain_loading_price" = "Laddar pris... Avbryt när som helst.";
+"retain_start_trial" = "STARTA MIN GRATIS PROVPERIOD";
+"retain_price_then" = "Sedan ";
+"retain_price_year_cancel" = "/år. Avbryt när som helst.";
+
+// MARK: - Snap Tips
+"snap_tip_too_far" = "För långt borta";
+"snap_tip_too_close" = "För nära";
+"snap_tip_blurry" = "Suddig";
+"snap_tip_multiple_species" = "Flera arter";
+
+// MARK: - More Images
+"more_images" = "Fler bilder";
+
+// MARK: - Share
+"share_image_failed" = "Misslyckades att ladda bild";
+"share_alert_title" = "Meddelande";
+"share_alert_message" = "Delning slutförd";
+"share_title" = "Dela";
+"share_download" = "Ladda ner";
+"share_share" = "Dela";
+"profile_privileges" = "Privilegier";
+
+// MARK: - Valuation
+"possible_price_range" = "Möjligt prisintervall";
+"note" = "Notera";
+"are_you_satisfied_with_the_result" = "Är du nöjd med resultatet";
+"thanks_for_your_feedback" = "Tack för din feedback";
+"valuation_in_progress" = "Värdering pågår";
+"valuation_step_identification" = "Identifiering";
+"valuation_step_quality_evaluation" = "Kvalitetsutvärdering";
+"valuation_step_market_price_search" = "Sökning efter marknadspris";
+"stone_estimated_value" = "Uppskattat värde";
+"valuation_not_found" = "Ingen sten hittades";
+"valuation_camera_tips" = "Tydliga bilder av hög kvalitet leder till mer exakta värderingsresultat";
+
+// MARK: - Purchase
+"purchase_choose_subscription_plan" = "Välj Prenumerationsplan";
+"purchase_unlock_premium_features" = "Lås upp alla premiumfunktioner";
+"purchase_restore_purchases" = "Återställ Köp";
+"purchase_cancel" = "Avbryt";
+"purchase_user_cancelled" = "Användare avbröt";
+"purchase_please_wait" = "Vänligen vänta";
+"purchase_processing" = "Bearbetar...";
+"purchase_success" = "Framgång";
+"purchase_success_message" = "Köp framgångsrikt! Tack för ditt stöd.";
+"purchase_failed" = "Köp Misslyckades";
+"purchase_restore_failed" = "Återställning Misslyckades";
+"purchase_restored_successfully" = "Köp återställda framgångsrikt";
+"purchase_already_vip" = "Du är redan en VIP-användare";
+"purchase_product_not_found" = "Produkt hittades inte";
+"purchase_not_available" = "Köp i appen är inte tillgängliga";
+"purchase_no_purchases_to_restore" = "Inga köp hittades att återställa";
+"purchase_error" = "Fel";
+"purchase_unable_to_load_products" = "Kan inte ladda produktinformation";
+"purchase_check_network_try_again" = "Kan inte ladda produktinformation. Kontrollera din nätverksanslutning och försök igen.";
+"purchase_premium_feature" = "Premiumfunktion";
+"purchase_premium_feature_message" = "%@ är en premiumfunktion. Uppgradera till premium för att använda den.";
+"purchase_upgrade_now" = "Uppgradera Nu";
+"purchase_maybe_later" = "Kanske Senare";
+"purchase_upgrade_to_premium" = "Uppgradera till Premium";
+"purchase_premium_user" = "Premiumanvändare";
+"purchase_free_user" = "Gratisanvändare";
+"purchase_operation_successful" = "Operation framgångsrik";
+
+// MARK: - Debug
+"debug_options" = "Felsökningsalternativ";
+"debug_mode_only" = "Endast felsökningsläge";
+"debug_set_as_vip" = "Sätt som VIP";
+"debug_remove_vip" = "Ta bort VIP";
+"debug_clear_purchase_records" = "Rensa Alla Köpregister";
+"debug_title" = "Felsökning";
+"debug_vip_set" = "Satt som VIP";
+"debug_vip_removed" = "VIP borttagen";
+"debug_records_cleared" = "Alla köpregister rensade";
+
+// MARK: - Permissions
+"microphone_permission_title" = "Mikrofonåtkomst krävs";
+"microphone_permission_desc" = "Mikrofonåtkomst behövs för att spela in fågelljud för artidentifiering";
+"microphone_permission_button" = "Tillåt";
+
+// MARK: - Stone Season
+"stone_visible_year_round" = "Året runt";
+
+// MARK: - Additional Missing Keys
+"subscription_cancel_notice" = "Du behöver inte betala om du avbryter prenumerationen minst en dag innan den 7-dagars gratis provperioden slutar.";
+"profile_error_load_more_data" = "Fel vid laddning av mer data";
+"profile_error_load_wishlist" = "Fel vid laddning av önskelista";
+"profile_error_load_more_wishlist" = "Fel vid laddning av mer önskelista";

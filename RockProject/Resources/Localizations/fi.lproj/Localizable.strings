@@ -1,0 +1,318 @@
+/* 
+   Localizable.strings - Finnish
+   RockProject
+
+   Created for localization support.
+*/
+
+// MARK: - App Basic
+"app_name" = "RockAiSnap";
+"tab_bar_home" = "Koti";
+"tab_bar_profile" = "Profiili";
+
+// MARK: - General Titles
+"title_home" = "Koti";
+"title_dashboard" = "Kojelauta";
+"title_notifications" = "Ilmoitukset";
+
+// MARK: - Splash Screen
+"splash_start_now" = "Aloita Nyt";
+"splash_first_launch_slogan" = "Taikasauvasi Välittömiin Ystävyyssuhteisiin!";
+
+// MARK: - Common Text
+"text_policy_tapping_continue" = "Jatkamalla hyväksyt";
+"text_terms_of_use" = "Käyttöehdot";
+"text_privacy_policy" = "Tietosuojakäytäntö";
+"text_refund_policy" = "Palautuskäytäntö";
+"text_contact_us" = "Ota Yhteyttä";
+"text_customer_service" = "Asiakaspalvelu";
+"text_email_prefix" = "Sähköposti: %@";
+"text_next" = "Seuraava";
+"text_copied" = "Kopioitu";
+"text_continue" = "Jatka";
+"text_cancel" = "Peruuta";
+"text_game" = "Peli";
+"text_profile" = "Profiili";
+"text_yes" = "Kyllä";
+"text_no" = "Ei";
+"text_maybe_later" = "Ehkä myöhemmin";
+"text_submit" = "Lähetä";
+"text_confirm" = "Vahvista";
+"text_loading" = "Ladataan";
+"text_view_all" = "Näytä kaikki";
+"text_try_again" = "Yritä Uudelleen";
+"text_save" = "Tallenna";
+"text_new" = "Uusi";
+"text_share" = "Jaa";
+"text_common_error_try_again" = "Hups! Jotain meni pieleen. Yritä myöhemmin uudelleen :)";
+"text_also_known_as" = "Tunnetaan myös nimellä";
+"text_scientific_name" = "Tieteellinen nimi";
+"text_more" = "Lisää";
+"text_images" = "Kuvat";
+"text_sound" = "Ääni";
+"text_map" = "Kartta";
+"text_description" = "Kuvaus";
+"text_ok" = "OK";
+"text_photo" = "Kuva";
+"text_tips" = "Vinkit";
+"text_expand" = "Laajenna";
+
+// MARK: - Home Screen
+"home_search_hint" = "Etsi yli 30 000 lajin joukosta";
+"home_vip_banner_text" = "Ilmaista 7 päivän Premium-jäsenyyttäsi ei ole vielä lunastettu. Napauta lunastaaksesi.";
+"home_action_identify" = "Tunnista";
+"home_action_record" = "Tallenna";
+"home_action_ai_beautify" = "AI Kaunistus";
+"home_your_daily_stone" = "Päivittäinen Lintusi";
+"home_stones_near_you" = "Linnut Lähellä Sinua";
+"home_app_usage_title" = "Sovelluksen käyttöohjeet";
+"home_app_usage_desc" = "Auttaa sinua tutustumaan meihin nopeammin.";
+
+// MARK: - Home Action Types
+"home_action_type_valuation" = "Arviointi";
+"home_action_type_identify" = "Tunnista";
+"home_action_type_detector" = "Ilmaisin";
+
+// MARK: - FindTreasure Page
+"find_treasure_title" = "Metallinilmaisin";
+"find_treasure_status_normal" = "Normaali ympäristö";
+"find_treasure_status_slight" = "Lievä poikkeama";
+"find_treasure_status_detected" = "Metalli havaittu";
+"find_treasure_status_strong" = "Vahva metallisignaali";
+
+// MARK: - Survey/Onboarding
+"survey1_title" = "Asetetaan sinulle käyttäjänimi";
+"survey1_input_name_placeholder" = "Käyttäjänimesi";
+"survey2_title" = "Määrittelet itsesi...";
+"survey2_option_she" = "Hän (nainen)";
+"survey2_option_he" = "Hän (mies)";
+"survey2_option_they" = "Ei-binäärinen";
+"survey3_title" = "Mistä haluat puhua?";
+"survey3_option1" = "Pelaa Keskustelupelejä";
+"survey3_option2" = "Hanki Virtuaalinen Ystävä";
+"survey3_option3" = "Jaa Tunteita";
+"survey3_option4" = "Pidä Hauskaa";
+"survey3_option5" = "Tunne Vähemmän Yksinäisyyttä";
+"survey3_option6" = "Muu";
+"survey4_title" = "Mitkä ovat kiinnostuksen kohteesi?";
+"survey5_title" = "On aika valita ystäväsi";
+"survey5_reset_all_blocked_roles_warning_message" = "Kaikki hahmot estettiin. Haluatko palauttaa kaikki hahmot?";
+"survey6_title" = "Anna AI-ystävällesi nimi.";
+"survey6_input_name_placeholder" = "Syötä AI-ystävän nimi";
+"survey7_creating" = "Luodaan...";
+
+// MARK: - Chat
+"text_ai_chat" = "AI Keskustelu";
+"chat_input_bar_placeholder" = "Kirjoita viesti";
+"chat_error_oops" = "Hups! Jotain meni pieleen. Yritä myöhemmin uudelleen :)";
+"chat_report_bot_response_warning_messasge" = "Optimoimme jatkuvasti AI-viestintäsisältöä ja olemme poistaneet tämän sisällön puolestasi. Tarvitsetko samalla ilmoittaa tästä AI-hahmosta?";
+"chat_report_ai_character" = "Ilmoita AI-Hahmosta";
+"chat_just_report_content" = "Ilmoita Vain Sisällöstä";
+
+// MARK: - Welcome
+"welcome_title" = "TERVETULOA!";
+"welcome_content" = "Hauska tavata! Pidä hauskaa!";
+"welcome_got_it" = "Selvä!";
+
+// MARK: - Report
+"report_title" = "Ilmoita ongelmasta";
+"report_edit_text_hint" = "Lisää yksityiskohdat tähän";
+"report_success" = "Ilmoitus onnistui";
+"report_block_character" = "Estä hahmo";
+"report_block_character_warning_message" = "Poistamme tämän AI-hahmon ja optimoimme AI-viestintäsisällön uudelleen";
+
+// MARK: - Profile
+"profile_about_app" = "Tietoja Lintutunnistimesta";
+"profile_restart_chat" = "Käynnistä Keskustelu Uudelleen";
+"profile_delete_account" = "Poista Tili";
+"profile_my_collection" = "Kokoelmani (%d)";
+"profile_history_record" = "Historia (%d)";
+"profile_no_more_collection" = "Ei enempää kokoelmaa";
+"my_collection_no_more" = "Ei enempää kokoelmaa";
+"profile_subscribe_now" = "Tilaa Nyt";
+"profile_wishlist" = "Toivelista (%d)";
+"profile_refreshing" = "Päivitetään...";
+"profile_load_more" = "Lataa lisää...";
+"profile_load_more_button" = "Lataa lisää";
+"profile_no_more_data" = "Ei enempää dataa";
+
+// MARK: - Warnings
+"restart_chat_warning_title" = "Oletko varma, että haluat käynnistää keskustelun uudelleen?";
+"restart_chat_warning_content" = "Menetät nykyisen keskusteluistunnon vahvistaessasi";
+"delete_account_warning_title" = "Oletko varma, että haluat poistaa?";
+"delete_account_warning_content" = "Tätä toimintoa ei voi peruuttaa";
+
+// MARK: - Camera
+"camera_permission_request_title" = "Tarvitsemme Kameran Käyttöoikeuden";
+"camera_permission_request_desc" = "Kameran käyttöoikeus vaaditaan";
+"camera_permisson_request_button" = "Salli";
+"camera_preview_tip" = "Ota kuvia lintujen tunnistamiseksi ja pidä kohde selkeänä kuvatessasi";
+"camera_zoom" = "Zoomaa";
+"camera_photography_tips" = "Valokuvausvinkit";
+"camera_keep_stone_centered" = "Pidä lintu keskitettynä kehyksessä";
+"camera_good_image_quality" = "Hyvä kuvanlaatu voi auttaa parantamaan tunnistuksen tarkkuutta.";
+"camera_mode_by_photo" = "Kuvalla";
+"camera_mode_by_sound" = "Äänellä";
+
+// MARK: - Settings
+"settings_title" = "Asetukset";
+"settings_premium_service" = "Premium-Palveluni";
+"settings_free" = "Ilmainen";
+"settings_set_language" = "Aseta Kieli";
+"settings_autosave_photos" = "Tallenna Kuvat Automaattisesti Albumiin";
+"settings_encourage_us" = "Kannusta Meitä";
+"settings_suggestion" = "Ehdotus";
+"settings_app_info" = "Sovellustiedot";
+"settings_tell_friends" = "Kerro Ystäville";
+"settings_privacy_policy" = "Tietosuojakäytäntö";
+"settings_terms_of_use" = "Käyttöehdot";
+"settings_manage_account" = "Hallinnoi Tiliä";
+
+// MARK: - Instruction Page
+"instruction_page_title" = "Opas lintujen kuvaamiseen";
+"instruction_good_image_quality" = "Hyvä kuvanlaatu voi auttaa parantamaan tunnistuksen tarkkuutta.";
+"instruction_step_1" = "1. Pidä lintu keskitettynä kuvassa, varmista ettei se ole liian kaukana.";
+"instruction_step_2" = "2. Yritä välttää kasvillisuutta, häkkejä tai muita esineitä linnun edessä.";
+"instruction_step_3" = "3. Varmista hyvä valaistus korkeaa kontrastia varten. Jos et näe lintua, sovellus ei myöskään voi.";
+"instruction_step_4" = "4. Yritä kuvata linnun etupuoli. Vähintään pään pitää olla näkyvissä.";
+"instruction_step_5" = "5. Vain yksi laji kuvaa kohti. Liian monta lintua kuvassa voi johtaa väärään tunnistukseen.";
+"instruction_identify" = "Tunnista";
+
+// MARK: - Stone Info Section
+"stone_usage" = "Käyttö";
+"stone_health_risks" = "Terveysriskit";
+"stone_original_vs_fake" = "Aitouden tarkistus";
+"stone_storage" = "Säilytys";
+"stone_cleaning_tips" = "Puhdistusvinkit";
+"stone_chemical_formula" = "Kemiallinen kaava";
+"stone_chemical_classification" = "Kemiallinen luokittelu";
+"stone_crystal_system" = "Kidejärjestelmä";
+"stone_hardness" = "Kovuus";
+"stone_density" = "Tiheys";
+"stone_chemical_elements" = "Kemialliset alkuaineet";
+"stone_estimated_value" = "Arvioitu arvo";
+"metal_detector_tips_content" = "Tämä työkalu saa voimansa matkapuhelimeesi sisäänrakennetusta magneettisensorista. Tämä ilmaisin toimii magneettisten kivien tai mineraalien, kuten magnetiitin, pyrrotiitin ja meteoriitin kanssa. Se voi myös havaita metallia, joka koostuu pääasiassa raudasta, koboltista tai nikkelistä. Koska magneettisensori sijaitsee eri tavalla jokaisessa matkapuhelimessa, liikuta havaittavaa esinettä puhelimesi ympärillä löytääksesi sen parhaan herkkyyden ja saadaksesi selkeän lukeman mittarista. Mittarin lukema osoittaa havaitun esineen voimakkuuden; se ei edusta magnetismin tarkkaa arvoa.";
+"add_to_collection" = "Lisää kokoelmaani";
+"stone_info_more" = "Lisää>>";
+
+// MARK: - ConvertPage
+"convert_title" = "StoneAI Snap";
+"convert_feature_1" = "Syvällistä tietoa yli 12000 lintulajista";
+"convert_feature_2" = "Tarkka lintutunnistus kuvalla ja äänellä";
+"convert_feature_3" = "Opi houkuttelemaan lintuja kotiisi";
+"convert_feature_4" = "Rajaton lintutunnistus";
+"convert_feature_5" = "Laajenna lintututkimustasi ja tietämystäsi";
+"convert_yearly" = "Vuosittain";
+"convert_monthly" = "Kuukausittain";
+"convert_loading_price" = "Ladataan hintaa...";
+"convert_free_trial_yearly" = "7 päivää ilmaiseksi, sitten %@ /vuosi";
+"convert_free_trial_loading" = "7 päivän ilmainen kokeilu, sitten vuositilaus";
+"convert_try_free" = "KOKEILE ILMAISEKSI";
+"convert_continue" = "JATKA";
+"convert_cancel_anytime" = "Ei sitoutumista. Peruuta milloin tahansa.";
+"convert_cancel_notice" = "Sinun ei tarvitse maksaa, jos peruutat tilauksen vähintään päivää ennen 7 päivän ilmaisen kokeilujakson päättymistä.";
+"convert_payment_terms" = "Maksu veloitetaan App Store -tililtäsi kokeilujakson päättyessä tai ostoksen vahvistamisen yhteydessä, jos et aloita kokeilujaksoa. Tilaus uusiutuu automaattisesti, ellei sitä peruuteta vähintään 24 tuntia ennen nykyisen jakson päättymistä. Tililtäsi veloitetaan uusiminen 24 tunnin kuluessa nykyisen jakson päättymisestä. Voit hallita ja peruuttaa tilauksesi App Store -asetuksissa. Lisätietoja varten katso";
+"convert_terms_of_use" = "Käyttöehdot";
+"convert_and" = "ja";
+"convert_privacy_policy" = "Tietosuojakäytäntö.";
+
+// MARK: - RetainPage
+"retain_title" = "RockAiSnap";
+"retain_restore" = "Palauta";
+"retain_timeline_today" = "Tänään";
+"retain_timeline_today_desc" = "Avaa täysi pääsy kaikkiin Premium-ominaisuuksiin";
+"retain_timeline_day1_6" = "Päivä 1 - Päivä 6";
+"retain_timeline_day1_6_desc" = "Nauti Premium-jäsenyydestäsi ja hyödynnä ilmainen kokeilujaksosi täysimääräisesti";
+"retain_timeline_day7" = "Päivä 7";
+"retain_timeline_day7_desc" = "Tilauksesi alkaa. Peruuta aiemmin jos haluat.";
+"retain_try_free" = "Kokeile 7 päivää ilmaiseksi";
+"retain_then_yearly" = "Sitten %@/vuosi. Peruuta milloin tahansa.";
+"retain_loading_price" = "Ladataan hintaa... Peruuta milloin tahansa.";
+"retain_start_trial" = "ALOITA ILMAINEN KOKEILUJAKSONI";
+"retain_price_then" = "Sitten ";
+"retain_price_year_cancel" = "/vuosi. Peruuta milloin tahansa.";
+
+// MARK: - Snap Tips
+"snap_tip_too_far" = "Liian kaukana";
+"snap_tip_too_close" = "Liian lähellä";
+"snap_tip_blurry" = "Epäselvä";
+"snap_tip_multiple_species" = "Useita lajeja";
+
+// MARK: - More Images
+"more_images" = "Lisää kuvia";
+
+// MARK: - Share
+"share_image_failed" = "Kuvan lataus epäonnistui";
+"share_alert_title" = "Viesti";
+"share_alert_message" = "Jakaminen valmis";
+"share_title" = "Jaa";
+"share_download" = "Lataa";
+"share_share" = "Jaa";
+"profile_privileges" = "Etuoikeudet";
+
+// MARK: - Valuation
+"possible_price_range" = "Mahdollinen hintahaarukka";
+"note" = "Huomautus";
+"are_you_satisfied_with_the_result" = "Oletko tyytyväinen tulokseen";
+"thanks_for_your_feedback" = "Kiitos palautteestasi";
+"valuation_in_progress" = "Arviointi käynnissä";
+"valuation_step_identification" = "Tunnistaminen";
+"valuation_step_quality_evaluation" = "Laadun arviointi";
+"valuation_step_market_price_search" = "Markkinahinnan haku";
+"stone_estimated_value" = "Arvioitu arvo";
+"valuation_not_found" = "Kiveä ei löytynyt";
+"valuation_camera_tips" = "Selkeät, korkealaatuiset kuvat johtavat tarkempiin arviointituloksiin";
+
+// MARK: - Purchase
+"purchase_choose_subscription_plan" = "Valitse Tilaussuunnitelma";
+"purchase_unlock_premium_features" = "Avaa kaikki premium-ominaisuudet";
+"purchase_restore_purchases" = "Palauta Ostokset";
+"purchase_cancel" = "Peruuta";
+"purchase_user_cancelled" = "Käyttäjä peruutti";
+"purchase_please_wait" = "Odota";
+"purchase_processing" = "Käsitellään...";
+"purchase_success" = "Onnistui";
+"purchase_success_message" = "Osto onnistui! Kiitos tuestasi.";
+"purchase_failed" = "Osto Epäonnistui";
+"purchase_restore_failed" = "Palautus Epäonnistui";
+"purchase_restored_successfully" = "Ostokset palautettu onnistuneesti";
+"purchase_already_vip" = "Olet jo VIP-käyttäjä";
+"purchase_product_not_found" = "Tuotetta ei löytynyt";
+"purchase_not_available" = "Sovelluksen sisäiset ostokset eivät ole käytettävissä";
+"purchase_no_purchases_to_restore" = "Palautettavia ostoksia ei löytynyt";
+"purchase_error" = "Virhe";
+"purchase_unable_to_load_products" = "Tuotetietojen lataus epäonnistui";
+"purchase_check_network_try_again" = "Tuotetietojen lataus epäonnistui. Tarkista verkkoyhteytesi ja yritä uudelleen.";
+"purchase_premium_feature" = "Premium-Ominaisuus";
+"purchase_premium_feature_message" = "%@ on premium-ominaisuus. Päivitä premium-jäsenyyteen käyttääksesi sitä.";
+"purchase_upgrade_now" = "Päivitä Nyt";
+"purchase_maybe_later" = "Ehkä Myöhemmin";
+"purchase_upgrade_to_premium" = "Päivitä Premium-jäsenyyteen";
+"purchase_premium_user" = "Premium-Käyttäjä";
+"purchase_free_user" = "Ilmainen Käyttäjä";
+"purchase_operation_successful" = "Toiminto onnistui";
+
+// MARK: - Debug
+"debug_options" = "Virheenkorjausasetukset";
+"debug_mode_only" = "Vain virheenkorjaustila";
+"debug_set_as_vip" = "Aseta VIP:ksi";
+"debug_remove_vip" = "Poista VIP";
+"debug_clear_purchase_records" = "Tyhjennä Kaikki Ostotiedot";
+"debug_title" = "Virheenkorjaus";
+"debug_vip_set" = "Asetettu VIP:ksi";
+"debug_vip_removed" = "VIP poistettu";
+"debug_records_cleared" = "Kaikki ostotiedot tyhjennetty";
+
+// MARK: - Permissions
+"microphone_permission_title" = "Mikrofonin käyttöoikeus vaaditaan";
+"microphone_permission_desc" = "Mikrofonin käyttöoikeus tarvitaan lintujen äänten tallentamiseen lajintunnistusta varten";
+"microphone_permission_button" = "Salli";
+
+// MARK: - Stone Season
+"stone_visible_year_round" = "Ympäri vuoden";
+
+// MARK: - Additional Missing Keys
+"subscription_cancel_notice" = "Sinun ei tarvitse maksaa, jos peruutat tilauksen vähintään päivää ennen 7 päivän ilmaisen kokeilujakson päättymistä.";
+"profile_error_load_more_data" = "Virhe ladattaessa lisää dataa";
+"profile_error_load_wishlist" = "Virhe ladattaessa toivelistaa";
+"profile_error_load_more_wishlist" = "Virhe ladattaessa lisää toivelistaa";

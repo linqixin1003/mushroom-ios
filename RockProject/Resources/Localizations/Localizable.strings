@@ -1,0 +1,271 @@
+/* 
+   Localizable.strings
+   RockProject
+
+   Created for localization support.
+*/
+
+// MARK: - App Basic
+"app_name" = "RockAiSnap";
+"tab_bar_home" = "Home";
+"tab_bar_profile" = "Profile";
+
+// MARK: - General Titles
+"title_home" = "Home";
+"title_dashboard" = "Dashboard";
+"title_notifications" = "Notifications";
+
+// MARK: - Splash Screen
+"splash_start_now" = "Start Now";
+"splash_first_launch_slogan" = "Your Magic Wand For Instant Friendships!";
+
+// MARK: - Common Text
+"text_policy_tapping_continue" = "By continuing you agree to the";
+"text_terms_of_use" = "Terms of Use";
+"text_privacy_policy" = "Privacy Policy";
+"text_refund_policy" = "Refund Policy";
+"text_contact_us" = "Contact Us";
+"text_customer_service" = "Customer service";
+"text_email_prefix" = "Email: %@";
+"text_next" = "Next";
+"text_copied" = "Copied";
+"text_continue" = "Continue";
+"text_cancel" = "Cancel";
+"text_game" = "Game";
+"text_profile" = "Profile";
+"text_yes" = "Yes";
+"text_no" = "No";
+"text_maybe_later" = "Maybe later";
+"text_submit" = "Submit";
+"text_confirm" = "Confirm";
+"text_loading" = "Loading";
+"text_view_all" = "View all";
+"text_try_again" = "Try Again";
+"text_save" = "Save";
+"text_new" = "New";
+"text_share" = "Share";
+"text_common_error_try_again" = "Oops! Something went wrong. Please try again later :)";
+"text_also_known_as" = "Also known as";
+"text_scientific_name" = "Scientific name";
+"text_more" = "More";
+"text_images" = "Images";
+"text_sound" = "Sound";
+"text_map" = "Map";
+"text_description" = "Description";
+"text_ok" = "OK";
+"text_photo" = "Photo";
+"text_tips" = "Tips";
+
+// MARK: - Home Screen
+"home_search_hint" = "Search over 30,000 species";
+"home_vip_banner_text" = "Your free 7-day Premium hasn't been claimed yet. Tap to claim.";
+"home_action_identify" = "Identify";
+"home_action_record" = "Record";
+"home_action_ai_beautify" = "AI Beautify";
+"home_your_daily_stone" = "Your Daily Stone";
+"home_stones_near_you" = "Stones Near You";
+"home_app_usage_title" = "App usage instructions";
+"home_app_usage_desc" = "Help you get familar with us more quickly.";
+
+// MARK: - Survey/Onboarding
+"survey1_title" = "Let's set a username for you";
+"survey1_input_name_placeholder" = "Your Username";
+"survey2_title" = "Your identify yourself as...";
+"survey2_option_she" = "She";
+"survey2_option_he" = "He";
+"survey2_option_they" = "Non-binary";
+"survey3_title" = "What do you want to talk about?";
+"survey3_option1" = "Play Chat Games";
+"survey3_option2" = "Make a Vertual Friend";
+"survey3_option3" = "Share Emotions";
+"survey3_option4" = "Have Fun";
+"survey3_option5" = "Feel Less Lonely";
+"survey3_option6" = "Other";
+"survey4_title" = "What are your interests?";
+"survey5_title" = "It's time to choose your friend";
+"survey5_reset_all_blocked_roles_warning_message" = "All Characters were blocked. Do you want to recover all characters?";
+"survey6_title" = "Give your AI friend a name.";
+"survey6_input_name_placeholder" = "Input AI friend's name";
+"survey7_creating" = "Creating...";
+
+// MARK: - Chat
+"text_ai_chat" = "AI Chat";
+"chat_input_bar_placeholder" = "Type a message";
+"chat_error_oops" = "Oops! Something went wrong. Please try again later :)";
+"chat_report_bot_response_warning_messasge" = "We are continuously optimizing AI communication content and have removed this content for you. Do you need to report this AI character at the same time?";
+"chat_report_ai_character" = "Report AI Character";
+"chat_just_report_content" = "Just report content";
+
+// MARK: - Welcome
+"welcome_title" = "WELCOME!";
+"welcome_content" = "Nice to meet you! Have fun!";
+"welcome_got_it" = "Got it!";
+
+// MARK: - Report
+"report_title" = "Report a problem";
+"report_edit_text_hint" = "Add details here";
+"report_success" = "Report succeed";
+"report_block_character" = "Block character";
+"report_block_character_warning_message" = "We will remove this AI character and optimize the AI communication content again";
+
+// MARK: - Profile
+"profile_about_app" = "About StoneApp";
+"profile_restart_chat" = "Restart Chat";
+"profile_delete_account" = "Delete Account";
+
+// MARK: - Warnings
+"restart_chat_warning_title" = "Are you sure to restart chat?";
+"restart_chat_warning_content" = "You will lost current chat session when you confirmed";
+"delete_account_warning_title" = "Are you sure to Delete?";
+"delete_account_warning_content" = "This operation can not be undone";
+
+// MARK: - Camera
+"camera_permission_request_title" = "We need Camera permission";
+"camera_permission_request_desc" = "Camera permission is required";
+"camera_permisson_request_button" = "Allow";
+"camera_preview_tip" = "Take photos to identify stones and keep the subject clear when shooting";
+
+// MARK: - Settings
+"settings_title" = "Settings";
+"settings_premium_service" = "My Premium Service";
+"settings_free" = "Free";
+"settings_set_language" = "Set Language";
+"settings_autosave_photos" = "Autosave Photos to Album";
+"settings_encourage_us" = "Encourage Us";
+"settings_suggestion" = "Suggestion";
+"settings_app_info" = "App Info";
+"settings_tell_friends" = "Tell Friends";
+"settings_privacy_policy" = "Privacy Policy";
+"settings_terms_of_use" = "Terms of Use";
+"settings_manage_account" = "Manage Account";
+
+// MARK: - Stone Information
+"stone_info_detailed_not_available" = "Detailed information not available";
+"stone_info_additional_characteristics" = "Additional characteristics and classification data will be displayed here when available.";
+"stone_info_characteristics" = "Characteristics";
+"stone_info_scientific_classification" = "Scientific classification";
+"stone_info_additional_classification" = "Additional Classification Info:";
+"stone_info_more" = "More>>";
+
+// MARK: - Identification
+"identify_recognition_failed" = "Recognition Failed";
+"identify_wait_moment" = "Wait for a moment, identifying...";
+"identify_progress_percent" = "%d%%";
+
+// MARK: - Camera
+"camera_zoom" = "Zoom";
+"camera_photography_tips" = "Photography tips";
+"camera_keep_stone_centered" = "Keep stone centered in frame";
+"camera_good_image_quality" = "Good image quality can help improve the accuracy of identification.";
+
+// MARK: - Sound
+"sound_permission_required" = "Sound permission is required";
+"sound_take_to_identify" = "Take sound to identify stones and keep the subject";
+
+// MARK: - Search
+"search_enter_keywords" = "Please enter keywords to search for relevant information";
+"search_no_search" = "No Search";
+
+// MARK: - Profile
+"profile_me" = "Me";
+"profile_vip" = "VIP";
+"profile_privileges" = "Privileges";
+"profile_subscribe_now" = "Subscribe Now";
+"profile_my_collection" = "My collection (%d)";
+"profile_history_record" = "History record (%d)";
+"profile_no_more_collection" = "NO More Collection";
+
+// MARK: - Subscription
+"subscription_try_7_days_free" = "Try 7 days for free";
+"subscription_then_yearly" = "Then %@/year. Cancel anytime.";
+"subscription_loading_price" = "Loading price... Cancel anytime.";
+"subscription_cancel_anytime" = "Cancel anytime";
+"subscription_start_free_trial" = "START MY FREE TRIAL";
+"subscription_yearly" = "Yearly";
+"subscription_monthly" = "Monthly";
+"subscription_no_commitment" = "No commitment. Cancel anytime.";
+"subscription_payment_charged" = "Payment will be charged to your Google Play account at the end of your trial or confirmation of purchase if you are not starting a trial. Subscription automatically renews unless it is canceled at least 24 hours before the end of the current period.";
+"subscription_restore" = "Restore";
+
+// MARK: - Account Management
+"account_manage_title" = "Manage Account";
+"account_delete_warning" = "If you choose to clear your account, all your files and information will be cleared and cannot be recovered. Are you sure you want to do this?";
+"account_delete_information" = "Delete Information";
+"account_delete_confirmation" = "If you choose to delete your account, all your data will be deleted and cannot be recovered!";
+
+// MARK: - About
+"about_app_name" = "RockAiSnap";
+"about_version" = "V%@";
+"about_description" = "Don't know the name of stones? PictureStone helps you to identify unknown stones, discover nature with the most simple and interesting way. We also been working hard to provide better user experience and optimize our recognition all the time! We would love to have anyone who love stones join our family. Let us start the journey encountering the most lovely stones from all over the world.";
+"about_email" = "Gmail.com";
+
+// MARK: - Suggestion
+"suggestion_send" = "Send";
+
+// MARK: - Share
+"share_image_failed" = "Image failed to load";
+"share_alert_title" = "Alert";
+"share_alert_message" = "Share completed";
+"share_title" = "Share";
+
+// MARK: - Stone Features
+"stone_basic_information" = "Basic Information";
+"stone_color_features" = "Color Features";
+"stone_habitat" = "Habitat";
+"stone_behavior" = "Behavior";
+"stone_flying" = "Flying";
+"stone_size" = "Size";
+"stone_no_data" = "No Data";
+"stone_season_info" = "Season Info";
+"stone_visible_months" = "Visible Months:";
+"stone_plumage" = "Plumage";
+
+// MARK: - Subscription Page Specific
+"subscription_app_name" = "RockAiSnap";
+"subscription_feature_12000_species" = "In-depth info for 12000+ stone species";
+"subscription_feature_high_accuracy" = "High-accuracy stone ID with photo & sound";
+"subscription_feature_attract_stones" = "Learn how to attract stones to your home";
+"subscription_feature_unlimited_id" = "Unlimited stone identifications";
+"subscription_feature_expand_knowledge" = "Expand your study and knowledge of stones";
+"subscription_try_it_free" = "TRY IT FREE";
+"subscription_continue" = "CONTINUE";
+"subscription_7_days_then_yearly" = "7 days for free, then %@/yearly";
+"subscription_7_days_free_trial_yearly" = "7 days free trial, then yearly subscription";
+"subscription_payment_terms" = "Payment will be charged to your Google Play account at the end of your trial or confirmation of purchase if you are not starting a trial. Subscription automatically renews unless it is canceled at least 24 hours before the end of your trial or current period. Your account will be charged for renewal within 24 hours prior to the end of the current period. You can manage and cancel your subscriptions in settings in the Google Play store. For more information, please see our";
+"subscription_terms_and" = " and ";
+
+// MARK: - Retain Page
+"retain_today" = "Today";
+"retain_today_desc" = "Unlock full access to all Picture Stone Premium features";
+"retain_day_1_6" = "Day 1 –Day 6";
+"retain_day_1_6_desc" = "Enjoy your Premium and get the most out of your free trial";
+"retain_day_7" = "Day 7";
+"retain_day_7_desc" = "Your subscription starts. Cancel anytime before.";
+"retain_then_yearly_price" = "Then %@/year. Cancel anytime.";
+
+// MARK: - Other Pages
+"share_image_load_failed" = "Image failed to load";
+"instruction_good_image_quality" = "Good image quality can help improve the accuracy of identification.";
+"instruction_identify" = "Identify";
+"suggestion_send" = "Send";
+"suggestion_required_field" = "*";
+"my_collection_no_more" = "NO More Collection";
+"about_email_address" = "Gmail.com";
+"snap_tip_photography_tips" = "Photography tips";
+"snap_tip_keep_stone_centered" = "Keep stone centered in frame";
+"sound_take_to_identify_stones" = "Take sound to identify stones and keep the subject";
+
+// MARK: - Camera Mode Selection
+"camera_mode_by_photo" = "By Photo";
+"camera_mode_by_sound" = "By sound";
+"possible_price_range" = "Possible price range";
+"note" = "Note";
+"are_you_satisfied_with_the_result" = "Are you satisfied with the result";
+"thanks_for_your_feedback" = "Thanks for your feedback";
+"valuation_in_progress" = "Valuation in progress";
+"valuation_step_identification" = "Identification";
+"valuation_step_quality_evaluation" = "Quality evaluation";
+"valuation_step_market_price_search" = "Market price search";
+"valuation_not_found" = "No stone found";
+"valuation_camera_tips" = "Clear,high-quality photos lead to more accurate valuation results";
+"metal_detector_tips_content" = "This tool is empowered by the magneticsensor that is built into your cell phone.Thisdetector works with magnetic rocks orminerals, such as magnetite, pyrrhotite, andmeteorite. It can also detect metal that iscomposed mainly of iron, cobalt, or nickel.Since the magnetic sensor is located differently on each cell phone, move thedetecting object around your phone to findits best sensitivity and get a clear read onthe dial gauge.The read of the dial gaugeindicates the strength of your detectedobject; it does not represent the exact valueof magnetism.";

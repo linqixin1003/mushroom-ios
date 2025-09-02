@@ -1,0 +1,263 @@
+/* 
+   Localizable.strings - Dutch
+   RockProject
+
+   Created for localization support.
+*/
+
+// MARK: - App Basic
+"app_name" = "RockAiSnap";
+"tab_bar_home" = "Thuis";
+"tab_bar_profile" = "Profiel";
+
+// MARK: - General Titles
+"title_home" = "Thuis";
+"title_dashboard" = "Dashboard";
+"title_notifications" = "Meldingen";
+
+// MARK: - Splash Screen
+"splash_start_now" = "Nu Beginnen";
+"splash_first_launch_slogan" = "Jouw Toverstaf voor Instant Vriendschappen!";
+
+// MARK: - Common Text
+"text_policy_tapping_continue" = "Door verder te gaan ga je akkoord met de";
+"text_terms_of_use" = "Gebruiksvoorwaarden";
+"text_privacy_policy" = "Privacybeleid";
+"text_refund_policy" = "Terugbetalingsbeleid";
+"text_contact_us" = "Contact opnemen";
+"text_customer_service" = "Klantenservice";
+"text_email_prefix" = "E-mail: %@";
+"text_next" = "Volgende";
+"text_copied" = "Gekopieerd";
+"text_continue" = "Doorgaan";
+"text_cancel" = "Avbryt";
+"text_game" = "Spel";
+"text_profile" = "Profiel";
+"text_yes" = "Ja";
+"text_no" = "Nee";
+"text_maybe_later" = "Misschien later";
+"text_submit" = "Verzenden";
+"text_confirm" = "Bevestigen";
+"text_loading" = "Laden";
+"text_view_all" = "Alles bekijken";
+"text_try_again" = "Opnieuw proberen";
+"text_save" = "Opslaan";
+"text_new" = "Nieuw";
+"text_share" = "Delen";
+"text_common_error_try_again" = "Oeps! Er is iets misgegaan. Probeer het later opnieuw :)";
+"text_also_known_as" = "Ook bekend als";
+"text_scientific_name" = "Wetenschappelijke naam";
+"text_more" = "Meer";
+"text_images" = "Afbeeldingen";
+"text_sound" = "Geluid";
+"text_map" = "Kaart";
+"text_description" = "Beschrijving";
+"text_ok" = "OK";
+"text_photo" = "Foto";
+"text_tips" = "Tips";
+
+// MARK: - Home Screen
+"home_search_hint" = "Zoek tussen meer dan 30.000 soorten";
+"home_vip_banner_text" = "Je gratis 7-dagen Premium is nog niet geclaimd. Tik om te claimen.";
+"home_action_identify" = "Identificeren";
+"home_action_record" = "Opnemen";
+"home_action_ai_beautify" = "AI Verfraaiing";
+"home_your_daily_stone" = "Je Dagelijkse Vogel";
+"home_stones_near_you" = "Vogels Bij Jou in de Buurt";
+"home_app_usage_title" = "App gebruiksinstructies";
+"home_app_usage_desc" = "Helpt je sneller bekend te raken met ons.";
+
+// MARK: - Survey/Onboarding
+"survey1_title" = "Laten we een gebruikersnaam voor je instellen";
+"survey1_input_name_placeholder" = "Je Gebruikersnaam";
+"survey2_title" = "Je identificeert jezelf als...";
+"survey2_option_she" = "Zij";
+"survey2_option_he" = "Hij";
+"survey2_option_they" = "Non-binair";
+"survey3_title" = "Waar wil je over praten?";
+"survey3_option1" = "Chat Spelletjes Spelen";
+"survey3_option2" = "Een Virtuele Vriend Maken";
+"survey3_option3" = "Emoties Delen";
+"survey3_option4" = "Plezier Hebben";
+"survey3_option5" = "Zich Minder Eenzaam Voelen";
+"survey3_option6" = "Anders";
+"survey4_title" = "Wat zijn je interesses?";
+"survey5_title" = "Het is tijd om je vriend te kiezen";
+"survey5_reset_all_blocked_roles_warning_message" = "Alle Karakters zijn geblokkeerd. Wil je alle karakters herstellen?";
+"survey6_title" = "Geef je AI-vriend een naam.";
+"survey6_input_name_placeholder" = "Voer de naam van de AI-vriend in";
+"survey7_creating" = "Maken...";
+
+// MARK: - Chat
+"text_ai_chat" = "AI Chat";
+"chat_input_bar_placeholder" = "Typ een bericht";
+"chat_error_oops" = "Oeps! Er is iets misgegaan. Probeer het later opnieuw :)";
+"chat_report_bot_response_warning_messasge" = "We optimaliseren voortdurend AI-communicatie-inhoud en hebben deze inhoud voor je weggenomen. Moet je dit AI-karakter tegelijkertijd rapporteren?";
+"chat_report_ai_character" = "AI-Karakter Rapporteren";
+"chat_just_report_content" = "Alleen inhoud rapporteren";
+
+// MARK: - Welcome
+"welcome_title" = "WELKOM!";
+"welcome_content" = "Leuk je te ontmoeten! Veel plezier!";
+"welcome_got_it" = "Begrepen!";
+
+// MARK: - Report
+"report_title" = "Een probleem rapporteren";
+"report_edit_text_hint" = "Details hier toevoegen";
+"report_success" = "Rapport geslaagd";
+"report_block_character" = "Karakter blokkeren";
+"report_block_character_warning_message" = "We zullen dit AI-karakter verwijderen en de AI-communicatie-inhoud opnieuw optimaliseren";
+
+// MARK: - Profile
+"profile_about_app" = "Over Vogel Identificator";
+"profile_restart_chat" = "Chat Herstartten";
+"profile_delete_account" = "Account Verwijderen";
+"profile_my_collection" = "Mijn collectie (%d)";
+"profile_history_record" = "Geschiedenis (%d)";
+"profile_no_more_collection" = "Geen collectie meer";
+"my_collection_no_more" = "Geen collectie meer";
+"profile_subscribe_now" = "Nu Abonneren";
+
+// MARK: - Warnings
+"restart_chat_warning_title" = "Weet je zeker dat je de chat wilt herstartten?";
+"restart_chat_warning_content" = "Je verliest de huidige chatsessie wanneer je bevestigt";
+"delete_account_warning_title" = "Weet je zeker dat je wilt verwijderen?";
+"delete_account_warning_content" = "Deze bewerking kan niet ongedaan worden gemaakt";
+
+// MARK: - Camera
+"camera_permission_request_title" = "We hebben Camera-toestemming nodig";
+"camera_permission_request_desc" = "Camera-toestemming is vereist";
+"camera_permisson_request_button" = "Toestaan";
+"camera_preview_tip" = "Maak foto's om vogels te identificeren en houd het onderwerp scherp bij het fotograferen";
+
+// MARK: - Settings
+"settings_title" = "Instellingen";
+"settings_premium_service" = "Mijn Premium Service";
+"settings_free" = "Gratis";
+"settings_set_language" = "Angi språk";
+"settings_autosave_photos" = "Foto's Automatisch Opslaan in Album";
+"settings_encourage_us" = "Moedig Ons Aan";
+"settings_suggestion" = "Suggestie";
+"settings_app_info" = "App-informatie";
+"settings_tell_friends" = "Vertel het aan Vrienden";
+"settings_privacy_policy" = "Privacybeleid";
+"settings_terms_of_use" = "Gebruiksvoorwaarden";
+"settings_manage_account" = "Account Beheren"; 
+
+// MARK: - Instruction Page
+"instruction_page_title" = "Handleiding voor het fotograferen van vogels";
+"instruction_good_image_quality" = "Een goede beeldkwaliteit kan helpen de nauwkeurigheid van de identificatie te verbeteren.";
+"instruction_step_1" = "1. Houd de vogel gecentreerd in het frame, zorg ervoor dat hij niet te ver weg is.";
+"instruction_step_2" = "2. Probeer vegetatie, kooien of andere objecten voor de vogel te vermijden.";
+"instruction_step_3" = "3. Zorg voor goede verlichting voor hoog contrast. Als u de vogel niet kunt zien, kan de app dat ook niet.";
+"instruction_step_4" = "4. Probeer de voorkant van de vogel vast te leggen. Op zijn minst moet het hoofd zichtbaar zijn.";
+"instruction_step_5" = "5. Slechts één soort per afbeelding. Te veel vogels in de afbeelding kunnen leiden tot een onjuiste identificatie.";
+"instruction_identify" = "Identificeren"; 
+
+"stone_info_more" = "Meer>>";
+
+// MARK: - Identification "profile_privileges" = "Privileges";
+// MARK: - Purchase
+"purchase_choose_subscription_plan" = "Choose Subscription Plan";
+"purchase_unlock_premium_features" = "Unlock all premium features";
+"purchase_restore_purchases" = "Restore Purchases";
+"purchase_cancel" = "Cancel";
+"purchase_user_cancelled" = "User cancelled";
+"purchase_please_wait" = "Please Wait";
+"purchase_processing" = "Processing...";
+"purchase_success" = "Success";
+"purchase_success_message" = "Purchase successful! Thank you for your support.";
+"purchase_failed" = "Purchase Failed";
+"purchase_restore_failed" = "Restore Failed";
+"purchase_restored_successfully" = "Purchases restored successfully";
+"purchase_already_vip" = "You are already a VIP user";
+"purchase_product_not_found" = "Product not found";
+"purchase_not_available" = "In-app purchases are not available";
+"purchase_no_purchases_to_restore" = "No purchases found to restore";
+"purchase_error" = "Error";
+"purchase_unable_to_load_products" = "Unable to load product information";
+"purchase_check_network_try_again" = "Unable to load product information. Please check your network connection and try again.";
+"purchase_premium_feature" = "Premium Feature";
+"purchase_premium_feature_message" = "%@ is a premium feature. Please upgrade to premium to use it.";
+"purchase_upgrade_now" = "Upgrade Now";
+"purchase_maybe_later" = "Maybe Later";
+"purchase_upgrade_to_premium" = "Upgrade to Premium";
+"purchase_premium_user" = "Premium User";
+"purchase_free_user" = "Free User";
+"purchase_operation_successful" = "Operation successful";
+
+// MARK: - Debug
+"debug_options" = "Debug Options";
+"debug_mode_only" = "Debug mode only";
+"debug_set_as_vip" = "Set as VIP";
+"debug_remove_vip" = "Remove VIP";
+"debug_clear_purchase_records" = "Clear All Purchase Records";
+"debug_title" = "Debug";
+"debug_vip_set" = "Set as VIP";
+"debug_vip_removed" = "VIP removed";
+"debug_records_cleared" = "All purchase records cleared";
+
+// MARK: - Permissions
+"microphone_permission_title" = "Microfoontoegang vereist";
+"microphone_permission_desc" = "Microfoontoegang is nodig om vogelgeluiden op te nemen voor soortidentificatie";
+"microphone_permission_button" = "Toestaan";
+
+// Stone Season
+"stone_visible_year_round" = "Het hele jaar";
+"convert_cancel_notice" = "Je hoeft niet te betalen als je het abonnement minstens een dag voor het einde van de 7-daagse gratis proefperiode opzegt.";
+"retain_price_then" = "Dan ";
+"retain_price_year_cancel" = "/jaar. Altijd opzegbaar.";
+
+// MARK: - Home Action Types
+"home_action_type_valuation" = "Waardering";
+"home_action_type_identify" = "Identificeren";
+"home_action_type_detector" = "Detector";
+
+// MARK: - FindTreasure Page
+"find_treasure_title" = "Metaaldetector";
+"find_treasure_status_normal" = "Normale omgeving";
+"find_treasure_status_slight" = "Lichte anomalie";
+"find_treasure_status_detected" = "Metaal gedetecteerd";
+"find_treasure_status_strong" = "Sterk metaalsignaal";
+
+// MARK: - Profile Page
+"profile_wishlist" = "Verlanglijst (%d)";
+"profile_refreshing" = "Vernieuwen...";
+"profile_load_more" = "Meer laden...";
+"profile_load_more_button" = "Meer laden";
+"profile_no_more_data" = "Geen gegevens meer";
+
+// MARK: - Stone Info Section
+"stone_usage" = "Gebruik";
+"stone_health_risks" = "Gezondheidsrisico's";
+"stone_original_vs_fake" = "Authenticatie";
+"stone_storage" = "Opslag";
+"stone_cleaning_tips" = "Schoonmaaktips";
+"stone_chemical_formula" = "Chemische formule";
+"stone_chemical_classification" = "Chemische classificatie";
+"stone_crystal_system" = "Kristalsysteem";
+"stone_hardness" = "Hardheid";
+"stone_density" = "Dichtheid";
+"stone_chemical_elements" = "Chemische elementen";
+"stone_estimated_value" = "Geschatte waarde";
+"metal_detector_tips_content" = "Dit gereedschap wordt aangedreven door de magnetische sensor die is ingebouwd in uw mobiele telefoon. Deze detector werkt met magnetische rotsen of mineralen, zoals magnetiet, pyrrotine en meteoriet. Het kan ook metaal detecteren dat voornamelijk bestaat uit ijzer, kobalt of nikkel. Omdat de magnetische sensor op elke mobiele telefoon anders is geplaatst, beweeg het detecterende object rond uw telefoon om de beste gevoeligheid te vinden en een duidelijke aflezing op de wijzerplaat te krijgen. De aflezing van de wijzerplaat geeft de sterkte van uw gedetecteerde object aan; het vertegenwoordigt niet de exacte waarde van magnetisme.";
+"add_to_collection" = "Toevoegen aan mijn collectie";
+
+// MARK: - Additional Missing Keys
+"text_expand" = "Uitklappen";
+"subscription_cancel_notice" = "Je hoeft niet te betalen als je het abonnement minstens een dag voor het einde van de 7-daagse gratis proefperiode opzegt.";
+"profile_error_load_more_data" = "Fout bij het laden van meer gegevens";
+"profile_error_load_wishlist" = "Fout bij het laden van verlanglijst";
+"profile_error_load_more_wishlist" = "Fout bij het laden van meer verlanglijst";
+
+// MARK: - Valuation
+"possible_price_range" = "Mogelijk prijsbereik";
+"note" = "Opmerking";
+"are_you_satisfied_with_the_result" = "Bent u tevreden met het resultaat";
+"thanks_for_your_feedback" = "Bedankt voor uw feedback";
+"valuation_in_progress" = "Waardering in uitvoering";
+"valuation_step_identification" = "Identificatie";
+"valuation_step_quality_evaluation" = "Kwaliteitsbeoordeling";
+"valuation_step_market_price_search" = "Zoeken naar marktprijs";
+"valuation_not_found" = "Geen steen gevonden";
+"valuation_camera_tips" = "Duidelijke, hoogwaardige foto's leiden tot nauwkeurigere taxatieresultaten";

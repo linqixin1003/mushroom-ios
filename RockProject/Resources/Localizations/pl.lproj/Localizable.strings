@@ -1,0 +1,267 @@
+/* 
+   Localizable.strings - English
+   RockProject
+
+   Created for localization support.
+*/
+
+// MARK: - App Basic
+"app_name" = "RockAiSnap";
+"tab_bar_home" = "Home";
+"tab_bar_profile" = "Profile";
+
+// MARK: - General Titles
+"title_home" = "Home";
+"title_dashboard" = "Dashboard";
+"title_notifications" = "Notifications";
+
+// MARK: - Splash Screen
+"splash_start_now" = "Start Now";
+"splash_first_launch_slogan" = "Your Magic Wand For Instant Friendships!";
+
+// MARK: - Common Text
+"text_policy_tapping_continue" = "By continuing you agree to the";
+"text_terms_of_use" = "Terms of Use";
+"text_privacy_policy" = "Privacy Policy";
+"text_refund_policy" = "Refund Policy";
+"text_contact_us" = "Contact Us";
+"text_customer_service" = "Customer service";
+"text_email_prefix" = "Email: %@";
+"text_next" = "Next";
+"text_copied" = "Copied";
+"text_continue" = "Continue";
+"text_cancel" = "Avbryt";
+"text_game" = "Game";
+"text_profile" = "Profile";
+"text_yes" = "Yes";
+"text_no" = "No";
+"text_maybe_later" = "Maybe later";
+"text_submit" = "Submit";
+"text_confirm" = "Confirm";
+"text_loading" = "Loading";
+"text_view_all" = "View all";
+"text_try_again" = "Try Again";
+"text_save" = "Save";
+"text_new" = "New";
+"text_share" = "Share";
+"text_common_error_try_again" = "Oops! Something went wrong. Please try again later :)";
+"text_also_known_as" = "Also known as";
+"text_scientific_name" = "Scientific name";
+"text_more" = "More";
+"text_images" = "Images";
+"text_sound" = "Sound";
+"text_map" = "Map";
+"text_description" = "Description";
+"text_ok" = "OK";
+"text_photo" = "Photo";
+"text_tips" = "Tips";
+
+// MARK: - Home Screen
+"home_search_hint" = "Search over 30,000 species";
+"home_vip_banner_text" = "Your free 7-day Premium hasn't been claimed yet. Tap to claim.";
+"home_action_identify" = "Identify";
+"home_action_record" = "Record";
+"home_action_ai_beautify" = "AI Beautify";
+"home_your_daily_stone" = "Your Daily Stone";
+"home_stones_near_you" = "Stones Near You";
+"home_app_usage_title" = "App usage instructions";
+"home_app_usage_desc" = "Help you get familiar with us more quickly.";
+
+// MARK: - Survey/Onboarding
+"survey1_title" = "Let's set a username for you";
+"survey1_input_name_placeholder" = "Your Username";
+"survey2_title" = "You identify yourself as...";
+"survey2_option_she" = "She";
+"survey2_option_he" = "He";
+"survey2_option_they" = "Non-binary";
+"survey3_title" = "What do you want to talk about?";
+"survey3_option1" = "Play Chat Games";
+"survey3_option2" = "Make a Virtual Friend";
+"survey3_option3" = "Share Emotions";
+"survey3_option4" = "Have Fun";
+"survey3_option5" = "Feel Less Lonely";
+"survey3_option6" = "Other";
+"survey4_title" = "What are your interests?";
+"survey5_title" = "It's time to choose your friend";
+"survey5_reset_all_blocked_roles_warning_message" = "All Characters were blocked. Do you want to recover all characters?";
+"survey6_title" = "Give your AI friend a name.";
+"survey6_input_name_placeholder" = "Input AI friend's name";
+"survey7_creating" = "Creating...";
+
+// MARK: - Chat
+"text_ai_chat" = "AI Chat";
+"chat_input_bar_placeholder" = "Type a message";
+"chat_error_oops" = "Oops! Something went wrong. Please try again later :)";
+"chat_report_bot_response_warning_messasge" = "We are continuously optimizing AI communication content and have removed this content for you. Do you need to report this AI character at the same time?";
+"chat_report_ai_character" = "Report AI Character";
+"chat_just_report_content" = "Just report content";
+
+// MARK: - Welcome
+"welcome_title" = "WELCOME!";
+"welcome_content" = "Nice to meet you! Have fun!";
+"welcome_got_it" = "Got it!";
+
+// MARK: - Report
+"report_title" = "Report a problem";
+"report_edit_text_hint" = "Add details here";
+"report_success" = "Report succeed";
+"report_block_character" = "Block character";
+"report_block_character_warning_message" = "We will remove this AI character and optimize the AI communication content again";
+
+// MARK: - Profile
+"profile_about_app" = "O RockAiSnap";
+"profile_restart_chat" = "Restart Chat";
+"profile_delete_account" = "Delete Account";
+"profile_my_collection" = "Moja kolekcja (%d)";
+"profile_history_record" = "Historia (%d)";
+"profile_no_more_collection" = "Brak więcej kolekcji";
+"my_collection_no_more" = "Brak więcej kolekcji";
+"profile_subscribe_now" = "Subskrybuj Teraz";
+
+// MARK: - Warnings
+"restart_chat_warning_title" = "Are you sure to restart chat?";
+"restart_chat_warning_content" = "You will lose current chat session when you confirm";
+"delete_account_warning_title" = "Are you sure to Delete?";
+"delete_account_warning_content" = "This operation cannot be undone";
+"warning_no_camera_permission" = "Brak uprawnień do kamery";
+"warning_no_photo_permission" = "Brak uprawnień do zdjęć";
+"warning_no_microphone_permission" = "Brak uprawnień do mikrofonu";
+
+// MARK: - Camera
+"camera_permission_request_title" = "We need Camera permission";
+"camera_permission_request_desc" = "Camera permission is required";
+"camera_permisson_request_button" = "Allow";
+"camera_preview_tip" = "Take photos to identify stones and keep the subject clear when shooting";
+
+// MARK: - Settings
+"settings_title" = "Settings";
+"settings_premium_service" = "My Premium Service";
+"settings_free" = "Free";
+"settings_set_language" = "Angi språk";
+"settings_autosave_photos" = "Autosave Photos to Album";
+"settings_encourage_us" = "Encourage Us";
+"settings_suggestion" = "Suggestion";
+"settings_app_info" = "App Info";
+"settings_tell_friends" = "Tell Friends";
+"settings_privacy_policy" = "Privacy Policy";
+"settings_terms_of_use" = "Terms of Use";
+"settings_manage_account" = "Manage Account"; 
+
+// MARK: - Instruction Page
+"instruction_page_title" = "Przewodnik fotografowania ptaków";
+"instruction_good_image_quality" = "Dobra jakość obrazu może pomóc poprawić dokładność identyfikacji.";
+"instruction_step_1" = "1. Utrzymuj ptaka w centrum kadru, upewnij się, że nie jest zbyt daleko.";
+"instruction_step_2" = "2. Staraj się unikać roślinności, klatek lub innych przedmiotów przed ptakiem.";
+"instruction_step_3" = "3. Zapewnij dobre oświetlenie dla wysokiego kontrastu. Jeśli nie widzisz ptaka, aplikacja też nie może.";
+"instruction_step_4" = "4. Staraj się uchwycić przód ptaka. Co najmniej głowa musi być widoczna.";
+"instruction_step_5" = "5. Tylko jeden gatunek na zdjęciu. Zbyt wiele ptaków na zdjęciu może prowadzić do błędnej identyfikacji.";
+"instruction_identify" = "Identyfikuj"; 
+"stone_info_more" = "Więcej>>";
+
+// MARK: - Identification "profile_privileges" = "Przywileje";
+// MARK: - Purchase
+"purchase_choose_subscription_plan" = "Choose Subscription Plan";
+"purchase_unlock_premium_features" = "Unlock all premium features";
+"purchase_restore_purchases" = "Restore Purchases";
+"purchase_cancel" = "Cancel";
+"purchase_user_cancelled" = "User cancelled";
+"purchase_please_wait" = "Please Wait";
+"purchase_processing" = "Processing...";
+"purchase_success" = "Success";
+"purchase_success_message" = "Purchase successful! Thank you for your support.";
+"purchase_failed" = "Purchase Failed";
+"purchase_restore_failed" = "Restore Failed";
+"purchase_restored_successfully" = "Purchases restored successfully";
+"purchase_already_vip" = "You are already a VIP user";
+"purchase_product_not_found" = "Product not found";
+"purchase_not_available" = "In-app purchases are not available";
+"purchase_no_purchases_to_restore" = "No purchases found to restore";
+"purchase_error" = "Error";
+"purchase_unable_to_load_products" = "Unable to load product information";
+"purchase_check_network_try_again" = "Unable to load product information. Please check your network connection and try again.";
+"purchase_premium_feature" = "Premium Feature";
+"purchase_premium_feature_message" = "%@ is a premium feature. Please upgrade to premium to use it.";
+"purchase_upgrade_now" = "Upgrade Now";
+"purchase_maybe_later" = "Maybe Later";
+"purchase_upgrade_to_premium" = "Upgrade to Premium";
+"purchase_premium_user" = "Premium User";
+"purchase_free_user" = "Free User";
+"purchase_operation_successful" = "Operation successful";
+
+// MARK: - Debug
+"debug_options" = "Debug Options";
+"debug_mode_only" = "Debug mode only";
+"debug_set_as_vip" = "Set as VIP";
+"debug_remove_vip" = "Remove VIP";
+"debug_clear_purchase_records" = "Clear All Purchase Records";
+"debug_title" = "Debug";
+"debug_vip_set" = "Set as VIP";
+"debug_vip_removed" = "VIP removed";
+"debug_records_cleared" = "All purchase records cleared";
+
+// MARK: - Permissions
+"microphone_permission_title" = "Wymagany dostęp do mikrofonu";
+"microphone_permission_desc" = "Dostęp do mikrofonu jest potrzebny do nagrywania dźwięków ptaków w celu identyfikacji gatunków";
+"microphone_permission_button" = "Zezwól";
+
+// Stone Season
+"stone_visible_year_round" = "Przez cały rok";
+"convert_cancel_notice" = "Nie musisz płacić, jeśli anulujesz subskrypcję co najmniej dzień przed zakończeniem 7-dniowego bezpłatnego okresu próbnego.";
+"retain_price_then" = "Następnie ";
+"retain_price_year_cancel" = "/rok. Anuluj w dowolnym momencie.";
+
+// MARK: - Home Action Types
+"home_action_type_valuation" = "Wycena";
+"home_action_type_identify" = "Identyfikuj";
+"home_action_type_detector" = "Detektor";
+
+// MARK: - FindTreasure Page
+"find_treasure_title" = "Wykrywacz metali";
+"find_treasure_status_normal" = "Normalne środowisko";
+"find_treasure_status_slight" = "Lekka anomalia";
+"find_treasure_status_detected" = "Wykryto metal";
+"find_treasure_status_strong" = "Silny sygnał metalowy";
+
+// MARK: - Profile Page
+"profile_wishlist" = "Lista życzeń (%d)";
+"profile_refreshing" = "Odświeżanie...";
+"profile_load_more" = "Załaduj więcej...";
+"profile_load_more_button" = "Załaduj więcej";
+"profile_no_more_data" = "Brak więcej danych";
+
+// MARK: - Stone Info Section
+"stone_usage" = "Zastosowanie";
+"stone_health_risks" = "Ryzyko zdrowotne";
+"stone_original_vs_fake" = "Autentyczność";
+"stone_storage" = "Przechowywanie";
+"stone_cleaning_tips" = "Wskazówki czyszczenia";
+"stone_chemical_formula" = "Wzór chemiczny";
+"stone_chemical_classification" = "Klasyfikacja chemiczna";
+"stone_crystal_system" = "System krystaliczny";
+"stone_hardness" = "Twardość";
+"stone_density" = "Gęstość";
+"stone_chemical_elements" = "Pierwiastki chemiczne";
+"stone_estimated_value" = "Szacowana wartość";
+"metal_detector_tips_content" = "To narzędzie jest zasilane przez czujnik magnetyczny wbudowany w Twój telefon komórkowy. Ten detektor działa ze skałami magnetycznymi lub minerałami, takimi jak magnetyt, pirotyn i meteoryt. Może również wykrywać metal składający się głównie z żelaza, kobaltu lub niklu. Ponieważ czujnik magnetyczny jest umieszczony inaczej w każdym telefonie komórkowym, przesuń wykrywany obiekt wokół telefonu, aby znaleźć jego najlepszą czułość i uzyskać wyraźny odczyt na tarczy. Odczyt tarczy wskazuje siłę wykrytego obiektu; nie reprezentuje dokładnej wartości magnetyzmu.";
+"add_to_collection" = "Dodaj do mojej kolekcji";
+
+// MARK: - Additional Missing Keys
+"text_expand" = "Rozwiń";
+"subscription_cancel_notice" = "Nie musisz płacić, jeśli anulujesz subskrypcję co najmniej dzień przed zakończeniem 7-dniowego bezpłatnego okresu próbnego.";
+"profile_error_load_more_data" = "Błąd ładowania więcej danych";
+"profile_error_load_wishlist" = "Błąd ładowania listy życzeń";
+"profile_error_load_more_wishlist" = "Błąd ładowania więcej listy życzeń";
+
+// MARK: - Valuation
+"possible_price_range" = "Możliwy zakres cenowy";
+"note" = "Uwaga";
+"are_you_satisfied_with_the_result" = "Czy jesteś zadowolony z wyniku";
+"thanks_for_your_feedback" = "Dziękujemy za opinię";
+"valuation_in_progress" = "Wycena w toku";
+"valuation_step_identification" = "Identyfikacja";
+"valuation_step_quality_evaluation" = "Ocena jakości";
+"valuation_step_market_price_search" = "Wyszukiwanie ceny rynkowej";
+"valuation_not_found" = "Nie znaleziono kamienia";
+"valuation_camera_tips" = "Wyraźne, wysokiej jakości zdjęcia prowadzą do dokładniejszych wyników wyceny";
+"profile_error_load_wishlist" = "Błąd ładowania listy życzeń";
+"profile_error_load_more_wishlist" = "Błąd ładowania więcej listy życzeń";

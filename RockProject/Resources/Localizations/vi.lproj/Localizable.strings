@@ -1,0 +1,318 @@
+/* 
+   Localizable.strings - Vietnamese
+   RockProject
+
+   Created for localization support.
+*/
+
+// MARK: - App Basic
+"app_name" = "RockAiSnap";
+"tab_bar_home" = "Trang chủ";
+"tab_bar_profile" = "Hồ sơ";
+
+// MARK: - General Titles
+"title_home" = "Trang chủ";
+"title_dashboard" = "Bảng điều khiển";
+"title_notifications" = "Thông báo";
+
+// MARK: - Splash Screen
+"splash_start_now" = "Bắt đầu ngay";
+"splash_first_launch_slogan" = "Cây đũa thần của bạn cho tình bạn tức thì!";
+
+// MARK: - Common Text
+"text_policy_tapping_continue" = "Bằng cách tiếp tục, bạn đồng ý với";
+"text_terms_of_use" = "Điều khoản sử dụng";
+"text_privacy_policy" = "Chính sách bảo mật";
+"text_refund_policy" = "Chính sách hoàn tiền";
+"text_contact_us" = "Liên hệ chúng tôi";
+"text_customer_service" = "Dịch vụ khách hàng";
+"text_email_prefix" = "Email: %@";
+"text_next" = "Tiếp theo";
+"text_copied" = "Đã sao chép";
+"text_continue" = "Tiếp tục";
+"text_cancel" = "Hủy";
+"text_game" = "Trò chơi";
+"text_profile" = "Hồ sơ";
+"text_yes" = "Có";
+"text_no" = "Không";
+"text_maybe_later" = "Có thể sau";
+"text_submit" = "Gửi";
+"text_confirm" = "Xác nhận";
+"text_loading" = "Đang tải";
+"text_view_all" = "Xem tất cả";
+"text_try_again" = "Thử lại";
+"text_save" = "Lưu";
+"text_new" = "Mới";
+"text_share" = "Chia sẻ";
+"text_common_error_try_again" = "Oops! Có gì đó không ổn. Vui lòng thử lại sau :)";
+"text_also_known_as" = "Còn được biết đến như";
+"text_scientific_name" = "Tên khoa học";
+"text_more" = "Thêm";
+"text_images" = "Hình ảnh";
+"text_sound" = "Âm thanh";
+"text_map" = "Bản đồ";
+"text_description" = "Mô tả";
+"text_ok" = "OK";
+"text_photo" = "Ảnh";
+"text_tips" = "Mẹo";
+"text_expand" = "Mở rộng";
+
+// MARK: - Home Screen
+"home_search_hint" = "Tìm kiếm trong hơn 30.000 loài";
+"home_vip_banner_text" = "Premium miễn phí 7 ngày của bạn chưa được nhận. Nhấn để nhận.";
+"home_action_identify" = "Nhận dạng";
+"home_action_record" = "Ghi âm";
+"home_action_ai_beautify" = "Làm đẹp AI";
+"home_your_daily_stone" = "Chim hàng ngày của bạn";
+"home_stones_near_you" = "Chim gần bạn";
+"home_app_usage_title" = "Hướng dẫn sử dụng ứng dụng";
+"home_app_usage_desc" = "Giúp bạn làm quen với chúng tôi nhanh hơn.";
+
+// MARK: - Home Action Types
+"home_action_type_valuation" = "Định giá";
+"home_action_type_identify" = "Nhận dạng";
+"home_action_type_detector" = "Máy dò";
+
+// MARK: - FindTreasure Page
+"find_treasure_title" = "Máy dò kim loại";
+"find_treasure_status_normal" = "Môi trường bình thường";
+"find_treasure_status_slight" = "Bất thường nhẹ";
+"find_treasure_status_detected" = "Phát hiện kim loại";
+"find_treasure_status_strong" = "Tín hiệu kim loại mạnh";
+
+// MARK: - Survey/Onboarding
+"survey1_title" = "Hãy đặt tên người dùng cho bạn";
+"survey1_input_name_placeholder" = "Tên người dùng của bạn";
+"survey2_title" = "Bạn tự nhận mình là...";
+"survey2_option_she" = "Cô ấy";
+"survey2_option_he" = "Anh ấy";
+"survey2_option_they" = "Phi nhị phân";
+"survey3_title" = "Bạn muốn nói về điều gì?";
+"survey3_option1" = "Chơi trò chơi trò chuyện";
+"survey3_option2" = "Có một người bạn ảo";
+"survey3_option3" = "Chia sẻ cảm xúc";
+"survey3_option4" = "Vui chơi";
+"survey3_option5" = "Cảm thấy ít cô đơn hơn";
+"survey3_option6" = "Khác";
+"survey4_title" = "Sở thích của bạn là gì?";
+"survey5_title" = "Đã đến lúc chọn bạn của bạn";
+"survey5_reset_all_blocked_roles_warning_message" = "Tất cả nhân vật đã bị chặn. Bạn có muốn đặt lại tất cả nhân vật không?";
+"survey6_title" = "Đặt tên cho bạn AI của bạn.";
+"survey6_input_name_placeholder" = "Nhập tên bạn AI";
+"survey7_creating" = "Đang tạo...";
+
+// MARK: - Chat
+"text_ai_chat" = "Trò chuyện AI";
+"chat_input_bar_placeholder" = "Nhập tin nhắn";
+"chat_error_oops" = "Oops! Có gì đó không ổn. Vui lòng thử lại sau :)";
+"chat_report_bot_response_warning_messasge" = "Chúng tôi liên tục tối ưu hóa nội dung giao tiếp AI và đã xóa nội dung này cho bạn. Bạn có cần báo cáo nhân vật AI này cùng lúc không?";
+"chat_report_ai_character" = "Báo cáo nhân vật AI";
+"chat_just_report_content" = "Chỉ báo cáo nội dung";
+
+// MARK: - Welcome
+"welcome_title" = "CHÀO MỪNG!";
+"welcome_content" = "Rất vui được gặp bạn! Chúc vui vẻ!";
+"welcome_got_it" = "Hiểu rồi!";
+
+// MARK: - Report
+"report_title" = "Báo cáo sự cố";
+"report_edit_text_hint" = "Thêm chi tiết ở đây";
+"report_success" = "Báo cáo thành công";
+"report_block_character" = "Chặn nhân vật";
+"report_block_character_warning_message" = "Chúng tôi sẽ xóa nhân vật AI này và tối ưu hóa lại nội dung giao tiếp AI";
+
+// MARK: - Profile
+"profile_about_app" = "Về ứng dụng nhận dạng chim";
+"profile_restart_chat" = "Khởi động lại trò chuyện";
+"profile_delete_account" = "Xóa tài khoản";
+"profile_my_collection" = "Bộ sưu tập của tôi (%d)";
+"profile_history_record" = "Lịch sử (%d)";
+"profile_no_more_collection" = "Không còn bộ sưu tập nào";
+"my_collection_no_more" = "Không còn bộ sưu tập nào";
+"profile_subscribe_now" = "Đăng ký ngay";
+"profile_wishlist" = "Danh sách mong muốn (%d)";
+"profile_refreshing" = "Đang làm mới...";
+"profile_load_more" = "Tải thêm...";
+"profile_load_more_button" = "Tải thêm";
+"profile_no_more_data" = "Không còn dữ liệu";
+
+// MARK: - Warnings
+"restart_chat_warning_title" = "Bạn có chắc muốn khởi động lại trò chuyện?";
+"restart_chat_warning_content" = "Bạn sẽ mất phiên trò chuyện hiện tại khi xác nhận";
+"delete_account_warning_title" = "Bạn có chắc muốn xóa?";
+"delete_account_warning_content" = "Thao tác này không thể hoàn tác";
+
+// MARK: - Camera
+"camera_permission_request_title" = "Chúng tôi cần quyền truy cập camera";
+"camera_permission_request_desc" = "Cần quyền truy cập camera";
+"camera_permisson_request_button" = "Cho phép";
+"camera_preview_tip" = "Chụp ảnh để nhận dạng chim và giữ chủ thể rõ ràng khi chụp";
+"camera_zoom" = "Phóng to";
+"camera_photography_tips" = "Mẹo chụp ảnh";
+"camera_keep_stone_centered" = "Giữ chim ở giữa khung hình";
+"camera_good_image_quality" = "Chất lượng hình ảnh tốt có thể giúp cải thiện độ chính xác nhận dạng.";
+"camera_mode_by_photo" = "Bằng ảnh";
+"camera_mode_by_sound" = "Bằng âm thanh";
+
+// MARK: - Settings
+"settings_title" = "Cài đặt";
+"settings_premium_service" = "Dịch vụ Premium của tôi";
+"settings_free" = "Miễn phí";
+"settings_set_language" = "Đặt ngôn ngữ";
+"settings_autosave_photos" = "Tự động lưu ảnh vào album";
+"settings_encourage_us" = "Khuyến khích chúng tôi";
+"settings_suggestion" = "Đề xuất";
+"settings_app_info" = "Thông tin ứng dụng";
+"settings_tell_friends" = "Nói với bạn bè";
+"settings_privacy_policy" = "Chính sách bảo mật";
+"settings_terms_of_use" = "Điều khoản sử dụng";
+"settings_manage_account" = "Quản lý tài khoản";
+
+// MARK: - Instruction Page
+"instruction_page_title" = "Hướng dẫn chụp ảnh chim";
+"instruction_good_image_quality" = "Chất lượng hình ảnh tốt có thể giúp cải thiện độ chính xác nhận dạng.";
+"instruction_step_1" = "1. Giữ chim ở giữa khung hình, đảm bảo không quá xa.";
+"instruction_step_2" = "2. Cố gắng tránh có thảm thực vật, lồng hoặc vật thể khác phía trước chim.";
+"instruction_step_3" = "3. Đảm bảo ánh sáng tốt để có độ tương phản cao. Nếu bạn không thể nhìn thấy chim, ứng dụng cũng không thể.";
+"instruction_step_4" = "4. Cố gắng chụp mặt trước của chim. Ít nhất đầu phải nhìn thấy được.";
+"instruction_step_5" = "5. Chỉ một loài trên mỗi hình ảnh. Quá nhiều chim trong hình có thể dẫn đến nhận dạng sai.";
+"instruction_identify" = "Nhận dạng";
+
+// MARK: - Stone Info Section
+"stone_usage" = "Sử dụng";
+"stone_health_risks" = "Rủi ro sức khỏe";
+"stone_original_vs_fake" = "Xác thực";
+"stone_storage" = "Bảo quản";
+"stone_cleaning_tips" = "Mẹo làm sạch";
+"stone_chemical_formula" = "Công thức hóa học";
+"stone_chemical_classification" = "Phân loại hóa học";
+"stone_crystal_system" = "Hệ thống tinh thể";
+"stone_hardness" = "Độ cứng";
+"stone_density" = "Mật độ";
+"stone_chemical_elements" = "Nguyên tố hóa học";
+"stone_estimated_value" = "Giá trị ước tính";
+"metal_detector_tips_content" = "Công cụ này được hỗ trợ bởi cảm biến từ tính được tích hợp trong điện thoại di động của bạn. Máy dò này hoạt động với các loại đá hoặc khoáng chất từ tính, chẳng hạn như magnetit, pyrrotin và thiên thạch. Nó cũng có thể phát hiện kim loại chủ yếu được cấu tạo từ sắt, coban hoặc niken. Vì cảm biến từ tính được đặt khác nhau trên mỗi điện thoại di động, hãy di chuyển vật thể phát hiện xung quanh điện thoại của bạn để tìm độ nhạy tốt nhất và có được số đọc rõ ràng trên đồng hồ đo. Số đọc trên đồng hồ đo cho biết cường độ của vật thể được phát hiện; nó không đại diện cho giá trị chính xác của từ tính.";
+"add_to_collection" = "Thêm vào bộ sưu tập của tôi";
+"stone_info_more" = "Thêm>>";
+
+// MARK: - ConvertPage
+"convert_title" = "StoneAI Snap";
+"convert_feature_1" = "Thông tin sâu về hơn 12000 loài chim";
+"convert_feature_2" = "Nhận dạng chim chính xác bằng ảnh và âm thanh";
+"convert_feature_3" = "Học cách thu hút chim về nhà bạn";
+"convert_feature_4" = "Nhận dạng chim không giới hạn";
+"convert_feature_5" = "Mở rộng nghiên cứu và kiến thức về chim của bạn";
+"convert_yearly" = "Hàng năm";
+"convert_monthly" = "Hàng tháng";
+"convert_loading_price" = "Đang tải giá...";
+"convert_free_trial_yearly" = "7 ngày miễn phí, sau đó %@ /năm";
+"convert_free_trial_loading" = "Dùng thử miễn phí 7 ngày, sau đó đăng ký hàng năm";
+"convert_try_free" = "THỬ MIỄN PHÍ";
+"convert_continue" = "TIẾP TỤC";
+"convert_cancel_anytime" = "Không cam kết. Hủy bất cứ lúc nào.";
+"convert_cancel_notice" = "Không cần thanh toán nếu bạn hủy đăng ký ít nhất một ngày trước khi kết thúc thời gian dùng thử miễn phí 7 ngày.";
+"convert_payment_terms" = "Thanh toán sẽ được tính vào tài khoản App Store của bạn khi kết thúc thời gian dùng thử hoặc khi xác nhận mua hàng nếu bạn không bắt đầu dùng thử. Đăng ký sẽ tự động gia hạn trừ khi bị hủy ít nhất 24 giờ trước khi kết thúc thời kỳ hiện tại. Tài khoản của bạn sẽ bị tính phí gia hạn trong vòng 24 giờ trước khi kết thúc thời kỳ hiện tại. Bạn có thể quản lý và hủy đăng ký trong cài đặt App Store. Để biết thêm thông tin, xem";
+"convert_terms_of_use" = "Điều khoản sử dụng";
+"convert_and" = "và";
+"convert_privacy_policy" = "Chính sách bảo mật.";
+
+// MARK: - RetainPage
+"retain_title" = "RockAiSnap";
+"retain_restore" = "Khôi phục";
+"retain_timeline_today" = "Hôm nay";
+"retain_timeline_today_desc" = "Mở khóa toàn bộ quyền truy cập vào tất cả tính năng Premium";
+"retain_timeline_day1_6" = "Ngày 1 - Ngày 6";
+"retain_timeline_day1_6_desc" = "Tận hưởng Premium và tận dụng tối đa thời gian dùng thử miễn phí";
+"retain_timeline_day7" = "Ngày 7";
+"retain_timeline_day7_desc" = "Đăng ký của bạn bắt đầu. Hủy trước đó nếu bạn muốn.";
+"retain_try_free" = "Thử 7 ngày miễn phí";
+"retain_then_yearly" = "Sau đó %@/năm. Hủy bất cứ lúc nào.";
+"retain_loading_price" = "Đang tải giá... Hủy bất cứ lúc nào.";
+"retain_start_trial" = "BẮT ĐẦU DÙNG THỬ MIỄN PHÍ";
+"retain_price_then" = "Sau đó ";
+"retain_price_year_cancel" = "/năm. Hủy bất cứ lúc nào.";
+
+// MARK: - Snap Tips
+"snap_tip_too_far" = "Quá xa";
+"snap_tip_too_close" = "Quá gần";
+"snap_tip_blurry" = "Mờ";
+"snap_tip_multiple_species" = "Nhiều loài";
+
+// MARK: - More Images
+"more_images" = "Thêm hình ảnh";
+
+// MARK: - Share
+"share_image_failed" = "Không thể tải hình ảnh";
+"share_alert_title" = "Thông báo";
+"share_alert_message" = "Chia sẻ hoàn tất";
+"share_title" = "Chia sẻ";
+"share_download" = "Tải xuống";
+"share_share" = "Chia sẻ";
+"profile_privileges" = "Đặc quyền";
+
+// MARK: - Valuation
+"possible_price_range" = "Phạm vi giá có thể";
+"note" = "Ghi chú";
+"are_you_satisfied_with_the_result" = "Bạn có hài lòng với kết quả không";
+"thanks_for_your_feedback" = "Cảm ơn phản hồi của bạn";
+"valuation_in_progress" = "Đang tiến hành định giá";
+"valuation_step_identification" = "Nhận dạng";
+"valuation_step_quality_evaluation" = "Đánh giá chất lượng";
+"valuation_step_market_price_search" = "Tìm kiếm giá thị trường";
+"stone_estimated_value" = "Giá trị ước tính";
+"valuation_not_found" = "Không tìm thấy đá";
+"valuation_camera_tips" = "Hình ảnh rõ ràng, chất lượng cao dẫn đến kết quả định giá chính xác hơn";
+
+// MARK: - Purchase
+"purchase_choose_subscription_plan" = "Chọn gói đăng ký";
+"purchase_unlock_premium_features" = "Mở khóa tất cả tính năng premium";
+"purchase_restore_purchases" = "Khôi phục mua hàng";
+"purchase_cancel" = "Hủy";
+"purchase_user_cancelled" = "Người dùng đã hủy";
+"purchase_please_wait" = "Vui lòng đợi";
+"purchase_processing" = "Đang xử lý...";
+"purchase_success" = "Thành công";
+"purchase_success_message" = "Mua hàng thành công! Cảm ơn sự hỗ trợ của bạn.";
+"purchase_failed" = "Mua hàng thất bại";
+"purchase_restore_failed" = "Khôi phục thất bại";
+"purchase_restored_successfully" = "Khôi phục mua hàng thành công";
+"purchase_already_vip" = "Bạn đã là người dùng VIP";
+"purchase_product_not_found" = "Không tìm thấy sản phẩm";
+"purchase_not_available" = "Mua hàng trong ứng dụng không khả dụng";
+"purchase_no_purchases_to_restore" = "Không tìm thấy mua hàng để khôi phục";
+"purchase_error" = "Lỗi";
+"purchase_unable_to_load_products" = "Không thể tải thông tin sản phẩm";
+"purchase_check_network_try_again" = "Không thể tải thông tin sản phẩm. Vui lòng kiểm tra kết nối mạng và thử lại.";
+"purchase_premium_feature" = "Tính năng Premium";
+"purchase_premium_feature_message" = "%@ là tính năng premium. Vui lòng nâng cấp lên premium để sử dụng.";
+"purchase_upgrade_now" = "Nâng cấp ngay";
+"purchase_maybe_later" = "Có thể sau";
+"purchase_upgrade_to_premium" = "Nâng cấp lên Premium";
+"purchase_premium_user" = "Người dùng Premium";
+"purchase_free_user" = "Người dùng miễn phí";
+"purchase_operation_successful" = "Thao tác thành công";
+
+// MARK: - Debug
+"debug_options" = "Tùy chọn gỡ lỗi";
+"debug_mode_only" = "Chỉ chế độ gỡ lỗi";
+"debug_set_as_vip" = "Đặt làm VIP";
+"debug_remove_vip" = "Xóa VIP";
+"debug_clear_purchase_records" = "Xóa tất cả bản ghi mua hàng";
+"debug_title" = "Gỡ lỗi";
+"debug_vip_set" = "Đã đặt làm VIP";
+"debug_vip_removed" = "Đã xóa VIP";
+"debug_records_cleared" = "Đã xóa tất cả bản ghi mua hàng";
+
+// MARK: - Permissions
+"microphone_permission_title" = "Yêu cầu truy cập microphone";
+"microphone_permission_desc" = "Cần truy cập microphone để ghi âm tiếng chim nhằm nhận dạng loài";
+"microphone_permission_button" = "Cho phép";
+
+// MARK: - Stone Season
+"stone_visible_year_round" = "Quanh năm";
+
+// MARK: - Additional Missing Keys
+"subscription_cancel_notice" = "Không cần thanh toán nếu bạn hủy đăng ký ít nhất một ngày trước khi kết thúc thời gian dùng thử miễn phí 7 ngày.";
+"profile_error_load_more_data" = "Lỗi tải thêm dữ liệu";
+"profile_error_load_wishlist" = "Lỗi tải danh sách mong muốn";
+"profile_error_load_more_wishlist" = "Lỗi tải thêm danh sách mong muốn";

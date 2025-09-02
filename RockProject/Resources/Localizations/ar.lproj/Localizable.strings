@@ -1,0 +1,264 @@
+/* 
+   Localizable.strings - Arabic
+   RockProject
+
+   Created for localization support.
+*/
+
+// MARK: - App Basic
+"app_name" = "RockAiSnap";
+"tab_bar_home" = "الرئيسية";
+"tab_bar_profile" = "الملف الشخصي";
+
+// MARK: - General Titles
+"title_home" = "الرئيسية";
+"title_dashboard" = "لوحة التحكم";
+"title_notifications" = "الإشعارات";
+
+// MARK: - Splash Screen
+"splash_start_now" = "ابدأ الآن";
+"splash_first_launch_slogan" = "عصاك السحرية للصداقات الفورية!";
+
+// MARK: - Common Text
+"text_policy_tapping_continue" = "بالمتابعة توافق على";
+"text_terms_of_use" = "شروط الاستخدام";
+"text_privacy_policy" = "سياسة الخصوصية";
+"text_refund_policy" = "سياسة الاسترداد";
+"text_contact_us" = "اتصل بنا";
+"text_customer_service" = "خدمة العملاء";
+"text_email_prefix" = "البريد الإلكتروني: %@";
+"text_next" = "التالي";
+"text_copied" = "تم النسخ";
+"text_continue" = "متابعة";
+"text_cancel" = "Avbryt";
+"text_game" = "لعبة";
+"text_profile" = "الملف الشخصي";
+"text_yes" = "نعم";
+"text_no" = "لا";
+"text_maybe_later" = "ربما لاحقاً";
+"text_submit" = "إرسال";
+"text_confirm" = "تأكيد";
+"text_loading" = "جاري التحميل";
+"text_view_all" = "عرض الكل";
+"text_try_again" = "المحاولة مرة أخرى";
+"text_save" = "حفظ";
+"text_new" = "جديد";
+"text_share" = "مشاركة";
+"text_common_error_try_again" = "عذراً! حدث خطأ ما. الرجاء المحاولة لاحقاً :)";
+"text_also_known_as" = "المعروف أيضاً باسم";
+"text_scientific_name" = "الاسم العلمي";
+"text_more" = "المزيد";
+"text_images" = "الصور";
+"text_sound" = "الصوت";
+"text_map" = "الخريطة";
+"text_description" = "الوصف";
+"text_ok" = "موافق";
+"text_photo" = "صورة";
+"text_tips" = "نصائح";
+
+// MARK: - Home Screen
+"home_search_hint" = "البحث بين أكثر من 30,000 نوع";
+"home_vip_banner_text" = "لم يتم استلام عضوية البريميوم المجانية لمدة 7 أيام بعد. اضغط للاستلام.";
+"home_action_identify" = "تحديد";
+"home_action_record" = "تسجيل";
+"home_action_ai_beautify" = "تجميل بالذكاء الاصطناعي";
+"home_your_daily_stone" = "طائرك اليومي";
+"home_stones_near_you" = "الطيور القريبة منك";
+"home_app_usage_title" = "تعليمات استخدام التطبيق";
+"home_app_usage_desc" = "نساعدك على التعرف علينا بشكل أسرع.";
+
+// MARK: - Survey/Onboarding
+"survey1_title" = "دعنا نحدد اسم مستخدم لك";
+"survey1_input_name_placeholder" = "اسم المستخدم الخاص بك";
+"survey2_title" = "تحدد هويتك كـ...";
+"survey2_option_she" = "هي";
+"survey2_option_he" = "هو";
+"survey2_option_they" = "غير ثنائي";
+"survey3_title" = "ما الذي تريد التحدث عنه؟";
+"survey3_option1" = "لعب ألعاب الدردشة";
+"survey3_option2" = "تكوين صديق افتراضي";
+"survey3_option3" = "مشاركة المشاعر";
+"survey3_option4" = "الاستمتاع";
+"survey3_option5" = "الشعور بوحدة أقل";
+"survey3_option6" = "أخرى";
+"survey4_title" = "ما هي اهتماماتك؟";
+"survey5_title" = "حان الوقت لاختيار صديقك";
+"survey5_reset_all_blocked_roles_warning_message" = "تم حظر جميع الشخصيات. هل تريد استرداد جميع الشخصيات؟";
+"survey6_title" = "أعط صديقك الذكي اسماً.";
+"survey6_input_name_placeholder" = "أدخل اسم الصديق الذكي";
+"survey7_creating" = "جاري الإنشاء...";
+
+// MARK: - Chat
+"text_ai_chat" = "دردشة الذكاء الاصطناعي";
+"chat_input_bar_placeholder" = "اكتب رسالة";
+"chat_error_oops" = "عذراً! حدث خطأ ما. الرجاء المحاولة لاحقاً :)";
+"chat_report_bot_response_warning_messasge" = "نحن نحسن باستمرار محتوى التواصل بالذكاء الاصطناعي وقد أزلنا هذا المحتوى من أجلك. هل تحتاج إلى الإبلاغ عن هذه الشخصية الذكية في نفس الوقت؟";
+"chat_report_ai_character" = "الإبلاغ عن الشخصية الذكية";
+"chat_just_report_content" = "الإبلاغ عن المحتوى فقط";
+
+// MARK: - Welcome
+"welcome_title" = "أهلاً وسهلاً!";
+"welcome_content" = "سعيد بلقائك! استمتع!";
+"welcome_got_it" = "فهمت!";
+
+// MARK: - Report
+"report_title" = "الإبلاغ عن مشكلة";
+"report_edit_text_hint" = "أضف التفاصيل هنا";
+"report_success" = "تم الإبلاغ بنجاح";
+"report_block_character" = "حظر الشخصية";
+"report_block_character_warning_message" = "سنقوم بإزالة هذه الشخصية الذكية وتحسين محتوى التواصل بالذكاء الاصطناعي مرة أخرى";
+
+// MARK: - Profile
+"profile_about_app" = "حول محدد الطيور";
+"profile_restart_chat" = "إعادة تشغيل الدردشة";
+"profile_delete_account" = "حذف الحساب";
+"profile_my_collection" = "مجموعتي (%d)";
+"profile_history_record" = "السجل (%d)";
+"profile_no_more_collection" = "لا مزيد من المجموعات";
+"my_collection_no_more" = "لا مزيد من المجموعات";
+"profile_subscribe_now" = "اشترك الآن";
+"profile_privileges" = "الامتيازات";
+
+// MARK: - Warnings
+"restart_chat_warning_title" = "هل أنت متأكد من إعادة تشغيل الدردشة؟";
+"restart_chat_warning_content" = "ستفقد جلسة الدردشة الحالية عند التأكيد";
+"delete_account_warning_title" = "هل أنت متأكد من الحذف؟";
+"delete_account_warning_content" = "لا يمكن التراجع عن هذه العملية";
+
+// MARK: - Camera
+"camera_permission_request_title" = "نحتاج إذن الكاميرا";
+"camera_permission_request_desc" = "إذن الكاميرا مطلوب";
+"camera_permisson_request_button" = "السماح";
+"camera_preview_tip" = "التقط صوراً لتحديد الطيور واحتفظ بوضوح الموضوع عند التصوير";
+
+// MARK: - Settings
+"settings_title" = "الإعدادات";
+"settings_premium_service" = "خدمة البريميوم الخاصة بي";
+"settings_free" = "مجاني";
+"settings_set_language" = "Angi språk";
+"settings_autosave_photos" = "حفظ الصور تلقائياً في الألبوم";
+"settings_encourage_us" = "شجعونا";
+"settings_suggestion" = "اقتراح";
+"settings_app_info" = "معلومات التطبيق";
+"settings_tell_friends" = "أخبر الأصدقاء";
+"settings_privacy_policy" = "سياسة الخصوصية";
+"settings_terms_of_use" = "شروط الاستخدام";
+"settings_manage_account" = "إدارة الحساب"; 
+
+// MARK: - Instruction Page
+"instruction_page_title" = "دليل تصوير الطيور";
+"instruction_good_image_quality" = "يمكن أن تساعد جودة الصورة الجيدة في تحسين دقة التعرف.";
+"instruction_step_1" = "1. حافظ على الطائر في وسط الإطار، تأكد من أنه ليس بعيداً جداً.";
+"instruction_step_2" = "2. حاول تجنب وجود نباتات أو أقفاص أو أشياء أخرى أمام الطائر.";
+"instruction_step_3" = "3. تأكد من وجود إضاءة جيدة للحصول على تباين عالٍ. إذا كنت لا تستطيع رؤية الطائر، فالتطبيق أيضاً لا يستطيع.";
+"instruction_step_4" = "4. حاول التقاط الجزء الأمامي من الطائر. على الأقل، يجب أن يكون الرأس مرئياً.";
+"instruction_step_5" = "5. نوع واحد فقط في الصورة. وجود الكثير من الطيور في الصورة قد يؤدي إلى تعرف خاطئ.";
+"instruction_identify" = "تعرف"; 
+"stone_info_more" = "المزيد>>";
+
+// MARK: - Identification "profile_privileges" = "الامتيازات";
+// MARK: - Purchase
+"purchase_choose_subscription_plan" = "اختر خطة الاشتراك";
+"purchase_unlock_premium_features" = "فتح جميع الميزات المميزة";
+"purchase_restore_purchases" = "استعادة المشتريات";
+"purchase_cancel" = "إلغاء";
+"purchase_user_cancelled" = "ألغى المستخدم";
+"purchase_please_wait" = "يرجى الانتظار";
+"purchase_processing" = "جاري المعالجة...";
+"purchase_success" = "نجح";
+"purchase_success_message" = "الشراء ناجح! شكراً لدعمكم.";
+"purchase_failed" = "فشل الشراء";
+"purchase_restore_failed" = "فشلت الاستعادة";
+"purchase_restored_successfully" = "تم استعادة المشتريات بنجاح";
+"purchase_already_vip" = "أنت بالفعل مستخدم VIP";
+"purchase_product_not_found" = "المنتج غير موجود";
+"purchase_not_available" = "المشتريات داخل التطبيق غير متاحة";
+"purchase_no_purchases_to_restore" = "لم يتم العثور على مشتريات للاستعادة";
+"purchase_error" = "خطأ";
+"purchase_unable_to_load_products" = "غير قادر على تحميل معلومات المنتج";
+"purchase_check_network_try_again" = "غير قادر على تحميل معلومات المنتج. يرجى التحقق من اتصال الشبكة والمحاولة مرة أخرى.";
+"purchase_premium_feature" = "ميزة مميزة";
+"purchase_premium_feature_message" = "%@ ميزة مميزة. يرجى الترقية للاستخدام المميز.";
+"purchase_upgrade_now" = "ترقية الآن";
+"purchase_maybe_later" = "ربما لاحقاً";
+"purchase_upgrade_to_premium" = "ترقية للمميز";
+"purchase_premium_user" = "مستخدم مميز";
+"purchase_free_user" = "مستخدم مجاني";
+"purchase_operation_successful" = "العملية ناجحة";
+
+// MARK: - Debug
+"debug_options" = "خيارات التصحيح";
+"debug_mode_only" = "وضع التصحيح فقط";
+"debug_set_as_vip" = "تعيين كـ VIP";
+"debug_remove_vip" = "إزالة VIP";
+"debug_clear_purchase_records" = "مسح جميع سجلات الشراء";
+"debug_title" = "تصحيح";
+"debug_vip_set" = "تم تعيين كـ VIP";
+"debug_vip_removed" = "تم إزالة VIP";
+"debug_records_cleared" = "تم مسح جميع سجلات الشراء";
+
+// MARK: - Permissions
+"microphone_permission_title" = "مطلوب الوصول إلى الميكروفون";
+"microphone_permission_desc" = "نحتاج إلى الوصول إلى الميكروفون لتسجيل أصوات الطيور للتعرف على الأنواع";
+"microphone_permission_button" = "السماح";
+
+// Stone Season
+"stone_visible_year_round" = "على مدار السنة";
+"convert_cancel_notice" = "لا حاجة للدفع إذا ألغيت الاشتراك قبل يوم واحد على الأقل من انتهاء الفترة التجريبية المجانية لمدة 7 أيام.";
+"retain_price_then" = "ثم ";
+"retain_price_year_cancel" = "/سنة. يمكن الإلغاء في أي وقت.";
+
+// MARK: - Home Action Types
+"home_action_type_valuation" = "التقييم";
+"home_action_type_identify" = "تحديد";
+"home_action_type_detector" = "كاشف";
+
+// MARK: - FindTreasure Page
+"find_treasure_title" = "كاشف المعادن";
+"find_treasure_status_normal" = "بيئة طبيعية";
+"find_treasure_status_slight" = "شذوذ طفيف";
+"find_treasure_status_detected" = "تم اكتشاف معدن";
+"find_treasure_status_strong" = "إشارة معدنية قوية";
+
+// MARK: - Profile Page
+"profile_wishlist" = "قائمة الأمنيات (%d)";
+"profile_refreshing" = "جاري التحديث...";
+"profile_load_more" = "تحميل المزيد...";
+"profile_load_more_button" = "تحميل المزيد";
+"profile_no_more_data" = "لا مزيد من البيانات";
+
+// MARK: - Stone Info Section
+"stone_usage" = "الاستخدام";
+"stone_health_risks" = "المخاطر الصحية";
+"stone_original_vs_fake" = "المصادقة";
+"stone_storage" = "التخزين";
+"stone_cleaning_tips" = "نصائح التنظيف";
+"stone_chemical_formula" = "الصيغة الكيميائية";
+"stone_chemical_classification" = "التصنيف الكيميائي";
+"stone_crystal_system" = "النظام البلوري";
+"stone_hardness" = "الصلابة";
+"stone_density" = "الكثافة";
+"stone_chemical_elements" = "العناصر الكيميائية";
+"stone_estimated_value" = "القيمة المقدرة";
+"add_to_collection" = "إضافة إلى مجموعتي";
+
+// MARK: - Additional Missing Keys
+"text_expand" = "توسيع";
+"subscription_cancel_notice" = "لا حاجة للدفع إذا ألغيت الاشتراك قبل يوم واحد على الأقل من انتهاء الفترة التجريبية المجانية لمدة 7 أيام.";
+"profile_error_load_more_data" = "خطأ في تحميل المزيد من البيانات";
+"profile_error_load_wishlist" = "خطأ في تحميل قائمة الأمنيات";
+"profile_error_load_more_wishlist" = "خطأ في تحميل المزيد من قائمة الأمنيات";
+
+// MARK: - Valuation
+"possible_price_range" = "نطاق السعر المحتمل";
+"note" = "ملاحظة";
+"are_you_satisfied_with_the_result" = "هل أنت راضٍ عن النتيجة";
+"thanks_for_your_feedback" = "شكراً على ملاحظاتك";
+"valuation_in_progress" = "التقييم قيد التنفيذ";
+"valuation_step_identification" = "التعريف";
+"valuation_step_quality_evaluation" = "تقييم الجودة";
+"valuation_step_market_price_search" = "البحث عن سعر السوق";
+"valuation_not_found" = "لم يتم العثور على حجر";
+"valuation_camera_tips" = "الصور الواضحة وعالية الجودة تؤدي إلى نتائج تقييم أكثر دقة";
+"stone_estimated_value" = "القيمة المقدرة";
+"metal_detector_tips_content" = "تعمل هذه الأداة بواسطة المستشعر المغناطيسي المدمج في هاتفك المحمول. يعمل هذا الكاشف مع الصخور أو المعادن المغناطيسية، مثل المغنتيت والبيروتيت والنيزك. يمكنه أيضًا اكتشاف المعدن المكون بشكل أساسي من الحديد أو الكوبالت أو النيكل. نظرًا لأن المستشعر المغناطيسي موجود بشكل مختلف في كل هاتف محمول، حرك الكائن المكتشف حول هاتفك للعثور على أفضل حساسية له والحصول على قراءة واضحة على مقياس الاتصال الهاتفي. تشير قراءة مقياس الاتصال الهاتفي إلى قوة الكائن المكتشف؛ لا تمثل القيمة الدقيقة للمغناطيسية.";

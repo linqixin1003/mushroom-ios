@@ -1,0 +1,314 @@
+/* 
+   Localizable.strings - Russian
+   RockProject
+
+   Created for localization support.
+*/
+
+// MARK: - App Basic
+"app_name" = "RockAiSnap";
+"tab_bar_home" = "Главная";
+"tab_bar_profile" = "Профиль";
+
+// MARK: - General Titles
+"title_home" = "Главная";
+"title_dashboard" = "Панель";
+"title_notifications" = "Уведомления";
+
+// MARK: - Splash Screen
+"splash_start_now" = "Начать Сейчас";
+"splash_first_launch_slogan" = "Ваша Волшебная Палочка для Мгновенной Дружбы!";
+
+// MARK: - Common Text
+"text_policy_tapping_continue" = "Продолжая, вы соглашаетесь с";
+"text_terms_of_use" = "Условиями Использования";
+"text_privacy_policy" = "Политикой Конфиденциальности";
+"text_refund_policy" = "Политикой Возврата";
+"text_contact_us" = "Связаться с нами";
+"text_customer_service" = "Служба поддержки";
+"text_email_prefix" = "Email: %@";
+"text_next" = "Далее";
+"text_copied" = "Скопировано";
+"text_continue" = "Продолжить";
+"text_cancel" = "Avbryt";
+"text_game" = "Игра";
+"text_profile" = "Профиль";
+"text_yes" = "Да";
+"text_no" = "Нет";
+"text_maybe_later" = "Возможно позже";
+"text_submit" = "Отправить";
+"text_confirm" = "Подтвердить";
+"text_loading" = "Загрузка";
+"text_view_all" = "Посмотреть все";
+"text_try_again" = "Попробовать снова";
+"text_save" = "Сохранить";
+"text_new" = "Новый";
+"text_share" = "Поделиться";
+"text_common_error_try_again" = "Упс! Что-то пошло не так. Попробуйте позже :)";
+"text_also_known_as" = "Также известен как";
+"text_scientific_name" = "Научное название";
+"text_more" = "Больше";
+"text_images" = "Изображения";
+"text_sound" = "Звук";
+"text_map" = "Карта";
+"text_description" = "Описание";
+"text_ok" = "ОК";
+"text_photo" = "Фото";
+"text_tips" = "Советы";
+
+// MARK: - Home Screen
+"home_search_hint" = "Поиск среди более 30 000 видов";
+"home_vip_banner_text" = "Ваш бесплатный 7-дневный Премиум еще не активирован. Нажмите для активации.";
+"home_action_identify" = "Определить";
+"home_action_record" = "Записать";
+"home_action_ai_beautify" = "ИИ Улучшение";
+"home_your_daily_stone" = "Ваша Птица Дня";
+"home_stones_near_you" = "Птицы Рядом с Вами";
+"home_app_usage_title" = "Инструкции по использованию приложения";
+"home_app_usage_desc" = "Поможем вам быстрее познакомиться с нами.";
+
+// MARK: - Survey/Onboarding
+"survey1_title" = "Давайте установим для вас имя пользователя";
+"survey1_input_name_placeholder" = "Ваше Имя Пользователя";
+"survey2_title" = "Вы идентифицируете себя как...";
+"survey2_option_she" = "Она";
+"survey2_option_he" = "Он";
+"survey2_option_they" = "Небинарный";
+"survey3_title" = "О чем вы хотите поговорить?";
+"survey3_option1" = "Играть в Чат-Игры";
+"survey3_option2" = "Завести Виртуального Друга";
+"survey3_option3" = "Делиться Эмоциями";
+"survey3_option4" = "Веселиться";
+"survey3_option5" = "Чувствовать Себя Менее Одиноко";
+"survey3_option6" = "Другое";
+"survey4_title" = "Каковы ваши интересы?";
+"survey5_title" = "Пора выбрать своего друга";
+"survey5_reset_all_blocked_roles_warning_message" = "Все Персонажи были заблокированы. Хотите восстановить всех персонажей?";
+"survey6_title" = "Дайте имя вашему ИИ-другу.";
+"survey6_input_name_placeholder" = "Введите имя ИИ-друга";
+"survey7_creating" = "Создание...";
+
+// MARK: - Chat
+"text_ai_chat" = "ИИ Чат";
+"chat_input_bar_placeholder" = "Введите сообщение";
+"chat_error_oops" = "Упс! Что-то пошло не так. Попробуйте позже :)";
+"chat_report_bot_response_warning_messasge" = "Мы постоянно оптимизируем контент общения ИИ и удалили этот контент для вас. Нужно ли вам также пожаловаться на этого ИИ-персонажа?";
+"chat_report_ai_character" = "Пожаловаться на ИИ-Персонажа";
+"chat_just_report_content" = "Только пожаловаться на контент";
+
+// MARK: - Welcome
+"welcome_title" = "ДОБРО ПОЖАЛОВАТЬ!";
+"welcome_content" = "Рад познакомиться! Развлекайтесь!";
+"welcome_got_it" = "Понятно!";
+
+// MARK: - Report
+"report_title" = "Сообщить о проблеме";
+"report_edit_text_hint" = "Добавить детали здесь";
+"report_success" = "Жалоба успешно отправлена";
+"report_block_character" = "Заблокировать персонажа";
+"report_block_character_warning_message" = "Мы удалим этого ИИ-персонажа и снова оптимизируем контент общения ИИ";
+
+// MARK: - Profile
+"profile_about_app" = "О Определителе Птиц";
+"profile_restart_chat" = "Перезапустить Чат";
+"profile_delete_account" = "Удалить Аккаунт";
+"profile_my_collection" = "Моя Коллекция (%d)";
+"profile_history_record" = "История (%d)";
+"profile_no_more_collection" = "Больше нет коллекций";
+"my_collection_no_more" = "Больше нет коллекций";
+"profile_subscribe_now" = "Подписаться Сейчас";
+
+// MARK: - Warnings
+"restart_chat_warning_title" = "Вы уверены, что хотите перезапустить чат?";
+"restart_chat_warning_content" = "Вы потеряете текущую сессию чата при подтверждении";
+"delete_account_warning_title" = "Вы уверены, что хотите удалить?";
+"delete_account_warning_content" = "Эта операция не может быть отменена";
+
+// MARK: - Camera
+"camera_permission_request_title" = "Нам нужно разрешение Камеры";
+"camera_permission_request_desc" = "Требуется разрешение камеры";
+"camera_permisson_request_button" = "Разрешить";
+"camera_preview_tip" = "Фотографируйте для определения птиц и держите объект четким при съемке";
+
+// MARK: - Settings
+"settings_title" = "Настройки";
+"settings_premium_service" = "Мой Премиум Сервис";
+"settings_free" = "Бесплатно";
+"settings_set_language" = "Angi språk";
+"settings_autosave_photos" = "Автосохранение Фото в Альбом";
+"settings_encourage_us" = "Поддержите Нас";
+"settings_suggestion" = "Предложение";
+"settings_app_info" = "Информация о Приложении";
+"settings_tell_friends" = "Рассказать Друзьям";
+"settings_privacy_policy" = "Политика Конфиденциальности";
+"settings_terms_of_use" = "Условия Использования";
+"settings_manage_account" = "Управление Аккаунтом"; 
+
+// Instruction Page
+"instruction_page_title" = "Инструкции по фотографированию птиц";
+"instruction_good_image_quality" = "Хорошее качество изображения может помочь повысить точность идентификации.";
+"instruction_step_1" = "1. Держите птицу в центре кадра, убедитесь, что она не слишком далеко.";
+"instruction_step_2" = "2. Старайтесь избегать растительности, клеток или других предметов перед птицей.";
+"instruction_step_3" = "3. Обеспечьте хорошее освещение для высокого контраста. Если вы не видите птицу, приложение тоже не сможет.";
+"instruction_step_4" = "4. Постарайтесь запечатлеть переднюю часть птицы. По крайней мере, голова должна быть видна.";
+"instruction_step_5" = "5. Только один вид на фотографии. Слишком много птиц на фотографии может привести к неправильной идентификации.";
+"instruction_identify" = "Идентифицировать"; 
+
+// MARK: - Identification
+"stone_info_more" = "Больше>>"; 
+
+// ConvertPage
+"convert_title" = "StoneAI Snap";
+"convert_feature_1" = "Подробная информация о более чем 12000 видах птиц";
+"convert_feature_2" = "Точная идентификация птиц по фото и звуку";
+"convert_feature_3" = "Узнайте, как привлечь птиц к вашему дому";
+"convert_feature_4" = "Неограниченное количество идентификаций птиц";
+"convert_feature_5" = "Расширьте свои знания о птицах";
+"convert_yearly" = "Годовой";
+"convert_monthly" = "Месячный";
+"convert_loading_price" = "Загрузка цены...";
+"convert_free_trial_yearly" = "7 дней бесплатно, затем %@ /год";
+"convert_free_trial_loading" = "7 дней бесплатного пробного периода, затем годовая подписка";
+"convert_try_free" = "ПОПРОБОВАТЬ БЕСПЛАТНО";
+"convert_continue" = "ПРОДОЛЖИТЬ";
+"convert_cancel_anytime" = "Без обязательств. Отмена в любое время.";
+"convert_cancel_notice" = "Вам не нужно платить, если вы отмените подписку как минимум за день до окончания 7-дневного бесплатного пробного периода.";
+"convert_payment_terms" = "Оплата будет списана с вашего аккаунта App Store по окончании пробного периода или при подтверждении покупки, если вы не начинаете пробный период. Подписка автоматически продлевается, если не отменить ее не менее чем за 24 часа до окончания текущего периода. С вашего аккаунта будет списана плата за продление в течение 24 часов до окончания текущего периода. Вы можете управлять подписками и отменять их в настройках App Store. Для получения дополнительной информации, ознакомьтесь с нашими";
+"convert_terms_of_use" = "Условиями использования";
+"convert_and" = "и";
+"convert_privacy_policy" = "Политикой конфиденциальности.";
+
+// RetainPage
+"retain_title" = "RockAiSnap";
+"retain_restore" = "Восстановить";
+"retain_timeline_today" = "Сегодня";
+"retain_timeline_today_desc" = "Разблокируйте полный доступ ко всем функциям Premium";
+"retain_timeline_day1_6" = "День 1 - День 6";
+"retain_timeline_day1_6_desc" = "Наслаждайтесь Premium и максимально используйте бесплатный пробный период";
+"retain_timeline_day7" = "День 7";
+"retain_timeline_day7_desc" = "Начинается ваша подписка. Отмените раньше, если хотите.";
+"retain_try_free" = "Попробуйте 7 дней бесплатно";
+"retain_then_yearly" = "Затем %@/год. Отмена в любое время.";
+"retain_loading_price" = "Загрузка цены... Отмена в любое время.";
+"retain_start_trial" = "НАЧАТЬ БЕСПЛАТНЫЙ ПРОБНЫЙ ПЕРИОД"; 
+"retain_price_then" = "Затем ";
+"retain_price_year_cancel" = "/год. Отменить в любое время.";
+
+// MARK: - Snap Tips
+"snap_tip_too_far" = "Слишком далеко";
+"snap_tip_too_close" = "Слишком близко";
+"snap_tip_blurry" = "Размыто";
+"snap_tip_multiple_species" = "Несколько видов";
+
+// MARK: - More Images
+"more_images" = "Больше изображений";
+
+// MARK: - Share
+"share_image_failed" = "Не удалось загрузить изображение";
+"share_alert_title" = "Уведомление";
+"share_alert_message" = "Обмен завершен";
+"share_title" = "Поделиться";
+"share_download" = "Скачать";
+"share_share" = "Поделиться"; "profile_privileges" = "Привилегии";
+// MARK: - Purchase
+"purchase_choose_subscription_plan" = "Выберите план подписки";
+"purchase_unlock_premium_features" = "Разблокировать все премиум функции";
+"purchase_restore_purchases" = "Восстановить покупки";
+"purchase_cancel" = "Отмена";
+"purchase_user_cancelled" = "Пользователь отменил";
+"purchase_please_wait" = "Пожалуйста, подождите";
+"purchase_processing" = "Обработка...";
+"purchase_success" = "Успех";
+"purchase_success_message" = "Покупка успешна! Спасибо за вашу поддержку.";
+"purchase_failed" = "Покупка не удалась";
+"purchase_restore_failed" = "Восстановление не удалось";
+"purchase_restored_successfully" = "Покупки успешно восстановлены";
+"purchase_already_vip" = "Вы уже VIP пользователь";
+"purchase_product_not_found" = "Продукт не найден";
+"purchase_not_available" = "Покупки в приложении недоступны";
+"purchase_no_purchases_to_restore" = "Покупки для восстановления не найдены";
+"purchase_error" = "Ошибка";
+"purchase_unable_to_load_products" = "Невозможно загрузить информацию о продукте";
+"purchase_check_network_try_again" = "Невозможно загрузить информацию о продукте. Проверьте сетевое соединение и попробуйте снова.";
+"purchase_premium_feature" = "Премиум функция";
+"purchase_premium_feature_message" = "%@ - это премиум функция. Обновитесь до премиум для использования.";
+"purchase_upgrade_now" = "Обновить сейчас";
+"purchase_maybe_later" = "Может быть позже";
+"purchase_upgrade_to_premium" = "Обновить до премиум";
+"purchase_premium_user" = "Премиум пользователь";
+"purchase_free_user" = "Бесплатный пользователь";
+"purchase_operation_successful" = "Операция успешна";
+
+// MARK: - Debug
+"debug_options" = "Параметры отладки";
+"debug_mode_only" = "Только режим отладки";
+"debug_set_as_vip" = "Установить как VIP";
+"debug_remove_vip" = "Удалить VIP";
+"debug_clear_purchase_records" = "Очистить все записи покупок";
+"debug_title" = "Отладка";
+"debug_vip_set" = "Установлен как VIP";
+"debug_vip_removed" = "VIP удален";
+
+// MARK: - Valuation
+"possible_price_range" = "Возможный ценовой диапазон";
+"note" = "Примечание";
+"are_you_satisfied_with_the_result" = "Вы довольны результатом";
+"thanks_for_your_feedback" = "Спасибо за ваш отзыв";
+"valuation_in_progress" = "Оценка в процессе";
+"valuation_step_identification" = "Идентификация";
+"valuation_step_quality_evaluation" = "Оценка качества";
+"valuation_step_market_price_search" = "Поиск рыночной цены";
+"stone_estimated_value" = "Оценочная стоимость";
+"valuation_not_found" = "Камень не найден";
+"valuation_camera_tips" = "Четкие, качественные фотографии приводят к более точным результатам оценки";
+"debug_records_cleared" = "Все записи покупок очищены";
+
+// MARK: - Permissions
+"microphone_permission_title" = "Требуется доступ к микрофону";
+"microphone_permission_desc" = "Доступ к микрофону необходим для записи птичьих звуков для определения видов";
+"microphone_permission_button" = "Разрешить";
+
+// Stone Season
+"stone_visible_year_round" = "Круглый год";
+
+// MARK: - Home Action Types
+"home_action_type_valuation" = "Оценка";
+"home_action_type_identify" = "Определить";
+"home_action_type_detector" = "Детектор";
+
+// MARK: - FindTreasure Page
+"find_treasure_title" = "Металлодетектор";
+"find_treasure_status_normal" = "Нормальная среда";
+"find_treasure_status_slight" = "Легкая аномалия";
+"find_treasure_status_detected" = "Металл обнаружен";
+"find_treasure_status_strong" = "Сильный металлический сигнал";
+
+// MARK: - Profile Page
+"profile_wishlist" = "Список желаний (%d)";
+"profile_refreshing" = "Обновление...";
+"profile_load_more" = "Загрузить еще...";
+"profile_load_more_button" = "Загрузить еще";
+"profile_no_more_data" = "Больше нет данных";
+
+// MARK: - Stone Info Section
+"stone_usage" = "Использование";
+"stone_health_risks" = "Риски для здоровья";
+"stone_original_vs_fake" = "Аутентификация";
+"stone_storage" = "Хранение";
+"stone_cleaning_tips" = "Советы по очистке";
+"stone_chemical_formula" = "Химическая формула";
+"stone_chemical_classification" = "Химическая классификация";
+"stone_crystal_system" = "Кристаллическая система";
+"stone_hardness" = "Твердость";
+"stone_density" = "Плотность";
+"stone_chemical_elements" = "Химические элементы";
+"stone_estimated_value" = "Оценочная стоимость";
+"add_to_collection" = "Добавить в мою коллекцию";
+
+// MARK: - Additional Missing Keys
+"text_expand" = "Развернуть";
+"subscription_cancel_notice" = "Вам не нужно платить, если вы отмените подписку как минимум за день до окончания 7-дневного бесплатного пробного периода.";
+"profile_error_load_more_data" = "Ошибка загрузки дополнительных данных";
+"profile_error_load_wishlist" = "Ошибка загрузки списка желаний";
+"profile_error_load_more_wishlist" = "Ошибка загрузки дополнительного списка желаний";
+"metal_detector_tips_content" = "Этот инструмент работает на основе магнитного датчика, встроенного в ваш мобильный телефон. Этот детектор работает с магнитными породами или минералами, такими как магнетит, пирротин и метеорит. Он также может обнаруживать металл, состоящий в основном из железа, кобальта или никеля. Поскольку магнитный датчик расположен по-разному на каждом мобильном телефоне, перемещайте обнаруживаемый объект вокруг вашего телефона, чтобы найти его лучшую чувствительность и получить четкие показания на циферблате. Показания циферблата указывают на силу обнаруженного объекта; они не представляют точное значение магнетизма.";
