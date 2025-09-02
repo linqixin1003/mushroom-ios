@@ -238,9 +238,6 @@ struct IdentifyResultPage: View {
                     case .new:
                         FireBaseEvent.send(eventName: EventName.resultRetakeClick, params: [EventParam.uid: self.mushroom.id, EventParam.index: "1"])
                         self.actionModel.bottomActionClick.send(type)
-                    case .addWish:
-                        FireBaseEvent.send(eventName: "result_add_wish_click", params: [EventParam.uid: self.mushroom.id])
-                        self.actionModel.bottomActionClick.send(type)
                     case .save:
                         FireBaseEvent.send(eventName: EventName.resultSaveClick, params: [EventParam.uid: self.mushroom.id])
                         self.actionModel.bottomActionClick.send(type)

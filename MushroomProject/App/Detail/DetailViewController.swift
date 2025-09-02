@@ -63,9 +63,6 @@ class DetailViewController: BaseHostingViewController<DetailPage> {
             case .save:
                 FireBaseEvent.send(eventName: EventName.detailSaveClick, params: [EventParam.uid: self.viewModel.id])
                 self.handleSaveAction()
-            case .addWish:
-                FireBaseEvent.send(eventName: EventName.detailWishClick, params: [EventParam.uid: self.viewModel.id])
-                self.handleAddWishAction()
             case .new:
                 FireBaseEvent.send(eventName: EventName.detailRetakeClick, params: [EventParam.uid: self.viewModel.id, EventParam.index: "1"])
                 self.handleNewAction()
@@ -148,60 +145,6 @@ class DetailViewController: BaseHostingViewController<DetailPage> {
 //                }
 //            }
 //        }
-    }
-    
-    /// 处理添加到心愿单操作
-    private func handleAddWishAction() {
-        guard let mushroom = viewModel.mushroom else {
-            ToastUtil.showToast(Language.detail_mushroom_loading_wait)
-            return
-        }
-        
-        if (viewModel.isInWish) {
-            Task {
-                do {
-                    let req = DeleteWishRequest(mushroomId: mushroom.id)
-                    let result: DeleteWishResponse? = try await ApiRequest.requestAsync(request: req)
-                    
-                    DispatchQueue.main.async {
-                        if result != nil {
-                            ToastUtil.showToast(Language.recognize_delete_wishlist_success)
-                            self.viewModel.isInWish = false
-                            // 通知其他页面刷新心愿单状态
-                            NotificationCenter.default.post(name: .ReloadHistoryList, object: nil)
-                        } else {
-                            ToastUtil.showToast(Language.recognize_delete_wishlist_failed)
-                        }
-                    }
-                } catch {
-                    DispatchQueue.main.async {
-                        ToastUtil.showToast(Language.recognize_delete_wishlist_failed)
-                    }
-                }
-            }
-        } else {
-            Task {
-                do {
-                    let req = AddToWishListRequest(mushroomId: mushroom.id)
-                    let result: AddToWishListResponse? = try await ApiRequest.requestAsync(request: req)
-                    
-                    DispatchQueue.main.async {
-                        if result != nil {
-                            ToastUtil.showToast(Language.detail_added_wishlist_success)
-                            self.viewModel.isInWish = true
-                            // 通知其他页面刷新心愿单状态
-                            NotificationCenter.default.post(name: .ReloadHistoryList, object: nil)
-                        } else {
-                            ToastUtil.showToast(Language.detail_added_wishlist_failed)
-                        }
-                    }
-                } catch {
-                    DispatchQueue.main.async {
-                        ToastUtil.showToast(Language.detail_added_wishlist_failed)
-                    }
-                }
-            }
-        }
     }
     
     /// 处理新建操作（打开相机 By Photo 模式）

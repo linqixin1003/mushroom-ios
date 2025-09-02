@@ -10,9 +10,9 @@ struct CollectionRecord: Codable, Identifiable {
     let description: String
     let imageUrl: String
     let mushroomPhotoUrl: String
-    let chemicalFormula: String
-    let colors: String
-    let hardness: String
+    let scientificName: String
+    let commonName: String
+    let edibility: String
     let confidenceScore: Float
     let modelVersion: String
     let processingTime: Int
@@ -27,9 +27,9 @@ struct CollectionRecord: Codable, Identifiable {
         case description
         case imageUrl = "image_url"
         case mushroomPhotoUrl = "mushroom_photo_url"
-        case chemicalFormula = "chemical_formula"
-        case colors
-        case hardness
+        case scientificName = "scientific_name"
+        case commonName = "common_name"
+        case edibility = "edibility"
         case confidenceScore = "confidence_score"
         case modelVersion = "model_version"
         case processingTime = "processing_time"
@@ -45,11 +45,9 @@ struct CollectionRecord: Codable, Identifiable {
             type: .image,
             createdAt: createdAt,
             confidence: confidenceScore,
-            latinName: chemicalFormula,
-            commonName: name,
+            latinName: name,
+            commonName: commonName,
             mediaUrl: imageUrl.isEmpty ? mushroomPhotoUrl : imageUrl
         )
     }
 }
-
-// WishTag结构已经在WishListItem.swift中定义，这里不需要重复定义

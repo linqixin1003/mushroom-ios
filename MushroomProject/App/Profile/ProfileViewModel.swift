@@ -11,12 +11,6 @@ class ProfileViewModel: ObservableObject {
     
     @Published var collectionList: [LocalRecordItem] = []
     @Published var historyList: [LocalRecordItem] = []
-    @Published var wishListItems: [LocalRecordItem] = []
-    
-    // 心愿单分页相关属性
-    @Published var isLoadingMoreWishList: Bool = false
-    @Published var hasMoreWishListData: Bool = true
-    @Published var currentWishListPage: Int = 0
     
     // 添加删除状态属性
     @Published var showDeleteSuccess: Bool = false
@@ -27,9 +21,6 @@ class ProfileViewModel: ObservableObject {
     @Published var hasMoreData: Bool = true
     @Published var currentPage: Int = 0
     private let pageSize: Int = 20
-    
-    
-    
     
     // 添加合并和排序方法
     private func updateHistoryList() {
@@ -53,15 +44,13 @@ class ProfileViewModel: ObservableObject {
             // 同时启动所有加载任务
             async let loadIdentificationsSuccess = self.loadIdentificationHistoryAsync()
             async let loadCollectionSuccess = self.loadCollectionItemsAsync()
-            async let loadWishListSuccess = self.loadWishListAsync()
             
             // 只等待网络请求的结果
             let identificationsSuccess = await loadIdentificationsSuccess
             let collectionSuccess = await loadCollectionSuccess
-            let wishListSuccess = await loadWishListSuccess
             
             // 更新历史记录并立即回调
-            if identificationsSuccess && collectionSuccess && wishListSuccess {
+            if identificationsSuccess && collectionSuccess {
                 self.updateHistoryList()
                 completion(true)
             } else {
@@ -211,112 +200,9 @@ class ProfileViewModel: ObservableObject {
     func loadMockData() {
         mockData()
     }
-    // 加载心愿单
-    func loadWishListAsync() async -> Bool {
-        let req = GetWishListRequest(limit: pageSize, offset: 0, lang: "en")
-        do {
-            let result: GetWishListResponse? = try await ApiRequest.requestAsync(request: req)
-            guard let items = result?.items else {
-                return false
-            }
-            // 转换为LocalRecordItem统一数据结构
-            self.wishListItems = items.map { wishItem in
-                LocalRecordItem(
-                    id: String(wishItem.id),
-                    uid: wishItem.mushroomId,
-                    type: .image,
-                    createdAt: wishItem.createdAt,
-                    confidence: 1.0,
-                    latinName: wishItem.name,
-                    commonName: wishItem.name,
-                    mediaUrl: wishItem.photoUrl ?? ""
-                )
-            }
-            self.currentWishListPage = 0
-            self.hasMoreWishListData = items.count >= pageSize
-            return true
-        } catch {
-            print("❌ Failed to load wishlist: \(error.localizedDescription)")
-            self.error = Language.profile_error_load_wishlist
-            return false
-        }
-    }
     
-    // 加载更多心愿单
-    func loadMoreWishList() async {
-        guard !isLoadingMoreWishList && hasMoreWishListData else { return }
-        
-        isLoadingMoreWishList = true
-        let nextPage = currentWishListPage + 1
-        let offset = nextPage * pageSize
-        
-        let req = GetWishListRequest(limit: pageSize, offset: offset, lang: "en")
-        
-        do {
-            let result: GetWishListResponse? = try await ApiRequest.requestAsync(request: req)
-            guard let newItems = result?.items else {
-                isLoadingMoreWishList = false
-                return
-            }
-            
-            // 转换并添加新记录到现有列表
-            let newRecordItems = newItems.map { wishItem in
-                LocalRecordItem(
-                    id: String(wishItem.id),
-                    uid: wishItem.mushroomId,
-                    type: .image,
-                    createdAt: wishItem.createdAt,
-                    confidence: 1.0,
-                    latinName: wishItem.name,
-                    commonName: wishItem.name,
-                    mediaUrl: wishItem.photoUrl
-                )
-            }
-            
-            self.wishListItems.append(contentsOf: newRecordItems)
-            self.currentWishListPage = nextPage
-            self.hasMoreWishListData = newItems.count >= pageSize
-            
-        } catch {
-            print("❌ Failed to load more wishlist: \(error.localizedDescription)")
-            self.error = Language.profile_error_load_more_wishlist
-        }
-        
-        isLoadingMoreWishList = false
-    }
-    
-    // 刷新心愿单
-    func refreshWishList() async {
-        currentWishListPage = 0
-        hasMoreWishListData = true
-        wishListItems.removeAll()
-        
-        let success = await loadWishListAsync()
-        if !success {
-            print("❌ Failed to refresh wishlist")
-        }
-    }
-    
-    // 从心愿单删除
-    func removeFromWishList(itemId: String) async -> Bool {
-        let req = RemoveFromWishListRequest(itemId: itemId)
-        do {
-            let result: RemoveFromWishListResponse = try await ApiRequest.requestAsync(request: req)
-            if result.success {
-                self.wishListItems.removeAll { $0.id == itemId }
-                return true
-            }
-            return false
-        } catch {
-            print("❌ Failed to delete from wishlist: \(error.localizedDescription)")
-            return false
-        }
-    }
-    
-    func deleteItem(_ item: LocalRecordItem, isCollection: Bool, isWishList: Bool = false) async -> Bool {
-        if isWishList {
-            return await removeFromWishList(itemId: item.id)
-        } else if isCollection {
+    func deleteItem(_ item: LocalRecordItem, isCollection: Bool) async -> Bool {
+        if isCollection {
             // 从服务器删除收藏项目
             do {
                 // 提取真实的收藏ID（去掉"collection_"前缀）

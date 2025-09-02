@@ -246,11 +246,6 @@ struct DetailPage: View {
                             FireBaseEvent.send(eventName: EventName.detailRetakeClick, params: [EventParam.uid: mushroom.id])
                         }
                         self.actionModel.bottomActionClick.send(type)
-                    case .addWish:
-                        if let mushroom = self.viewModel.mushroom {
-                            FireBaseEvent.send(eventName: EventName.detailWishClick, params: [EventParam.uid: mushroom.id])
-                        }
-                        self.actionModel.bottomActionClick.send(type)
                     case .save:
                         if let mushroom = self.viewModel.mushroom {
                             FireBaseEvent.send(eventName: EventName.detailSaveClick, params: [EventParam.uid: mushroom.id])
@@ -426,7 +421,6 @@ struct MushroomSectionContainerView<Content>: View where Content: View {
 
 enum DetailBottomActionType: CaseIterable {
     case new        // 重拍
-    case addWish    // 添加心愿单
     case save       // 收藏
     case share      // 分享
 
@@ -434,8 +428,6 @@ enum DetailBottomActionType: CaseIterable {
         switch self {
         case .new:
             return "icon_camera_24"
-        case .addWish:
-            return "icon_heart_24_selected"
         case .save:
             return "icon_save_24"
         case .share:
@@ -447,8 +439,6 @@ enum DetailBottomActionType: CaseIterable {
         switch self {
         case .new:
             return Language.text_new
-        case .addWish:
-            return Language.profile_wishlist
         case .save:
             return Language.text_save
         case .share:
@@ -476,9 +466,6 @@ struct DetailBottomActionContainer: View {
                     ActionItemView(isInWish: isInWish, type: .new, onTap: { onItemClick(.new) })
                         .frame(width: 80) // 固定宽度，确保足够显示
                     
-                    ActionItemView(isInWish: isInWish, type: .addWish, onTap: { onItemClick(.addWish) })
-                        .frame(width: 80) // 固定宽度，确保足够显示
-                    
                     // 收藏按钮 - 占剩余所有空间，主题色背景
                     Button(action: { onItemClick(.save) }) {
                         HStack(spacing: 8) {
@@ -500,9 +487,6 @@ struct DetailBottomActionContainer: View {
                 } else {
                     // 已收藏或不能收藏状态：重拍、addWish、分享三个按钮平均分配
                     ActionItemView(isInWish: isInWish, type: .new, onTap: { onItemClick(.new) })
-                        .frame(maxWidth: .infinity)
-                    
-                    ActionItemView(isInWish: isInWish, type: .addWish, onTap: { onItemClick(.addWish) })
                         .frame(maxWidth: .infinity)
                     
                     ActionItemView(isInWish: isInWish, type: .share, onTap: { onItemClick(.share) })
@@ -527,31 +511,16 @@ struct ActionItemView: View {
         Button(action: onTap) {
             VStack(spacing: 2) {
                 // 图标
-                if type == .addWish {
-                    Image(isInWish ? "icon_heart_24_selected" : "icon_heart_24_normal")
-                        .font(.system(size: 24, weight: .regular))
-                        .foregroundColor(Color(hex: 0x666666))
-                } else {
-                    Image(type.imageName)
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 24, height: 24)
-                        .foregroundColor(Color(hex: 0x666666))
-                }
-                if type == .addWish{
-                    // 文字
-                    Text(isInWish ? Language.detail_del_wish : Language.detail_add_wish)
-                        .font(.system(size: 12, weight: .regular))
-                        .foregroundColor(Color(hex: 0x666666))
-                        .lineLimit(1)
-                } else {
-                    // 文字
-                    Text(type.text)
-                        .font(.system(size: 12, weight: .regular))
-                        .foregroundColor(Color(hex: 0x666666))
-                        .lineLimit(1)
-                }
-                
+                Image(type.imageName)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 24, height: 24)
+                    .foregroundColor(Color(hex: 0x666666))
+                // 文字
+                Text(type.text)
+                    .font(.system(size: 12, weight: .regular))
+                    .foregroundColor(Color(hex: 0x666666))
+                    .lineLimit(1)
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
         }

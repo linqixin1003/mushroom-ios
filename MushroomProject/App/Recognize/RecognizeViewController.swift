@@ -129,8 +129,6 @@ class RecognizeViewController: BaseHostingViewController<RecognizePage> {
             switch actionType {
             case .save:
                 self.handleSaveAction()
-            case .addWish:
-                self.handleAddWishAction()
             case .new:
                 self.viewModel.reset()
             case .share:
@@ -162,11 +160,6 @@ class RecognizeViewController: BaseHostingViewController<RecognizePage> {
 //                        self.autoSaveMushroomToCollection(mushroom: mushroom)
 //                    }
 //                }
-                if (self.autoSaveToWishList) {
-                    if let mushroom = self.viewModel.currentMushroom{
-                        handleAddWishAction(onlyAdd: true)
-                    }
-                }
                 
             }
             .store(in: &cancellables)
@@ -246,72 +239,5 @@ class RecognizeViewController: BaseHostingViewController<RecognizePage> {
                 }
             }
         }
-    }
-    
-    /// 处理添加到心愿单操作
-    private func handleAddWishAction(onlyAdd:Bool = false) {
-        
-        if onlyAdd && viewModel.isInWish {
-            return
-        }
-        // 根据识别模式获取相应的石头数据
-        let mushroom: Mushroom?
-        // 图片识别结果
-        mushroom = viewModel.currentMushroom
-        
-        guard let mushroom = mushroom else {
-            ToastUtil.showToast(Language.recognize_mushroom_loading_wait)
-            return
-        }
-        if (viewModel.isInWish) {
-            Task {
-                do {
-                    let req = DeleteWishRequest(mushroomId: mushroom.id)
-                    let result: DeleteWishResponse? = try await ApiRequest.requestAsync(request: req)
-                    
-                    DispatchQueue.main.async {
-                        if result != nil {
-                            ToastUtil.showToast(Language.recognize_delete_wishlist_success)
-                            self.viewModel.isInWish = false
-                            self.viewModel.currentItem?.isInWishlist = false
-                            self.viewModel.identifyItems[self.viewModel.position].isInWishlist = false
-                            // 通知其他页面刷新心愿单状态
-                            NotificationCenter.default.post(name: .ReloadHistoryList, object: nil)
-                        } else {
-                            ToastUtil.showToast(Language.recognize_delete_wishlist_failed)
-                        }
-                    }
-                } catch {
-                    DispatchQueue.main.async {
-                        ToastUtil.showToast(Language.recognize_delete_wishlist_failed)
-                    }
-                }
-            }
-        } else {
-            Task {
-                do {
-                    let req = AddToWishListRequest(mushroomId: mushroom.id)
-                    let result: AddToWishListResponse? = try await ApiRequest.requestAsync(request: req)
-                    
-                    DispatchQueue.main.async {
-                        if result != nil {
-                            ToastUtil.showToast(Language.recognize_added_wishlist_success)
-                            self.viewModel.isInWish = true
-                            self.viewModel.currentItem?.isInWishlist = true
-                            self.viewModel.identifyItems[self.viewModel.position].isInWishlist = true
-                            // 通知其他页面刷新心愿单状态
-                            NotificationCenter.default.post(name: .ReloadHistoryList, object: nil)
-                        } else {
-                            ToastUtil.showToast(Language.recognize_added_wishlist_failed)
-                        }
-                    }
-                } catch {
-                    DispatchQueue.main.async {
-                        ToastUtil.showToast(Language.recognize_added_wishlist_failed)
-                    }
-                }
-            }
-        }
-        
     }
 }

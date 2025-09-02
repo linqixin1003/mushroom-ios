@@ -43,7 +43,7 @@ struct ProfilePage: View {
     @ObservedObject var viewModel: ProfileViewModel
     let actionModel: ProfileActionModel
     
-    @State private var selectedTab: Int = 0 // 0: 我的收藏, 1: 心愿单, 2: 历史记录
+    @State private var selectedTab: Int = 0 // 0: 我的收藏, 1: 历史记录
     @State private var showSystemShareSheet = false
     @State private var currentShareItem: LocalRecordItem?
     @State private var refreshKey: UUID = UUID()
@@ -54,8 +54,6 @@ struct ProfilePage: View {
         case 0:
             return viewModel.collectionList
         case 1:
-            return viewModel.wishListItems
-        case 2:
             return viewModel.historyList
         default:
             return []
@@ -147,6 +145,7 @@ struct ProfilePage: View {
 
                 // Tab切换
                 HStack {
+                    Spacer()
                     Button(action: {
                         selectedTab = 0
                         FireBaseEvent.send(eventName: EventName.mineCollectionClick)
@@ -161,24 +160,6 @@ struct ProfilePage: View {
                     
                     Button(action: {
                         selectedTab = 1
-                        FireBaseEvent.send(eventName: EventName.mineWishListClick)
-                        // 如果心愿单为空，触发加载
-                        if viewModel.wishListItems.isEmpty && !viewModel.isLoading {
-                            Task {
-                                await viewModel.refreshWishList()
-                            }
-                        }
-                    }) {
-                        Text(String(format: Language.profile_wishlist, viewModel.wishListItems.count))
-                            .font(.system(size: 14))
-                            .fontWeight(selectedTab == 1 ? .bold : .regular)
-                            .foregroundColor(selectedTab == 1 ? .primary: .black)
-                    }
-                    
-                    Spacer()
-                    
-                    Button(action: {
-                        selectedTab = 2
                         FireBaseEvent.send(eventName: EventName.mineHistoryClick)
                         // 如果历史记录为空，触发加载
                         if viewModel.historyList.isEmpty && !viewModel.isLoading {
@@ -192,6 +173,7 @@ struct ProfilePage: View {
                             .fontWeight(selectedTab == 2 ? .bold : .regular)
                             .foregroundColor(selectedTab == 2 ? .primary: .black)
                     }
+                    Spacer()
                 }
                 .padding(.horizontal, 24.rpx)
                 .padding(.top, 16.rpx)
@@ -224,8 +206,7 @@ struct ProfilePage: View {
                                     Task {
                                         let success = await viewModel.deleteItem(
                                             deletedItem, 
-                                            isCollection: selectedTab == 0,
-                                            isWishList: selectedTab == 1
+                                            isCollection: selectedTab == 0
                                         )
                                         if success {
                                             viewModel.showDeleteSuccess = true
@@ -256,18 +237,6 @@ struct ProfilePage: View {
                                 .onAppear {
                                     // 根据不同tab触发加载更多
                                     if selectedTab == 1 {
-                                        // 心愿单tab
-                                        let currentList = viewModel.wishListItems
-                                        let currentIndex = currentList.firstIndex(where: { $0.id == item.id }) ?? 0
-                                        let threshold = max(currentList.count - 4, 0) // 提前4个item开始加载
-                                        
-                                        if currentIndex >= threshold,
-                                           viewModel.hasMoreWishListData && !viewModel.isLoadingMoreWishList {
-                                            Task {
-                                                await viewModel.loadMoreWishList()
-                                            }
-                                        }
-                                    } else if selectedTab == 2 {
                                         // 历史记录tab
                                         let currentList = viewModel.historyList
                                         let currentIndex = currentList.firstIndex(where: { $0.id == item.id }) ?? 0
@@ -296,44 +265,6 @@ struct ProfilePage: View {
                         
                         // 加载更多指示器（心愿单和历史记录tab显示）
                         if selectedTab == 1 {
-                            // 心愿单tab
-                            if viewModel.isLoadingMoreWishList {
-                                HStack {
-                                    ProgressView()
-                                        .scaleEffect(0.8)
-                                    Text(Language.profile_load_more)
-                                        .font(.system(size: 14))
-                                        .foregroundColor(.gray)
-                                }
-                                .padding(.vertical, 20)
-                            } else if viewModel.hasMoreWishListData && !viewModel.wishListItems.isEmpty {
-                                // 加载更多按钮
-                                Button(action: {
-                                    Task {
-                                        await viewModel.loadMoreWishList()
-                                    }
-                                }) {
-                                    HStack {
-                                        Image(systemName: "arrow.down.circle")
-                                            .foregroundColor(Color(hex: 0x00A796))
-                                        Text(Language.profile_load_more_button)
-                                            .font(.system(size: 14, weight: .medium))
-                                            .foregroundColor(Color(hex: 0x00A796))
-                                    }
-                                    .padding(.horizontal, 20)
-                                    .padding(.vertical, 10)
-                                    .background(Color.white)
-                                    .cornerRadius(20)
-                                    .shadow(color: .black.opacity(0.1), radius: 2, x: 0, y: 1)
-                                }
-                                .padding(.vertical, 20)
-                            } else if !viewModel.hasMoreWishListData && !viewModel.wishListItems.isEmpty {
-                                Text(Language.profile_no_more_data)
-                                    .font(.system(size: 14))
-                                    .foregroundColor(.gray)
-                                    .padding(.vertical, 20)
-                            }
-                        } else if selectedTab == 2 {
                             // 历史记录tab
                             if viewModel.isLoadingMore {
                                 HStack {
@@ -378,8 +309,6 @@ struct ProfilePage: View {
                         // 下拉刷新
                         switch selectedTab {
                         case 1:
-                            await viewModel.refreshWishList()
-                        case 2:
                             await viewModel.refreshHistory()
                         default:
                             // 刷新收藏列表
