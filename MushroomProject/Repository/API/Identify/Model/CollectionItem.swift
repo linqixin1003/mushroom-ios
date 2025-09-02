@@ -16,7 +16,7 @@ struct CollectionRecord: Codable, Identifiable {
     let confidenceScore: Float
     let modelVersion: String
     let processingTime: Int
-    let tags: [StoneTag]
+    let tags: [MushroomTag]
     let createdAt: String
     
     enum CodingKeys: String, CodingKey {

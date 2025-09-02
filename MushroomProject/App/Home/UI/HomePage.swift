@@ -223,7 +223,4 @@ struct HomeVipBanner: View {
     }
 }
 
-extension SimpleStone: Identifiable {
-    // SimpleStone 已经有 id 属性，所以不需要额外实现
-}
 

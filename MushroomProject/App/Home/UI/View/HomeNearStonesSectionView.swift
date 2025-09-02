@@ -71,7 +71,7 @@ struct HomeNearStoneItem: View {
     var body: some View {
         ZStack(alignment: .bottom) {
             KFImage
-                .url(URL(string: self.stone.photoUrl))
+                .url(URL(string: self.stone.photoUrl ?? ""))
                 .placeholder {
                     Image("icon_nearby_placeholder")
                         .resizable()

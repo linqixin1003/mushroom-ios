@@ -51,7 +51,7 @@ struct DetailPage: View {
                             StoneSummaryView(
                                 name: stone.name,
                                 description: stone.description ?? "",
-                                tags: (stone.tags ?? []).map { StoneTag(id: 0, name: $0, slug: $0) }
+                                tags: (stone.tags ?? []).map { MushroomTag(id: 0, name: $0, slug: $0) }
                             )
                             .frame(maxWidth: .infinity)
                             .background(Color.white)
@@ -159,7 +159,7 @@ struct StoneSummaryView: View {
     
     let name: String
     let description: String
-    let tags: [StoneTag]
+    let tags: [MushroomTag]
     
     @State private var expanded = false
     
@@ -221,7 +221,7 @@ struct StoneSummaryView_Previews: PreviewProvider {
         StoneSummaryView(
             name: "Jasper",
             description: "Jasper is a type of chalcedony mineral that is found in a variety of colors and patterns. It is often used for jewelry, carvings, and other decorative items.",
-            tags: [StoneTag(id: 1, name: "Healing", slug: "healing")]
+            tags: [MushroomTag(id: 1, name: "Healing", slug: "healing")]
         )
     }
 }

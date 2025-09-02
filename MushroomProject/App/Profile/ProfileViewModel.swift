@@ -229,7 +229,7 @@ class ProfileViewModel: ObservableObject {
                     confidence: 1.0,
                     latinName: wishItem.name,
                     commonName: wishItem.name,
-                    mediaUrl: wishItem.photoUrl
+                    mediaUrl: wishItem.photoUrl ?? ""
                 )
             }
             self.currentWishListPage = 0

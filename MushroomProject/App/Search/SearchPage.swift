@@ -3,7 +3,7 @@ import Combine
 import Kingfisher
 
 struct SearchActionModel {
-    let resultItemClick = PassthroughSubject<SimpleStone, Never>()
+    let resultItemClick = PassthroughSubject<SimpleMushroom, Never>()
 }
 
 struct SearchPage: View {
@@ -89,14 +89,14 @@ struct SearchPage: View {
 
 struct SearchResultItemView: View {
     
-    let stone: SimpleStone
+    let stone: SimpleMushroom
     
     var body: some View {
         VStack(spacing: 0) {
             
             HStack(spacing: 22.rpx) {
                 KFImage
-                    .url(URL(string: stone.photoUrl))
+                    .url(URL(string: stone.photoUrl ?? ""))
                     .resizable()
                     .placeholder {
                         Image("icon_placeholder_68")
@@ -117,7 +117,7 @@ struct SearchResultItemView: View {
                         .truncationMode(.tail)
                         .frame(maxWidth: .infinity, alignment: .leading)
 
-                    Text(self.stone.chemicalFormula)
+                    Text(self.stone.scientificName ?? "")
                         .font(.regular(16.rpx))
                         .italic()
                         .lineSpacing(2.rpx)

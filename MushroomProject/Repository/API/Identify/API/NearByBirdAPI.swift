@@ -51,14 +51,14 @@ struct NearByMushroomResponse: Codable {
 struct SimpleMushroom: Codable, Identifiable {
     let id: String
     let name: String
-    let description: String
-    let photoUrl: String
-    let scientificName: String
-    let chineseName: String
-    let organismType: String
+    let description: String?
+    let photoUrl: String?
+    let scientificName: String?
+    let chineseName: String?
+    let organismType: String?
     let edibility: String?
     let habitat: String?
-    let tags: [MushroomTag]
+    let tags: [MushroomTag]?
     
     enum CodingKeys: String, CodingKey {
         case id, name, description, tags
@@ -70,7 +70,7 @@ struct SimpleMushroom: Codable, Identifiable {
     }
     
     init(id: String, name: String, description: String, photoUrl: String, 
-         scientificName: String, chineseName: String = "", organismType: String,
+         scientificName: String, chineseName: String? = nil, organismType: String,
          edibility: String? = nil, habitat: String? = nil, tags: [MushroomTag] = []) {
         self.id = id
         self.name = name
@@ -84,19 +84,6 @@ struct SimpleMushroom: Codable, Identifiable {
         self.tags = tags
     }
     
-    /// 转换为SimpleStone（向后兼容）
-    func toSimpleStone() -> SimpleStone {
-        return SimpleStone(
-            id: self.id,
-            name: self.name,
-            description: self.description,
-            photoUrl: self.photoUrl,
-            chemicalFormula: self.scientificName,
-            colors: self.organismType,
-            hardness: self.edibility ?? "",
-            tags: self.tags.map { StoneTag(id: $0.id, name: $0.name, slug: $0.slug) }
-        )
-    }
 }
 
 struct MushroomTag: Codable {

@@ -5,7 +5,7 @@ import Foundation
 class HomeViewModel: ObservableObject {
     
     @Published var showVipBanner: Bool = true
-    @Published var dailyStones: [DailyStone] = []
+    @Published var dailyStones: [SimpleMushroom] = []
     @Published var nearByStones: [SimpleMushroom] = []
     @Published var dailyStoneCollectedStates: [String: Bool] = [:] // id -> isCollected
     
@@ -53,8 +53,8 @@ class HomeViewModel: ObservableObject {
             return true
         }
         let req = RandomStoneRequest(lang:"en")
-        let result: DailyResponse? = try? await ApiRequest.requestAsync(request: req)
-        guard let stones = result?.stones, !stones.isEmpty else {
+        let result: RandomStoneResponse? = try? await ApiRequest.requestAsync(request: req)
+        guard let stones = result?.mushrooms, !stones.isEmpty else {
             return false
         }
         self.dailyStones = stones
@@ -104,11 +104,11 @@ class HomeViewModel: ObservableObject {
     ///   - id: 石头 id
     ///   - completion: 完成回调
     func toggleCollectionState(id: String, completion: @escaping (Bool) -> Void) {
-        guard let simpleStone = getStone(by: id) else {
+        guard let simpleMushroom = getMushroom(by: id) else {
             completion(false)
             return
         }
-        LocalRecordItem.toggleCollected(stone: simpleStone) { [weak self] newState, success in
+        LocalRecordItem.toggleCollected(stone: simpleMushroom) { [weak self] newState, success in
             Task { @MainActor in
                 if success {
                     self?.dailyStoneCollectedStates[id] = newState
@@ -132,7 +132,7 @@ class HomeViewModel: ObservableObject {
     /// 根据id获取每日石头信息
     /// - Parameter id: 石头的唯一标识符
     /// - Returns: 对应的DailyStone对象，如果找不到则返回nil
-    func getDailyStone(by id: String) -> DailyStone? {
+    func getDailyStone(by id: String) -> SimpleMushroom? {
         return dailyStones.first { $0.id == id }
     }
     
@@ -143,15 +143,16 @@ class HomeViewModel: ObservableObject {
         return nearByStones.first { $0.id == id }
     }
     
-    /// 根据id获取任意石头信息（从所有列表中查找）
-    /// - Parameter id: 石头的唯一标识符
-    /// - Returns: 对应的SimpleStone对象，如果找不到则返回nil
-    func getStone(by id: String) -> SimpleStone? {
+    /// 根据id获取任意蘑菇信息（从所有列表中查找）
+    /// - Parameter id: 蘑菇的唯一标识符
+    /// - Returns: 对应的SimpleMushroom对象，如果找不到则返回nil
+    func getMushroom(by id: String) -> SimpleMushroom? {
         if let dailyStone = getDailyStone(by: id) {
-            return dailyStone.toSimpleStone()
+            // 需要将 DailyStone 转换为 SimpleMushroom
+            return dailyStone
         }
         if let nearMushroom = getNearbyMushroom(by: id) {
-            return nearMushroom.toSimpleStone()
+            return nearMushroom
         }
         return nil
     }

@@ -32,6 +32,6 @@ struct RandomStoneRequest: RequestProtocol {
 }
 
 struct RandomStoneResponse: Codable {
-    let total: Int
-    let stones: [DailyStone]
+    let date: String
+    let mushrooms: [SimpleMushroom]
 }

@@ -317,22 +317,6 @@ struct Stone: Codable {
         case workWith = "work_with"
         case imageUrl = "image_url"
     }
-
-    func toSimpleStone() -> SimpleStone {
-        let mappedTags: [StoneTag] = (self.tags ?? []).map { tagName in
-            StoneTag(id: 0, name: tagName, slug: tagName)
-        }
-        return SimpleStone(
-            id: self.id,
-            name: self.name ?? "",
-            description: self.description ?? "",
-            photoUrl: self.image ?? "",
-            chemicalFormula: self.chemicalFormula ?? "",
-            colors: self.colors ?? "",
-            hardness: self.hardness ?? "",
-            tags: mappedTags
-        )
-    }
 }
 
 struct StoneLocation: Codable {

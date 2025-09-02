@@ -217,7 +217,7 @@ class HomeViewController: TabItemViewController {
         if let stone = viewModel.getDailyStone(by: id) {
             let shareText = stone.name
             let shareData = ShareData(
-                imageUrl: stone.photoUrl,
+                imageUrl: stone.photoUrl ?? "",
                 text: shareText
             )
             ShareViewModel.presentShare(shareData: shareData, from: self)

@@ -39,8 +39,8 @@ struct LocalRecordItem: Identifiable, Codable {
     }
     
     
-    // 从 SimpleStone 创建收藏项目
-    static func fromSimpleStone(_ stone: SimpleStone) -> LocalRecordItem {
+    // 从 SimpleMushroom 创建收藏项目
+    static func fromSimpleMushroom(_ stone: SimpleMushroom) -> LocalRecordItem {
         let dateFormatter = ISO8601DateFormatter()
         let currentDate = dateFormatter.string(from: Date())
         
@@ -50,9 +50,9 @@ struct LocalRecordItem: Identifiable, Codable {
             type: .image,
             createdAt: currentDate,
             confidence: 1.0, // 收藏项目设为最高置信度
-            latinName: stone.chemicalFormula,
+            latinName: stone.name,
             commonName: stone.name,
-            mediaUrl: stone.photoUrl
+            mediaUrl: stone.photoUrl ?? ""
         )
     }
 }
@@ -81,7 +81,7 @@ extension LocalRecordItem {
     /// - Parameters:
     ///   - stone: 要收藏或取消收藏的石头
     ///   - completion: 完成回调，返回 (newCollectedState: Bool, success: Bool)
-    static func toggleCollected(stone: SimpleStone, completion: @escaping (Bool, Bool) -> Void) {
+    static func toggleCollected(stone: SimpleMushroom, completion: @escaping (Bool, Bool) -> Void) {
         print("🔄 Toggle collection status - Stone ID: \(stone.id)")
         isCollected(uid: stone.id) { isCurrentlyCollected, success in
             guard success else {

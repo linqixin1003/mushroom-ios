@@ -1,7 +1,7 @@
 import Combine
 
 class SearchViewModel: ObservableObject {
-    @Published var searchResults: [SimpleStone] = []
+    @Published var searchResults: [SimpleMushroom] = []
     private var searchTask: Task<Void, Never>?
     var isLoading = false
     func search(query: String) {

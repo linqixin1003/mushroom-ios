@@ -25,10 +25,10 @@ class SearchViewController: BaseHostingViewController<SearchPage> {
     
     private func setActions() {
         
-        self.actionModel.resultItemClick.sink { [weak self] simpleStone in
-            FireBaseEvent.send(eventName: EventName.searchItemClick, params: [EventParam.uid: simpleStone.id])
+        self.actionModel.resultItemClick.sink { [weak self] simpleMushroom in
+            FireBaseEvent.send(eventName: EventName.searchItemClick, params: [EventParam.uid: simpleMushroom.id])
             guard let self else { return }
-            let vc = DetailViewController(id: simpleStone.id)
+            let vc = DetailViewController(id: simpleMushroom.id)
             self.navigationController?.pushViewController(vc, animated: true)
         }.store(in: &cancellables)
     }

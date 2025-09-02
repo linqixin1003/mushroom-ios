@@ -135,9 +135,9 @@ class DetailViewController: BaseHostingViewController<DetailPage> {
             }
         }
         
-//        let simpleStone = stone.toSimpleStone()
-//        
-//        LocalRecordItem.addToCollectionOnly(stone: simpleStone) { [weak self] success in
+//        let simpleMushroom = stone.toSimpleStone()
+//
+//        LocalRecordItem.addToCollectionOnly(stone: simpleMushroom) { [weak self] success in
 //            DispatchQueue.main.async {
 //                if success {
 //                    ToastUtil.showToast("Added to collection successfully")

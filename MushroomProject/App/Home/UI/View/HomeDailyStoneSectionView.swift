@@ -2,7 +2,7 @@ import SwiftUI
 import Kingfisher
 
 struct HomeDailyStoneSectionView: View {
-    let stone: DailyStone
+    let stone: SimpleMushroom
     let collected: Bool
     
     let onCollectClick: () -> Void
@@ -27,7 +27,7 @@ struct HomeDailyStoneSectionView: View {
 }
 
 private struct HomeDailyStoneCardView: View {
-    let stone: DailyStone
+    let stone: SimpleMushroom
     let collected: Bool
     
     let onCollectClick: () -> Void
@@ -36,7 +36,7 @@ private struct HomeDailyStoneCardView: View {
     var body: some View {
         ZStack(alignment: .bottom) {
             KFImage
-                .url(URL(string: self.stone.photoUrl))
+                .url(URL(string: self.stone.photoUrl ?? ""))
                 .resizable()
                 .aspectRatio(contentMode: .fill)
                 .frame(height: 165.rpx)

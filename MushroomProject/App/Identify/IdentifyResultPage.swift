@@ -48,7 +48,7 @@ struct IdentifyResultPage: View {
                         StoneSummaryView(
                             name: stone.name,
                             description: stone.description ?? "",
-                            tags: (stone.tags ?? []).map { StoneTag(id: 0, name: $0, slug: $0) }
+                            tags: (stone.tags ?? []).map { MushroomTag(id: 0, name: $0, slug: $0) }
                         )
                         .frame(maxWidth: .infinity)
                         .background(Color.white)
