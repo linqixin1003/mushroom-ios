@@ -85,6 +85,7 @@ class Language {
     static var text_also_known_as: String { return LocalizationManager.shared.localizedString(for: "text_also_known_as") }
     static var text_scientific_name: String { return LocalizationManager.shared.localizedString(for: "text_scientific_name") }
     static var text_more: String { return LocalizationManager.shared.localizedString(for: "text_more") }
+    static var text_less: String { return LocalizationManager.shared.localizedString(for: "text_less") }
     static var text_images: String { return LocalizationManager.shared.localizedString(for: "text_images") }
     static var text_map: String { return LocalizationManager.shared.localizedString(for: "text_map") }
     static var text_description: String { return LocalizationManager.shared.localizedString(for: "text_description") }
