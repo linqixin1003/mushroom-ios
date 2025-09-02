@@ -65,8 +65,8 @@ class HomeViewModel: ObservableObject {
         if !self.nearByStones.isEmpty {
             return true
         }
-        let req = NearByStoneRequest(longitude: 0.0, latitude: 0.0)
-        let result: NearByStoneResponse? = try? await ApiRequest.requestAsync(request: req)
+        let req = NearByMushroomRequest(longitude: 0.0, latitude: 0.0)
+        let result: NearByMushroomResponse? = try? await ApiRequest.requestAsync(request: req)
         guard let stones = result?.stones, !stones.isEmpty else {
             return false
         }

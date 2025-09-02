@@ -1,7 +1,7 @@
 import Alamofire
 import Foundation
 
-struct NearByStoneRequest: RequestProtocol {
+struct NearByMushroomRequest: RequestProtocol {
     let longitude: Float
     let latitude: Float
     let radiusKm: Int
@@ -17,7 +17,7 @@ struct NearByStoneRequest: RequestProtocol {
     }
     
     var path: String {
-        return "api/stones/nearby"
+        return "api/mushrooms/nearby"
     }
     
     var needAuth: Bool {
@@ -43,7 +43,7 @@ struct NearByStoneRequest: RequestProtocol {
     }
 }
 
-struct NearByStoneResponse: Codable {
+struct NearByMushroomResponse: Codable {
     let total: Int
     let stones: [NearStone]
 }

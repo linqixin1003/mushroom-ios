@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "83F6E7082D6B1DE30021A319"
-               BuildableName = "RockProject.app"
-               BlueprintName = "RockProject"
-               ReferencedContainer = "container:RockProject.xcodeproj">
+               BuildableName = "MushroomProject.app"
+               BlueprintName = "MushroomProject"
+               ReferencedContainer = "container:MushroomProject.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -36,9 +36,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "83F6E71E2D6B1DE40021A319"
-               BuildableName = "RockProjectTests.xctest"
-               BlueprintName = "RockProjectTests"
-               ReferencedContainer = "container:RockProject.xcodeproj">
+               BuildableName = "MushroomProjectTests.xctest"
+               BlueprintName = "MushroomProjectTests"
+               ReferencedContainer = "container:MushroomProject.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "83F6E7282D6B1DE40021A319"
-               BuildableName = "RockProjectUITests.xctest"
-               BlueprintName = "RockProjectUITests"
-               ReferencedContainer = "container:RockProject.xcodeproj">
+               BuildableName = "MushroomProjectUITests.xctest"
+               BlueprintName = "MushroomProjectUITests"
+               ReferencedContainer = "container:MushroomProject.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -69,9 +69,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "83F6E7082D6B1DE30021A319"
-            BuildableName = "RockProject.app"
-            BlueprintName = "RockProject"
-            ReferencedContainer = "container:RockProject.xcodeproj">
+            BuildableName = "MushroomProject.app"
+            BlueprintName = "MushroomProject"
+            ReferencedContainer = "container:MushroomProject.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -86,9 +86,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "83F6E7082D6B1DE30021A319"
-            BuildableName = "RockProject.app"
-            BlueprintName = "RockProject"
-            ReferencedContainer = "container:RockProject.xcodeproj">
+            BuildableName = "MushroomProject.app"
+            BlueprintName = "MushroomProject"
+            ReferencedContainer = "container:MushroomProject.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -4,7 +4,7 @@ import Foundation
 
 class Config {
     
-    static let HOST = "https://stone.birdid.net"
+    static let HOST = "https://mushroom.birdid.net"
     
     static let URL_TERMS_OF_USE = "https://lingjuetech.github.io/document-privacy-policy/TermsOfUse.html"
     static let URL_PRIVACY_POLICY = "https://lingjuetech.github.io/document-privacy-policy/privacy-policy.html"

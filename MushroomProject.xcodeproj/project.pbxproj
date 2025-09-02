@@ -259,9 +259,9 @@
 		83B487C52DEDDB1E0067C953 /* IdentifyLoadingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifyLoadingPage.swift; sourceTree = "<group>"; };
 		83B487C72DEDE1170067C953 /* IdentifyResultPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifyResultPage.swift; sourceTree = "<group>"; };
 		83B487CA2DEDF3BB0067C953 /* MoreImagePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreImagePage.swift; sourceTree = "<group>"; };
-		83F6E7092D6B1DE30021A319 /* RockProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		83F6E71F2D6B1DE40021A319 /* RockProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		83F6E7292D6B1DE40021A319 /* RockProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F6E7092D6B1DE30021A319 /* MushroomProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MushroomProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F6E71F2D6B1DE40021A319 /* MushroomProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MushroomProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F6E7292D6B1DE40021A319 /* MushroomProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MushroomProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F6E7412D6B1FC80021A319 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83F6E7422D6B1FC80021A319 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83F6E7432D6B1FC80021A319 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -556,9 +556,9 @@
 		83F6E70A2D6B1DE30021A319 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				83F6E7092D6B1DE30021A319 /* RockProject.app */,
-				83F6E71F2D6B1DE40021A319 /* RockProjectTests.xctest */,
-				83F6E7292D6B1DE40021A319 /* RockProjectUITests.xctest */,
+				83F6E7092D6B1DE30021A319 /* MushroomProject.app */,
+				83F6E71F2D6B1DE40021A319 /* MushroomProjectTests.xctest */,
+				83F6E7292D6B1DE40021A319 /* MushroomProjectUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -897,9 +897,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		83F6E7082D6B1DE30021A319 /* RockProject */ = {
+		83F6E7082D6B1DE30021A319 /* MushroomProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83F6E7322D6B1DE40021A319 /* Build configuration list for PBXNativeTarget "RockProject" */;
+			buildConfigurationList = 83F6E7322D6B1DE40021A319 /* Build configuration list for PBXNativeTarget "MushroomProject" */;
 			buildPhases = (
 				83F6E7052D6B1DE30021A319 /* Sources */,
 				83F6E7062D6B1DE30021A319 /* Frameworks */,
@@ -914,7 +914,7 @@
 				14EDF18C2E1CF63D00F0F1ED /* Resources */,
 				83A5CFAA2E365E3C00B18BD5 /* Repository */,
 			);
-			name = RockProject;
+			name = MushroomProject;
 			packageProductDependencies = (
 				83F6E7872D6CB9250021A319 /* Alamofire */,
 				83F6E7892D6CB9250021A319 /* SnapKit */,
@@ -927,12 +927,12 @@
 				DB9DCB3D2E0CFBD700CD662D /* Lightbox */,
 			);
 			productName = RockProject;
-			productReference = 83F6E7092D6B1DE30021A319 /* RockProject.app */;
+			productReference = 83F6E7092D6B1DE30021A319 /* MushroomProject.app */;
 			productType = "com.apple.product-type.application";
 		};
-		83F6E71E2D6B1DE40021A319 /* RockProjectTests */ = {
+		83F6E71E2D6B1DE40021A319 /* MushroomProjectTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83F6E7372D6B1DE40021A319 /* Build configuration list for PBXNativeTarget "RockProjectTests" */;
+			buildConfigurationList = 83F6E7372D6B1DE40021A319 /* Build configuration list for PBXNativeTarget "MushroomProjectTests" */;
 			buildPhases = (
 				83F6E71B2D6B1DE40021A319 /* Sources */,
 				83F6E71C2D6B1DE40021A319 /* Frameworks */,
@@ -943,16 +943,16 @@
 			dependencies = (
 				83F6E7212D6B1DE40021A319 /* PBXTargetDependency */,
 			);
-			name = RockProjectTests;
+			name = MushroomProjectTests;
 			packageProductDependencies = (
 			);
 			productName = RockProjectTests;
-			productReference = 83F6E71F2D6B1DE40021A319 /* RockProjectTests.xctest */;
+			productReference = 83F6E71F2D6B1DE40021A319 /* MushroomProjectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		83F6E7282D6B1DE40021A319 /* RockProjectUITests */ = {
+		83F6E7282D6B1DE40021A319 /* MushroomProjectUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83F6E73A2D6B1DE40021A319 /* Build configuration list for PBXNativeTarget "RockProjectUITests" */;
+			buildConfigurationList = 83F6E73A2D6B1DE40021A319 /* Build configuration list for PBXNativeTarget "MushroomProjectUITests" */;
 			buildPhases = (
 				83F6E7252D6B1DE40021A319 /* Sources */,
 				83F6E7262D6B1DE40021A319 /* Frameworks */,
@@ -963,11 +963,11 @@
 			dependencies = (
 				83F6E72B2D6B1DE40021A319 /* PBXTargetDependency */,
 			);
-			name = RockProjectUITests;
+			name = MushroomProjectUITests;
 			packageProductDependencies = (
 			);
 			productName = RockProjectUITests;
-			productReference = 83F6E7292D6B1DE40021A319 /* RockProjectUITests.xctest */;
+			productReference = 83F6E7292D6B1DE40021A319 /* MushroomProjectUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -993,7 +993,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83F6E7042D6B1DE30021A319 /* Build configuration list for PBXProject "RockProject" */;
+			buildConfigurationList = 83F6E7042D6B1DE30021A319 /* Build configuration list for PBXProject "MushroomProject" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -1041,9 +1041,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				83F6E7082D6B1DE30021A319 /* RockProject */,
-				83F6E71E2D6B1DE40021A319 /* RockProjectTests */,
-				83F6E7282D6B1DE40021A319 /* RockProjectUITests */,
+				83F6E7082D6B1DE30021A319 /* MushroomProject */,
+				83F6E71E2D6B1DE40021A319 /* MushroomProjectTests */,
+				83F6E7282D6B1DE40021A319 /* MushroomProjectUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -1255,12 +1255,12 @@
 /* Begin PBXTargetDependency section */
 		83F6E7212D6B1DE40021A319 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 83F6E7082D6B1DE30021A319 /* RockProject */;
+			target = 83F6E7082D6B1DE30021A319 /* MushroomProject */;
 			targetProxy = 83F6E7202D6B1DE40021A319 /* PBXContainerItemProxy */;
 		};
 		83F6E72B2D6B1DE40021A319 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 83F6E7082D6B1DE30021A319 /* RockProject */;
+			target = 83F6E7082D6B1DE30021A319 /* MushroomProject */;
 			targetProxy = 83F6E72A2D6B1DE40021A319 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1542,7 +1542,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RockProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RockProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MushroomProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MushroomProject";
 			};
 			name = Debug;
 		};
@@ -1560,7 +1560,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RockProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RockProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MushroomProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MushroomProject";
 			};
 			name = Release;
 		};
@@ -1599,7 +1599,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		83F6E7042D6B1DE30021A319 /* Build configuration list for PBXProject "RockProject" */ = {
+		83F6E7042D6B1DE30021A319 /* Build configuration list for PBXProject "MushroomProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83F6E7352D6B1DE40021A319 /* Debug */,
@@ -1608,7 +1608,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83F6E7322D6B1DE40021A319 /* Build configuration list for PBXNativeTarget "RockProject" */ = {
+		83F6E7322D6B1DE40021A319 /* Build configuration list for PBXNativeTarget "MushroomProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83F6E7332D6B1DE40021A319 /* Debug */,
@@ -1617,7 +1617,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83F6E7372D6B1DE40021A319 /* Build configuration list for PBXNativeTarget "RockProjectTests" */ = {
+		83F6E7372D6B1DE40021A319 /* Build configuration list for PBXNativeTarget "MushroomProjectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83F6E7382D6B1DE40021A319 /* Debug */,
@@ -1626,7 +1626,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83F6E73A2D6B1DE40021A319 /* Build configuration list for PBXNativeTarget "RockProjectUITests" */ = {
+		83F6E73A2D6B1DE40021A319 /* Build configuration list for PBXNativeTarget "MushroomProjectUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83F6E73B2D6B1DE40021A319 /* Debug */,
