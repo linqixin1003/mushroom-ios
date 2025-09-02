@@ -45,36 +45,62 @@ struct NearByMushroomRequest: RequestProtocol {
 
 struct NearByMushroomResponse: Codable {
     let total: Int
-    let stones: [NearStone]
+    let mushrooms: [SimpleMushroom]
 }
 
-struct NearStone: Codable, Identifiable {
+struct SimpleMushroom: Codable, Identifiable {
     let id: String
     let name: String
     let description: String
     let photoUrl: String
-    let chemicalFormula: String
-    let colors: String
-    let hardness: String
-    let tags: [StoneTag]
+    let scientificName: String
+    let chineseName: String
+    let organismType: String
+    let edibility: String?
+    let habitat: String?
+    let tags: [MushroomTag]
     
     enum CodingKeys: String, CodingKey {
-        case id, name, description, colors, hardness, tags
+        case id, name, description, tags
         case photoUrl = "photo_url"
-        case chemicalFormula = "chemical_formula"
+        case scientificName = "scientific_name"
+        case chineseName = "chinese_name"
+        case organismType = "organism_type"
+        case edibility, habitat
     }
     
-    /// 转换为SimpleStone
+    init(id: String, name: String, description: String, photoUrl: String, 
+         scientificName: String, chineseName: String = "", organismType: String,
+         edibility: String? = nil, habitat: String? = nil, tags: [MushroomTag] = []) {
+        self.id = id
+        self.name = name
+        self.description = description
+        self.photoUrl = photoUrl
+        self.scientificName = scientificName
+        self.chineseName = chineseName
+        self.organismType = organismType
+        self.edibility = edibility
+        self.habitat = habitat
+        self.tags = tags
+    }
+    
+    /// 转换为SimpleStone（向后兼容）
     func toSimpleStone() -> SimpleStone {
         return SimpleStone(
             id: self.id,
             name: self.name,
             description: self.description,
             photoUrl: self.photoUrl,
-            chemicalFormula: self.chemicalFormula,
-            colors: self.colors,
-            hardness: self.hardness,
-            tags: self.tags
+            chemicalFormula: self.scientificName,
+            colors: self.organismType,
+            hardness: self.edibility ?? "",
+            tags: self.tags.map { StoneTag(id: $0.id, name: $0.name, slug: $0.slug) }
         )
     }
+}
+
+struct MushroomTag: Codable {
+    let id: Int
+    let name: String
+    let slug: String
 }

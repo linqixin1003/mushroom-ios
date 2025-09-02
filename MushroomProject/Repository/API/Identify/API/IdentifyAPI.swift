@@ -18,7 +18,7 @@ struct IdentifyRequest: RequestProtocol {
     }
     
     var path: String {
-        return "api/stones/identify"
+        return "api/mushrooms/identify"
     }
     
     var needAuth: Bool {

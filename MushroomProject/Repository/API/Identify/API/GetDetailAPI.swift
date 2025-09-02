@@ -11,7 +11,7 @@ struct GetDetailRequest: RequestProtocol {
     }
     
     var path: String {
-        return "api/stones/\(stoneId)"
+        return "api/mushrooms/\(stoneId)"
     }
     
     var needAuth: Bool {

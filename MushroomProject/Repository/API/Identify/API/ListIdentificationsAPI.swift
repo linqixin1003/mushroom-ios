@@ -13,7 +13,7 @@ struct ListIdentificationsRequest: RequestProtocol {
     }
     
     var path: String {
-        return "api/stones/identifications"
+        return "api/mushrooms/identifications"
     }
     
     var needAuth: Bool {

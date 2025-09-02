@@ -13,7 +13,7 @@ struct ChangeResultRequest: RequestProtocol {
     }
     
     var path: String {
-        return "api/stones/changeidentifyresult"
+        return "api/mushrooms/changeidentifyresult"
     }
     
     var needAuth: Bool {

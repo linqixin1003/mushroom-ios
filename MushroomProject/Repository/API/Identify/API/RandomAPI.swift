@@ -9,7 +9,7 @@ struct RandomStoneRequest: RequestProtocol {
     }
     
     var path: String {
-        return "api/stones/recommend"
+        return "api/mushrooms/recommend"
     }
     
     var needAuth: Bool {

@@ -9,7 +9,7 @@ struct SearchStoneRequest: RequestProtocol {
     let lang: String
     
     var path: String {
-        return "api/stones/search"
+        return "api/mushrooms/search"
     }
     
     var needAuth: Bool {

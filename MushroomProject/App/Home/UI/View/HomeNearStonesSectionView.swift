@@ -2,8 +2,8 @@ import SwiftUI
 import Kingfisher
 
 struct HomeNearStonesSectionView: View {
-    let stones: [NearStone]
-    let onStoneClick: (NearStone) -> Void
+    let stones: [SimpleMushroom]
+    let onStoneClick: (SimpleMushroom) -> Void
     let onViewAllClick: () -> Void
     
     var body: some View {
@@ -42,8 +42,8 @@ struct HomeNearStonesSectionView: View {
 }
 
 struct HomeNearStonesView: View {
-    let stones: [NearStone]
-    let onStoneClick: (NearStone) -> Void
+    let stones: [SimpleMushroom]
+    let onStoneClick: (SimpleMushroom) -> Void
     
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
@@ -66,7 +66,7 @@ struct HomeNearStonesView: View {
 }
 
 struct HomeNearStoneItem: View {
-    let stone: NearStone
+    let stone: SimpleMushroom
     
     var body: some View {
         ZStack(alignment: .bottom) {
