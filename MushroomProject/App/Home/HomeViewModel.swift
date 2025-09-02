@@ -54,10 +54,10 @@ class HomeViewModel: ObservableObject {
         }
         let req = RandomMushroomRequest(lang:"en")
         let result: RandomMushroomResponse? = try? await ApiRequest.requestAsync(request: req)
-        guard let stones = result?.mushrooms, !stones.isEmpty else {
+        guard let mushrooms = result?.mushrooms, !mushrooms.isEmpty else {
             return false
         }
-        self.dailyMushrooms = stones
+        self.dailyMushrooms = mushrooms
         return true
     }
     
@@ -67,21 +67,21 @@ class HomeViewModel: ObservableObject {
         }
         let req = NearByMushroomRequest(longitude: 0.0, latitude: 0.0)
         let result: NearByMushroomResponse? = try? await ApiRequest.requestAsync(request: req)
-        guard let stones = result?.mushrooms, !stones.isEmpty else {
+        guard let mushrooms = result?.mushrooms, !mushrooms.isEmpty else {
             return false
         }
-        self.nearByMushrooms = stones
+        self.nearByMushrooms = mushrooms
         return true
     }
     
     /// 加载每日石头的收藏状态
     private func loadCollectionStates() async {
-        for stone in dailyMushrooms {
+        for mushroom in dailyMushrooms {
             await withCheckedContinuation { continuation in
-                LocalRecordItem.isCollected(uid: stone.id) { [weak self] isCollected, success in
+                LocalRecordItem.isCollected(uid: mushroom.id) { [weak self] isCollected, success in
                     Task { @MainActor in
                         if success {
-                            self?.dailyMushroomCollectedStates[stone.id] = isCollected
+                            self?.dailyMushroomCollectedStates[mushroom.id] = isCollected
                         }
                         continuation.resume()
                     }
@@ -108,7 +108,7 @@ class HomeViewModel: ObservableObject {
             completion(false)
             return
         }
-        LocalRecordItem.toggleCollected(stone: simpleMushroom) { [weak self] newState, success in
+        LocalRecordItem.toggleCollected(mushroom: simpleMushroom) { [weak self] newState, success in
             Task { @MainActor in
                 if success {
                     self?.dailyMushroomCollectedStates[id] = newState

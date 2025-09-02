@@ -25,7 +25,7 @@ struct ChangeResultRequest: RequestProtocol {
     }
     
     var parameters: [String : Any] {
-        return ["identification_id":identificationId, "new_stone_id":newMushroomId, "confidence":confidence]
+        return ["identification_id":identificationId, "new_mushroom_id":newMushroomId, "confidence":confidence]
     }
     
     var multipartFormData: ((MultipartFormData) -> Void)? {

@@ -66,13 +66,13 @@ struct IdentifyResponse: Codable {
 }
 
 struct IdentifyItem:Codable{
-    let stone: Mushroom
+    let mushroom: Mushroom
     let confidence: Double
     let identificationId: Int?
     var isInWishlist: Bool
     
     enum CodingKeys: String, CodingKey {
-        case stone
+        case mushroom
         case confidence
         case identificationId = "identification_id"
         case isInWishlist = "is_in_wishlist"

@@ -27,7 +27,7 @@ struct LocalRecordItem: Identifiable, Codable {
     static func fromImage(_ record: IdentificationRecord) -> LocalRecordItem {
         return LocalRecordItem(
             id: String(record.id), // 将Int转换为String
-            uid: record.stoneId,
+            uid: record.mushroomId,
             type: .image,
             createdAt: record.createdAt,
             confidence: Float(record.confidence),
@@ -40,19 +40,19 @@ struct LocalRecordItem: Identifiable, Codable {
     
     
     // 从 SimpleMushroom 创建收藏项目
-    static func fromSimpleMushroom(_ stone: SimpleMushroom) -> LocalRecordItem {
+    static func fromSimpleMushroom(_ mushroom: SimpleMushroom) -> LocalRecordItem {
         let dateFormatter = ISO8601DateFormatter()
         let currentDate = dateFormatter.string(from: Date())
         
         return LocalRecordItem(
-            id: "collected_\(stone.id)",
-            uid: stone.id,
+            id: "collected_\(mushroom.id)",
+            uid: mushroom.id,
             type: .image,
             createdAt: currentDate,
             confidence: 1.0, // 收藏项目设为最高置信度
-            latinName: stone.name,
-            commonName: stone.name,
-            mediaUrl: stone.photoUrl ?? ""
+            latinName: mushroom.name,
+            commonName: mushroom.name,
+            mediaUrl: mushroom.photoUrl ?? ""
         )
     }
 }
@@ -79,34 +79,34 @@ extension LocalRecordItem {
     
     /// 切换收藏状态
     /// - Parameters:
-    ///   - stone: 要收藏或取消收藏的石头
+    ///   - mushroom: 要收藏或取消收藏的石头
     ///   - completion: 完成回调，返回 (newCollectedState: Bool, success: Bool)
-    static func toggleCollected(stone: SimpleMushroom, completion: @escaping (Bool, Bool) -> Void) {
-        print("🔄 Toggle collection status - Mushroom ID: \(stone.id)")
-        isCollected(uid: stone.id) { isCurrentlyCollected, success in
+    static func toggleCollected(mushroom: SimpleMushroom, completion: @escaping (Bool, Bool) -> Void) {
+        print("🔄 Toggle collection status - Mushroom ID: \(mushroom.id)")
+        isCollected(uid: mushroom.id) { isCurrentlyCollected, success in
             guard success else {
-                print("❌ Check collection status failed - ID: \(stone.id)")
+                print("❌ Check collection status failed - ID: \(mushroom.id)")
                 completion(false, false)
                 return
             }
             
-            print("📊 Current collection status - ID: \(stone.id), collected: \(isCurrentlyCollected)")
+            print("📊 Current collection status - ID: \(mushroom.id), collected: \(isCurrentlyCollected)")
             
             if isCurrentlyCollected {
                 // 取消收藏
-                print("🗑️ Start removing from collection - ID: \(stone.id)")
-                removeFromCollection(uid: stone.id, completion: completion)
+                print("🗑️ Start removing from collection - ID: \(mushroom.id)")
+                removeFromCollection(uid: mushroom.id, completion: completion)
             } else {
                 // 添加收藏
-                print("➕ Start adding to collection - ID: \(stone.id)")
-                //saddToCollection(stone: stone, completion: completion)
+                print("➕ Start adding to collection - ID: \(mushroom.id)")
+                //saddToCollection(mushroom: mushroom, completion: completion)
             }
         }
     }
     
     /// 仅添加收藏（不检查当前状态，直接尝试添加）
     /// - Parameters:
-    ///   - stone: 要收藏的石头
+    ///   - mushroom: 要收藏的石头
     ///   - completion: 完成回调，返回 success: Bool
     static func addToCollectionOnly(identificationId: Int, completion: @escaping (Bool) -> Void) {
         Task {

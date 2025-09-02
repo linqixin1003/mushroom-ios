@@ -63,8 +63,8 @@
 "home_action_identify" = "Nhận dạng";
 "home_action_record" = "Ghi âm";
 "home_action_ai_beautify" = "Làm đẹp AI";
-"home_your_daily_stone" = "Chim hàng ngày của bạn";
-"home_stones_near_you" = "Chim gần bạn";
+"home_your_daily_mushroom" = "Chim hàng ngày của bạn";
+"home_mushrooms_near_you" = "Chim gần bạn";
 "home_app_usage_title" = "Hướng dẫn sử dụng ứng dụng";
 "home_app_usage_desc" = "Giúp bạn làm quen với chúng tôi nhanh hơn.";
 
@@ -149,7 +149,7 @@
 "camera_preview_tip" = "Chụp ảnh để nhận dạng chim và giữ chủ thể rõ ràng khi chụp";
 "camera_zoom" = "Phóng to";
 "camera_photography_tips" = "Mẹo chụp ảnh";
-"camera_keep_stone_centered" = "Giữ chim ở giữa khung hình";
+"camera_keep_mushroom_centered" = "Giữ chim ở giữa khung hình";
 "camera_good_image_quality" = "Chất lượng hình ảnh tốt có thể giúp cải thiện độ chính xác nhận dạng.";
 "camera_mode_by_photo" = "Bằng ảnh";
 "camera_mode_by_sound" = "Bằng âm thanh";
@@ -179,21 +179,21 @@
 "instruction_identify" = "Nhận dạng";
 
 // MARK: - Mushroom Info Section
-"stone_usage" = "Sử dụng";
-"stone_health_risks" = "Rủi ro sức khỏe";
-"stone_original_vs_fake" = "Xác thực";
-"stone_storage" = "Bảo quản";
-"stone_cleaning_tips" = "Mẹo làm sạch";
-"stone_chemical_formula" = "Công thức hóa học";
-"stone_chemical_classification" = "Phân loại hóa học";
-"stone_crystal_system" = "Hệ thống tinh thể";
-"stone_hardness" = "Độ cứng";
-"stone_density" = "Mật độ";
-"stone_chemical_elements" = "Nguyên tố hóa học";
-"stone_estimated_value" = "Giá trị ước tính";
+"mushroom_usage" = "Sử dụng";
+"mushroom_health_risks" = "Rủi ro sức khỏe";
+"mushroom_original_vs_fake" = "Xác thực";
+"mushroom_storage" = "Bảo quản";
+"mushroom_cleaning_tips" = "Mẹo làm sạch";
+"mushroom_chemical_formula" = "Công thức hóa học";
+"mushroom_chemical_classification" = "Phân loại hóa học";
+"mushroom_crystal_system" = "Hệ thống tinh thể";
+"mushroom_hardness" = "Độ cứng";
+"mushroom_density" = "Mật độ";
+"mushroom_chemical_elements" = "Nguyên tố hóa học";
+"mushroom_estimated_value" = "Giá trị ước tính";
 "metal_detector_tips_content" = "Công cụ này được hỗ trợ bởi cảm biến từ tính được tích hợp trong điện thoại di động của bạn. Máy dò này hoạt động với các loại đá hoặc khoáng chất từ tính, chẳng hạn như magnetit, pyrrotin và thiên thạch. Nó cũng có thể phát hiện kim loại chủ yếu được cấu tạo từ sắt, coban hoặc niken. Vì cảm biến từ tính được đặt khác nhau trên mỗi điện thoại di động, hãy di chuyển vật thể phát hiện xung quanh điện thoại của bạn để tìm độ nhạy tốt nhất và có được số đọc rõ ràng trên đồng hồ đo. Số đọc trên đồng hồ đo cho biết cường độ của vật thể được phát hiện; nó không đại diện cho giá trị chính xác của từ tính.";
 "add_to_collection" = "Thêm vào bộ sưu tập của tôi";
-"stone_info_more" = "Thêm>>";
+"mushroom_info_more" = "Thêm>>";
 
 // MARK: - ConvertPage
 "convert_title" = "MushroomAI Snap";
@@ -259,7 +259,7 @@
 "valuation_step_identification" = "Nhận dạng";
 "valuation_step_quality_evaluation" = "Đánh giá chất lượng";
 "valuation_step_market_price_search" = "Tìm kiếm giá thị trường";
-"stone_estimated_value" = "Giá trị ước tính";
+"mushroom_estimated_value" = "Giá trị ước tính";
 "valuation_not_found" = "Không tìm thấy đá";
 "valuation_camera_tips" = "Hình ảnh rõ ràng, chất lượng cao dẫn đến kết quả định giá chính xác hơn";
 
@@ -309,7 +309,7 @@
 "microphone_permission_button" = "Cho phép";
 
 // MARK: - Mushroom Season
-"stone_visible_year_round" = "Quanh năm";
+"mushroom_visible_year_round" = "Quanh năm";
 
 // MARK: - Additional Missing Keys
 "subscription_cancel_notice" = "Không cần thanh toán nếu bạn hủy đăng ký ít nhất một ngày trước khi kết thúc thời gian dùng thử miễn phí 7 ngày.";

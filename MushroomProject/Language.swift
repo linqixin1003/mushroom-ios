@@ -14,8 +14,8 @@ class Language {
             "home_action_identify",
             "home_action_record",
             "home_vip_banner_text",
-            "home_your_daily_stone",
-            "home_stones_near_you"
+            "home_your_daily_mushroom",
+            "home_mushrooms_near_you"
         ]
         
         for key in testKeys {
@@ -96,8 +96,8 @@ class Language {
     static var home_search_hint: String { return LocalizationManager.shared.localizedString(for: "home_search_hint") }
     static var home_vip_banner_text: String { return LocalizationManager.shared.localizedString(for: "home_vip_banner_text") }
     static var home_action_identify: String { return LocalizationManager.shared.localizedString(for: "home_action_identify") }
-    static var home_your_daily_stone: String { return LocalizationManager.shared.localizedString(for: "home_your_daily_stone") }
-    static var home_stones_near_you: String { return LocalizationManager.shared.localizedString(for: "home_stones_near_you") }
+    static var home_your_daily_mushroom: String { return LocalizationManager.shared.localizedString(for: "home_your_daily_mushroom") }
+    static var home_mushrooms_near_you: String { return LocalizationManager.shared.localizedString(for: "home_mushrooms_near_you") }
     static var home_app_usage_title: String { return LocalizationManager.shared.localizedString(for: "home_app_usage_title") }
     static var home_app_usage_desc: String { return LocalizationManager.shared.localizedString(for: "home_app_usage_desc") }
     
@@ -182,12 +182,12 @@ class Language {
     static var settings_manage_account: String { return LocalizationManager.shared.localizedString(for: "settings_manage_account") }
     
     // 新增硬编码字符串的本地化key
-    static var stone_info_detailed_not_available: String { return LocalizationManager.shared.localizedString(for: "stone_info_detailed_not_available") }
-    static var stone_info_additional_characteristics: String { return LocalizationManager.shared.localizedString(for: "stone_info_additional_characteristics") }
-    static var stone_info_characteristics: String { return LocalizationManager.shared.localizedString(for: "stone_info_characteristics") }
-    static var stone_info_scientific_classification: String { return LocalizationManager.shared.localizedString(for: "stone_info_scientific_classification") }
-    static var stone_info_additional_classification: String { return LocalizationManager.shared.localizedString(for: "stone_info_additional_classification") }
-    static var stone_info_more: String { return LocalizationManager.shared.localizedString(for: "stone_info_more") }
+    static var mushroom_info_detailed_not_available: String { return LocalizationManager.shared.localizedString(for: "mushroom_info_detailed_not_available") }
+    static var mushroom_info_additional_characteristics: String { return LocalizationManager.shared.localizedString(for: "mushroom_info_additional_characteristics") }
+    static var mushroom_info_characteristics: String { return LocalizationManager.shared.localizedString(for: "mushroom_info_characteristics") }
+    static var mushroom_info_scientific_classification: String { return LocalizationManager.shared.localizedString(for: "mushroom_info_scientific_classification") }
+    static var mushroom_info_additional_classification: String { return LocalizationManager.shared.localizedString(for: "mushroom_info_additional_classification") }
+    static var mushroom_info_more: String { return LocalizationManager.shared.localizedString(for: "mushroom_info_more") }
     
     // 购买相关
     static var purchase_choose_subscription_plan: String { return LocalizationManager.shared.localizedString(for: "purchase_choose_subscription_plan") }
@@ -241,7 +241,7 @@ class Language {
     // 相机相关
     static var camera_zoom: String { return LocalizationManager.shared.localizedString(for: "camera_zoom") }
     static var camera_photography_tips: String { return LocalizationManager.shared.localizedString(for: "camera_photography_tips") }
-    static var camera_keep_stone_centered: String { return LocalizationManager.shared.localizedString(for: "camera_keep_stone_centered") }
+    static var camera_keep_mushroom_centered: String { return LocalizationManager.shared.localizedString(for: "camera_keep_mushroom_centered") }
     static var camera_good_image_quality: String { return LocalizationManager.shared.localizedString(for: "camera_good_image_quality") }
     
     
@@ -294,23 +294,23 @@ class Language {
     static var share_share: String { return LocalizationManager.shared.localizedString(for: "share_share") }
     
     // 鸟类特征相关
-    static var stone_basic_information: String { return LocalizationManager.shared.localizedString(for: "stone_basic_information") }
-    static var stone_color_features: String { return LocalizationManager.shared.localizedString(for: "stone_color_features") }
-    static var stone_habitat: String { return LocalizationManager.shared.localizedString(for: "stone_habitat") }
-    static var stone_behavior: String { return LocalizationManager.shared.localizedString(for: "stone_behavior") }
-    static var stone_flying: String { return LocalizationManager.shared.localizedString(for: "stone_flying") }
-    static var stone_size: String { return LocalizationManager.shared.localizedString(for: "stone_size") }
-    static var stone_no_data: String { return LocalizationManager.shared.localizedString(for: "stone_no_data") }
-    static var stone_season_info: String { return LocalizationManager.shared.localizedString(for: "stone_season_info") }
-    static var stone_visible_months: String { return LocalizationManager.shared.localizedString(for: "stone_visible_months") }
-    static var stone_visible_year_round: String { return LocalizationManager.shared.localizedString(for: "stone_visible_year_round") }
-    static var stone_plumage: String { return LocalizationManager.shared.localizedString(for: "stone_plumage") }
+    static var mushroom_basic_information: String { return LocalizationManager.shared.localizedString(for: "mushroom_basic_information") }
+    static var mushroom_color_features: String { return LocalizationManager.shared.localizedString(for: "mushroom_color_features") }
+    static var mushroom_habitat: String { return LocalizationManager.shared.localizedString(for: "mushroom_habitat") }
+    static var mushroom_behavior: String { return LocalizationManager.shared.localizedString(for: "mushroom_behavior") }
+    static var mushroom_flying: String { return LocalizationManager.shared.localizedString(for: "mushroom_flying") }
+    static var mushroom_size: String { return LocalizationManager.shared.localizedString(for: "mushroom_size") }
+    static var mushroom_no_data: String { return LocalizationManager.shared.localizedString(for: "mushroom_no_data") }
+    static var mushroom_season_info: String { return LocalizationManager.shared.localizedString(for: "mushroom_season_info") }
+    static var mushroom_visible_months: String { return LocalizationManager.shared.localizedString(for: "mushroom_visible_months") }
+    static var mushroom_visible_year_round: String { return LocalizationManager.shared.localizedString(for: "mushroom_visible_year_round") }
+    static var mushroom_plumage: String { return LocalizationManager.shared.localizedString(for: "mushroom_plumage") }
     
     // 订阅页面特有文本
     static var subscription_app_name: String { return LocalizationManager.shared.localizedString(for: "subscription_app_name") }
     static var subscription_feature_12000_species: String { return LocalizationManager.shared.localizedString(for: "subscription_feature_12000_species") }
     static var subscription_feature_high_accuracy: String { return LocalizationManager.shared.localizedString(for: "subscription_feature_high_accuracy") }
-    static var subscription_feature_attract_stones: String { return LocalizationManager.shared.localizedString(for: "subscription_feature_attract_stones") }
+    static var subscription_feature_attract_mushrooms: String { return LocalizationManager.shared.localizedString(for: "subscription_feature_attract_mushrooms") }
     static var subscription_feature_unlimited_id: String { return LocalizationManager.shared.localizedString(for: "subscription_feature_unlimited_id") }
     static var subscription_feature_expand_knowledge: String { return LocalizationManager.shared.localizedString(for: "subscription_feature_expand_knowledge") }
     static var subscription_try_it_free: String { return LocalizationManager.shared.localizedString(for: "subscription_try_it_free") }
@@ -349,8 +349,8 @@ class Language {
     static var my_collection_no_more: String { return LocalizationManager.shared.localizedString(for: "my_collection_no_more") }
     static var about_email_address: String { return LocalizationManager.shared.localizedString(for: "about_email_address") }
     static var snap_tip_photography_tips: String { return LocalizationManager.shared.localizedString(for: "snap_tip_photography_tips") }
-    static var snap_tip_keep_stone_centered: String { return LocalizationManager.shared.localizedString(for: "snap_tip_keep_stone_centered") }
-    static var sound_take_to_identify_stones: String { return LocalizationManager.shared.localizedString(for: "sound_take_to_identify_stones") }
+    static var snap_tip_keep_mushroom_centered: String { return LocalizationManager.shared.localizedString(for: "snap_tip_keep_mushroom_centered") }
+    static var sound_take_to_identify_mushrooms: String { return LocalizationManager.shared.localizedString(for: "sound_take_to_identify_mushrooms") }
     
     // 相机模式选择
     static var camera_mode_by_photo: String { return LocalizationManager.shared.localizedString(for: "camera_mode_by_photo") }
@@ -376,13 +376,13 @@ class Language {
     static var snap_tip_multiple_species: String { return LocalizationManager.shared.localizedString(for: "snap_tip_multiple_species") }
     
     // Mushroom Features
-    static var stone_observation_number: String { return LocalizationManager.shared.localizedString(for: "stone_observation_number") }
+    static var mushroom_observation_number: String { return LocalizationManager.shared.localizedString(for: "mushroom_observation_number") }
 
     // Share
     static var share_no_content: String { return LocalizationManager.shared.localizedString(for: "share_no_content") }
     static var share_failed: String { return LocalizationManager.shared.localizedString(for: "share_failed") }
     static var share_ok: String { return LocalizationManager.shared.localizedString(for: "share_ok") }
-    static var share_stone_not_found: String { return LocalizationManager.shared.localizedString(for: "share_stone_not_found") }
+    static var share_mushroom_not_found: String { return LocalizationManager.shared.localizedString(for: "share_mushroom_not_found") }
 
     // Camera
     static var camera_retake: String { return LocalizationManager.shared.localizedString(for: "camera_retake") }
@@ -518,11 +518,11 @@ class Language {
     
     // Recognize Page
     static var recognize_auto_saved_collection: String { return LocalizationManager.shared.localizedString(for: "recognize_auto_saved_collection") }
-    static var recognize_stone_loading: String { return LocalizationManager.shared.localizedString(for: "recognize_stone_loading") }
+    static var recognize_mushroom_loading: String { return LocalizationManager.shared.localizedString(for: "recognize_mushroom_loading") }
     static var recognize_invalid_id: String { return LocalizationManager.shared.localizedString(for: "recognize_invalid_id") }
     static var recognize_added_collection_success: String { return LocalizationManager.shared.localizedString(for: "recognize_added_collection_success") }
     static var recognize_added_collection_failed: String { return LocalizationManager.shared.localizedString(for: "recognize_added_collection_failed") }
-    static var recognize_stone_loading_wait: String { return LocalizationManager.shared.localizedString(for: "recognize_stone_loading_wait") }
+    static var recognize_mushroom_loading_wait: String { return LocalizationManager.shared.localizedString(for: "recognize_mushroom_loading_wait") }
     static var recognize_added_wishlist_success: String { return LocalizationManager.shared.localizedString(for: "recognize_added_wishlist_success") }
     static var recognize_added_wishlist_failed: String { return LocalizationManager.shared.localizedString(for: "recognize_added_wishlist_failed") }
     static var recognize_delete_wishlist_success: String { return LocalizationManager.shared.localizedString(for: "recognize_delete_wishlist_success") }
@@ -531,29 +531,29 @@ class Language {
     
     // Detail Page
     static var detail_page_title: String { return LocalizationManager.shared.localizedString(for: "detail_page_title") }
-    static var detail_stone_loading: String { return LocalizationManager.shared.localizedString(for: "detail_stone_loading") }
+    static var detail_mushroom_loading: String { return LocalizationManager.shared.localizedString(for: "detail_mushroom_loading") }
     static var detail_collected: String { return LocalizationManager.shared.localizedString(for: "detail_collected") }
     static var detail_collected_failed: String { return LocalizationManager.shared.localizedString(for: "detail_collected_failed") }
     static var detail_collected_error: String { return LocalizationManager.shared.localizedString(for: "detail_collected_error") }
-    static var detail_stone_loading_wait: String { return LocalizationManager.shared.localizedString(for: "detail_stone_loading_wait") }
+    static var detail_mushroom_loading_wait: String { return LocalizationManager.shared.localizedString(for: "detail_mushroom_loading_wait") }
     static var detail_added_wishlist_success: String { return LocalizationManager.shared.localizedString(for: "detail_added_wishlist_success") }
     static var detail_added_wishlist_failed: String { return LocalizationManager.shared.localizedString(for: "detail_added_wishlist_failed") }
     static var detail_add_wish: String { return LocalizationManager.shared.localizedString(for: "detail_add_wish") }
     static var detail_del_wish: String { return LocalizationManager.shared.localizedString(for: "detail_del_wish") }
     
     // Mushroom Info Section
-    static var stone_usage: String { return LocalizationManager.shared.localizedString(for: "stone_usage") }
-    static var stone_health_risks: String { return LocalizationManager.shared.localizedString(for: "stone_health_risks") }
-    static var stone_original_vs_fake: String { return LocalizationManager.shared.localizedString(for: "stone_original_vs_fake") }
-    static var stone_storage: String { return LocalizationManager.shared.localizedString(for: "stone_storage") }
-    static var stone_cleaning_tips: String { return LocalizationManager.shared.localizedString(for: "stone_cleaning_tips") }
-    static var stone_chemical_formula: String { return LocalizationManager.shared.localizedString(for: "stone_chemical_formula") }
-    static var stone_chemical_classification: String { return LocalizationManager.shared.localizedString(for: "stone_chemical_classification") }
-    static var stone_crystal_system: String { return LocalizationManager.shared.localizedString(for: "stone_crystal_system") }
-    static var stone_hardness: String { return LocalizationManager.shared.localizedString(for: "stone_hardness") }
-    static var stone_density: String { return LocalizationManager.shared.localizedString(for: "stone_density") }
-    static var stone_chemical_elements: String { return LocalizationManager.shared.localizedString(for: "stone_chemical_elements") }
-    static var stone_estimated_value: String { return LocalizationManager.shared.localizedString(for: "stone_estimated_value") }
+    static var mushroom_usage: String { return LocalizationManager.shared.localizedString(for: "mushroom_usage") }
+    static var mushroom_health_risks: String { return LocalizationManager.shared.localizedString(for: "mushroom_health_risks") }
+    static var mushroom_original_vs_fake: String { return LocalizationManager.shared.localizedString(for: "mushroom_original_vs_fake") }
+    static var mushroom_storage: String { return LocalizationManager.shared.localizedString(for: "mushroom_storage") }
+    static var mushroom_cleaning_tips: String { return LocalizationManager.shared.localizedString(for: "mushroom_cleaning_tips") }
+    static var mushroom_chemical_formula: String { return LocalizationManager.shared.localizedString(for: "mushroom_chemical_formula") }
+    static var mushroom_chemical_classification: String { return LocalizationManager.shared.localizedString(for: "mushroom_chemical_classification") }
+    static var mushroom_crystal_system: String { return LocalizationManager.shared.localizedString(for: "mushroom_crystal_system") }
+    static var mushroom_hardness: String { return LocalizationManager.shared.localizedString(for: "mushroom_hardness") }
+    static var mushroom_density: String { return LocalizationManager.shared.localizedString(for: "mushroom_density") }
+    static var mushroom_chemical_elements: String { return LocalizationManager.shared.localizedString(for: "mushroom_chemical_elements") }
+    static var mushroom_estimated_value: String { return LocalizationManager.shared.localizedString(for: "mushroom_estimated_value") }
     static var add_to_collection: String { return LocalizationManager.shared.localizedString(for: "add_to_collection") }
     static var possible_price_range: String { return LocalizationManager.shared.localizedString(for: "possible_price_range")}
     static var note: String { return LocalizationManager.shared.localizedString(for: "note")}
@@ -606,49 +606,49 @@ class Language {
     static var purchase_unknown: String { return LocalizationManager.shared.localizedString(for: "purchase_unknown") }
     
     // MARK: - Mushroom Detail Components
-    static var stone_chemical_properties: String { return LocalizationManager.shared.localizedString(for: "stone_chemical_properties") }
-    static var stone_impurities: String { return LocalizationManager.shared.localizedString(for: "stone_impurities") }
-    static var stone_variety: String { return LocalizationManager.shared.localizedString(for: "stone_variety") }
-    static var stone_physical_properties: String { return LocalizationManager.shared.localizedString(for: "stone_physical_properties") }
-    static var stone_colors: String { return LocalizationManager.shared.localizedString(for: "stone_colors") }
-    static var stone_luster: String { return LocalizationManager.shared.localizedString(for: "stone_luster") }
-    static var stone_diaphaneity: String { return LocalizationManager.shared.localizedString(for: "stone_diaphaneity") }
-    static var stone_magnetism: String { return LocalizationManager.shared.localizedString(for: "stone_magnetism") }
-    static var stone_streak: String { return LocalizationManager.shared.localizedString(for: "stone_streak") }
-    static var stone_tenacity: String { return LocalizationManager.shared.localizedString(for: "stone_tenacity") }
-    static var stone_cleavage: String { return LocalizationManager.shared.localizedString(for: "stone_cleavage") }
-    static var stone_fracture: String { return LocalizationManager.shared.localizedString(for: "stone_fracture") }
-    static var stone_durability_rating: String { return LocalizationManager.shared.localizedString(for: "stone_durability_rating") }
-    static var stone_scratch_resistance: String { return LocalizationManager.shared.localizedString(for: "stone_scratch_resistance") }
-    static var stone_toughness: String { return LocalizationManager.shared.localizedString(for: "stone_toughness") }
-    static var stone_stability: String { return LocalizationManager.shared.localizedString(for: "stone_stability") }
-    static var stone_care_instructions: String { return LocalizationManager.shared.localizedString(for: "stone_care_instructions") }
-    static var stone_light: String { return LocalizationManager.shared.localizedString(for: "stone_light") }
-    static var stone_temperature: String { return LocalizationManager.shared.localizedString(for: "stone_temperature") }
-    static var stone_price_information: String { return LocalizationManager.shared.localizedString(for: "stone_price_information") }
-    static var stone_per_carat: String { return LocalizationManager.shared.localizedString(for: "stone_per_carat") }
-    static var stone_per_pound: String { return LocalizationManager.shared.localizedString(for: "stone_per_pound") }
-    static var stone_metaphysical_properties: String { return LocalizationManager.shared.localizedString(for: "stone_metaphysical_properties") }
-    static var stone_chakra_root: String { return LocalizationManager.shared.localizedString(for: "stone_chakra_root") }
-    static var stone_chakra_sacral: String { return LocalizationManager.shared.localizedString(for: "stone_chakra_sacral") }
-    static var stone_chakra_solar: String { return LocalizationManager.shared.localizedString(for: "stone_chakra_solar") }
-    static var stone_chakra_heart: String { return LocalizationManager.shared.localizedString(for: "stone_chakra_heart") }
-    static var stone_chakra_throat: String { return LocalizationManager.shared.localizedString(for: "stone_chakra_throat") }
-    static var stone_chakra_third_eye: String { return LocalizationManager.shared.localizedString(for: "stone_chakra_third_eye") }
-    static var stone_chakra_crown: String { return LocalizationManager.shared.localizedString(for: "stone_chakra_crown") }
-    static var stone_quality_tranquillity: String { return LocalizationManager.shared.localizedString(for: "stone_quality_tranquillity") }
-    static var stone_quality_grounding: String { return LocalizationManager.shared.localizedString(for: "stone_quality_grounding") }
-    static var stone_quality_protection: String { return LocalizationManager.shared.localizedString(for: "stone_quality_protection") }
-    static var stone_quality_healing: String { return LocalizationManager.shared.localizedString(for: "stone_quality_healing") }
-    static var stone_quality_clarity: String { return LocalizationManager.shared.localizedString(for: "stone_quality_clarity") }
-    static var stone_quality_spiritual: String { return LocalizationManager.shared.localizedString(for: "stone_quality_spiritual") }
-    static var stone_quality_energy: String { return LocalizationManager.shared.localizedString(for: "stone_quality_energy") }
-    static var stone_quality_prosperity: String { return LocalizationManager.shared.localizedString(for: "stone_quality_prosperity") }
-    static var stone_quality_balance: String { return LocalizationManager.shared.localizedString(for: "stone_quality_balance") }
-    static var stone_quality_love: String { return LocalizationManager.shared.localizedString(for: "stone_quality_love") }
-    static var stone_enhancing: String { return LocalizationManager.shared.localizedString(for: "stone_enhancing") }
-    static var stone_charging: String { return LocalizationManager.shared.localizedString(for: "stone_charging") }
-    static var stone_cleansing: String { return LocalizationManager.shared.localizedString(for: "stone_cleansing") }
+    static var mushroom_chemical_properties: String { return LocalizationManager.shared.localizedString(for: "mushroom_chemical_properties") }
+    static var mushroom_impurities: String { return LocalizationManager.shared.localizedString(for: "mushroom_impurities") }
+    static var mushroom_variety: String { return LocalizationManager.shared.localizedString(for: "mushroom_variety") }
+    static var mushroom_physical_properties: String { return LocalizationManager.shared.localizedString(for: "mushroom_physical_properties") }
+    static var mushroom_colors: String { return LocalizationManager.shared.localizedString(for: "mushroom_colors") }
+    static var mushroom_luster: String { return LocalizationManager.shared.localizedString(for: "mushroom_luster") }
+    static var mushroom_diaphaneity: String { return LocalizationManager.shared.localizedString(for: "mushroom_diaphaneity") }
+    static var mushroom_magnetism: String { return LocalizationManager.shared.localizedString(for: "mushroom_magnetism") }
+    static var mushroom_streak: String { return LocalizationManager.shared.localizedString(for: "mushroom_streak") }
+    static var mushroom_tenacity: String { return LocalizationManager.shared.localizedString(for: "mushroom_tenacity") }
+    static var mushroom_cleavage: String { return LocalizationManager.shared.localizedString(for: "mushroom_cleavage") }
+    static var mushroom_fracture: String { return LocalizationManager.shared.localizedString(for: "mushroom_fracture") }
+    static var mushroom_durability_rating: String { return LocalizationManager.shared.localizedString(for: "mushroom_durability_rating") }
+    static var mushroom_scratch_resistance: String { return LocalizationManager.shared.localizedString(for: "mushroom_scratch_resistance") }
+    static var mushroom_toughness: String { return LocalizationManager.shared.localizedString(for: "mushroom_toughness") }
+    static var mushroom_stability: String { return LocalizationManager.shared.localizedString(for: "mushroom_stability") }
+    static var mushroom_care_instructions: String { return LocalizationManager.shared.localizedString(for: "mushroom_care_instructions") }
+    static var mushroom_light: String { return LocalizationManager.shared.localizedString(for: "mushroom_light") }
+    static var mushroom_temperature: String { return LocalizationManager.shared.localizedString(for: "mushroom_temperature") }
+    static var mushroom_price_information: String { return LocalizationManager.shared.localizedString(for: "mushroom_price_information") }
+    static var mushroom_per_carat: String { return LocalizationManager.shared.localizedString(for: "mushroom_per_carat") }
+    static var mushroom_per_pound: String { return LocalizationManager.shared.localizedString(for: "mushroom_per_pound") }
+    static var mushroom_metaphysical_properties: String { return LocalizationManager.shared.localizedString(for: "mushroom_metaphysical_properties") }
+    static var mushroom_chakra_root: String { return LocalizationManager.shared.localizedString(for: "mushroom_chakra_root") }
+    static var mushroom_chakra_sacral: String { return LocalizationManager.shared.localizedString(for: "mushroom_chakra_sacral") }
+    static var mushroom_chakra_solar: String { return LocalizationManager.shared.localizedString(for: "mushroom_chakra_solar") }
+    static var mushroom_chakra_heart: String { return LocalizationManager.shared.localizedString(for: "mushroom_chakra_heart") }
+    static var mushroom_chakra_throat: String { return LocalizationManager.shared.localizedString(for: "mushroom_chakra_throat") }
+    static var mushroom_chakra_third_eye: String { return LocalizationManager.shared.localizedString(for: "mushroom_chakra_third_eye") }
+    static var mushroom_chakra_crown: String { return LocalizationManager.shared.localizedString(for: "mushroom_chakra_crown") }
+    static var mushroom_quality_tranquillity: String { return LocalizationManager.shared.localizedString(for: "mushroom_quality_tranquillity") }
+    static var mushroom_quality_grounding: String { return LocalizationManager.shared.localizedString(for: "mushroom_quality_grounding") }
+    static var mushroom_quality_protection: String { return LocalizationManager.shared.localizedString(for: "mushroom_quality_protection") }
+    static var mushroom_quality_healing: String { return LocalizationManager.shared.localizedString(for: "mushroom_quality_healing") }
+    static var mushroom_quality_clarity: String { return LocalizationManager.shared.localizedString(for: "mushroom_quality_clarity") }
+    static var mushroom_quality_spiritual: String { return LocalizationManager.shared.localizedString(for: "mushroom_quality_spiritual") }
+    static var mushroom_quality_energy: String { return LocalizationManager.shared.localizedString(for: "mushroom_quality_energy") }
+    static var mushroom_quality_prosperity: String { return LocalizationManager.shared.localizedString(for: "mushroom_quality_prosperity") }
+    static var mushroom_quality_balance: String { return LocalizationManager.shared.localizedString(for: "mushroom_quality_balance") }
+    static var mushroom_quality_love: String { return LocalizationManager.shared.localizedString(for: "mushroom_quality_love") }
+    static var mushroom_enhancing: String { return LocalizationManager.shared.localizedString(for: "mushroom_enhancing") }
+    static var mushroom_charging: String { return LocalizationManager.shared.localizedString(for: "mushroom_charging") }
+    static var mushroom_cleansing: String { return LocalizationManager.shared.localizedString(for: "mushroom_cleansing") }
     
     static var profile_error_load_more_data: String { return LocalizationManager.shared.localizedString(for: "profile_error_load_more_data") }
     static var profile_error_load_wishlist: String { return LocalizationManager.shared.localizedString(for: "profile_error_load_wishlist") }

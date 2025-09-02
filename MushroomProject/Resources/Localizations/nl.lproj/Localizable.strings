@@ -62,8 +62,8 @@
 "home_action_identify" = "Identificeren";
 "home_action_record" = "Opnemen";
 "home_action_ai_beautify" = "AI Verfraaiing";
-"home_your_daily_stone" = "Je Dagelijkse Vogel";
-"home_stones_near_you" = "Vogels Bij Jou in de Buurt";
+"home_your_daily_mushroom" = "Je Dagelijkse Vogel";
+"home_mushrooms_near_you" = "Vogels Bij Jou in de Buurt";
 "home_app_usage_title" = "App gebruiksinstructies";
 "home_app_usage_desc" = "Helpt je sneller bekend te raken met ons.";
 
@@ -154,7 +154,7 @@
 "instruction_step_5" = "5. Slechts één soort per afbeelding. Te veel vogels in de afbeelding kunnen leiden tot een onjuiste identificatie.";
 "instruction_identify" = "Identificeren"; 
 
-"stone_info_more" = "Meer>>";
+"mushroom_info_more" = "Meer>>";
 
 // MARK: - Identification "profile_privileges" = "Privileges";
 // MARK: - Purchase
@@ -203,7 +203,7 @@
 "microphone_permission_button" = "Toestaan";
 
 // Mushroom Season
-"stone_visible_year_round" = "Het hele jaar";
+"mushroom_visible_year_round" = "Het hele jaar";
 "convert_cancel_notice" = "Je hoeft niet te betalen als je het abonnement minstens een dag voor het einde van de 7-daagse gratis proefperiode opzegt.";
 "retain_price_then" = "Dan ";
 "retain_price_year_cancel" = "/jaar. Altijd opzegbaar.";
@@ -228,18 +228,18 @@
 "profile_no_more_data" = "Geen gegevens meer";
 
 // MARK: - Mushroom Info Section
-"stone_usage" = "Gebruik";
-"stone_health_risks" = "Gezondheidsrisico's";
-"stone_original_vs_fake" = "Authenticatie";
-"stone_storage" = "Opslag";
-"stone_cleaning_tips" = "Schoonmaaktips";
-"stone_chemical_formula" = "Chemische formule";
-"stone_chemical_classification" = "Chemische classificatie";
-"stone_crystal_system" = "Kristalsysteem";
-"stone_hardness" = "Hardheid";
-"stone_density" = "Dichtheid";
-"stone_chemical_elements" = "Chemische elementen";
-"stone_estimated_value" = "Geschatte waarde";
+"mushroom_usage" = "Gebruik";
+"mushroom_health_risks" = "Gezondheidsrisico's";
+"mushroom_original_vs_fake" = "Authenticatie";
+"mushroom_storage" = "Opslag";
+"mushroom_cleaning_tips" = "Schoonmaaktips";
+"mushroom_chemical_formula" = "Chemische formule";
+"mushroom_chemical_classification" = "Chemische classificatie";
+"mushroom_crystal_system" = "Kristalsysteem";
+"mushroom_hardness" = "Hardheid";
+"mushroom_density" = "Dichtheid";
+"mushroom_chemical_elements" = "Chemische elementen";
+"mushroom_estimated_value" = "Geschatte waarde";
 "metal_detector_tips_content" = "Dit gereedschap wordt aangedreven door de magnetische sensor die is ingebouwd in uw mobiele telefoon. Deze detector werkt met magnetische rotsen of mineralen, zoals magnetiet, pyrrotine en meteoriet. Het kan ook metaal detecteren dat voornamelijk bestaat uit ijzer, kobalt of nikkel. Omdat de magnetische sensor op elke mobiele telefoon anders is geplaatst, beweeg het detecterende object rond uw telefoon om de beste gevoeligheid te vinden en een duidelijke aflezing op de wijzerplaat te krijgen. De aflezing van de wijzerplaat geeft de sterkte van uw gedetecteerde object aan; het vertegenwoordigt niet de exacte waarde van magnetisme.";
 "add_to_collection" = "Toevoegen aan mijn collectie";
 

@@ -62,8 +62,8 @@
 "home_action_identify" = "Identificar";
 "home_action_record" = "Grabar";
 "home_action_ai_beautify" = "Embellecimiento IA";
-"home_your_daily_stone" = "Tu Ave Diaria";
-"home_stones_near_you" = "Aves Cerca de Ti";
+"home_your_daily_mushroom" = "Tu Ave Diaria";
+"home_mushrooms_near_you" = "Aves Cerca de Ti";
 "home_app_usage_title" = "Instrucciones de uso de la aplicación";
 "home_app_usage_desc" = "Te ayudamos a familiarizarte con nosotros más rápidamente.";
 
@@ -131,7 +131,7 @@
 "camera_preview_tip" = "Toma fotos para identificar aves y mantén el sujeto claro al disparar";
 "camera_zoom" = "Zoom";
 "camera_photography_tips" = "Consejos de fotografía";
-"camera_keep_stone_centered" = "Mantén el ave centrada en el marco";
+"camera_keep_mushroom_centered" = "Mantén el ave centrada en el marco";
 "camera_good_image_quality" = "Una buena calidad de imagen puede ayudar a mejorar la precisión de la identificación.";
 "camera_mode_by_photo" = "Por foto";
 "camera_mode_by_sound" = "Por sonido";
@@ -258,7 +258,7 @@
 "valuation_step_identification" = "Identificación";
 "valuation_step_quality_evaluation" = "Evaluación de calidad";
 "valuation_step_market_price_search" = "Búsqueda de precio de mercado";
-"stone_estimated_value" = "Valor estimado";
+"mushroom_estimated_value" = "Valor estimado";
 "metal_detector_tips_content" = "Esta herramienta está alimentada por el sensor magnético que está integrado en su teléfono móvil. Este detector funciona con rocas o minerales magnéticos, como magnetita, pirrotina y meteorito. También puede detectar metal que está compuesto principalmente de hierro, cobalto o níquel. Dado que el sensor magnético está ubicado de manera diferente en cada teléfono móvil, mueva el objeto de detección alrededor de su teléfono para encontrar su mejor sensibilidad y obtener una lectura clara en el indicador. La lectura del indicador indica la fuerza de su objeto detectado; no representa el valor exacto del magnetismo.";
 "valuation_not_found" = "No se encontró ninguna piedra";
 "valuation_camera_tips" = "Las fotos claras y de alta calidad conducen a resultados de valoración más precisos";
@@ -273,7 +273,7 @@
 "microphone_permission_button" = "Permitir";
 
 // Mushroom Season
-"stone_visible_year_round" = "Todo el año";
+"mushroom_visible_year_round" = "Todo el año";
 
 // MARK: - Home Action Types
 "home_action_type_valuation" = "Valoración";
@@ -295,18 +295,18 @@
 "profile_no_more_data" = "No hay más datos";
 
 // MARK: - Mushroom Info Section
-"stone_usage" = "Uso";
-"stone_health_risks" = "Riesgos para la salud";
-"stone_original_vs_fake" = "Autenticación";
-"stone_storage" = "Almacenamiento";
-"stone_cleaning_tips" = "Consejos de limpieza";
-"stone_chemical_formula" = "Fórmula química";
-"stone_chemical_classification" = "Clasificación química";
-"stone_crystal_system" = "Sistema cristalino";
-"stone_hardness" = "Dureza";
-"stone_density" = "Densidad";
-"stone_chemical_elements" = "Elementos químicos";
-"stone_estimated_value" = "Valor estimado";
+"mushroom_usage" = "Uso";
+"mushroom_health_risks" = "Riesgos para la salud";
+"mushroom_original_vs_fake" = "Autenticación";
+"mushroom_storage" = "Almacenamiento";
+"mushroom_cleaning_tips" = "Consejos de limpieza";
+"mushroom_chemical_formula" = "Fórmula química";
+"mushroom_chemical_classification" = "Clasificación química";
+"mushroom_crystal_system" = "Sistema cristalino";
+"mushroom_hardness" = "Dureza";
+"mushroom_density" = "Densidad";
+"mushroom_chemical_elements" = "Elementos químicos";
+"mushroom_estimated_value" = "Valor estimado";
 "add_to_collection" = "Agregar a mi colección";
 
 // MARK: - Additional Missing Keys

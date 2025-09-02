@@ -36,7 +36,7 @@ class RecognizeViewModel: ObservableObject {
     func changeResult(position: Int) {
         self.position = position
         self.currentItem = self.identifyItems[position]
-        self.currentMushroom = self.currentItem!.stone
+        self.currentMushroom = self.currentItem!.mushroom
         self.isInWish = self.currentItem!.isInWishlist
         self.isInFavorite = self.currentMushroom!.isFavorite
     }

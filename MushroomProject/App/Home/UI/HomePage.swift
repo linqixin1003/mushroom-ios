@@ -77,7 +77,7 @@ struct HomePage: View {
                                 self.actionModel.onDailyMushroomClick.send(dailyMushroom.id)
                             }) {
                                 HomeDailyMushroomSectionView(
-                                    stone: dailyMushroom,
+                                    mushroom: dailyMushroom,
                                     collected: self.viewModel.isCollected(id: dailyMushroom.id),
                                     onCollectClick: {
                                         self.actionModel.onDailyMushroomCollectClick.send(dailyMushroom.id)
@@ -94,7 +94,7 @@ struct HomePage: View {
                         }
                         
                         HomeNearMushroomsSectionView(
-                            stones: self.viewModel.nearByMushrooms,
+                            mushrooms: self.viewModel.nearByMushrooms,
                             onMushroomClick: {
                                 self.actionModel.onNearbyMushroomItemClick.send($0.id)
                             },

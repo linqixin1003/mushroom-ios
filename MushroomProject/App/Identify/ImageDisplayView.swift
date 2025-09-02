@@ -7,7 +7,7 @@ struct ImageDisplayView: View {
     let index: Int
     let imageUrls: [String]
     let capturedImage: UIImage?
-    let stone: Mushroom
+    let mushroom: Mushroom
     let actionModel: IdentifyResultActionModel
     
     var body: some View {
@@ -47,7 +47,7 @@ struct ImageDisplayView: View {
 struct ImageTabView: View {
     let imageUrls: [String]
     let capturedImage: UIImage?
-    let stone: Mushroom
+    let mushroom: Mushroom
     let actionModel: IdentifyResultActionModel
     let imageClick:(String, UIImage?) -> Void
     
@@ -67,13 +67,13 @@ struct ImageTabView: View {
                             index: idx,
                             imageUrls: imageUrls,
                             capturedImage: capturedImage,
-                            stone: stone,
+                            mushroom: mushroom,
                             actionModel: actionModel
                         )
                         .onTapGesture {
                             FireBaseEvent.send(
                                 eventName: EventName.resultMainImageClick,
-                                params: [EventParam.uid: self.stone.id, EventParam.index: String(idx)]
+                                params: [EventParam.uid: self.mushroom.id, EventParam.index: String(idx)]
                             )
                             imageClick(url, capturedImage)
                         }

@@ -18,7 +18,7 @@ struct DetailPage: View {
     
     var body: some View {
         AppPage(
-            title: self.viewModel.stone?.name ?? "",
+            title: self.viewModel.mushroom?.name ?? "",
             leftButtonConfig: .init(imageName: "icon_back_24", onClick: {
                 self.actionModel.navBackClick.send()
             }),
@@ -27,14 +27,14 @@ struct DetailPage: View {
             })
         ) {
             VStack(spacing: 0) {
-                if let stone = self.viewModel.stone {
+                if let mushroom = self.viewModel.mushroom {
                     ScrollView {
                         VStack(spacing: 0) {
                             let url: String = {
                                 if self.viewModel.mediaType == .image, let headerUrl = self.viewModel.headerImageUrl {
                                     return headerUrl
                                 } else {
-                                    return stone.images.first ?? ""
+                                    return mushroom.images.first ?? ""
                                 }
                             }()
                             KFImage
@@ -44,14 +44,14 @@ struct DetailPage: View {
                                 .frame(maxWidth:.infinity, minHeight: 280.rpx, maxHeight: 280.rpx)
                                 .clipped()
                                 .onTapGesture {
-                                    FireBaseEvent.send(eventName: EventName.detailMainImageClick, params: [EventParam.uid: stone.id])
+                                    FireBaseEvent.send(eventName: EventName.detailMainImageClick, params: [EventParam.uid: mushroom.id])
                                     self.actionModel.onImageClick.send((0, [url]))
                                 }
                             
                             MushroomSummaryView(
-                                name: stone.name,
-                                description: stone.description ?? "",
-                                tags: (stone.tags ?? []).map { MushroomTag(id: 0, name: $0, slug: $0) }
+                                name: mushroom.name,
+                                description: mushroom.description ?? "",
+                                tags: (mushroom.tags ?? []).map { MushroomTag(id: 0, name: $0, slug: $0) }
                             )
                             .frame(maxWidth: .infinity)
                             .background(Color.white)
@@ -61,48 +61,48 @@ struct DetailPage: View {
                             
                             VStack(spacing: 12.rpx) {
                                 
-                                if !stone.images.isEmpty {
+                                if !mushroom.images.isEmpty {
                                     MushroomImagesSectionView(
-                                        imageUrls: stone.images,
-                                        onMoreClick: stone.images.count <= 2 ? nil : {
-                                            FireBaseEvent.send(eventName: EventName.detailImageMoreClick, params: [EventParam.uid: stone.id])
-                                            self.actionModel.onViewMoreImagesClick.send(stone.images)
+                                        imageUrls: mushroom.images,
+                                        onMoreClick: mushroom.images.count <= 2 ? nil : {
+                                            FireBaseEvent.send(eventName: EventName.detailImageMoreClick, params: [EventParam.uid: mushroom.id])
+                                            self.actionModel.onViewMoreImagesClick.send(mushroom.images)
                                             self.showingMoreImagesPage = true
                                         }) { position, imageUrl in
-                                            FireBaseEvent.send(eventName: EventName.detailMainImageClick, params: [EventParam.uid: stone.id, EventParam.index: String(position)])
+                                            FireBaseEvent.send(eventName: EventName.detailMainImageClick, params: [EventParam.uid: mushroom.id, EventParam.index: String(position)])
                                             self.actionModel.onImageClick.send((position, imageUrl))
                                         }
                                 }
                                 
                                 // 化学属性区域
-                                MushroomChemicalPropertiesSectionView(stone: stone)
+                                MushroomChemicalPropertiesSectionView(mushroom: mushroom)
                                 
                                 // 物理属性区域
-                                MushroomPhysicalPropertiesSectionView(stone: stone)
+                                MushroomPhysicalPropertiesSectionView(mushroom: mushroom)
                                 
                                 // 护理说明区域
-                                if !(stone.storage ?? "").isEmpty || !(stone.cleaningTips ?? "").isEmpty {
-                                    MushroomCareInstructionsSectionView(stone: stone)
+                                if !(mushroom.storage ?? "").isEmpty || !(mushroom.cleaningTips ?? "").isEmpty {
+                                    MushroomCareInstructionsSectionView(mushroom: mushroom)
                                 }
                                 
                                 // 价格信息区域
-                                if stone.pricePerCaratFrom != nil || stone.pricePerPoundFrom != nil {
-                                    MushroomPriceSectionView(stone: stone)
+                                if mushroom.pricePerCaratFrom != nil || mushroom.pricePerPoundFrom != nil {
+                                    MushroomPriceSectionView(mushroom: mushroom)
                                 }
                                 
                                 // 形而上学属性区域
-                                if (stone.showMetaphysical ?? false) {
-                                    MushroomMetaphysicalSectionView(stone: stone)
+                                if (mushroom.showMetaphysical ?? false) {
+                                    MushroomMetaphysicalSectionView(mushroom: mushroom)
                                 }
                                 
                                 // FAQ区域
-                                if stone.faqs?.isEmpty == false {
-                                    MushroomFAQSectionView(stone: stone)
+                                if mushroom.faqs?.isEmpty == false {
+                                    MushroomFAQSectionView(mushroom: mushroom)
                                 }
                                 
                                 // 用途和健康信息区域
-                                if !(stone.usage ?? "").isEmpty || (stone.healthRisks?.isEmpty == false) {
-                                    MushroomUsageSectionView(stone: stone)
+                                if !(mushroom.usage ?? "").isEmpty || (mushroom.healthRisks?.isEmpty == false) {
+                                    MushroomUsageSectionView(mushroom: mushroom)
                                 }
                             }
                             
@@ -120,23 +120,23 @@ struct DetailPage: View {
                 ) { type in
                     switch type {
                     case .new:
-                        if let stone = self.viewModel.stone {
-                            FireBaseEvent.send(eventName: EventName.detailRetakeClick, params: [EventParam.uid: stone.id])
+                        if let mushroom = self.viewModel.mushroom {
+                            FireBaseEvent.send(eventName: EventName.detailRetakeClick, params: [EventParam.uid: mushroom.id])
                         }
                         self.actionModel.bottomActionClick.send(type)
                     case .addWish:
-                        if let stone = self.viewModel.stone {
-                            FireBaseEvent.send(eventName: EventName.detailWishClick, params: [EventParam.uid: stone.id])
+                        if let mushroom = self.viewModel.mushroom {
+                            FireBaseEvent.send(eventName: EventName.detailWishClick, params: [EventParam.uid: mushroom.id])
                         }
                         self.actionModel.bottomActionClick.send(type)
                     case .save:
-                        if let stone = self.viewModel.stone {
-                            FireBaseEvent.send(eventName: EventName.detailSaveClick, params: [EventParam.uid: stone.id])
+                        if let mushroom = self.viewModel.mushroom {
+                            FireBaseEvent.send(eventName: EventName.detailSaveClick, params: [EventParam.uid: mushroom.id])
                         }
                         self.actionModel.bottomActionClick.send(type)
                     case .share:
-                        if let stone = self.viewModel.stone {
-                            FireBaseEvent.send(eventName: EventName.detailShareClick, params: [EventParam.uid: stone.id])
+                        if let mushroom = self.viewModel.mushroom {
+                            FireBaseEvent.send(eventName: EventName.detailShareClick, params: [EventParam.uid: mushroom.id])
                         }
                         self.actionModel.bottomActionClick.send(type)
                     }
@@ -144,7 +144,7 @@ struct DetailPage: View {
             }
         }
         .fullScreenCover(isPresented: $showingMoreImagesPage) {
-            if let imageUrls = self.viewModel.stone?.images {
+            if let imageUrls = self.viewModel.mushroom?.images {
                 MoreImagePage(imageUrls: imageUrls, onCloseClick: {
                     self.showingMoreImagesPage = false
                 }, onImageClick: { index in

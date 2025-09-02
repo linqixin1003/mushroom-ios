@@ -36,6 +36,6 @@ struct SearchMushroomRequest: RequestProtocol {
 
 struct SearchMushroomResponse: Codable {
     let total: Int
-    let stones: [SimpleMushroom]
+    let mushrooms: [SimpleMushroom]
 }
 

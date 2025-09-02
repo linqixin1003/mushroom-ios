@@ -5,7 +5,7 @@ import Foundation
 // 心愿单项目 - 参考Android WishRecord结构
 struct WishListItem: Codable, Identifiable {
     let id: Int
-    let stoneId: String
+    let mushroomId: String
     let name: String
     let description: String
     let photoUrl: String
@@ -17,7 +17,7 @@ struct WishListItem: Codable, Identifiable {
     
     enum CodingKeys: String, CodingKey {
         case id
-        case stoneId = "stone_id"
+        case mushroomId = "mushroom_id"
         case name
         case description
         case photoUrl = "photo_url"
@@ -39,7 +39,7 @@ struct WishTag: Codable, Identifiable {
 // 本地心愿单项目（用于本地存储）
 struct LocalWishListItem: Codable, Identifiable {
     let id: String
-    let stoneId: String
+    let mushroomId: String
     let name: String
     let imageUrl: String
     let description: String
@@ -53,7 +53,7 @@ struct LocalWishListItem: Codable, Identifiable {
     static func from(_ item: WishListItem) -> LocalWishListItem {
         return LocalWishListItem(
             id: String(item.id),
-            stoneId: item.stoneId,
+            mushroomId: item.mushroomId,
             name: item.name,
             imageUrl: item.photoUrl,
             description: item.description,

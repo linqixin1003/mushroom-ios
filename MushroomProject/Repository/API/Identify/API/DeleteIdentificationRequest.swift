@@ -16,7 +16,7 @@ struct DeleteIdentificationRequest: RequestProtocol {
     }
     
     var path: String {
-        return "api/stones/identifications?identification_id="+identifyId
+        return "api/mushrooms/identifications?identification_id="+identifyId
     }
     
     var needAuth: Bool {

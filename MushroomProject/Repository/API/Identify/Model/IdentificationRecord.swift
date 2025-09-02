@@ -2,7 +2,7 @@
 struct IdentificationRecord: Codable {
     let id: Int
     let userId: String
-    let stoneId: String
+    let mushroomId: String
     let name: String
     let imageUrl: String
     let confidence: Double
@@ -12,7 +12,7 @@ struct IdentificationRecord: Codable {
     enum CodingKeys: String, CodingKey {
         case id
         case userId = "user_id"
-        case stoneId = "stone_id"
+        case mushroomId = "mushroom_id"
         case name
         case imageUrl = "image_url"
         case confidence

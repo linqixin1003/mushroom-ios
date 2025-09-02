@@ -50,7 +50,7 @@ struct WishListItemView: View {
                 
                 // 估值信息
                 if let estimatedValue = item.estimatedValue, !estimatedValue.isEmpty {
-                    Text("\(Language.stone_estimated_value): \(estimatedValue)")
+                    Text("\(Language.mushroom_estimated_value): \(estimatedValue)")
                         .font(.system(size: 12))
                         .foregroundColor(.gray)
                         .lineLimit(1)
@@ -100,7 +100,7 @@ struct WishListItemView_Previews: PreviewProvider {
         WishListItemView(
             item: LocalWishListItem(
                 id: "1",
-                stoneId: "stone_001",
+                mushroomId: "mushroom_001",
                 name: "Amethyst",
                 imageUrl: "https://example.com/amethyst.jpg",
                 description: "A beautiful purple quartz with high collectible value.",

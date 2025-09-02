@@ -106,8 +106,8 @@ class DetailViewController: BaseHostingViewController<DetailPage> {
     
     /// 处理保存收藏操作
     private func handleSaveAction() {
-        guard let stone = viewModel.stone else {
-            ToastUtil.showToast(Language.detail_stone_loading)
+        guard let mushroom = viewModel.mushroom else {
+            ToastUtil.showToast(Language.detail_mushroom_loading)
             return
         }
         if !viewModel.canCollection() {
@@ -135,9 +135,9 @@ class DetailViewController: BaseHostingViewController<DetailPage> {
             }
         }
         
-//        let simpleMushroom = stone.toSimpleMushroom()
+//        let simpleMushroom = mushroom.toSimpleMushroom()
 //
-//        LocalRecordItem.addToCollectionOnly(stone: simpleMushroom) { [weak self] success in
+//        LocalRecordItem.addToCollectionOnly(mushroom: simpleMushroom) { [weak self] success in
 //            DispatchQueue.main.async {
 //                if success {
 //                    ToastUtil.showToast("Added to collection successfully")
@@ -152,15 +152,15 @@ class DetailViewController: BaseHostingViewController<DetailPage> {
     
     /// 处理添加到心愿单操作
     private func handleAddWishAction() {
-        guard let stone = viewModel.stone else {
-            ToastUtil.showToast(Language.detail_stone_loading_wait)
+        guard let mushroom = viewModel.mushroom else {
+            ToastUtil.showToast(Language.detail_mushroom_loading_wait)
             return
         }
         
         if (viewModel.isInWish) {
             Task {
                 do {
-                    let req = DeleteWishRequest(stoneId: stone.id)
+                    let req = DeleteWishRequest(mushroomId: mushroom.id)
                     let result: DeleteWishResponse? = try await ApiRequest.requestAsync(request: req)
                     
                     DispatchQueue.main.async {
@@ -182,7 +182,7 @@ class DetailViewController: BaseHostingViewController<DetailPage> {
         } else {
             Task {
                 do {
-                    let req = AddToWishListRequest(stoneId: stone.id)
+                    let req = AddToWishListRequest(mushroomId: mushroom.id)
                     let result: AddToWishListResponse? = try await ApiRequest.requestAsync(request: req)
                     
                     DispatchQueue.main.async {
@@ -218,14 +218,14 @@ class DetailViewController: BaseHostingViewController<DetailPage> {
      
      /// 处理分享操作
      private func handleShareAction() {
-         guard let stone = viewModel.stone else {
-             ToastUtil.showToast(Language.detail_stone_loading)
+         guard let mushroom = viewModel.mushroom else {
+             ToastUtil.showToast(Language.detail_mushroom_loading)
              return
          }
          
          // 使用头图（第一张图片）和石头名称
-         let imageUrl = stone.images.first
-         let shareText = stone.name
+         let imageUrl = mushroom.images.first
+         let shareText = mushroom.name
          
          let shareData = ShareData(
              imageUrl: imageUrl,

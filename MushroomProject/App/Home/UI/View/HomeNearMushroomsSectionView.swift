@@ -2,14 +2,14 @@ import SwiftUI
 import Kingfisher
 
 struct HomeNearMushroomsSectionView: View {
-    let stones: [SimpleMushroom]
+    let mushrooms: [SimpleMushroom]
     let onMushroomClick: (SimpleMushroom) -> Void
     let onViewAllClick: () -> Void
     
     var body: some View {
         VStack(alignment: .leading, spacing: 6.rpx) {
             HStack {
-                Text(Language.home_stones_near_you)
+                Text(Language.home_mushrooms_near_you)
                     .font(.system(size: 16.rpx, weight: .semibold))
                     .lineSpacing(4.rpx)
                     .foregroundColor(Color(hex: 0x131C1B))
@@ -34,7 +34,7 @@ struct HomeNearMushroomsSectionView: View {
             .padding(.horizontal, HomePageHorizontalPadding)
             
             HomeNearMushroomsView(
-                stones: self.stones,
+                mushrooms: self.mushrooms,
                 onMushroomClick: self.onMushroomClick
             )
         }
@@ -42,7 +42,7 @@ struct HomeNearMushroomsSectionView: View {
 }
 
 struct HomeNearMushroomsView: View {
-    let stones: [SimpleMushroom]
+    let mushrooms: [SimpleMushroom]
     let onMushroomClick: (SimpleMushroom) -> Void
     
     var body: some View {
@@ -51,10 +51,10 @@ struct HomeNearMushroomsView: View {
                 Spacer()
                     .frame(height: 8.rpx)
                 
-                ForEach(self.stones) { stone in
-                    HomeNearMushroomItem(stone: stone)
+                ForEach(self.mushrooms) { mushroom in
+                    HomeNearMushroomItem(mushroom: mushroom)
                         .onTapGesture {
-                            self.onMushroomClick(stone)
+                            self.onMushroomClick(mushroom)
                         }
                 }
                 
@@ -66,12 +66,12 @@ struct HomeNearMushroomsView: View {
 }
 
 struct HomeNearMushroomItem: View {
-    let stone: SimpleMushroom
+    let mushroom: SimpleMushroom
     
     var body: some View {
         ZStack(alignment: .bottom) {
             KFImage
-                .url(URL(string: self.stone.photoUrl ?? ""))
+                .url(URL(string: self.mushroom.photoUrl ?? ""))
                 .placeholder {
                     Image("icon_nearby_placeholder")
                         .resizable()
@@ -84,7 +84,7 @@ struct HomeNearMushroomItem: View {
                 .clipped()
             
             HStack(spacing: 16.rpx) {
-                Text(self.stone.name)
+                Text(self.mushroom.name)
                     .font(.system(size: 12.rpx, weight: .regular))
                     .foregroundColor(Color(hex: 0xFFFFFF))
                     .lineLimit(2)

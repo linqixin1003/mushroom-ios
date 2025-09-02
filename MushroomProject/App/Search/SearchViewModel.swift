@@ -21,7 +21,7 @@ class SearchViewModel: ObservableObject {
             let result = await ItemRepository.searchAsync(query: query)
             isLoading = false
             await MainActor.run {
-                self.searchResults = result?.stones ?? []
+                self.searchResults = result?.mushrooms ?? []
             }
         }
     }

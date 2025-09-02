@@ -7,7 +7,7 @@ class DetailViewModel: ObservableObject {
     var headerImageUrl: String? = nil
     var mediaType: LocalRecordType? = nil
     
-    @Published var stone: Mushroom? = nil
+    @Published var mushroom: Mushroom? = nil
     @Published var isInWish: Bool = false
     @Published var isInFavorite: Bool = false
     var identificationId:Int? = nil
@@ -18,7 +18,7 @@ class DetailViewModel: ObservableObject {
     func loadData() {
         LoadingUtil.showLoading()
         Task {
-            let req = GetDetailRequest(stoneId: self.id, language: "en")
+            let req = GetDetailRequest(mushroomId: self.id, language: "en")
             let result: GetDetailResponse? = try? await ApiRequest.requestAsync(request: req)
             await MainActor.run {
                 LoadingUtil.dismiss()
@@ -26,10 +26,10 @@ class DetailViewModel: ObservableObject {
                     ToastUtil.showToast(Language.text_common_error_try_again)
                     return
                 }
-                self.stone = result.stone
+                self.mushroom = result.mushroom
                 self.isInWish = result.isInWishlist
-                self.isInFavorite = result.stone.isFavorite
-                print("🔍 Mushroom isFavorite from server: \(result.stone.isFavorite)")
+                self.isInFavorite = result.mushroom.isFavorite
+                print("🔍 Mushroom isFavorite from server: \(result.mushroom.isFavorite)")
                 print("🔍 Mushroom isInWish from server: \(result.isInWishlist)")
             }
         }

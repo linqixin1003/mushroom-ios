@@ -48,8 +48,8 @@ struct IdentifyResultPage: View {
                     Spacer()
                         .frame(height: 30.rpx)
                     
-                    if let stone = viewModel.identifyResult?.stone {
-                        Text(stone.name)
+                    if let mushroom = viewModel.identifyResult?.mushroom {
+                        Text(mushroom.name)
                             .font(.regular(14.rpx))
                             .lineSpacing(2.rpx)
                             .foregroundColor(.appTextLight)

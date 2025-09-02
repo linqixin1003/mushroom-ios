@@ -63,8 +63,8 @@
 "home_action_identify" = "Identifiser";
 "home_action_record" = "Ta opp";
 "home_action_ai_beautify" = "AI Forskjønnelse";
-"home_your_daily_stone" = "Din Daglige Fugl";
-"home_stones_near_you" = "Fugler Nær Deg";
+"home_your_daily_mushroom" = "Din Daglige Fugl";
+"home_mushrooms_near_you" = "Fugler Nær Deg";
 "home_app_usage_title" = "App bruksinstruksjoner";
 "home_app_usage_desc" = "Vi hjelper deg å bli kjent med oss raskere.";
 
@@ -149,7 +149,7 @@
 "camera_preview_tip" = "Ta bilder for å identifisere fugler og hold motivet klart når du tar bildet";
 "camera_zoom" = "Zoom";
 "camera_photography_tips" = "Fotograferingstips";
-"camera_keep_stone_centered" = "Hold fuglen sentrert i rammen";
+"camera_keep_mushroom_centered" = "Hold fuglen sentrert i rammen";
 "camera_good_image_quality" = "God bildekvalitet kan hjelpe med å forbedre identifikasjonsøyaktigheten.";
 "camera_mode_by_photo" = "Med foto";
 "camera_mode_by_sound" = "Med lyd";
@@ -179,21 +179,21 @@
 "instruction_identify" = "Identifiser";
 
 // MARK: - Mushroom Info Section
-"stone_usage" = "Bruk";
-"stone_health_risks" = "Helserisiko";
-"stone_original_vs_fake" = "Autentisering";
-"stone_storage" = "Lagring";
-"stone_cleaning_tips" = "Rengjøringstips";
-"stone_chemical_formula" = "Kjemisk formel";
-"stone_chemical_classification" = "Kjemisk klassifisering";
-"stone_crystal_system" = "Krystallsystem";
-"stone_hardness" = "Hardhet";
-"stone_density" = "Tetthet";
-"stone_chemical_elements" = "Kjemiske elementer";
-"stone_estimated_value" = "Estimert verdi";
+"mushroom_usage" = "Bruk";
+"mushroom_health_risks" = "Helserisiko";
+"mushroom_original_vs_fake" = "Autentisering";
+"mushroom_storage" = "Lagring";
+"mushroom_cleaning_tips" = "Rengjøringstips";
+"mushroom_chemical_formula" = "Kjemisk formel";
+"mushroom_chemical_classification" = "Kjemisk klassifisering";
+"mushroom_crystal_system" = "Krystallsystem";
+"mushroom_hardness" = "Hardhet";
+"mushroom_density" = "Tetthet";
+"mushroom_chemical_elements" = "Kjemiske elementer";
+"mushroom_estimated_value" = "Estimert verdi";
 "metal_detector_tips_content" = "Dette verktøyet drives av den magnetiske sensoren som er bygget inn i mobiltelefonen din. Denne detektoren fungerer med magnetiske steiner eller mineraler, som magnetitt, pyrrotin og meteoritt. Den kan også oppdage metall som hovedsakelig består av jern, kobolt eller nikkel. Siden den magnetiske sensoren er plassert forskjellig på hver mobiltelefon, flytt det detekterende objektet rundt telefonen din for å finne dens beste følsomhet og få en klar avlesning på urskiven. Avlesningen på urskiven indikerer styrken til det detekterte objektet ditt; den representerer ikke den nøyaktige verdien av magnetisme.";
 "add_to_collection" = "Legg til i min samling";
-"stone_info_more" = "Mer>>";
+"mushroom_info_more" = "Mer>>";
 
 // MARK: - ConvertPage
 "convert_title" = "MushroomAI Snap";
@@ -259,7 +259,7 @@
 "valuation_step_identification" = "Identifikasjon";
 "valuation_step_quality_evaluation" = "Kvalitetsvurdering";
 "valuation_step_market_price_search" = "Søk etter markedspris";
-"stone_estimated_value" = "Estimert verdi";
+"mushroom_estimated_value" = "Estimert verdi";
 "valuation_not_found" = "Ingen stein funnet";
 "valuation_camera_tips" = "Klare bilder av høy kvalitet fører til mer nøyaktige verdivurderingsresultater";
 
@@ -309,7 +309,7 @@
 "microphone_permission_button" = "Tillat";
 
 // MARK: - Mushroom Season
-"stone_visible_year_round" = "Året rundt";
+"mushroom_visible_year_round" = "Året rundt";
 
 // MARK: - Additional Missing Keys
 "subscription_cancel_notice" = "Du trenger ikke å betale hvis du avbryter abonnementet minst en dag før den 7-dagers gratis prøveperioden slutter.";

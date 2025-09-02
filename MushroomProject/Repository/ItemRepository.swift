@@ -18,8 +18,8 @@ class ItemRepository {
         return try? await ApiRequest.requestAsync(request: req)
     }
     
-    public static func getDetailAsync(stoneId: String, language: String = "en") async -> GetDetailResponse? {
-        let req = GetDetailRequest(stoneId: stoneId, language: language)
+    public static func getDetailAsync(mushroomId: String, language: String = "en") async -> GetDetailResponse? {
+        let req = GetDetailRequest(mushroomId: mushroomId, language: language)
         return try? await ApiRequest.requestAsync(request: req)
     }
     

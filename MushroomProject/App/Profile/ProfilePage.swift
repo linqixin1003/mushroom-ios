@@ -431,7 +431,7 @@ struct ProfilePage_Previews: PreviewProvider {
                 createdAt: "2024-03-10T10:00:00Z",
                 confidence: 0.95,
                 latinName: "Turdus merula",
-                commonName: "Eurasian Blackstone",
+                commonName: "Eurasian Blackmushroom",
                 mediaUrl: "https://images.pexels.com/photos/1661179/pexels-photo-1661179.jpeg"
             ),
             LocalRecordItem(

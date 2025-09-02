@@ -1,20 +1,20 @@
 import SwiftUI
 
 struct MushroomInfoSectionView: View {
-    let stone: Mushroom
+    let mushroom: Mushroom
     
     // 检查是否有任何详细信息
     private var hasAnyDetailedInfo: Bool {
-        let hasCharacteristics = !(stone.description ?? "").isEmpty ||
-                                !(stone.usage ?? "").isEmpty ||
-                                (stone.healthRisks?.isEmpty == false) ||
-                                !(stone.originalVsFake ?? "").isEmpty ||
-                                !(stone.storage ?? "").isEmpty
+        let hasCharacteristics = !(mushroom.description ?? "").isEmpty ||
+                                !(mushroom.usage ?? "").isEmpty ||
+                                (mushroom.healthRisks?.isEmpty == false) ||
+                                !(mushroom.originalVsFake ?? "").isEmpty ||
+                                !(mushroom.storage ?? "").isEmpty
         
-        let hasClassification = !(stone.chemicalFormula ?? "").isEmpty ||
-                               !(stone.chemicalClassification ?? "").isEmpty ||
-                               !(stone.crystalSystem ?? "").isEmpty ||
-                               !(stone.hardness ?? "").isEmpty
+        let hasClassification = !(mushroom.chemicalFormula ?? "").isEmpty ||
+                               !(mushroom.chemicalClassification ?? "").isEmpty ||
+                               !(mushroom.crystalSystem ?? "").isEmpty ||
+                               !(mushroom.hardness ?? "").isEmpty
         
         return hasCharacteristics || hasClassification
     }
@@ -23,10 +23,10 @@ struct MushroomInfoSectionView: View {
         if hasAnyDetailedInfo {
             VStack(spacing: 12.rpx) {
                 // Characteristics 特征部分
-                MushroomCharacteristicsSection(stone: stone)
+                MushroomCharacteristicsSection(mushroom: mushroom)
                 
                 // Chemical classification 化学分类部分
-                MushroomChemicalClassificationSection(stone: stone)
+                MushroomChemicalClassificationSection(mushroom: mushroom)
             }
             .background(Color.clear)
         } else {
@@ -36,12 +36,12 @@ struct MushroomInfoSectionView: View {
                     .foregroundColor(.gray.opacity(0.6))
                     .font(.system(size: 24))
                 
-                Text(Language.stone_info_detailed_not_available)
+                Text(Language.mushroom_info_detailed_not_available)
                     .font(.medium(16.rpx))
                     .foregroundColor(.gray)
                     .multilineTextAlignment(.center)
                 
-                Text(Language.stone_info_additional_characteristics)
+                Text(Language.mushroom_info_additional_characteristics)
                     .font(.regular(13.rpx))
                     .foregroundColor(.gray.opacity(0.8))
                     .multilineTextAlignment(.center)
@@ -58,16 +58,16 @@ struct MushroomInfoSectionView: View {
 
 // MARK: - Mushroom Characteristics Section
 struct MushroomCharacteristicsSection: View {
-    let stone: Mushroom
+    let mushroom: Mushroom
     
     // 检查是否有任何特征信息
     private var hasCharacteristics: Bool {
-        return !(stone.description ?? "").isEmpty ||
-               !(stone.usage ?? "").isEmpty ||
-               (stone.healthRisks?.isEmpty == false) ||
-               !(stone.originalVsFake ?? "").isEmpty ||
-               !(stone.storage ?? "").isEmpty ||
-               !(stone.cleaningTips ?? "").isEmpty
+        return !(mushroom.description ?? "").isEmpty ||
+               !(mushroom.usage ?? "").isEmpty ||
+               (mushroom.healthRisks?.isEmpty == false) ||
+               !(mushroom.originalVsFake ?? "").isEmpty ||
+               !(mushroom.storage ?? "").isEmpty ||
+               !(mushroom.cleaningTips ?? "").isEmpty
     }
     	
     var body: some View {
@@ -75,39 +75,39 @@ struct MushroomCharacteristicsSection: View {
         if hasCharacteristics {
             VStack(alignment: .leading, spacing: 20.rpx) {
                 // 标题
-                Text(Language.stone_info_characteristics)
+                Text(Language.mushroom_info_characteristics)
                     .font(.semibold(16.rpx))
                     .foregroundColor(.appText)
                 
                 VStack(alignment: .leading, spacing: 20.rpx) {
                     // 详细描述
-                    if !(stone.description ?? "").isEmpty {
-                        ExpandableCharacteristicItem(title: Language.text_description, content: stone.description ?? "")
+                    if !(mushroom.description ?? "").isEmpty {
+                        ExpandableCharacteristicItem(title: Language.text_description, content: mushroom.description ?? "")
                     }
                     
                     // 用途
-                    if !(stone.usage ?? "").isEmpty {
-                        ExpandableCharacteristicItem(title: Language.stone_usage, content: stone.usage ?? "")
+                    if !(mushroom.usage ?? "").isEmpty {
+                        ExpandableCharacteristicItem(title: Language.mushroom_usage, content: mushroom.usage ?? "")
                     }
                     
                     // 健康风险
-                    if let risks = stone.healthRisks, !risks.isEmpty {
-                        ExpandableCharacteristicItem(title: Language.stone_health_risks, content: risks)
+                    if let risks = mushroom.healthRisks, !risks.isEmpty {
+                        ExpandableCharacteristicItem(title: Language.mushroom_health_risks, content: risks)
                     }
                     
                     // 真伪鉴别
-                    if !(stone.originalVsFake ?? "").isEmpty {
-                        ExpandableCharacteristicItem(title: Language.stone_original_vs_fake, content: stone.originalVsFake ?? "")
+                    if !(mushroom.originalVsFake ?? "").isEmpty {
+                        ExpandableCharacteristicItem(title: Language.mushroom_original_vs_fake, content: mushroom.originalVsFake ?? "")
                     }
                     
                     // 存储方法
-                    if !(stone.storage ?? "").isEmpty {
-                        ExpandableCharacteristicItem(title: Language.stone_storage, content: stone.storage ?? "")
+                    if !(mushroom.storage ?? "").isEmpty {
+                        ExpandableCharacteristicItem(title: Language.mushroom_storage, content: mushroom.storage ?? "")
                     }
                     
                     // 清洁技巧
-                    if !(stone.cleaningTips ?? "").isEmpty {
-                        ExpandableCharacteristicItem(title: Language.stone_cleaning_tips, content: stone.cleaningTips ?? "")
+                    if !(mushroom.cleaningTips ?? "").isEmpty {
+                        ExpandableCharacteristicItem(title: Language.mushroom_cleaning_tips, content: mushroom.cleaningTips ?? "")
                     }
                 }
             }
@@ -141,15 +141,15 @@ struct CharacteristicItem: View {
 
 // MARK: - Mushroom Chemical Classification Section
 struct MushroomChemicalClassificationSection: View {
-    let stone: Mushroom
+    let mushroom: Mushroom
     
     // 检查是否有任何化学分类信息
     private var hasClassificationInfo: Bool {
-        return !(stone.chemicalFormula ?? "").isEmpty ||
-               !(stone.chemicalClassification ?? "").isEmpty ||
-               !(stone.crystalSystem ?? "").isEmpty ||
-               !(stone.hardness ?? "").isEmpty ||
-               !(stone.density ?? "").isEmpty
+        return !(mushroom.chemicalFormula ?? "").isEmpty ||
+               !(mushroom.chemicalClassification ?? "").isEmpty ||
+               !(mushroom.crystalSystem ?? "").isEmpty ||
+               !(mushroom.hardness ?? "").isEmpty ||
+               !(mushroom.density ?? "").isEmpty
     }
     
     var body: some View {
@@ -157,36 +157,36 @@ struct MushroomChemicalClassificationSection: View {
         if hasClassificationInfo {
             VStack(alignment: .leading, spacing: 20.rpx) {
                 // 标题
-                Text(Language.stone_info_scientific_classification)
+                Text(Language.mushroom_info_scientific_classification)
                     .font(.semibold(16.rpx))
                     .foregroundColor(.appText)
                 
                 VStack(alignment: .leading, spacing: 8.rpx) {
-                    if !(stone.chemicalFormula ?? "").isEmpty {
-                        ClassificationRow(label: Language.stone_chemical_formula, value: stone.chemicalFormula ?? "")
+                    if !(mushroom.chemicalFormula ?? "").isEmpty {
+                        ClassificationRow(label: Language.mushroom_chemical_formula, value: mushroom.chemicalFormula ?? "")
                     }
-                    if !(stone.chemicalClassification ?? "").isEmpty {
-                        ClassificationRow(label: Language.stone_chemical_classification, value: stone.chemicalClassification ?? "")
+                    if !(mushroom.chemicalClassification ?? "").isEmpty {
+                        ClassificationRow(label: Language.mushroom_chemical_classification, value: mushroom.chemicalClassification ?? "")
                     }
-                    if !(stone.crystalSystem ?? "").isEmpty {
-                        ClassificationRow(label: Language.stone_crystal_system, value: stone.crystalSystem ?? "")
+                    if !(mushroom.crystalSystem ?? "").isEmpty {
+                        ClassificationRow(label: Language.mushroom_crystal_system, value: mushroom.crystalSystem ?? "")
                     }
-                    if !(stone.hardness ?? "").isEmpty {
-                        ClassificationRow(label: Language.stone_hardness, value: stone.hardness ?? "")
+                    if !(mushroom.hardness ?? "").isEmpty {
+                        ClassificationRow(label: Language.mushroom_hardness, value: mushroom.hardness ?? "")
                     }
-                    if !(stone.density ?? "").isEmpty {
-                        ClassificationRow(label: Language.stone_density, value: stone.density ?? "")
+                    if !(mushroom.density ?? "").isEmpty {
+                        ClassificationRow(label: Language.mushroom_density, value: mushroom.density ?? "")
                     }
                     
                     // 如果有化学元素详细信息，显示为备注
-                    if !(stone.chemicalElements ?? "").isEmpty {
+                    if !(mushroom.chemicalElements ?? "").isEmpty {
                         Divider()
                             .padding(.vertical, 8.rpx)
-                        Text(Language.stone_chemical_elements)
+                        Text(Language.mushroom_chemical_elements)
                             .font(.semibold(16.rpx))
                             .foregroundColor(.appText)
                             .padding(.bottom, 4.rpx)
-                        ExpandableText(text: stone.chemicalElements ?? "", lineLimit: 5)
+                        ExpandableText(text: mushroom.chemicalElements ?? "", lineLimit: 5)
                     }
                 }
             }
@@ -251,7 +251,7 @@ struct ExpandableCharacteristicItem: View {
                                 .font(.regular(12.rpx))
                                 .lineSpacing(4.rpx)
                                 .foregroundColor(.appTextLight)
-                            Text(Language.stone_info_more)
+                            Text(Language.mushroom_info_more)
                                 .font(.regular(12.rpx))
                                 .lineSpacing(4.rpx)
                                 .foregroundColor(.primary)
@@ -295,7 +295,7 @@ struct ExpandableText: View {
                             .font(.regular(12.rpx))
                             .lineSpacing(2.rpx)
                             .foregroundColor(.gray.opacity(0.8))
-                        Text(Language.stone_info_more)
+                        Text(Language.mushroom_info_more)
                             .font(.regular(12.rpx))
                             .lineSpacing(2.rpx)
                             .foregroundColor(.primary)

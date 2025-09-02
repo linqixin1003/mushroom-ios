@@ -44,10 +44,10 @@ struct GetWishListResponse: Codable {
 
 // 添加到心愿单
 struct AddToWishListRequest: RequestProtocol {
-    let stoneId: String
+    let mushroomId: String
     
-    init(stoneId: String) {
-        self.stoneId = stoneId
+    init(mushroomId: String) {
+        self.mushroomId = mushroomId
     }
     
     var path: String {
@@ -64,7 +64,7 @@ struct AddToWishListRequest: RequestProtocol {
     
     var parameters: [String : Any] {
         return [
-            "stone_id": stoneId
+            "mushroom_id": mushroomId
         ]
     }
     

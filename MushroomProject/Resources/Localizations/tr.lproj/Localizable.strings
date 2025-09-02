@@ -63,8 +63,8 @@
 "home_action_identify" = "Tanımla";
 "home_action_record" = "Kaydet";
 "home_action_ai_beautify" = "AI Güzelleştirme";
-"home_your_daily_stone" = "Günlük Kuşunuz";
-"home_stones_near_you" = "Yakınınızdaki Kuşlar";
+"home_your_daily_mushroom" = "Günlük Kuşunuz";
+"home_mushrooms_near_you" = "Yakınınızdaki Kuşlar";
 "home_app_usage_title" = "Uygulama Kullanım Talimatları";
 "home_app_usage_desc" = "Bizimle daha hızlı tanışmanıza yardımcı olur.";
 
@@ -149,7 +149,7 @@
 "camera_preview_tip" = "Kuşları tanımlamak için fotoğraf çekin ve çekerken konuyu net tutun";
 "camera_zoom" = "Yakınlaştır";
 "camera_photography_tips" = "Fotoğrafçılık İpuçları";
-"camera_keep_stone_centered" = "Kuşu çerçevenin ortasında tutun";
+"camera_keep_mushroom_centered" = "Kuşu çerçevenin ortasında tutun";
 "camera_good_image_quality" = "İyi görüntü kalitesi tanımlama doğruluğunu artırmaya yardımcı olabilir.";
 "camera_mode_by_photo" = "Fotoğrafla";
 "camera_mode_by_sound" = "Sesle";
@@ -179,21 +179,21 @@
 "instruction_identify" = "Tanımla";
 
 // MARK: - Mushroom Info Section
-"stone_usage" = "Kullanım";
-"stone_health_risks" = "Sağlık Riskleri";
-"stone_original_vs_fake" = "Doğrulama";
-"stone_storage" = "Saklama";
-"stone_cleaning_tips" = "Temizlik İpuçları";
-"stone_chemical_formula" = "Kimyasal formül";
-"stone_chemical_classification" = "Kimyasal sınıflandırma";
-"stone_crystal_system" = "Kristal sistemi";
-"stone_hardness" = "Sertlik";
-"stone_density" = "Yoğunluk";
-"stone_chemical_elements" = "Kimyasal elementler";
-"stone_estimated_value" = "Tahmini değer";
+"mushroom_usage" = "Kullanım";
+"mushroom_health_risks" = "Sağlık Riskleri";
+"mushroom_original_vs_fake" = "Doğrulama";
+"mushroom_storage" = "Saklama";
+"mushroom_cleaning_tips" = "Temizlik İpuçları";
+"mushroom_chemical_formula" = "Kimyasal formül";
+"mushroom_chemical_classification" = "Kimyasal sınıflandırma";
+"mushroom_crystal_system" = "Kristal sistemi";
+"mushroom_hardness" = "Sertlik";
+"mushroom_density" = "Yoğunluk";
+"mushroom_chemical_elements" = "Kimyasal elementler";
+"mushroom_estimated_value" = "Tahmini değer";
 "metal_detector_tips_content" = "Bu araç, cep telefonunuzda yerleşik olan manyetik sensör tarafından güçlendirilir. Bu dedektör manyetit, pirotin ve meteorit gibi manyetik kayalar veya minerallerle çalışır. Ayrıca esas olarak demir, kobalt veya nikelden oluşan metalleri de tespit edebilir. Manyetik sensör her cep telefonunda farklı şekilde konumlandırıldığından, en iyi hassasiyetini bulmak ve kadran göstergesinde net bir okuma elde etmek için tespit edilen nesneyi telefonunuzun etrafında hareket ettirin. Kadran göstergesinin okuması tespit edilen nesnenizin gücünü gösterir; manyetizmanın tam değerini temsil etmez.";
 "add_to_collection" = "Koleksiyonuma ekle";
-"stone_info_more" = "Daha fazla>>";
+"mushroom_info_more" = "Daha fazla>>";
 
 // MARK: - ConvertPage
 "convert_title" = "MushroomAI Snap";
@@ -259,7 +259,7 @@
 "valuation_step_identification" = "Tanımlama";
 "valuation_step_quality_evaluation" = "Kalite değerlendirmesi";
 "valuation_step_market_price_search" = "Piyasa fiyatı araştırması";
-"stone_estimated_value" = "Tahmini değer";
+"mushroom_estimated_value" = "Tahmini değer";
 "valuation_not_found" = "Taş bulunamadı";
 "valuation_camera_tips" = "Net, yüksek kaliteli fotoğraflar daha doğru değerleme sonuçlarına yol açar";
 
@@ -309,7 +309,7 @@
 "microphone_permission_button" = "İzin ver";
 
 // MARK: - Mushroom Season
-"stone_visible_year_round" = "Yıl boyunca";
+"mushroom_visible_year_round" = "Yıl boyunca";
 
 // MARK: - Additional Missing Keys
 "subscription_cancel_notice" = "7 günlük ücretsiz deneme süresi bitmeden en az bir gün önce aboneliği iptal ederseniz ödeme yapmanıza gerek yoktur.";

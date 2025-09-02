@@ -63,8 +63,8 @@
 "home_action_identify" = "Identifier";
 "home_action_record" = "Enregistrer";
 "home_action_ai_beautify" = "Embellissement IA";
-"home_your_daily_stone" = "Votre Oiseau du Jour";
-"home_stones_near_you" = "Oiseaux Près de Vous";
+"home_your_daily_mushroom" = "Votre Oiseau du Jour";
+"home_mushrooms_near_you" = "Oiseaux Près de Vous";
 "home_app_usage_title" = "Instructions d'utilisation de l'application";
 "home_app_usage_desc" = "Nous vous aidons à vous familiariser avec nous plus rapidement.";
 
@@ -193,7 +193,7 @@
 "retain_price_year_cancel" = "/an. Annulez à tout moment.";
 
 // MARK: - Identification
-"stone_info_more" = "Plus>>"; 
+"mushroom_info_more" = "Plus>>"; 
 
 // MARK: - Snap Tips
 "snap_tip_too_far" = "Trop loin";
@@ -258,7 +258,7 @@
 "valuation_step_identification" = "Identification";
 "valuation_step_quality_evaluation" = "Évaluation de la qualité";
 "valuation_step_market_price_search" = "Recherche du prix du marché";
-"stone_estimated_value" = "Valeur estimée";
+"mushroom_estimated_value" = "Valeur estimée";
 "metal_detector_tips_content" = "Cet outil est alimenté par le capteur magnétique intégré dans votre téléphone portable. Ce détecteur fonctionne avec des roches ou minéraux magnétiques, tels que la magnétite, la pyrrhotine et la météorite. Il peut également détecter le métal composé principalement de fer, de cobalt ou de nickel. Étant donné que le capteur magnétique est situé différemment sur chaque téléphone portable, déplacez l'objet de détection autour de votre téléphone pour trouver sa meilleure sensibilité et obtenir une lecture claire sur le cadran. La lecture du cadran indique la force de votre objet détecté ; elle ne représente pas la valeur exacte du magnétisme.";
 "valuation_not_found" = "Aucune pierre trouvée";
 "valuation_camera_tips" = "Des photos claires et de haute qualité conduisent à des résultats d'évaluation plus précis";
@@ -272,7 +272,7 @@
 "microphone_permission_button" = "Autoriser";
 
 // Mushroom Season
-"stone_visible_year_round" = "Toute l'année";
+"mushroom_visible_year_round" = "Toute l'année";
 
 // MARK: - Home Action Types
 "home_action_type_valuation" = "Évaluation";
@@ -294,18 +294,18 @@
 "profile_no_more_data" = "Plus de données";
 
 // MARK: - Mushroom Info Section
-"stone_usage" = "Utilisation";
-"stone_health_risks" = "Risques pour la santé";
-"stone_original_vs_fake" = "Authentification";
-"stone_storage" = "Stockage";
-"stone_cleaning_tips" = "Conseils de nettoyage";
-"stone_chemical_formula" = "Formule chimique";
-"stone_chemical_classification" = "Classification chimique";
-"stone_crystal_system" = "Système cristallin";
-"stone_hardness" = "Dureté";
-"stone_density" = "Densité";
-"stone_chemical_elements" = "Éléments chimiques";
-"stone_estimated_value" = "Valeur estimée";
+"mushroom_usage" = "Utilisation";
+"mushroom_health_risks" = "Risques pour la santé";
+"mushroom_original_vs_fake" = "Authentification";
+"mushroom_storage" = "Stockage";
+"mushroom_cleaning_tips" = "Conseils de nettoyage";
+"mushroom_chemical_formula" = "Formule chimique";
+"mushroom_chemical_classification" = "Classification chimique";
+"mushroom_crystal_system" = "Système cristallin";
+"mushroom_hardness" = "Dureté";
+"mushroom_density" = "Densité";
+"mushroom_chemical_elements" = "Éléments chimiques";
+"mushroom_estimated_value" = "Valeur estimée";
 "add_to_collection" = "Ajouter à ma collection";
 
 // MARK: - Additional Missing Keys

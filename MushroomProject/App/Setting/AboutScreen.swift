@@ -47,7 +47,7 @@ struct AboutScreen: View {
                     VStack {
                         Spacer().frame(height: 18.rpx)
                         Text(
-                            "Don't know the name of stones? PictureMushroom helps you to identify unknownstones, discover nature with the mostsimple and interesting way.We also been working hard to providebetter user experience and optimize ourrecognition all the time! We would loveto have anyone who love stones join ourfamily.Let us start the journey encounteringthe most lovely stones from all over theworld."
+                            "Don't know the name of mushrooms? PictureMushroom helps you to identify unknownmushrooms, discover nature with the mostsimple and interesting way.We also been working hard to providebetter user experience and optimize ourrecognition all the time! We would loveto have anyone who love mushrooms join ourfamily.Let us start the journey encounteringthe most lovely mushrooms from all over theworld."
                         )
                         .font(.system(size: 14.rpx))
                         .foregroundColor(.appText)

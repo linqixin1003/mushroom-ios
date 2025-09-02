@@ -63,8 +63,8 @@
 "home_action_identify" = "Tunnista";
 "home_action_record" = "Tallenna";
 "home_action_ai_beautify" = "AI Kaunistus";
-"home_your_daily_stone" = "Päivittäinen Lintusi";
-"home_stones_near_you" = "Linnut Lähellä Sinua";
+"home_your_daily_mushroom" = "Päivittäinen Lintusi";
+"home_mushrooms_near_you" = "Linnut Lähellä Sinua";
 "home_app_usage_title" = "Sovelluksen käyttöohjeet";
 "home_app_usage_desc" = "Auttaa sinua tutustumaan meihin nopeammin.";
 
@@ -149,7 +149,7 @@
 "camera_preview_tip" = "Ota kuvia lintujen tunnistamiseksi ja pidä kohde selkeänä kuvatessasi";
 "camera_zoom" = "Zoomaa";
 "camera_photography_tips" = "Valokuvausvinkit";
-"camera_keep_stone_centered" = "Pidä lintu keskitettynä kehyksessä";
+"camera_keep_mushroom_centered" = "Pidä lintu keskitettynä kehyksessä";
 "camera_good_image_quality" = "Hyvä kuvanlaatu voi auttaa parantamaan tunnistuksen tarkkuutta.";
 "camera_mode_by_photo" = "Kuvalla";
 "camera_mode_by_sound" = "Äänellä";
@@ -179,21 +179,21 @@
 "instruction_identify" = "Tunnista";
 
 // MARK: - Mushroom Info Section
-"stone_usage" = "Käyttö";
-"stone_health_risks" = "Terveysriskit";
-"stone_original_vs_fake" = "Aitouden tarkistus";
-"stone_storage" = "Säilytys";
-"stone_cleaning_tips" = "Puhdistusvinkit";
-"stone_chemical_formula" = "Kemiallinen kaava";
-"stone_chemical_classification" = "Kemiallinen luokittelu";
-"stone_crystal_system" = "Kidejärjestelmä";
-"stone_hardness" = "Kovuus";
-"stone_density" = "Tiheys";
-"stone_chemical_elements" = "Kemialliset alkuaineet";
-"stone_estimated_value" = "Arvioitu arvo";
+"mushroom_usage" = "Käyttö";
+"mushroom_health_risks" = "Terveysriskit";
+"mushroom_original_vs_fake" = "Aitouden tarkistus";
+"mushroom_storage" = "Säilytys";
+"mushroom_cleaning_tips" = "Puhdistusvinkit";
+"mushroom_chemical_formula" = "Kemiallinen kaava";
+"mushroom_chemical_classification" = "Kemiallinen luokittelu";
+"mushroom_crystal_system" = "Kidejärjestelmä";
+"mushroom_hardness" = "Kovuus";
+"mushroom_density" = "Tiheys";
+"mushroom_chemical_elements" = "Kemialliset alkuaineet";
+"mushroom_estimated_value" = "Arvioitu arvo";
 "metal_detector_tips_content" = "Tämä työkalu saa voimansa matkapuhelimeesi sisäänrakennetusta magneettisensorista. Tämä ilmaisin toimii magneettisten kivien tai mineraalien, kuten magnetiitin, pyrrotiitin ja meteoriitin kanssa. Se voi myös havaita metallia, joka koostuu pääasiassa raudasta, koboltista tai nikkelistä. Koska magneettisensori sijaitsee eri tavalla jokaisessa matkapuhelimessa, liikuta havaittavaa esinettä puhelimesi ympärillä löytääksesi sen parhaan herkkyyden ja saadaksesi selkeän lukeman mittarista. Mittarin lukema osoittaa havaitun esineen voimakkuuden; se ei edusta magnetismin tarkkaa arvoa.";
 "add_to_collection" = "Lisää kokoelmaani";
-"stone_info_more" = "Lisää>>";
+"mushroom_info_more" = "Lisää>>";
 
 // MARK: - ConvertPage
 "convert_title" = "MushroomAI Snap";
@@ -259,7 +259,7 @@
 "valuation_step_identification" = "Tunnistaminen";
 "valuation_step_quality_evaluation" = "Laadun arviointi";
 "valuation_step_market_price_search" = "Markkinahinnan haku";
-"stone_estimated_value" = "Arvioitu arvo";
+"mushroom_estimated_value" = "Arvioitu arvo";
 "valuation_not_found" = "Kiveä ei löytynyt";
 "valuation_camera_tips" = "Selkeät, korkealaatuiset kuvat johtavat tarkempiin arviointituloksiin";
 
@@ -309,7 +309,7 @@
 "microphone_permission_button" = "Salli";
 
 // MARK: - Mushroom Season
-"stone_visible_year_round" = "Ympäri vuoden";
+"mushroom_visible_year_round" = "Ympäri vuoden";
 
 // MARK: - Additional Missing Keys
 "subscription_cancel_notice" = "Sinun ei tarvitse maksaa, jos peruutat tilauksen vähintään päivää ennen 7 päivän ilmaisen kokeilujakson päättymistä.";

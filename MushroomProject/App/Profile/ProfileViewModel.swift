@@ -173,7 +173,7 @@ class ProfileViewModel: ObservableObject {
             IdentificationRecord(
                 id: 101,
                 userId: "test-user",
-                stoneId: "stone-1",
+                mushroomId: "mushroom-1",
                 name: "Test Mushroom 1",
                 imageUrl: "https://example.com/image1.jpg",
                 confidence: 0.95,
@@ -183,7 +183,7 @@ class ProfileViewModel: ObservableObject {
             IdentificationRecord(
                 id: 102,
                 userId: "test-user",
-                stoneId: "stone-2",
+                mushroomId: "mushroom-2",
                 name: "Test Mushroom 2",
                 imageUrl: "https://example.com/image2.jpg",
                 confidence: 0.88,
@@ -193,7 +193,7 @@ class ProfileViewModel: ObservableObject {
             IdentificationRecord(
                 id: 103,
                 userId: "test-user",
-                stoneId: "stone-3",
+                mushroomId: "mushroom-3",
                 name: "Test Mushroom 3",
                 imageUrl: "https://example.com/image3.jpg",
                 confidence: 0.92,
@@ -223,7 +223,7 @@ class ProfileViewModel: ObservableObject {
             self.wishListItems = items.map { wishItem in
                 LocalRecordItem(
                     id: String(wishItem.id),
-                    uid: wishItem.stoneId,
+                    uid: wishItem.mushroomId,
                     type: .image,
                     createdAt: wishItem.createdAt,
                     confidence: 1.0,
@@ -263,7 +263,7 @@ class ProfileViewModel: ObservableObject {
             let newRecordItems = newItems.map { wishItem in
                 LocalRecordItem(
                     id: String(wishItem.id),
-                    uid: wishItem.stoneId,
+                    uid: wishItem.mushroomId,
                     type: .image,
                     createdAt: wishItem.createdAt,
                     confidence: 1.0,

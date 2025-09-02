@@ -39,7 +39,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         print("Preferred localizations: \(Bundle.main.preferredLocalizations)")
         
         // 测试特定key的本地化
-        let testKeys = ["home_action_identify", "home_action_record", "home_vip_banner_text", "home_your_daily_stone", "home_stones_near_you"]
+        let testKeys = ["home_action_identify", "home_action_record", "home_vip_banner_text", "home_your_daily_mushroom", "home_mushrooms_near_you"]
         for key in testKeys {
             let localized = LocalizationManager.shared.localizedString(for: key)
             print("Key '\(key)' -> '\(localized)'")

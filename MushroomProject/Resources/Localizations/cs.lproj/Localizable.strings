@@ -63,8 +63,8 @@
 "home_action_identify" = "Identifikovat";
 "home_action_record" = "Nahrát";
 "home_action_ai_beautify" = "AI zkrášlení";
-"home_your_daily_stone" = "Váš denní pták";
-"home_stones_near_you" = "Ptáci ve vašem okolí";
+"home_your_daily_mushroom" = "Váš denní pták";
+"home_mushrooms_near_you" = "Ptáci ve vašem okolí";
 "home_app_usage_title" = "Pokyny k použití aplikace";
 "home_app_usage_desc" = "Pomůže vám rychleji se s námi seznámit.";
 
@@ -149,7 +149,7 @@
 "camera_preview_tip" = "Pořiďte fotografie pro identifikaci ptáků a při fotografování udržujte objekt jasný";
 "camera_zoom" = "Přiblížit";
 "camera_photography_tips" = "Tipy pro fotografování";
-"camera_keep_stone_centered" = "Udržujte ptáka ve středu rámečku";
+"camera_keep_mushroom_centered" = "Udržujte ptáka ve středu rámečku";
 "camera_good_image_quality" = "Dobrá kvalita obrazu může pomoci zlepšit přesnost identifikace.";
 "camera_mode_by_photo" = "Pomocí fotografie";
 "camera_mode_by_sound" = "Pomocí zvuku";
@@ -179,21 +179,21 @@
 "instruction_identify" = "Identifikovat";
 
 // MARK: - Mushroom Info Section
-"stone_usage" = "Použití";
-"stone_health_risks" = "Zdravotní rizika";
-"stone_original_vs_fake" = "Ověření pravosti";
-"stone_storage" = "Skladování";
-"stone_cleaning_tips" = "Tipy pro čištění";
-"stone_chemical_formula" = "Chemický vzorec";
-"stone_chemical_classification" = "Chemická klasifikace";
-"stone_crystal_system" = "Krystalový systém";
-"stone_hardness" = "Tvrdost";
-"stone_density" = "Hustota";
-"stone_chemical_elements" = "Chemické prvky";
-"stone_estimated_value" = "Odhadovaná hodnota";
+"mushroom_usage" = "Použití";
+"mushroom_health_risks" = "Zdravotní rizika";
+"mushroom_original_vs_fake" = "Ověření pravosti";
+"mushroom_storage" = "Skladování";
+"mushroom_cleaning_tips" = "Tipy pro čištění";
+"mushroom_chemical_formula" = "Chemický vzorec";
+"mushroom_chemical_classification" = "Chemická klasifikace";
+"mushroom_crystal_system" = "Krystalový systém";
+"mushroom_hardness" = "Tvrdost";
+"mushroom_density" = "Hustota";
+"mushroom_chemical_elements" = "Chemické prvky";
+"mushroom_estimated_value" = "Odhadovaná hodnota";
 "metal_detector_tips_content" = "Tento nástroj je poháněn magnetickým senzorem, který je vestavěn ve vašem mobilním telefonu. Tento detektor funguje s magnetickými horninami nebo minerály, jako je magnetit, pyrotin a meteorit. Může také detekovat kov, který se skládá hlavně ze železa, kobaltu nebo niklu. Protože magnetický senzor je na každém mobilním telefonu umístěn jinak, pohybujte detekovaným objektem kolem vašeho telefonu, abyste našli jeho nejlepší citlivost a získali jasný údaj na ciferníku. Údaj na ciferníku označuje sílu vašeho detekovaného objektu; nepředstavuje přesnou hodnotu magnetismu.";
 "add_to_collection" = "Přidat do mé sbírky";
-"stone_info_more" = "Více>>";
+"mushroom_info_more" = "Více>>";
 
 // MARK: - ConvertPage
 "convert_title" = "MushroomAI Snap";
@@ -259,7 +259,7 @@
 "valuation_step_identification" = "Identifikace";
 "valuation_step_quality_evaluation" = "Hodnocení kvality";
 "valuation_step_market_price_search" = "Vyhledávání tržní ceny";
-"stone_estimated_value" = "Odhadovaná hodnota";
+"mushroom_estimated_value" = "Odhadovaná hodnota";
 "valuation_not_found" = "Nebyl nalezen žádný kámen";
 "valuation_camera_tips" = "Jasné, vysoce kvalitní fotografie vedou k přesnějším výsledkům ocenění";
 
@@ -309,7 +309,7 @@
 "microphone_permission_button" = "Povolit";
 
 // MARK: - Mushroom Season
-"stone_visible_year_round" = "Celoročně";
+"mushroom_visible_year_round" = "Celoročně";
 
 // MARK: - Additional Missing Keys
 "subscription_cancel_notice" = "Nemusíte platit, pokud zrušíte předplatné alespoň den před koncem 7denní bezplatné zkušební doby.";

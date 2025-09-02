@@ -62,8 +62,8 @@
 "home_action_identify" = "Identifica";
 "home_action_record" = "Registra";
 "home_action_ai_beautify" = "Abbellimento IA";
-"home_your_daily_stone" = "Il Tuo Uccello del Giorno";
-"home_stones_near_you" = "Uccelli Vicino a Te";
+"home_your_daily_mushroom" = "Il Tuo Uccello del Giorno";
+"home_mushrooms_near_you" = "Uccelli Vicino a Te";
 "home_app_usage_title" = "Istruzioni per l'uso dell'app";
 "home_app_usage_desc" = "Ti aiutiamo a familiarizzare con noi più rapidamente.";
 
@@ -191,7 +191,7 @@
 "retain_price_then" = "Poi ";
 "retain_price_year_cancel" = "/anno. Annulla in qualsiasi momento.";
 
-"stone_info_more" = "Altro>>";
+"mushroom_info_more" = "Altro>>";
 
 // MARK: - Identification 
 
@@ -258,7 +258,7 @@
 "valuation_step_identification" = "Identificazione";
 "valuation_step_quality_evaluation" = "Valutazione della qualità";
 "valuation_step_market_price_search" = "Ricerca del prezzo di mercato";
-"stone_estimated_value" = "Valore stimato";
+"mushroom_estimated_value" = "Valore stimato";
 "metal_detector_tips_content" = "Questo strumento è alimentato dal sensore magnetico integrato nel tuo telefono cellulare. Questo rilevatore funziona con rocce o minerali magnetici, come magnetite, pirrotina e meteorite. Può anche rilevare metallo composto principalmente da ferro, cobalto o nichel. Poiché il sensore magnetico è posizionato diversamente su ogni telefono cellulare, muovi l'oggetto di rilevamento intorno al tuo telefono per trovare la sua migliore sensibilità e ottenere una lettura chiara sul quadrante. La lettura del quadrante indica la forza del tuo oggetto rilevato; non rappresenta il valore esatto del magnetismo.";
 "valuation_not_found" = "Nessuna pietra trovata";
 "valuation_camera_tips" = "Foto chiare e di alta qualità portano a risultati di valutazione più accurati";
@@ -271,7 +271,7 @@
 "microphone_permission_button" = "Consenti";
 
 // Mushroom Season
-"stone_visible_year_round" = "Tutto l'anno";
+"mushroom_visible_year_round" = "Tutto l'anno";
 
 // MARK: - Home Action Types
 "home_action_type_valuation" = "Valutazione";
@@ -293,18 +293,18 @@
 "profile_no_more_data" = "Nessun altro dato";
 
 // MARK: - Mushroom Info Section
-"stone_usage" = "Utilizzo";
-"stone_health_risks" = "Rischi per la salute";
-"stone_original_vs_fake" = "Autenticazione";
-"stone_storage" = "Conservazione";
-"stone_cleaning_tips" = "Consigli per la pulizia";
-"stone_chemical_formula" = "Formula chimica";
-"stone_chemical_classification" = "Classificazione chimica";
-"stone_crystal_system" = "Sistema cristallino";
-"stone_hardness" = "Durezza";
-"stone_density" = "Densità";
-"stone_chemical_elements" = "Elementi chimici";
-"stone_estimated_value" = "Valore stimato";
+"mushroom_usage" = "Utilizzo";
+"mushroom_health_risks" = "Rischi per la salute";
+"mushroom_original_vs_fake" = "Autenticazione";
+"mushroom_storage" = "Conservazione";
+"mushroom_cleaning_tips" = "Consigli per la pulizia";
+"mushroom_chemical_formula" = "Formula chimica";
+"mushroom_chemical_classification" = "Classificazione chimica";
+"mushroom_crystal_system" = "Sistema cristallino";
+"mushroom_hardness" = "Durezza";
+"mushroom_density" = "Densità";
+"mushroom_chemical_elements" = "Elementi chimici";
+"mushroom_estimated_value" = "Valore stimato";
 "add_to_collection" = "Aggiungi alla mia collezione";
 
 // MARK: - Additional Missing Keys

@@ -62,7 +62,7 @@ struct SnapTipsContentView: View {
                         .padding(.bottom, 8.rpx)
                         .padding(.trailing, 8.rpx)
                 }
-            Text(Language.snap_tip_keep_stone_centered)
+            Text(Language.snap_tip_keep_mushroom_centered)
                 .font(.regular(14.rpx))
                 .foregroundColor(.white)
                 .lineSpacing(4.rpx)

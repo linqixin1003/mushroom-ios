@@ -69,13 +69,13 @@ struct SearchPage: View {
                 // 搜索结果列表
                 ScrollView {
                     LazyVStack(spacing: 0) {
-                        ForEach(viewModel.searchResults) { stone in
+                        ForEach(viewModel.searchResults) { mushroom in
                             SearchResultItemView(
-                                stone: stone
+                                mushroom: mushroom
                             )
-                            .id(stone.id)
+                            .id(mushroom.id)
                             .onTapGesture {
-                                self.actionModel.resultItemClick.send(stone)
+                                self.actionModel.resultItemClick.send(mushroom)
                             }
                         }
                     }
@@ -89,14 +89,14 @@ struct SearchPage: View {
 
 struct SearchResultItemView: View {
     
-    let stone: SimpleMushroom
+    let mushroom: SimpleMushroom
     
     var body: some View {
         VStack(spacing: 0) {
             
             HStack(spacing: 22.rpx) {
                 KFImage
-                    .url(URL(string: stone.photoUrl ?? ""))
+                    .url(URL(string: mushroom.photoUrl ?? ""))
                     .resizable()
                     .placeholder {
                         Image("icon_placeholder_68")
@@ -109,7 +109,7 @@ struct SearchResultItemView: View {
                     .cornerRadius(6.rpx)
                 
                 VStack(alignment: .leading, spacing: 0) {
-                    Text(self.stone.name)
+                    Text(self.mushroom.name)
                         .font(.regular(16.rpx))
                         .lineSpacing(2.rpx)
                         .foregroundColor(.appText)
@@ -117,7 +117,7 @@ struct SearchResultItemView: View {
                         .truncationMode(.tail)
                         .frame(maxWidth: .infinity, alignment: .leading)
 
-                    Text(self.stone.scientificName ?? "")
+                    Text(self.mushroom.scientificName ?? "")
                         .font(.regular(16.rpx))
                         .italic()
                         .lineSpacing(2.rpx)

@@ -97,12 +97,12 @@ struct BasicInfoCard: View {
     var body: some View {
         CardView {
             VStack(alignment: .leading, spacing: 12) {
-                Text(Language.stone_basic_information)
+                Text(Language.mushroom_basic_information)
                     .font(.headline)
                     .foregroundColor(.primary)
                 
                 HStack(spacing: 16) {
-                    InfoItem(title: Language.stone_observation_number, value: "\(observation.id)")
+                    InfoItem(title: Language.mushroom_observation_number, value: "\(observation.id)")
                 }
             }
         }
@@ -131,7 +131,7 @@ struct ColorsCard: View {
     var body: some View {
         CardView {
             VStack(alignment: .leading, spacing: 12) {
-                Text(Language.stone_color_features)
+                Text(Language.mushroom_color_features)
                     .font(.headline)
                     .foregroundColor(.appText)
                 // 4列色块，左对齐
@@ -181,7 +181,7 @@ struct EnvironmentCard: View {
     var body: some View {
         CardView {
             VStack(alignment: .leading, spacing: 12) {
-                Text(Language.stone_habitat)
+                Text(Language.mushroom_habitat)
                     .font(.headline)
                     .foregroundColor(.appText)
                 LazyVGrid(
@@ -229,7 +229,7 @@ struct BehaviorCard: View {
     var body: some View {
         CardView {
             VStack(alignment: .leading, spacing: 12) {
-                Text(Language.stone_behavior)
+                Text(Language.mushroom_behavior)
                     .font(.headline)
                     .foregroundColor(.appText)
                 
@@ -238,7 +238,7 @@ struct BehaviorCard: View {
                     Image(systemName: behavior.flying ? "checkmark.circle.fill" : "xmark.circle.fill")
                         .foregroundColor(behavior.flying ? .green : .red)
                         .font(.caption)
-                    Text(Language.stone_flying)
+                    Text(Language.mushroom_flying)
                         .font(.caption)
                         .foregroundColor(.secondary)
                     Spacer() // 添加 Spacer 让内容横向铺满
@@ -254,7 +254,7 @@ struct SizeCard: View {
     var body: some View {
         CardView {
             VStack(alignment: .leading, spacing: 12) {
-                Text(Language.stone_size)
+                Text(Language.mushroom_size)
                     .font(.headline)
                     .foregroundColor(.appText)
                 if let range = getSizeRange(size: size) {
@@ -265,7 +265,7 @@ struct SizeCard: View {
                         Spacer()
                     }
                 } else {
-                    Text(Language.stone_no_data)
+                    Text(Language.mushroom_no_data)
                         .foregroundColor(.secondary)
                 }
             }
@@ -287,7 +287,7 @@ func getSizeRange(size: MushroomObservation.MushroomSize) -> (min: MushroomSizeI
         }
     }
     if let s = start, let e = end {
-        return (stoneSizeList[s], stoneSizeList[e])
+        return (mushroomSizeList[s], mushroomSizeList[e])
     }
     return nil
 }
@@ -314,17 +314,17 @@ struct SeasonCard: View {
     var body: some View {
         CardView {
             VStack(alignment: .leading, spacing: 12) {
-                Text(Language.stone_season_info)
+                Text(Language.mushroom_season_info)
                     .font(.headline)
                     .foregroundColor(.appText)
                 HStack {
-                    Text(Language.stone_visible_months)
+                    Text(Language.mushroom_visible_months)
                         .font(.caption)
                         .foregroundColor(.secondary)
                     
                     // 当月份范围是 1-12 时显示"全年可见"，否则显示具体月份
                     if season.monthStart == 1 && season.monthEnd == 12 {
-                        Text(Language.stone_visible_year_round)
+                        Text(Language.mushroom_visible_year_round)
                             .font(.body)
                             .foregroundColor(.primary)
                     } else {
@@ -346,7 +346,7 @@ struct PlumageCard: View {
     var body: some View {
         CardView {
             VStack(alignment: .leading, spacing: 12) {
-                Text(Language.stone_plumage)
+                Text(Language.mushroom_plumage)
                     .font(.headline)
                     .foregroundColor(.appText)
                 HStack {
@@ -368,7 +368,7 @@ struct MushroomSizeInfo {
     let inchMax: Int?
 }
 
-let stoneSizeList: [MushroomSizeInfo] = [
+let mushroomSizeList: [MushroomSizeInfo] = [
     MushroomSizeInfo(name: "Very Small", cmMin: 8, cmMax: 12, inchMin: 3, inchMax: 5),
     MushroomSizeInfo(name: "Small", cmMin: 13, cmMax: 16, inchMin: 5, inchMax: 6),
     MushroomSizeInfo(name: "Small-Medium", cmMin: 17, cmMax: 20, inchMin: 6, inchMax: 8),

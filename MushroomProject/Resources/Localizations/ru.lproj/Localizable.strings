@@ -62,8 +62,8 @@
 "home_action_identify" = "Определить";
 "home_action_record" = "Записать";
 "home_action_ai_beautify" = "ИИ Улучшение";
-"home_your_daily_stone" = "Ваша Птица Дня";
-"home_stones_near_you" = "Птицы Рядом с Вами";
+"home_your_daily_mushroom" = "Ваша Птица Дня";
+"home_mushrooms_near_you" = "Птицы Рядом с Вами";
 "home_app_usage_title" = "Инструкции по использованию приложения";
 "home_app_usage_desc" = "Поможем вам быстрее познакомиться с нами.";
 
@@ -155,7 +155,7 @@
 "instruction_identify" = "Идентифицировать"; 
 
 // MARK: - Identification
-"stone_info_more" = "Больше>>"; 
+"mushroom_info_more" = "Больше>>"; 
 
 // ConvertPage
 "convert_title" = "MushroomAI Snap";
@@ -258,7 +258,7 @@
 "valuation_step_identification" = "Идентификация";
 "valuation_step_quality_evaluation" = "Оценка качества";
 "valuation_step_market_price_search" = "Поиск рыночной цены";
-"stone_estimated_value" = "Оценочная стоимость";
+"mushroom_estimated_value" = "Оценочная стоимость";
 "valuation_not_found" = "Камень не найден";
 "valuation_camera_tips" = "Четкие, качественные фотографии приводят к более точным результатам оценки";
 "debug_records_cleared" = "Все записи покупок очищены";
@@ -269,7 +269,7 @@
 "microphone_permission_button" = "Разрешить";
 
 // Mushroom Season
-"stone_visible_year_round" = "Круглый год";
+"mushroom_visible_year_round" = "Круглый год";
 
 // MARK: - Home Action Types
 "home_action_type_valuation" = "Оценка";
@@ -291,18 +291,18 @@
 "profile_no_more_data" = "Больше нет данных";
 
 // MARK: - Mushroom Info Section
-"stone_usage" = "Использование";
-"stone_health_risks" = "Риски для здоровья";
-"stone_original_vs_fake" = "Аутентификация";
-"stone_storage" = "Хранение";
-"stone_cleaning_tips" = "Советы по очистке";
-"stone_chemical_formula" = "Химическая формула";
-"stone_chemical_classification" = "Химическая классификация";
-"stone_crystal_system" = "Кристаллическая система";
-"stone_hardness" = "Твердость";
-"stone_density" = "Плотность";
-"stone_chemical_elements" = "Химические элементы";
-"stone_estimated_value" = "Оценочная стоимость";
+"mushroom_usage" = "Использование";
+"mushroom_health_risks" = "Риски для здоровья";
+"mushroom_original_vs_fake" = "Аутентификация";
+"mushroom_storage" = "Хранение";
+"mushroom_cleaning_tips" = "Советы по очистке";
+"mushroom_chemical_formula" = "Химическая формула";
+"mushroom_chemical_classification" = "Химическая классификация";
+"mushroom_crystal_system" = "Кристаллическая система";
+"mushroom_hardness" = "Твердость";
+"mushroom_density" = "Плотность";
+"mushroom_chemical_elements" = "Химические элементы";
+"mushroom_estimated_value" = "Оценочная стоимость";
 "add_to_collection" = "Добавить в мою коллекцию";
 
 // MARK: - Additional Missing Keys

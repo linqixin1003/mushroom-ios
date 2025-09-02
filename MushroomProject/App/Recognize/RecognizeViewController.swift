@@ -158,12 +158,12 @@ class RecognizeViewController: BaseHostingViewController<RecognizePage> {
                 guard let self = self,
                       state == .result else { return }
 //                if (self.autoSaveToCollection) {
-//                    if let stone = self.viewModel.currentMushroom {
-//                        self.autoSaveMushroomToCollection(stone: stone)
+//                    if let mushroom = self.viewModel.currentMushroom {
+//                        self.autoSaveMushroomToCollection(mushroom: mushroom)
 //                    }
 //                }
                 if (self.autoSaveToWishList) {
-                    if let stone = self.viewModel.currentMushroom{
+                    if let mushroom = self.viewModel.currentMushroom{
                         handleAddWishAction(onlyAdd: true)
                     }
                 }
@@ -175,7 +175,7 @@ class RecognizeViewController: BaseHostingViewController<RecognizePage> {
     // MARK: - 保存收藏处理
     
     /// 自动保存石头到收藏
-    private func autoSaveMushroomToCollection(stone: Mushroom) {
+    private func autoSaveMushroomToCollection(mushroom: Mushroom) {
         // 从识别结果中获取identificationId
         guard let identificationId = viewModel.identificationId else {
             print("❌ Invalid identification ID for auto-save")
@@ -197,12 +197,12 @@ class RecognizeViewController: BaseHostingViewController<RecognizePage> {
     /// 处理保存收藏操作
     private func handleSaveAction() {
         // 根据识别模式获取相应的石头数据
-        let stone: Mushroom?
+        let mushroom: Mushroom?
         // 图片识别结果
-        stone = viewModel.currentMushroom
+        mushroom = viewModel.currentMushroom
         
-        guard let stone = stone else {
-            ToastUtil.showToast(Language.recognize_stone_loading)
+        guard let mushroom = mushroom else {
+            ToastUtil.showToast(Language.recognize_mushroom_loading)
             return
         }
         
@@ -255,18 +255,18 @@ class RecognizeViewController: BaseHostingViewController<RecognizePage> {
             return
         }
         // 根据识别模式获取相应的石头数据
-        let stone: Mushroom?
+        let mushroom: Mushroom?
         // 图片识别结果
-        stone = viewModel.currentMushroom
+        mushroom = viewModel.currentMushroom
         
-        guard let stone = stone else {
-            ToastUtil.showToast(Language.recognize_stone_loading_wait)
+        guard let mushroom = mushroom else {
+            ToastUtil.showToast(Language.recognize_mushroom_loading_wait)
             return
         }
         if (viewModel.isInWish) {
             Task {
                 do {
-                    let req = DeleteWishRequest(stoneId: stone.id)
+                    let req = DeleteWishRequest(mushroomId: mushroom.id)
                     let result: DeleteWishResponse? = try await ApiRequest.requestAsync(request: req)
                     
                     DispatchQueue.main.async {
@@ -290,7 +290,7 @@ class RecognizeViewController: BaseHostingViewController<RecognizePage> {
         } else {
             Task {
                 do {
-                    let req = AddToWishListRequest(stoneId: stone.id)
+                    let req = AddToWishListRequest(mushroomId: mushroom.id)
                     let result: AddToWishListResponse? = try await ApiRequest.requestAsync(request: req)
                     
                     DispatchQueue.main.async {

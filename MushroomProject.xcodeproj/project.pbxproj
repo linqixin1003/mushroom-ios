@@ -1357,10 +1357,10 @@
 				INFOPLIST_FILE = MushroomProject/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = MushroomAiSnap;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
-				INFOPLIST_KEY_NSCameraUsageDescription = "需要访问相机来拍摄鸟类照片，用于鸟类识别功能。This app needs camera access to take photos of stones for species identification.";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "需要位置信息来显示附近的鸟类信息和提供更准确的识别结果。This app needs location access to show nearby stone information and provide more accurate identification results.";
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "需要访问麦克风来录制鸟类声音，用于鸟类识别功能。This app needs microphone access to record stone sounds for species identification.";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "需要访问相册来选择鸟类照片进行识别。This app needs photo library access to select stone photos for identification.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "需要访问相机来拍摄鸟类照片，用于鸟类识别功能。This app needs camera access to take photos of mushrooms for species identification.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "需要位置信息来显示附近的鸟类信息和提供更准确的识别结果。This app needs location access to show nearby mushroom information and provide more accurate identification results.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "需要访问麦克风来录制鸟类声音，用于鸟类识别功能。This app needs microphone access to record mushroom sounds for species identification.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "需要访问相册来选择鸟类照片进行识别。This app needs photo library access to select mushroom photos for identification.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -1397,10 +1397,10 @@
 				INFOPLIST_FILE = MushroomProject/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = MushroomAiSnap;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
-				INFOPLIST_KEY_NSCameraUsageDescription = "需要访问相机来拍摄鸟类照片，用于鸟类识别功能。This app needs camera access to take photos of stones for species identification.";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "需要位置信息来显示附近的鸟类信息和提供更准确的识别结果。This app needs location access to show nearby stone information and provide more accurate identification results.";
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "需要访问麦克风来录制鸟类声音，用于鸟类识别功能。This app needs microphone access to record stone sounds for species identification.";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "需要访问相册来选择鸟类照片进行识别。This app needs photo library access to select stone photos for identification.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "需要访问相机来拍摄鸟类照片，用于鸟类识别功能。This app needs camera access to take photos of mushrooms for species identification.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "需要位置信息来显示附近的鸟类信息和提供更准确的识别结果。This app needs location access to show nearby mushroom information and provide more accurate identification results.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "需要访问麦克风来录制鸟类声音，用于鸟类识别功能。This app needs microphone access to record mushroom sounds for species identification.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "需要访问相册来选择鸟类照片进行识别。This app needs photo library access to select mushroom photos for identification.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -1554,7 +1554,7 @@
 				INFOPLIST_FILE = MushroomProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.stoneidentifier.mushroomProjectTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mushroomidentifier.mushroomProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -1573,7 +1573,7 @@
 				INFOPLIST_FILE = MushroomProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.stoneidentifier.mushroomProjectTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mushroomidentifier.mushroomProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -1590,7 +1590,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MushroomProject/Info.plist;
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.stoneidentifier.MushroomProjectUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mushroomidentifier.MushroomProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -1607,7 +1607,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MushroomProject/Info.plist;
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.stoneidentifier.MushroomProjectUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mushroomidentifier.MushroomProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;

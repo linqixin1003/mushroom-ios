@@ -63,8 +63,8 @@
 "home_action_identify" = "识别";
 "home_action_record" = "录音";
 "home_action_ai_beautify" = "AI美化";
-"home_your_daily_stone" = "每日石头";
-"home_stones_near_you" = "附近的石头";
+"home_your_daily_mushroom" = "每日石头";
+"home_mushrooms_near_you" = "附近的石头";
 "home_app_usage_title" = "应用使用说明";
 "home_app_usage_desc" = "帮助您更快地熟悉我们。";
 
@@ -141,12 +141,12 @@
 "settings_manage_account" = "管理账户";
 
 // MARK: - Mushroom Information
-"stone_info_detailed_not_available" = "详细信息不可用";
-"stone_info_additional_characteristics" = "额外的特征和分类数据将在可用时显示在此处。";
-"stone_info_characteristics" = "特征";
-"stone_info_scientific_classification" = "科学分类";
-"stone_info_additional_classification" = "额外分类信息：";
-"stone_info_more" = "更多>>";
+"mushroom_info_detailed_not_available" = "详细信息不可用";
+"mushroom_info_additional_characteristics" = "额外的特征和分类数据将在可用时显示在此处。";
+"mushroom_info_characteristics" = "特征";
+"mushroom_info_scientific_classification" = "科学分类";
+"mushroom_info_additional_classification" = "额外分类信息：";
+"mushroom_info_more" = "更多>>";
 
 // MARK: - Identification
 "identify_recognition_failed" = "识别失败";
@@ -156,7 +156,7 @@
 // MARK: - Camera
 "camera_zoom" = "缩放";
 "camera_photography_tips" = "拍摄技巧";
-"camera_keep_stone_centered" = "保持石头在画面中央";
+"camera_keep_mushroom_centered" = "保持石头在画面中央";
 "camera_good_image_quality" = "良好的图像质量有助于提高识别精度。";
 
 // MARK: - Sound
@@ -206,7 +206,7 @@
 "suggestion_required_field" = "*";
 "my_collection_no_more" = "没有更多收藏";
 "snap_tip_photography_tips" = "拍摄技巧";
-"snap_tip_keep_stone_centered" = "保持石头在画面中央";
+"snap_tip_keep_mushroom_centered" = "保持石头在画面中央";
 
 // MARK: - Share
 "share_image_failed" = "图片加载失败";
@@ -217,24 +217,24 @@
 "share_share" = "分享";
 
 // MARK: - Mushroom Features
-"stone_basic_information" = "基本信息";
-"stone_color_features" = "颜色特征";
-"stone_habitat" = "栖息地";
-"stone_behavior" = "行为";
-"stone_flying" = "飞行";
-"stone_size" = "大小";
-"stone_no_data" = "无数据";
-"stone_season_info" = "季节信息";
-"stone_visible_months" = "可见月份：";
-"stone_visible_year_round" = "全年可见";
-"stone_plumage" = "羽毛";
-"stone_observation_number" = "观察编号";
+"mushroom_basic_information" = "基本信息";
+"mushroom_color_features" = "颜色特征";
+"mushroom_habitat" = "栖息地";
+"mushroom_behavior" = "行为";
+"mushroom_flying" = "飞行";
+"mushroom_size" = "大小";
+"mushroom_no_data" = "无数据";
+"mushroom_season_info" = "季节信息";
+"mushroom_visible_months" = "可见月份：";
+"mushroom_visible_year_round" = "全年可见";
+"mushroom_plumage" = "羽毛";
+"mushroom_observation_number" = "观察编号";
 
 // MARK: - Subscription Page Specific
 "subscription_app_name" = "RockAiSnap";
 "subscription_feature_12000_species" = "12000+种石头的深度信息";
 "subscription_feature_high_accuracy" = "通过照片和声音进行高精度石头识别";
-"subscription_feature_attract_stones" = "学习如何吸引石头来到您的家";
+"subscription_feature_attract_mushrooms" = "学习如何吸引石头来到您的家";
 "subscription_feature_unlimited_id" = "无限次石头识别";
 "subscription_feature_expand_knowledge" = "扩展您对石头的学习和知识";
 "subscription_try_it_free" = "免费试用";
@@ -258,7 +258,7 @@
 "valuation_step_identification" = "识别";
 "valuation_step_quality_evaluation" = "品质评估";
 "valuation_step_market_price_search" = "市场价格搜索";
-"stone_estimated_value" = "估计价值";
+"mushroom_estimated_value" = "估计价值";
 "metal_detector_tips_content" = "此工具由手机内置的磁传感器提供支持。此探测器适用于磁性岩石或矿物，如磁铁矿、磁黄铁矿和陨石。它还可以检测主要由铁、钴或镍组成的金属。由于磁传感器在每部手机上的位置不同，请在手机周围移动检测物体以找到其最佳灵敏度，并在表盘上获得清晰的读数。表盘读数表示检测到的物体的强度；它不代表磁性的确切值。";
 "valuation_not_found" = "未找到石头";
 "valuation_camera_tips" = "清晰、高质量的照片会带来更准确的估值结果";
@@ -276,8 +276,8 @@
 "my_collection_no_more" = "没有更多收藏";
 "about_email_address" = "lingjuetech@gmail.com";
 "snap_tip_photography_tips" = "拍摄技巧";
-"snap_tip_keep_stone_centered" = "保持石头在画面中央";
-"sound_take_to_identify_stones" = "录制声音以识别石头并保持主体";
+"snap_tip_keep_mushroom_centered" = "保持石头在画面中央";
+"sound_take_to_identify_mushrooms" = "录制声音以识别石头并保持主体";
 
 // MARK: - Snap Tips
 "snap_tip_too_far" = "太远";
@@ -293,13 +293,13 @@
 "camera_mode_by_sound" = "录音";
 
 // Mushroom Features
-"stone_observation_number" = "观察编号";
+"mushroom_observation_number" = "观察编号";
 
 // Share
 "share_no_content" = "没有可分享的内容";
 "share_failed" = "分享失败";
 "share_ok" = "确定";
-"share_stone_not_found" = "未找到石头信息";
+"share_mushroom_not_found" = "未找到石头信息";
 
 // Camera
 "camera_retake" = "重新拍摄";
@@ -418,16 +418,16 @@
 "wishlist_estimated_value" = "估值";
 
 // MARK: - Mushroom Characteristics
-"stone_usage" = "用途";
-"stone_health_risks" = "健康风险";
-"stone_authenticity_identification" = "真伪鉴别";
-"stone_storage_method" = "存储方法";
-"stone_cleaning_tips" = "清洁技巧";
-"stone_chemical_formula" = "化学分子式";
-"stone_crystal_system" = "晶体系统";
-"stone_hardness" = "硬度";
-"stone_density" = "密度";
-"stone_chemical_elements" = "化学元素";
+"mushroom_usage" = "用途";
+"mushroom_health_risks" = "健康风险";
+"mushroom_authenticity_identification" = "真伪鉴别";
+"mushroom_storage_method" = "存储方法";
+"mushroom_cleaning_tips" = "清洁技巧";
+"mushroom_chemical_formula" = "化学分子式";
+"mushroom_crystal_system" = "晶体系统";
+"mushroom_hardness" = "硬度";
+"mushroom_density" = "密度";
+"mushroom_chemical_elements" = "化学元素";
 
 // MARK: - Purchase
 "purchase_choose_subscription_plan" = "选择订阅方案";
@@ -501,8 +501,8 @@
 
 // MARK: - UI Text
 "ui_detailed_info_unavailable" = "详细信息暂不可用";
-"ui_more_stone_info_future" = "更多石头特征信息将在后续版本中提供";
-"ui_stone_characteristics" = "石头特征";
+"ui_more_mushroom_info_future" = "更多石头特征信息将在后续版本中提供";
+"ui_mushroom_characteristics" = "石头特征";
 "ui_description" = "描述";
 "ui_usage" = "用途";
 "ui_health_risks" = "健康风险";
@@ -534,7 +534,7 @@
 "find_treasure_metal_detector" = "金属探测器";
 
 // MARK: - Mushroom Detail
-"stone_durability_rating" = "耐久性评级";
+"mushroom_durability_rating" = "耐久性评级";
 
 // MARK: - Home Action Types (从HomeActionView.swift提取)
 "home_action_type_valuation" = "估值";
@@ -556,16 +556,16 @@
 "profile_no_more_data" = "没有更多数据了";
 
 // MARK: - Mushroom Info Section (从MushroomInfoSectionView.swift提取)
-"stone_usage" = "用途";
-"stone_health_risks" = "健康风险";
-"stone_authenticity_identification" = "真伪鉴别";
-"stone_storage_method" = "存储方法";
-"stone_cleaning_tips" = "清洁技巧";
-"stone_chemical_formula" = "化学分子式";
-"stone_crystal_system" = "晶体系统";
-"stone_hardness" = "硬度";
-"stone_density" = "密度";
-"stone_chemical_elements" = "化学元素";
+"mushroom_usage" = "用途";
+"mushroom_health_risks" = "健康风险";
+"mushroom_authenticity_identification" = "真伪鉴别";
+"mushroom_storage_method" = "存储方法";
+"mushroom_cleaning_tips" = "清洁技巧";
+"mushroom_chemical_formula" = "化学分子式";
+"mushroom_crystal_system" = "晶体系统";
+"mushroom_hardness" = "硬度";
+"mushroom_density" = "密度";
+"mushroom_chemical_elements" = "化学元素";
 
 // MARK: - 错误处理
 "error_load_failed" = "加载失败";

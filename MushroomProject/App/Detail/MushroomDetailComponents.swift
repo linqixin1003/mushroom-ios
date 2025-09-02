@@ -2,28 +2,28 @@ import SwiftUI
 
 // MARK: - 化学属性区域
 struct MushroomChemicalPropertiesSectionView: View {
-    let stone: Mushroom
+    let mushroom: Mushroom
     
     var body: some View {
         MushroomSectionContainerView(
-            sectionTitle: Language.stone_chemical_properties,
+            sectionTitle: Language.mushroom_chemical_properties,
             onMoreClick: nil,
             content: {
                 VStack(alignment: .leading, spacing: 8.rpx) {
-                    if !(stone.chemicalFormula ?? "").isEmpty {
-                        PropertyRowView(label: Language.stone_chemical_formula, value: stone.chemicalFormula ?? "")
+                    if !(mushroom.chemicalFormula ?? "").isEmpty {
+                        PropertyRowView(label: Language.mushroom_chemical_formula, value: mushroom.chemicalFormula ?? "")
                     }
-                    if !(stone.chemicalClassification ?? "").isEmpty {
-                        PropertyRowView(label: Language.stone_chemical_classification, value: stone.chemicalClassification ?? "")
+                    if !(mushroom.chemicalClassification ?? "").isEmpty {
+                        PropertyRowView(label: Language.mushroom_chemical_classification, value: mushroom.chemicalClassification ?? "")
                     }
-                    if !(stone.chemicalElements ?? "").isEmpty {
-                        PropertyRowView(label: Language.stone_chemical_elements, value: stone.chemicalElements ?? "")
+                    if !(mushroom.chemicalElements ?? "").isEmpty {
+                        PropertyRowView(label: Language.mushroom_chemical_elements, value: mushroom.chemicalElements ?? "")
                     }
-                    if !(stone.impurities ?? "").isEmpty {
-                        PropertyRowView(label: Language.stone_impurities, value: stone.impurities ?? "")
+                    if !(mushroom.impurities ?? "").isEmpty {
+                        PropertyRowView(label: Language.mushroom_impurities, value: mushroom.impurities ?? "")
                     }
-                    if !(stone.variety ?? "").isEmpty {
-                        PropertyRowView(label: Language.stone_variety, value: stone.variety ?? "")
+                    if !(mushroom.variety ?? "").isEmpty {
+                        PropertyRowView(label: Language.mushroom_variety, value: mushroom.variety ?? "")
                     }
                 }
                 .padding(.horizontal, 20.rpx)
@@ -34,59 +34,59 @@ struct MushroomChemicalPropertiesSectionView: View {
 
 // MARK: - 物理属性区域
 struct MushroomPhysicalPropertiesSectionView: View {
-    let stone: Mushroom
+    let mushroom: Mushroom
     
     var body: some View {
         MushroomSectionContainerView(
-            sectionTitle: Language.stone_physical_properties,
+            sectionTitle: Language.mushroom_physical_properties,
             onMoreClick: nil,
             content: {
                 VStack(spacing: 12.rpx) {
                     VStack(spacing: 8.rpx) {
-                        if !(stone.colors ?? "").isEmpty {
-                            PropertyRowView(label: Language.stone_colors, value: stone.colors ?? "")
+                        if !(mushroom.colors ?? "").isEmpty {
+                            PropertyRowView(label: Language.mushroom_colors, value: mushroom.colors ?? "")
                         }
-                        if !(stone.hardness ?? "").isEmpty {
-                            PropertyRowView(label: Language.stone_hardness, value: stone.hardness ?? "")
+                        if !(mushroom.hardness ?? "").isEmpty {
+                            PropertyRowView(label: Language.mushroom_hardness, value: mushroom.hardness ?? "")
                         }
-                        if !(stone.crystalSystem ?? "").isEmpty {
-                            PropertyRowView(label: Language.stone_crystal_system, value: stone.crystalSystem ?? "")
+                        if !(mushroom.crystalSystem ?? "").isEmpty {
+                            PropertyRowView(label: Language.mushroom_crystal_system, value: mushroom.crystalSystem ?? "")
                         }
-                        if !(stone.luster ?? "").isEmpty {
-                            PropertyRowView(label: Language.stone_luster, value: stone.luster ?? "")
+                        if !(mushroom.luster ?? "").isEmpty {
+                            PropertyRowView(label: Language.mushroom_luster, value: mushroom.luster ?? "")
                         }
-                        if !(stone.diaphaneity ?? "").isEmpty {
-                            PropertyRowView(label: Language.stone_diaphaneity, value: stone.diaphaneity ?? "")
+                        if !(mushroom.diaphaneity ?? "").isEmpty {
+                            PropertyRowView(label: Language.mushroom_diaphaneity, value: mushroom.diaphaneity ?? "")
                         }
-                        if !(stone.magnetism ?? "").isEmpty {
-                            PropertyRowView(label: Language.stone_magnetism, value: stone.magnetism ?? "")
+                        if !(mushroom.magnetism ?? "").isEmpty {
+                            PropertyRowView(label: Language.mushroom_magnetism, value: mushroom.magnetism ?? "")
                         }
-                        if !(stone.streak ?? "").isEmpty {
-                            PropertyRowView(label: Language.stone_streak, value: stone.streak ?? "")
+                        if !(mushroom.streak ?? "").isEmpty {
+                            PropertyRowView(label: Language.mushroom_streak, value: mushroom.streak ?? "")
                         }
-                        if !(stone.tenacity ?? "").isEmpty {
-                            PropertyRowView(label: Language.stone_tenacity, value: stone.tenacity ?? "")
+                        if !(mushroom.tenacity ?? "").isEmpty {
+                            PropertyRowView(label: Language.mushroom_tenacity, value: mushroom.tenacity ?? "")
                         }
-                        if !(stone.cleavage ?? "").isEmpty {
-                            PropertyRowView(label: Language.stone_cleavage, value: stone.cleavage ?? "")
+                        if !(mushroom.cleavage ?? "").isEmpty {
+                            PropertyRowView(label: Language.mushroom_cleavage, value: mushroom.cleavage ?? "")
                         }
-                        if !(stone.facture ?? "").isEmpty {
-                            PropertyRowView(label: Language.stone_fracture, value: stone.facture ?? "")
+                        if !(mushroom.facture ?? "").isEmpty {
+                            PropertyRowView(label: Language.mushroom_fracture, value: mushroom.facture ?? "")
                         }
-                        if !(stone.density ?? "").isEmpty {
-                            PropertyRowView(label: Language.stone_density, value: stone.density ?? "")
+                        if !(mushroom.density ?? "").isEmpty {
+                            PropertyRowView(label: Language.mushroom_density, value: mushroom.density ?? "")
                         }
                     }
                     
                     // 耐久性评级
                     VStack(alignment: .leading, spacing: 8.rpx) {
-                        Text(Language.stone_durability_rating)
+                        Text(Language.mushroom_durability_rating)
                             .font(.semibold(16.rpx))
                             .foregroundColor(.primary)
                         
-                        DurabilityRatingView(label: Language.stone_scratch_resistance, rating: stone.scratchValue ?? 0)
-                        DurabilityRatingView(label: Language.stone_toughness, rating: stone.toughnessValue ?? 0)
-                        DurabilityRatingView(label: Language.stone_stability, rating: stone.stabilityValue ?? 0)
+                        DurabilityRatingView(label: Language.mushroom_scratch_resistance, rating: mushroom.scratchValue ?? 0)
+                        DurabilityRatingView(label: Language.mushroom_toughness, rating: mushroom.toughnessValue ?? 0)
+                        DurabilityRatingView(label: Language.mushroom_stability, rating: mushroom.stabilityValue ?? 0)
                     }
                 }
                 .padding(.horizontal, 20.rpx)
@@ -97,25 +97,25 @@ struct MushroomPhysicalPropertiesSectionView: View {
 
 // MARK: - 护理说明区域
 struct MushroomCareInstructionsSectionView: View {
-    let stone: Mushroom
+    let mushroom: Mushroom
     
     var body: some View {
         MushroomSectionContainerView(
-            sectionTitle: Language.stone_care_instructions,
+            sectionTitle: Language.mushroom_care_instructions,
             onMoreClick: nil,
             content: {
                 VStack(alignment: .leading, spacing: 8.rpx) {
-                    if !(stone.storage ?? "").isEmpty {
-                        CareItemView(title: Language.stone_storage, description: stone.storage ?? "")
+                    if !(mushroom.storage ?? "").isEmpty {
+                        CareItemView(title: Language.mushroom_storage, description: mushroom.storage ?? "")
                     }
-                    if !(stone.light ?? "").isEmpty {
-                        CareItemView(title: Language.stone_light, description: stone.light ?? "")
+                    if !(mushroom.light ?? "").isEmpty {
+                        CareItemView(title: Language.mushroom_light, description: mushroom.light ?? "")
                     }
-                    if !(stone.temperature ?? "").isEmpty {
-                        CareItemView(title: Language.stone_temperature, description: stone.temperature ?? "")
+                    if !(mushroom.temperature ?? "").isEmpty {
+                        CareItemView(title: Language.mushroom_temperature, description: mushroom.temperature ?? "")
                     }
-                    if !(stone.cleaningTips ?? "").isEmpty {
-                        CareItemView(title: Language.stone_cleaning_tips, description: stone.cleaningTips ?? "")
+                    if !(mushroom.cleaningTips ?? "").isEmpty {
+                        CareItemView(title: Language.mushroom_cleaning_tips, description: mushroom.cleaningTips ?? "")
                     }
                 }
                 .padding(.horizontal, 20.rpx)
@@ -126,11 +126,11 @@ struct MushroomCareInstructionsSectionView: View {
 
 // MARK: - 价格信息区域
 struct MushroomPriceSectionView: View {
-    let stone: Mushroom
+    let mushroom: Mushroom
     
     private var caratPriceRange: String? {
-        guard let priceFrom = stone.pricePerCaratFrom else { return nil }
-        if let priceTo = stone.pricePerCaratTo {
+        guard let priceFrom = mushroom.pricePerCaratFrom else { return nil }
+        if let priceTo = mushroom.pricePerCaratTo {
             return "$\(String(format: "%.2f", priceFrom)) - $\(String(format: "%.2f", priceTo))"
         } else {
             return "$\(String(format: "%.2f", priceFrom))"
@@ -138,8 +138,8 @@ struct MushroomPriceSectionView: View {
     }
     
     private var poundPriceRange: String? {
-        guard let priceFrom = stone.pricePerPoundFrom else { return nil }
-        if let priceTo = stone.pricePerPoundTo {
+        guard let priceFrom = mushroom.pricePerPoundFrom else { return nil }
+        if let priceTo = mushroom.pricePerPoundTo {
             return "$\(String(format: "%.2f", priceFrom)) - $\(String(format: "%.2f", priceTo))"
         } else {
             return "$\(String(format: "%.2f", priceFrom))"
@@ -148,16 +148,16 @@ struct MushroomPriceSectionView: View {
     
     var body: some View {
         MushroomSectionContainerView(
-            sectionTitle: Language.stone_price_information,
+            sectionTitle: Language.mushroom_price_information,
             onMoreClick: nil,
             content: {
                 VStack(alignment: .leading, spacing: 8.rpx) {
                     if let caratPrice = caratPriceRange {
-                        PropertyRowView(label: Language.stone_per_carat, value: caratPrice)
+                        PropertyRowView(label: Language.mushroom_per_carat, value: caratPrice)
                     }
                     
                     if let poundPrice = poundPriceRange {
-                        PropertyRowView(label: Language.stone_per_pound, value: poundPrice)
+                        PropertyRowView(label: Language.mushroom_per_pound, value: poundPrice)
                     }
                 }
                 .padding(.horizontal, 20.rpx)
@@ -168,71 +168,71 @@ struct MushroomPriceSectionView: View {
 
 // MARK: - 形而上学属性区域
 struct MushroomMetaphysicalSectionView: View {
-    let stone: Mushroom
+    let mushroom: Mushroom
     
     var body: some View {
         MushroomSectionContainerView(
-            sectionTitle: Language.stone_metaphysical_properties,
+            sectionTitle: Language.mushroom_metaphysical_properties,
             onMoreClick: nil,
             content: {
                 VStack(alignment: .leading, spacing: 16.rpx) {
                     // 脉轮
                     VStack(alignment: .leading, spacing: 8.rpx) {
-                        if !(stone.chakraRoot ?? "").isEmpty {
-                            ChakraItemView(name: Language.stone_chakra_root, description: stone.chakraRoot ?? "", color: Color(red: 0.898, green: 0.243, blue: 0.243))
+                        if !(mushroom.chakraRoot ?? "").isEmpty {
+                            ChakraItemView(name: Language.mushroom_chakra_root, description: mushroom.chakraRoot ?? "", color: Color(red: 0.898, green: 0.243, blue: 0.243))
                         }
-                        if !(stone.chakraSacral ?? "").isEmpty {
-                            ChakraItemView(name: Language.stone_chakra_sacral, description: stone.chakraSacral ?? "", color: Color(red: 1.0, green: 0.549, blue: 0.0))
+                        if !(mushroom.chakraSacral ?? "").isEmpty {
+                            ChakraItemView(name: Language.mushroom_chakra_sacral, description: mushroom.chakraSacral ?? "", color: Color(red: 1.0, green: 0.549, blue: 0.0))
                         }
-                        if !(stone.chakraSolar ?? "").isEmpty {
-                            ChakraItemView(name: Language.stone_chakra_solar, description: stone.chakraSolar ?? "", color: Color(red: 1.0, green: 0.843, blue: 0.0))
+                        if !(mushroom.chakraSolar ?? "").isEmpty {
+                            ChakraItemView(name: Language.mushroom_chakra_solar, description: mushroom.chakraSolar ?? "", color: Color(red: 1.0, green: 0.843, blue: 0.0))
                         }
-                        if !(stone.chakraHeart ?? "").isEmpty {
-                            ChakraItemView(name: Language.stone_chakra_heart, description: stone.chakraHeart ?? "", color: Color(red: 0.220, green: 0.631, blue: 0.412))
+                        if !(mushroom.chakraHeart ?? "").isEmpty {
+                            ChakraItemView(name: Language.mushroom_chakra_heart, description: mushroom.chakraHeart ?? "", color: Color(red: 0.220, green: 0.631, blue: 0.412))
                         }
-                        if !(stone.chakraThroat ?? "").isEmpty {
-                            ChakraItemView(name: Language.stone_chakra_throat, description: stone.chakraThroat ?? "", color: Color(red: 0.196, green: 0.510, blue: 0.808))
+                        if !(mushroom.chakraThroat ?? "").isEmpty {
+                            ChakraItemView(name: Language.mushroom_chakra_throat, description: mushroom.chakraThroat ?? "", color: Color(red: 0.196, green: 0.510, blue: 0.808))
                         }
-                        if !(stone.chakraEye ?? "").isEmpty {
-                            ChakraItemView(name: Language.stone_chakra_third_eye, description: stone.chakraEye ?? "", color: Color(red: 0.333, green: 0.235, blue: 0.604))
+                        if !(mushroom.chakraEye ?? "").isEmpty {
+                            ChakraItemView(name: Language.mushroom_chakra_third_eye, description: mushroom.chakraEye ?? "", color: Color(red: 0.333, green: 0.235, blue: 0.604))
                         }
-                        if !(stone.chakraCrown ?? "").isEmpty {
-                            ChakraItemView(name: Language.stone_chakra_crown, description: stone.chakraCrown ?? "", color: Color(red: 0.502, green: 0.353, blue: 0.835))
+                        if !(mushroom.chakraCrown ?? "").isEmpty {
+                            ChakraItemView(name: Language.mushroom_chakra_crown, description: mushroom.chakraCrown ?? "", color: Color(red: 0.502, green: 0.353, blue: 0.835))
                         }
                     }
                     
                     if hasQualityProperties {
                         // 品质属性
                         VStack(spacing: 8.rpx) {
-                            if !(stone.qualityTranquillity ?? "").isEmpty {
-                                QualityItemView(quality: Language.stone_quality_tranquillity, description: stone.qualityTranquillity ?? "")
+                            if !(mushroom.qualityTranquillity ?? "").isEmpty {
+                                QualityItemView(quality: Language.mushroom_quality_tranquillity, description: mushroom.qualityTranquillity ?? "")
                             }
-                            if !(stone.qualityGrounding ?? "").isEmpty {
-                                QualityItemView(quality: Language.stone_quality_grounding, description: stone.qualityGrounding ?? "")
+                            if !(mushroom.qualityGrounding ?? "").isEmpty {
+                                QualityItemView(quality: Language.mushroom_quality_grounding, description: mushroom.qualityGrounding ?? "")
                             }
-                            if !(stone.qualityProtection ?? "").isEmpty {
-                                QualityItemView(quality: Language.stone_quality_protection, description: stone.qualityProtection ?? "")
+                            if !(mushroom.qualityProtection ?? "").isEmpty {
+                                QualityItemView(quality: Language.mushroom_quality_protection, description: mushroom.qualityProtection ?? "")
                             }
-                            if !(stone.qualityHealing ?? "").isEmpty {
-                                QualityItemView(quality: Language.stone_quality_healing, description: stone.qualityHealing ?? "")
+                            if !(mushroom.qualityHealing ?? "").isEmpty {
+                                QualityItemView(quality: Language.mushroom_quality_healing, description: mushroom.qualityHealing ?? "")
                             }
-                            if !(stone.qualityClarity ?? "").isEmpty {
-                                QualityItemView(quality: Language.stone_quality_clarity, description: stone.qualityClarity ?? "")
+                            if !(mushroom.qualityClarity ?? "").isEmpty {
+                                QualityItemView(quality: Language.mushroom_quality_clarity, description: mushroom.qualityClarity ?? "")
                             }
-                            if !(stone.qualitySpiritual ?? "").isEmpty {
-                                QualityItemView(quality: Language.stone_quality_spiritual, description: stone.qualitySpiritual ?? "")
+                            if !(mushroom.qualitySpiritual ?? "").isEmpty {
+                                QualityItemView(quality: Language.mushroom_quality_spiritual, description: mushroom.qualitySpiritual ?? "")
                             }
-                            if !(stone.qualityEnergy ?? "").isEmpty {
-                                QualityItemView(quality: Language.stone_quality_energy, description: stone.qualityEnergy ?? "")
+                            if !(mushroom.qualityEnergy ?? "").isEmpty {
+                                QualityItemView(quality: Language.mushroom_quality_energy, description: mushroom.qualityEnergy ?? "")
                             }
-                            if !(stone.qualityProsperity ?? "").isEmpty {
-                                QualityItemView(quality: Language.stone_quality_prosperity, description: stone.qualityProsperity ?? "")
+                            if !(mushroom.qualityProsperity ?? "").isEmpty {
+                                QualityItemView(quality: Language.mushroom_quality_prosperity, description: mushroom.qualityProsperity ?? "")
                             }
-                            if !(stone.qualityBalance ?? "").isEmpty {
-                                QualityItemView(quality: Language.stone_quality_balance, description: stone.qualityBalance ?? "")
+                            if !(mushroom.qualityBalance ?? "").isEmpty {
+                                QualityItemView(quality: Language.mushroom_quality_balance, description: mushroom.qualityBalance ?? "")
                             }
-                            if !(stone.qualityLove ?? "").isEmpty {
-                                QualityItemView(quality: Language.stone_quality_love, description: stone.qualityLove ?? "")
+                            if !(mushroom.qualityLove ?? "").isEmpty {
+                                QualityItemView(quality: Language.mushroom_quality_love, description: mushroom.qualityLove ?? "")
                             }
                         }
                     }
@@ -240,14 +240,14 @@ struct MushroomMetaphysicalSectionView: View {
                     if hasCareProperties {
                         // 护理方法
                         VStack(spacing: 8.rpx) {
-                            if stone.enhancing != nil {
-                                CareItemView(title: Language.stone_enhancing, description: stone.enhancing!)
+                            if mushroom.enhancing != nil {
+                                CareItemView(title: Language.mushroom_enhancing, description: mushroom.enhancing!)
                             }
-                            if stone.charging != nil {
-                                CareItemView(title: Language.stone_charging, description: stone.charging!)
+                            if mushroom.charging != nil {
+                                CareItemView(title: Language.mushroom_charging, description: mushroom.charging!)
                             }
-                            if stone.cleansing != nil {
-                                CareItemView(title: Language.stone_cleansing, description: stone.cleansing!)
+                            if mushroom.cleansing != nil {
+                                CareItemView(title: Language.mushroom_cleansing, description: mushroom.cleansing!)
                             }
                         }
                     }
@@ -258,28 +258,28 @@ struct MushroomMetaphysicalSectionView: View {
     }
     
     private var hasQualityProperties: Bool {
-        return !(stone.qualityTranquillity ?? "").isEmpty ||
-               !(stone.qualityGrounding ?? "").isEmpty ||
-               !(stone.qualityProtection ?? "").isEmpty ||
-               !(stone.qualityHealing ?? "").isEmpty ||
-               !(stone.qualityClarity ?? "").isEmpty ||
-               !(stone.qualitySpiritual ?? "").isEmpty ||
-               !(stone.qualityEnergy ?? "").isEmpty ||
-               !(stone.qualityProsperity ?? "").isEmpty ||
-               !(stone.qualityBalance ?? "").isEmpty ||
-               !(stone.qualityLove ?? "").isEmpty
+        return !(mushroom.qualityTranquillity ?? "").isEmpty ||
+               !(mushroom.qualityGrounding ?? "").isEmpty ||
+               !(mushroom.qualityProtection ?? "").isEmpty ||
+               !(mushroom.qualityHealing ?? "").isEmpty ||
+               !(mushroom.qualityClarity ?? "").isEmpty ||
+               !(mushroom.qualitySpiritual ?? "").isEmpty ||
+               !(mushroom.qualityEnergy ?? "").isEmpty ||
+               !(mushroom.qualityProsperity ?? "").isEmpty ||
+               !(mushroom.qualityBalance ?? "").isEmpty ||
+               !(mushroom.qualityLove ?? "").isEmpty
     }
     
     private var hasCareProperties: Bool {
-        return !(stone.enhancing ?? "").isEmpty ||
-               !(stone.charging ?? "").isEmpty ||
-               !(stone.cleansing ?? "").isEmpty
+        return !(mushroom.enhancing ?? "").isEmpty ||
+               !(mushroom.charging ?? "").isEmpty ||
+               !(mushroom.cleansing ?? "").isEmpty
     }
 }
 
 // MARK: - FAQ区域
 struct MushroomFAQSectionView: View {
-    let stone: Mushroom
+    let mushroom: Mushroom
     
     var body: some View {
         MushroomSectionContainerView(
@@ -287,11 +287,11 @@ struct MushroomFAQSectionView: View {
             onMoreClick: nil,
             content: {
                 VStack(spacing: 0) {
-                    ForEach((stone.faqs ?? []).indices, id: \.self) { index in
-                        let faq = (stone.faqs ?? [])[index]
+                    ForEach((mushroom.faqs ?? []).indices, id: \.self) { index in
+                        let faq = (mushroom.faqs ?? [])[index]
                         FAQItemView(question: faq.question ?? "", answer: faq.answer ?? "")
                         
-                        if index < (stone.faqs ?? []).count - 1 {
+                        if index < (mushroom.faqs ?? []).count - 1 {
                             Divider()
                                 .background(Color.gray.opacity(0.2))
                                 .padding(.vertical, 4.rpx)
@@ -306,7 +306,7 @@ struct MushroomFAQSectionView: View {
 
 // MARK: - 用途和安全信息区域
 struct MushroomUsageSectionView: View {
-    let stone: Mushroom
+    let mushroom: Mushroom
     
     var body: some View {
         MushroomSectionContainerView(
@@ -314,14 +314,14 @@ struct MushroomUsageSectionView: View {
             onMoreClick: nil,
             content: {
                 VStack(spacing: 12.rpx) {
-                    if !(stone.usage ?? "").isEmpty {
-                        CareItemView(title: "用途", description: stone.usage ?? "")
+                    if !(mushroom.usage ?? "").isEmpty {
+                        CareItemView(title: "用途", description: mushroom.usage ?? "")
                     }
-                    if stone.healthRisks != nil {
-                        CareItemView(title: "健康风险", description: stone.healthRisks!)
+                    if mushroom.healthRisks != nil {
+                        CareItemView(title: "健康风险", description: mushroom.healthRisks!)
                     }
-                    if !(stone.originalVsFake ?? "").isEmpty {
-                        CareItemView(title: "真伪鉴别", description: stone.originalVsFake ?? "")
+                    if !(mushroom.originalVsFake ?? "").isEmpty {
+                        CareItemView(title: "真伪鉴别", description: mushroom.originalVsFake ?? "")
                     }
                 }
                 .padding(.horizontal, 20.rpx)

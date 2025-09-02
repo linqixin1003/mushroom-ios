@@ -214,16 +214,16 @@ class HomeViewController: TabItemViewController {
     /// - Parameter id: 石头的唯一标识符
     private func handleDailyMushroomShare(id: String) {
         // 从 viewModel 获取石头信息
-        if let stone = viewModel.getDailyMushroom(by: id) {
-            let shareText = stone.name
+        if let mushroom = viewModel.getDailyMushroom(by: id) {
+            let shareText = mushroom.name
             let shareData = ShareData(
-                imageUrl: stone.photoUrl ?? "",
+                imageUrl: mushroom.photoUrl ?? "",
                 text: shareText
             )
             ShareViewModel.presentShare(shareData: shareData, from: self)
         } else {
             // 如果找不到具体的石头信息，显示错误提示
-            showShareErrorAlert(message: Language.share_stone_not_found)
+            showShareErrorAlert(message: Language.share_mushroom_not_found)
         }
     }
 }

@@ -387,8 +387,8 @@ class LocalPurchaseManager: ObservableObject {
         // 检查 Bundle ID
         let bundleId = Bundle.main.bundleIdentifier ?? "unknown"
         report += "Bundle ID: \(bundleId)\n"
-        if bundleId != "com.stone.snap" {
-            report += "⚠️ Bundle ID mismatch! Expected: com.stone.snap, Got: \(bundleId)\n"
+        if bundleId != "com.mushroom.snap" {
+            report += "⚠️ Bundle ID mismatch! Expected: com.mushroom.snap, Got: \(bundleId)\n"
         }
         
         // 检查产品配置

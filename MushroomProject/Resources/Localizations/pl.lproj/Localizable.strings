@@ -62,8 +62,8 @@
 "home_action_identify" = "Identify";
 "home_action_record" = "Record";
 "home_action_ai_beautify" = "AI Beautify";
-"home_your_daily_stone" = "Your Daily Mushroom";
-"home_stones_near_you" = "Mushrooms Near You";
+"home_your_daily_mushroom" = "Your Daily Mushroom";
+"home_mushrooms_near_you" = "Mushrooms Near You";
 "home_app_usage_title" = "App usage instructions";
 "home_app_usage_desc" = "Help you get familiar with us more quickly.";
 
@@ -131,7 +131,7 @@
 "camera_permission_request_title" = "We need Camera permission";
 "camera_permission_request_desc" = "Camera permission is required";
 "camera_permisson_request_button" = "Allow";
-"camera_preview_tip" = "Take photos to identify stones and keep the subject clear when shooting";
+"camera_preview_tip" = "Take photos to identify mushrooms and keep the subject clear when shooting";
 
 // MARK: - Settings
 "settings_title" = "Settings";
@@ -156,7 +156,7 @@
 "instruction_step_4" = "4. Staraj się uchwycić przód ptaka. Co najmniej głowa musi być widoczna.";
 "instruction_step_5" = "5. Tylko jeden gatunek na zdjęciu. Zbyt wiele ptaków na zdjęciu może prowadzić do błędnej identyfikacji.";
 "instruction_identify" = "Identyfikuj"; 
-"stone_info_more" = "Więcej>>";
+"mushroom_info_more" = "Więcej>>";
 
 // MARK: - Identification "profile_privileges" = "Przywileje";
 // MARK: - Purchase
@@ -205,7 +205,7 @@
 "microphone_permission_button" = "Zezwól";
 
 // Mushroom Season
-"stone_visible_year_round" = "Przez cały rok";
+"mushroom_visible_year_round" = "Przez cały rok";
 "convert_cancel_notice" = "Nie musisz płacić, jeśli anulujesz subskrypcję co najmniej dzień przed zakończeniem 7-dniowego bezpłatnego okresu próbnego.";
 "retain_price_then" = "Następnie ";
 "retain_price_year_cancel" = "/rok. Anuluj w dowolnym momencie.";
@@ -230,18 +230,18 @@
 "profile_no_more_data" = "Brak więcej danych";
 
 // MARK: - Mushroom Info Section
-"stone_usage" = "Zastosowanie";
-"stone_health_risks" = "Ryzyko zdrowotne";
-"stone_original_vs_fake" = "Autentyczność";
-"stone_storage" = "Przechowywanie";
-"stone_cleaning_tips" = "Wskazówki czyszczenia";
-"stone_chemical_formula" = "Wzór chemiczny";
-"stone_chemical_classification" = "Klasyfikacja chemiczna";
-"stone_crystal_system" = "System krystaliczny";
-"stone_hardness" = "Twardość";
-"stone_density" = "Gęstość";
-"stone_chemical_elements" = "Pierwiastki chemiczne";
-"stone_estimated_value" = "Szacowana wartość";
+"mushroom_usage" = "Zastosowanie";
+"mushroom_health_risks" = "Ryzyko zdrowotne";
+"mushroom_original_vs_fake" = "Autentyczność";
+"mushroom_storage" = "Przechowywanie";
+"mushroom_cleaning_tips" = "Wskazówki czyszczenia";
+"mushroom_chemical_formula" = "Wzór chemiczny";
+"mushroom_chemical_classification" = "Klasyfikacja chemiczna";
+"mushroom_crystal_system" = "System krystaliczny";
+"mushroom_hardness" = "Twardość";
+"mushroom_density" = "Gęstość";
+"mushroom_chemical_elements" = "Pierwiastki chemiczne";
+"mushroom_estimated_value" = "Szacowana wartość";
 "metal_detector_tips_content" = "To narzędzie jest zasilane przez czujnik magnetyczny wbudowany w Twój telefon komórkowy. Ten detektor działa ze skałami magnetycznymi lub minerałami, takimi jak magnetyt, pirotyn i meteoryt. Może również wykrywać metal składający się głównie z żelaza, kobaltu lub niklu. Ponieważ czujnik magnetyczny jest umieszczony inaczej w każdym telefonie komórkowym, przesuń wykrywany obiekt wokół telefonu, aby znaleźć jego najlepszą czułość i uzyskać wyraźny odczyt na tarczy. Odczyt tarczy wskazuje siłę wykrytego obiektu; nie reprezentuje dokładnej wartości magnetyzmu.";
 "add_to_collection" = "Dodaj do mojej kolekcji";
 

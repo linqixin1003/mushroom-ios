@@ -2,16 +2,16 @@
 import Alamofire
 
 struct GetDetailRequest: RequestProtocol {
-    let stoneId: String
+    let mushroomId: String
     let language: String
     
-    init(stoneId: String, language: String = "en") {
-        self.stoneId = stoneId
+    init(mushroomId: String, language: String = "en") {
+        self.mushroomId = mushroomId
         self.language = language
     }
     
     var path: String {
-        return "api/mushrooms/\(stoneId)"
+        return "api/mushrooms/\(mushroomId)"
     }
     
     var needAuth: Bool {
@@ -32,11 +32,11 @@ struct GetDetailRequest: RequestProtocol {
 }
 
 struct GetDetailResponse: Codable {
-    let stone: Mushroom
+    let mushroom: Mushroom
     let isInWishlist: Bool
     
     enum CodingKeys: String, CodingKey {
-        case stone
+        case mushroom
         case isInWishlist = "is_in_wishlist"
     }
 }

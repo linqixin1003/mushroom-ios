@@ -327,14 +327,14 @@ struct MushroomLocation: Codable {
 
 struct MushroomPhoto: Codable {
     let id: Int?
-    let stone: String?
+    let mushroom: String?
     let image: String?
     let isPrimary: Bool?
     let url: String?
 
     enum CodingKeys: String, CodingKey {
         case id
-        case stone
+        case mushroom
         case image
         case isPrimary = "is_primary"
         case url

@@ -13,7 +13,7 @@ struct IdentifyResultActionModel {
 }
 
 struct IdentifyResultPage: View {
-    let stone: Mushroom
+    let mushroom: Mushroom
     let images:[String]
     var isInWish: Bool
     var isInFavorite:Bool = false
@@ -26,7 +26,7 @@ struct IdentifyResultPage: View {
     private let sendOpenAndCloseEvent = SendOpenAndCloseEvent(openEventName: EventName.resultOpen, closeEventName: EventName.resultClose)
     var body: some View {
         AppPage(
-            title: self.stone.name,
+            title: self.mushroom.name,
             leftButtonConfig: .init(imageName: "icon_back_24", onClick: {
                 self.actionModel.navBackClick.send()
             }),
@@ -41,14 +41,14 @@ struct IdentifyResultPage: View {
                         ImageTabView(
                             imageUrls: images,
                             capturedImage: capturedImage,
-                            stone: stone,
+                            mushroom: mushroom,
                             actionModel: actionModel) { url, image in
                                 self.compareImageUrl = url
                             }
                         MushroomSummaryView(
-                            name: stone.name,
-                            description: stone.description ?? "",
-                            tags: (stone.tags ?? []).map { MushroomTag(id: 0, name: $0, slug: $0) }
+                            name: mushroom.name,
+                            description: mushroom.description ?? "",
+                            tags: (mushroom.tags ?? []).map { MushroomTag(id: 0, name: $0, slug: $0) }
                         )
                         .frame(maxWidth: .infinity)
                         .background(Color.white)
@@ -58,48 +58,48 @@ struct IdentifyResultPage: View {
                         
                         VStack(spacing: 12.rpx) {
                             
-                            if !stone.images.isEmpty {
+                            if !mushroom.images.isEmpty {
                                 MushroomImagesSectionView(
-                                    imageUrls: stone.images,
-                                    onMoreClick: stone.images.count <= 2 ? nil : {
-                                        FireBaseEvent.send(eventName: EventName.resultImageMoreClick, params: [EventParam.uid: self.stone.id])
-                                        self.actionModel.onViewMoreImagesClick.send(stone.images)
+                                    imageUrls: mushroom.images,
+                                    onMoreClick: mushroom.images.count <= 2 ? nil : {
+                                        FireBaseEvent.send(eventName: EventName.resultImageMoreClick, params: [EventParam.uid: self.mushroom.id])
+                                        self.actionModel.onViewMoreImagesClick.send(mushroom.images)
                                         self.showingMoreImagesPage = true
                                     }) { position, imageUrl in
-                                        FireBaseEvent.send(eventName: EventName.resultViewImageClick, params: [EventParam.uid: self.stone.id, EventParam.index: String(position)])
+                                        FireBaseEvent.send(eventName: EventName.resultViewImageClick, params: [EventParam.uid: self.mushroom.id, EventParam.index: String(position)])
                                         self.actionModel.onImageClick.send((position, imageUrl))
                                     }
                             }
                             
                             // 化学属性区域
-                            MushroomChemicalPropertiesSectionView(stone: stone)
+                            MushroomChemicalPropertiesSectionView(mushroom: mushroom)
                             
                             // 物理属性区域
-                            MushroomPhysicalPropertiesSectionView(stone: stone)
+                            MushroomPhysicalPropertiesSectionView(mushroom: mushroom)
                             
                             // 护理说明区域
-                            if !(stone.storage ?? "").isEmpty || !(stone.cleaningTips ?? "").isEmpty {
-                                MushroomCareInstructionsSectionView(stone: stone)
+                            if !(mushroom.storage ?? "").isEmpty || !(mushroom.cleaningTips ?? "").isEmpty {
+                                MushroomCareInstructionsSectionView(mushroom: mushroom)
                             }
                             
                             // 价格信息区域
-                            if stone.pricePerCaratFrom != nil || stone.pricePerPoundFrom != nil {
-                                MushroomPriceSectionView(stone: stone)
+                            if mushroom.pricePerCaratFrom != nil || mushroom.pricePerPoundFrom != nil {
+                                MushroomPriceSectionView(mushroom: mushroom)
                             }
                             
                             // 形而上学属性区域
-                            if (stone.showMetaphysical ?? false) {
-                                MushroomMetaphysicalSectionView(stone: stone)
+                            if (mushroom.showMetaphysical ?? false) {
+                                MushroomMetaphysicalSectionView(mushroom: mushroom)
                             }
                             
                             // FAQ区域
-                            if stone.faqs?.isEmpty == false {
-                                MushroomFAQSectionView(stone: stone)
+                            if mushroom.faqs?.isEmpty == false {
+                                MushroomFAQSectionView(mushroom: mushroom)
                             }
                             
                             // 用途和健康信息区域
-                            if !(stone.usage ?? "").isEmpty || (stone.healthRisks?.isEmpty == false) {
-                                MushroomUsageSectionView(stone: stone)
+                            if !(mushroom.usage ?? "").isEmpty || (mushroom.healthRisks?.isEmpty == false) {
+                                MushroomUsageSectionView(mushroom: mushroom)
                             }
                         }
                         
@@ -114,33 +114,33 @@ struct IdentifyResultPage: View {
                 ) { type in
                     switch type {
                     case .new:
-                        FireBaseEvent.send(eventName: EventName.resultRetakeClick, params: [EventParam.uid: self.stone.id, EventParam.index: "1"])
+                        FireBaseEvent.send(eventName: EventName.resultRetakeClick, params: [EventParam.uid: self.mushroom.id, EventParam.index: "1"])
                         self.actionModel.bottomActionClick.send(type)
                     case .addWish:
-                        FireBaseEvent.send(eventName: "result_add_wish_click", params: [EventParam.uid: self.stone.id])
+                        FireBaseEvent.send(eventName: "result_add_wish_click", params: [EventParam.uid: self.mushroom.id])
                         self.actionModel.bottomActionClick.send(type)
                     case .save:
-                        FireBaseEvent.send(eventName: EventName.resultSaveClick, params: [EventParam.uid: self.stone.id])
+                        FireBaseEvent.send(eventName: EventName.resultSaveClick, params: [EventParam.uid: self.mushroom.id])
                         self.actionModel.bottomActionClick.send(type)
                     case .share:
-                        FireBaseEvent.send(eventName: EventName.resultShareClick, params: [EventParam.uid: self.stone.id])
+                        FireBaseEvent.send(eventName: EventName.resultShareClick, params: [EventParam.uid: self.mushroom.id])
                         self.handleShareAction()
                     }
                 }
             }
         }
         .fullScreenCover(isPresented: $showingMoreImagesPage) {
-            MoreImagePage(imageUrls: stone.images, onCloseClick: {
+            MoreImagePage(imageUrls: mushroom.images, onCloseClick: {
                 self.showingMoreImagesPage = false
             }, onImageClick: { index in
-                self.actionModel.onImageClick.send((index, stone.images))
+                self.actionModel.onImageClick.send((index, mushroom.images))
             })
         }
         .fullScreenCover(isPresented: $showingSharePage) {
             ShareView(
                 viewModel: ShareViewModel(
                     image: capturedImage,
-                    name: stone.name
+                    name: mushroom.name
                 ),
                 onBack: {
                     self.compareImageUrl = nil

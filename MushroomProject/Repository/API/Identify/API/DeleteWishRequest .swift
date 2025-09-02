@@ -9,10 +9,10 @@ import Alamofire
 
 struct DeleteWishRequest: RequestProtocol {
     
-    let stoneId: String
+    let mushroomId: String
     
-    init(stoneId: String) {
-        self.stoneId = stoneId
+    init(mushroomId: String) {
+        self.mushroomId = mushroomId
     }
     
     var path: String {
@@ -28,7 +28,7 @@ struct DeleteWishRequest: RequestProtocol {
     }
     
     var parameters: [String: Any] {
-        return ["stone_id": stoneId]
+        return ["mushroom_id": mushroomId]
     }
     
     var multipartFormData: ((MultipartFormData) -> Void)? {

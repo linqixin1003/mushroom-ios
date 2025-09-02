@@ -63,8 +63,8 @@
 "home_action_identify" = "Identifiera";
 "home_action_record" = "Spela in";
 "home_action_ai_beautify" = "AI Försköning";
-"home_your_daily_stone" = "Din Dagliga Fågel";
-"home_stones_near_you" = "Fåglar Nära Dig";
+"home_your_daily_mushroom" = "Din Dagliga Fågel";
+"home_mushrooms_near_you" = "Fåglar Nära Dig";
 "home_app_usage_title" = "Appanvändningsinstruktioner";
 "home_app_usage_desc" = "Hjälper dig att bekanta dig med oss snabbare.";
 
@@ -149,7 +149,7 @@
 "camera_preview_tip" = "Ta foton för att identifiera fåglar och håll motivet tydligt när du fotograferar";
 "camera_zoom" = "Zoom";
 "camera_photography_tips" = "Fotograferingstips";
-"camera_keep_stone_centered" = "Håll fågeln centrerad i ramen";
+"camera_keep_mushroom_centered" = "Håll fågeln centrerad i ramen";
 "camera_good_image_quality" = "Bra bildkvalitet kan hjälpa till att förbättra identifieringens noggrannhet.";
 "camera_mode_by_photo" = "Med foto";
 "camera_mode_by_sound" = "Med ljud";
@@ -174,26 +174,26 @@
 "instruction_step_1" = "1. Håll fågeln centrerad i ramen, se till att den inte är för långt borta.";
 "instruction_step_2" = "2. Försök undvika vegetation, burar eller andra föremål framför fågeln.";
 "instruction_step_3" = "3. Se till att ha bra belysning för hög kontrast. Om du inte kan se fågeln kan appen inte heller göra det.";
-"instruction_step_4" = "4. Försök fånga framsidan av fågeln. Åtminstone måste huvudet vara synligt.";
+"instruction_step_4" = "4. Försök fånga framsidan av fågeln. Åtminmushroom måste huvudet vara synligt.";
 "instruction_step_5" = "5. Endast en art per bild. För många fåglar i bilden kan leda till felaktig identifiering.";
 "instruction_identify" = "Identifiera";
 
 // MARK: - Mushroom Info Section
-"stone_usage" = "Användning";
-"stone_health_risks" = "Hälsorisker";
-"stone_original_vs_fake" = "Autentisering";
-"stone_storage" = "Förvaring";
-"stone_cleaning_tips" = "Rengöringstips";
-"stone_chemical_formula" = "Kemisk formel";
-"stone_chemical_classification" = "Kemisk klassificering";
-"stone_crystal_system" = "Kristallsystem";
-"stone_hardness" = "Hårdhet";
-"stone_density" = "Densitet";
-"stone_chemical_elements" = "Kemiska element";
-"stone_estimated_value" = "Uppskattat värde";
+"mushroom_usage" = "Användning";
+"mushroom_health_risks" = "Hälsorisker";
+"mushroom_original_vs_fake" = "Autentisering";
+"mushroom_storage" = "Förvaring";
+"mushroom_cleaning_tips" = "Rengöringstips";
+"mushroom_chemical_formula" = "Kemisk formel";
+"mushroom_chemical_classification" = "Kemisk klassificering";
+"mushroom_crystal_system" = "Kristallsystem";
+"mushroom_hardness" = "Hårdhet";
+"mushroom_density" = "Densitet";
+"mushroom_chemical_elements" = "Kemiska element";
+"mushroom_estimated_value" = "Uppskattat värde";
 "metal_detector_tips_content" = "Detta verktyg drivs av den magnetiska sensorn som är inbyggd i din mobiltelefon. Denna detektor fungerar med magnetiska stenar eller mineraler, såsom magnetit, pyrrotin och meteorit. Den kan också upptäcka metall som huvudsakligen består av järn, kobolt eller nickel. Eftersom den magnetiska sensorn är placerad olika på varje mobiltelefon, flytta det detekterande objektet runt din telefon för att hitta dess bästa känslighet och få en tydlig avläsning på mätaren. Avläsningen på mätaren indikerar styrkan hos ditt detekterade objekt; den representerar inte det exakta värdet av magnetism.";
 "add_to_collection" = "Lägg till i min samling";
-"stone_info_more" = "Mer>>";
+"mushroom_info_more" = "Mer>>";
 
 // MARK: - ConvertPage
 "convert_title" = "MushroomAI Snap";
@@ -259,7 +259,7 @@
 "valuation_step_identification" = "Identifiering";
 "valuation_step_quality_evaluation" = "Kvalitetsutvärdering";
 "valuation_step_market_price_search" = "Sökning efter marknadspris";
-"stone_estimated_value" = "Uppskattat värde";
+"mushroom_estimated_value" = "Uppskattat värde";
 "valuation_not_found" = "Ingen sten hittades";
 "valuation_camera_tips" = "Tydliga bilder av hög kvalitet leder till mer exakta värderingsresultat";
 
@@ -309,7 +309,7 @@
 "microphone_permission_button" = "Tillåt";
 
 // MARK: - Mushroom Season
-"stone_visible_year_round" = "Året runt";
+"mushroom_visible_year_round" = "Året runt";
 
 // MARK: - Additional Missing Keys
 "subscription_cancel_notice" = "Du behöver inte betala om du avbryter prenumerationen minst en dag innan den 7-dagars gratis provperioden slutar.";

@@ -66,8 +66,8 @@
 "home_action_identify" = "識別";
 "home_action_record" = "録音";
 "home_action_ai_beautify" = "AI美化";
-"home_your_daily_stone" = "今日の鳥";
-"home_stones_near_you" = "近くの鳥";
+"home_your_daily_mushroom" = "今日の鳥";
+"home_mushrooms_near_you" = "近くの鳥";
 "home_app_usage_title" = "アプリ使用方法";
 "home_app_usage_desc" = "より迅速に慣れるのに役立ちます。";
 
@@ -144,12 +144,12 @@
 "settings_manage_account" = "アカウント管理";
 
 // MARK: - Mushroom Information
-"stone_info_detailed_not_available" = "詳細情報は利用できません";
-"stone_info_additional_characteristics" = "追加の特徴と分類データは、利用可能になったときにここに表示されます。";
-"stone_info_characteristics" = "特徴";
-"stone_info_scientific_classification" = "科学的分類";
-"stone_info_additional_classification" = "追加分類情報：";
-"stone_info_more" = "もっと>>";
+"mushroom_info_detailed_not_available" = "詳細情報は利用できません";
+"mushroom_info_additional_characteristics" = "追加の特徴と分類データは、利用可能になったときにここに表示されます。";
+"mushroom_info_characteristics" = "特徴";
+"mushroom_info_scientific_classification" = "科学的分類";
+"mushroom_info_additional_classification" = "追加分類情報：";
+"mushroom_info_more" = "もっと>>";
 
 // MARK: - Identification
 "identify_recognition_failed" = "認識に失敗しました";
@@ -159,7 +159,7 @@
 // MARK: - Camera
 "camera_zoom" = "ズーム";
 "camera_photography_tips" = "撮影のヒント";
-"camera_keep_stone_centered" = "鳥をフレームの中央に保つ";
+"camera_keep_mushroom_centered" = "鳥をフレームの中央に保つ";
 "camera_good_image_quality" = "良い画質は識別精度の向上に役立ちます。";
 
 // MARK: - Sound
@@ -209,27 +209,27 @@
 "suggestion_required_field" = "*";
 "my_collection_no_more" = "これ以上のコレクションはありません";
 "snap_tip_photography_tips" = "撮影のコツ";
-"snap_tip_keep_stone_centered" = "鳥をフレームの中央に配置";
-"sound_take_to_identify_stones" = "鳥を識別するために音を録音し、被写体を保持";
+"snap_tip_keep_mushroom_centered" = "鳥をフレームの中央に配置";
+"sound_take_to_identify_mushrooms" = "鳥を識別するために音を録音し、被写体を保持";
 
 // MARK: - Mushroom Features
-"stone_basic_information" = "基本情報";
-"stone_color_features" = "色の特徴";
-"stone_habitat" = "生息地";
-"stone_behavior" = "行動";
-"stone_flying" = "飛行";
-"stone_size" = "サイズ";
-"stone_no_data" = "データなし";
-"stone_season_info" = "季節情報";
-"stone_visible_months" = "観察可能月：";
-"stone_visible_year_round" = "通年";
-"stone_plumage" = "羽毛";
+"mushroom_basic_information" = "基本情報";
+"mushroom_color_features" = "色の特徴";
+"mushroom_habitat" = "生息地";
+"mushroom_behavior" = "行動";
+"mushroom_flying" = "飛行";
+"mushroom_size" = "サイズ";
+"mushroom_no_data" = "データなし";
+"mushroom_season_info" = "季節情報";
+"mushroom_visible_months" = "観察可能月：";
+"mushroom_visible_year_round" = "通年";
+"mushroom_plumage" = "羽毛";
 
 // MARK: - Subscription Page Specific
 "subscription_app_name" = "RockAiSnap";
 "subscription_feature_12000_species" = "12000種以上の鳥類の詳細情報";
 "subscription_feature_high_accuracy" = "写真と音声による高精度な鳥類識別";
-"subscription_feature_attract_stones" = "鳥を自宅に引き寄せる方法を学ぶ";
+"subscription_feature_attract_mushrooms" = "鳥を自宅に引き寄せる方法を学ぶ";
 "subscription_feature_unlimited_id" = "無制限の鳥類識別";
 "subscription_feature_expand_knowledge" = "鳥類の学習と知識を拡張";
 "subscription_try_it_free" = "無料で試す";
@@ -258,7 +258,7 @@
 "valuation_step_quality_evaluation" = "品質評価";
 "valuation_step_market_price_search" = "市場価格検索";
 "valuation_not_found" = "石が見つかりません";
-"stone_estimated_value" = "推定価値";
+"mushroom_estimated_value" = "推定価値";
 "metal_detector_tips_content" = "このツールは、携帯電話に内蔵されている磁気センサーによって動作します。この検出器は、磁鉄鉱、磁硫鉄鉱、隕石などの磁性岩石や鉱物で動作します。また、主に鉄、コバルト、またはニッケルで構成された金属も検出できます。磁気センサーは各携帯電話で異なる位置にあるため、検出オブジェクトを電話の周りで動かして最適な感度を見つけ、ダイヤルゲージで明確な読み取りを得てください。ダイヤルゲージの読み取りは、検出されたオブジェクトの強度を示します。磁気の正確な値を表すものではありません。";
 "valuation_camera_tips" = "鮮明で高品質な写真は、より正確な評価結果につながります";
 
@@ -270,8 +270,8 @@
 "suggestion_required_field" = "*";
 "my_collection_no_more" = "これ以上のコレクションはありません";
 "snap_tip_photography_tips" = "撮影のコツ";
-"snap_tip_keep_stone_centered" = "鳥をフレームの中央に配置";
-"sound_take_to_identify_stones" = "鳥を識別するために音を録音し、被写体を保持";
+"snap_tip_keep_mushroom_centered" = "鳥をフレームの中央に配置";
+"sound_take_to_identify_mushrooms" = "鳥を識別するために音を録音し、被写体を保持";
 
 // MARK: - Camera Mode Selection
 "camera_mode_by_photo" = "写真で";
@@ -398,18 +398,18 @@
 "profile_no_more_data" = "これ以上のデータはありません";
 
 // MARK: - Mushroom Info Section
-"stone_usage" = "用途";
-"stone_health_risks" = "健康リスク";
-"stone_original_vs_fake" = "真贋鑑定";
-"stone_storage" = "保存方法";
-"stone_cleaning_tips" = "清掃のコツ";
-"stone_chemical_formula" = "化学分子式";
-"stone_chemical_classification" = "化学分類";
-"stone_crystal_system" = "結晶系";
-"stone_hardness" = "硬度";
-"stone_density" = "密度";
-"stone_chemical_elements" = "化学元素";
-"stone_estimated_value" = "評価額";
+"mushroom_usage" = "用途";
+"mushroom_health_risks" = "健康リスク";
+"mushroom_original_vs_fake" = "真贋鑑定";
+"mushroom_storage" = "保存方法";
+"mushroom_cleaning_tips" = "清掃のコツ";
+"mushroom_chemical_formula" = "化学分子式";
+"mushroom_chemical_classification" = "化学分類";
+"mushroom_crystal_system" = "結晶系";
+"mushroom_hardness" = "硬度";
+"mushroom_density" = "密度";
+"mushroom_chemical_elements" = "化学元素";
+"mushroom_estimated_value" = "評価額";
 "add_to_collection" = "マイコレクションに追加";
 
 // MARK: - Additional Missing Keys

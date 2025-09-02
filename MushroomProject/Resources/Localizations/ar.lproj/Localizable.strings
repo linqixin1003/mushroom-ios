@@ -62,8 +62,8 @@
 "home_action_identify" = "تحديد";
 "home_action_record" = "تسجيل";
 "home_action_ai_beautify" = "تجميل بالذكاء الاصطناعي";
-"home_your_daily_stone" = "طائرك اليومي";
-"home_stones_near_you" = "الطيور القريبة منك";
+"home_your_daily_mushroom" = "طائرك اليومي";
+"home_mushrooms_near_you" = "الطيور القريبة منك";
 "home_app_usage_title" = "تعليمات استخدام التطبيق";
 "home_app_usage_desc" = "نساعدك على التعرف علينا بشكل أسرع.";
 
@@ -154,7 +154,7 @@
 "instruction_step_4" = "4. حاول التقاط الجزء الأمامي من الطائر. على الأقل، يجب أن يكون الرأس مرئياً.";
 "instruction_step_5" = "5. نوع واحد فقط في الصورة. وجود الكثير من الطيور في الصورة قد يؤدي إلى تعرف خاطئ.";
 "instruction_identify" = "تعرف"; 
-"stone_info_more" = "المزيد>>";
+"mushroom_info_more" = "المزيد>>";
 
 // MARK: - Identification "profile_privileges" = "الامتيازات";
 // MARK: - Purchase
@@ -203,7 +203,7 @@
 "microphone_permission_button" = "السماح";
 
 // Mushroom Season
-"stone_visible_year_round" = "على مدار السنة";
+"mushroom_visible_year_round" = "على مدار السنة";
 "convert_cancel_notice" = "لا حاجة للدفع إذا ألغيت الاشتراك قبل يوم واحد على الأقل من انتهاء الفترة التجريبية المجانية لمدة 7 أيام.";
 "retain_price_then" = "ثم ";
 "retain_price_year_cancel" = "/سنة. يمكن الإلغاء في أي وقت.";
@@ -228,18 +228,18 @@
 "profile_no_more_data" = "لا مزيد من البيانات";
 
 // MARK: - Mushroom Info Section
-"stone_usage" = "الاستخدام";
-"stone_health_risks" = "المخاطر الصحية";
-"stone_original_vs_fake" = "المصادقة";
-"stone_storage" = "التخزين";
-"stone_cleaning_tips" = "نصائح التنظيف";
-"stone_chemical_formula" = "الصيغة الكيميائية";
-"stone_chemical_classification" = "التصنيف الكيميائي";
-"stone_crystal_system" = "النظام البلوري";
-"stone_hardness" = "الصلابة";
-"stone_density" = "الكثافة";
-"stone_chemical_elements" = "العناصر الكيميائية";
-"stone_estimated_value" = "القيمة المقدرة";
+"mushroom_usage" = "الاستخدام";
+"mushroom_health_risks" = "المخاطر الصحية";
+"mushroom_original_vs_fake" = "المصادقة";
+"mushroom_storage" = "التخزين";
+"mushroom_cleaning_tips" = "نصائح التنظيف";
+"mushroom_chemical_formula" = "الصيغة الكيميائية";
+"mushroom_chemical_classification" = "التصنيف الكيميائي";
+"mushroom_crystal_system" = "النظام البلوري";
+"mushroom_hardness" = "الصلابة";
+"mushroom_density" = "الكثافة";
+"mushroom_chemical_elements" = "العناصر الكيميائية";
+"mushroom_estimated_value" = "القيمة المقدرة";
 "add_to_collection" = "إضافة إلى مجموعتي";
 
 // MARK: - Additional Missing Keys
@@ -260,5 +260,5 @@
 "valuation_step_market_price_search" = "البحث عن سعر السوق";
 "valuation_not_found" = "لم يتم العثور على حجر";
 "valuation_camera_tips" = "الصور الواضحة وعالية الجودة تؤدي إلى نتائج تقييم أكثر دقة";
-"stone_estimated_value" = "القيمة المقدرة";
+"mushroom_estimated_value" = "القيمة المقدرة";
 "metal_detector_tips_content" = "تعمل هذه الأداة بواسطة المستشعر المغناطيسي المدمج في هاتفك المحمول. يعمل هذا الكاشف مع الصخور أو المعادن المغناطيسية، مثل المغنتيت والبيروتيت والنيزك. يمكنه أيضًا اكتشاف المعدن المكون بشكل أساسي من الحديد أو الكوبالت أو النيكل. نظرًا لأن المستشعر المغناطيسي موجود بشكل مختلف في كل هاتف محمول، حرك الكائن المكتشف حول هاتفك للعثور على أفضل حساسية له والحصول على قراءة واضحة على مقياس الاتصال الهاتفي. تشير قراءة مقياس الاتصال الهاتفي إلى قوة الكائن المكتشف؛ لا تمثل القيمة الدقيقة للمغناطيسية.";

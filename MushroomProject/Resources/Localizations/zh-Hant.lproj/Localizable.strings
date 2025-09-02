@@ -63,8 +63,8 @@
 "home_action_identify" = "識別";
 "home_action_record" = "錄音";
 "home_action_ai_beautify" = "AI美化";
-"home_your_daily_stone" = "每日石頭";
-"home_stones_near_you" = "附近的石頭";
+"home_your_daily_mushroom" = "每日石頭";
+"home_mushrooms_near_you" = "附近的石頭";
 "home_app_usage_title" = "應用使用說明";
 "home_app_usage_desc" = "幫助您更快地熟悉我們。";
 
@@ -134,7 +134,7 @@
 "camera_preview_tip" = "拍照識別石頭，拍攝時請保持主體清晰";
 "camera_zoom" = "縮放";
 "camera_photography_tips" = "拍攝技巧";
-"camera_keep_stone_centered" = "保持石頭在畫面中央";
+"camera_keep_mushroom_centered" = "保持石頭在畫面中央";
 "camera_retake" = "重新拍攝";
 "camera_mode_ai_enhancer" = "AI 增強";
 
@@ -153,12 +153,12 @@
 "settings_manage_account" = "管理賬戶";
 
 // MARK: - Mushroom Information
-"stone_info_detailed_not_available" = "詳細信息不可用";
-"stone_info_additional_characteristics" = "額外的特徵和分類數據將在可用時顯示在此處。";
-"stone_info_characteristics" = "特徵";
-"stone_info_scientific_classification" = "科學分類";
-"stone_info_additional_classification" = "額外分類信息：";
-"stone_info_more" = "更多>>";
+"mushroom_info_detailed_not_available" = "詳細信息不可用";
+"mushroom_info_additional_characteristics" = "額外的特徵和分類數據將在可用時顯示在此處。";
+"mushroom_info_characteristics" = "特徵";
+"mushroom_info_scientific_classification" = "科學分類";
+"mushroom_info_additional_classification" = "額外分類信息：";
+"mushroom_info_more" = "更多>>";
 
 // MARK: - Identification
 "identify_recognition_failed" = "識別失敗";
@@ -206,7 +206,7 @@
 "suggestion_required_field" = "*";
 "my_collection_no_more" = "沒有更多收藏";
 "snap_tip_photography_tips" = "拍攝技巧";
-"snap_tip_keep_stone_centered" = "保持石頭在畫面中央";
+"snap_tip_keep_mushroom_centered" = "保持石頭在畫面中央";
 
 // MARK: - Share
 "share_image_failed" = "圖片載入失敗";
@@ -218,7 +218,7 @@
 "share_no_content" = "沒有可分享的內容";
 "share_failed" = "分享失敗";
 "share_ok" = "確定";
-"share_stone_not_found" = "未找到石頭信息";
+"share_mushroom_not_found" = "未找到石頭信息";
 "share_error" = "錯誤";
 "share_image_not_available" = "圖片不可用，無法保存";
 "share_success" = "成功";
@@ -232,18 +232,18 @@
 "share_image_load_failed" = "圖片載入失敗";
 
 // MARK: - Mushroom Features
-"stone_basic_information" = "基本信息";
-"stone_color_features" = "顏色特徵";
-"stone_habitat" = "棲息地";
-"stone_behavior" = "行為";
-"stone_flying" = "飛行";
-"stone_size" = "大小";
-"stone_no_data" = "無數據";
-"stone_season_info" = "季節信息";
-"stone_visible_months" = "可見月份：";
-"stone_visible_year_round" = "全年可見";
-"stone_plumage" = "羽毛";
-"stone_observation_number" = "觀察編號";
+"mushroom_basic_information" = "基本信息";
+"mushroom_color_features" = "顏色特徵";
+"mushroom_habitat" = "棲息地";
+"mushroom_behavior" = "行為";
+"mushroom_flying" = "飛行";
+"mushroom_size" = "大小";
+"mushroom_no_data" = "無數據";
+"mushroom_season_info" = "季節信息";
+"mushroom_visible_months" = "可見月份：";
+"mushroom_visible_year_round" = "全年可見";
+"mushroom_plumage" = "羽毛";
+"mushroom_observation_number" = "觀察編號";
 
 // MARK: - Subscription Page Specific
 "subscription_app_name" = "RockAiSnap";
@@ -258,12 +258,12 @@
 "valuation_step_identification" = "識別";
 "valuation_step_quality_evaluation" = "品質評估";
 "valuation_step_market_price_search" = "市場價格搜索";
-"stone_estimated_value" = "估計價值";
+"mushroom_estimated_value" = "估計價值";
 "metal_detector_tips_content" = "此工具由手機內建的磁感應器提供支援。此探測器適用於磁性岩石或礦物，如磁鐵礦、磁黃鐵礦和隕石。它還可以檢測主要由鐵、鈷或鎳組成的金屬。由於磁感應器在每部手機上的位置不同，請在手機周圍移動檢測物體以找到其最佳靈敏度，並在錶盤上獲得清晰的讀數。錶盤讀數表示檢測到的物體的強度；它不代表磁性的確切值。";
 "valuation_not_found" = "未找到石頭";
 "valuation_camera_tips" = "清晰、高品質的照片會帶來更準確的估值結果";
 "subscription_feature_high_accuracy" = "通過照片和聲音進行高精度石頭識別";
-"subscription_feature_attract_stones" = "學習如何吸引石頭來到您的家";
+"subscription_feature_attract_mushrooms" = "學習如何吸引石頭來到您的家";
 "subscription_feature_unlimited_id" = "無限次石頭識別";
 "subscription_feature_expand_knowledge" = "擴展您對石頭的學習和知識";
 "subscription_try_it_free" = "免費試用";
@@ -363,16 +363,16 @@
 "wishlist_estimated_value" = "估值";
 
 // MARK: - Mushroom Characteristics
-"stone_usage" = "用途";
-"stone_health_risks" = "健康風險";
-"stone_authenticity_identification" = "真偽鑑別";
-"stone_storage_method" = "存儲方法";
-"stone_cleaning_tips" = "清潔技巧";
-"stone_chemical_formula" = "化學分子式";
-"stone_crystal_system" = "晶體系統";
-"stone_hardness" = "硬度";
-"stone_density" = "密度";
-"stone_chemical_elements" = "化學元素";
+"mushroom_usage" = "用途";
+"mushroom_health_risks" = "健康風險";
+"mushroom_authenticity_identification" = "真偽鑑別";
+"mushroom_storage_method" = "存儲方法";
+"mushroom_cleaning_tips" = "清潔技巧";
+"mushroom_chemical_formula" = "化學分子式";
+"mushroom_crystal_system" = "晶體系統";
+"mushroom_hardness" = "硬度";
+"mushroom_density" = "密度";
+"mushroom_chemical_elements" = "化學元素";
 
 // MARK: - Purchase
 "purchase_choose_subscription_plan" = "選擇訂閱方案";
@@ -464,8 +464,8 @@
 
 // MARK: - UI Text
 "ui_detailed_info_unavailable" = "詳細信息暫不可用";
-"ui_more_stone_info_future" = "更多石頭特徵信息將在後續版本中提供";
-"ui_stone_characteristics" = "石頭特徵";
+"ui_more_mushroom_info_future" = "更多石頭特徵信息將在後續版本中提供";
+"ui_mushroom_characteristics" = "石頭特徵";
 "ui_description" = "描述";
 "ui_usage" = "用途";
 "ui_health_risks" = "健康風險";
@@ -500,7 +500,7 @@
 "find_treasure_metal_detector" = "金屬探測器";
 
 // MARK: - Mushroom Detail
-"stone_durability_rating" = "耐久性評級";
+"mushroom_durability_rating" = "耐久性評級";
 
 // MARK: - Home Action Types (從HomeActionView.swift提取)
 "home_action_type_valuation" = "估值";
@@ -524,4 +524,4 @@
 "subscription_cancel_confirmation" = "您確定要取消訂閱嗎？";
 
 // MARK: - 聲音識別
-"sound_take_to_identify_stones" = "錄製聲音以識別石頭並保持主體";
+"sound_take_to_identify_mushrooms" = "錄製聲音以識別石頭並保持主體";

@@ -5,11 +5,11 @@ import Foundation
 struct CollectionRecord: Codable, Identifiable {
     let id: Int	
     let identificationId: Int
-    let stoneId: String
+    let mushroomId: String
     let name: String
     let description: String
     let imageUrl: String
-    let stonePhotoUrl: String
+    let mushroomPhotoUrl: String
     let chemicalFormula: String
     let colors: String
     let hardness: String
@@ -22,11 +22,11 @@ struct CollectionRecord: Codable, Identifiable {
     enum CodingKeys: String, CodingKey {
         case id
         case identificationId = "identification_id"
-        case stoneId = "stone_id"
+        case mushroomId = "mushroom_id"
         case name
         case description
         case imageUrl = "image_url"
-        case stonePhotoUrl = "stone_photo_url"
+        case mushroomPhotoUrl = "mushroom_photo_url"
         case chemicalFormula = "chemical_formula"
         case colors
         case hardness
@@ -41,13 +41,13 @@ struct CollectionRecord: Codable, Identifiable {
     func toLocalRecordItem() -> LocalRecordItem {
         return LocalRecordItem(
             id: "collection_\(id)",
-            uid: stoneId,
+            uid: mushroomId,
             type: .image,
             createdAt: createdAt,
             confidence: confidenceScore,
             latinName: chemicalFormula,
             commonName: name,
-            mediaUrl: imageUrl.isEmpty ? stonePhotoUrl : imageUrl
+            mediaUrl: imageUrl.isEmpty ? mushroomPhotoUrl : imageUrl
         )
     }
 }

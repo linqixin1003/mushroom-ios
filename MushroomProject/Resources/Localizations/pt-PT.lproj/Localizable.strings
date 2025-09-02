@@ -63,8 +63,8 @@
 "home_action_identify" = "Identificar";
 "home_action_record" = "Gravar";
 "home_action_ai_beautify" = "Embelezamento IA";
-"home_your_daily_stone" = "A sua pedra diária";
-"home_stones_near_you" = "Pedras perto de si";
+"home_your_daily_mushroom" = "A sua pedra diária";
+"home_mushrooms_near_you" = "Pedras perto de si";
 "home_app_usage_title" = "Instruções de utilização da aplicação";
 "home_app_usage_desc" = "Ajuda-o a familiarizar-se connosco mais rapidamente.";
 
@@ -134,7 +134,7 @@
 "camera_preview_tip" = "Tire fotografias para identificar pedras e mantenha o objeto nítido ao fotografar";
 "camera_zoom" = "Zoom";
 "camera_photography_tips" = "Dicas de fotografia";
-"camera_keep_stone_centered" = "Mantenha a pedra centrada no enquadramento";
+"camera_keep_mushroom_centered" = "Mantenha a pedra centrada no enquadramento";
 "camera_retake" = "Fotografar novamente";
 "camera_mode_ai_enhancer" = "Melhorador IA";
 
@@ -153,12 +153,12 @@
 "settings_manage_account" = "Gerir conta";
 
 // MARK: - Mushroom Information
-"stone_info_detailed_not_available" = "Informações detalhadas não disponíveis";
-"stone_info_additional_characteristics" = "Características adicionais e dados de classificação serão exibidos aqui quando disponíveis.";
-"stone_info_characteristics" = "Características";
-"stone_info_scientific_classification" = "Classificação científica";
-"stone_info_additional_classification" = "Informações de classificação adicionais:";
-"stone_info_more" = "Mais>>";
+"mushroom_info_detailed_not_available" = "Informações detalhadas não disponíveis";
+"mushroom_info_additional_characteristics" = "Características adicionais e dados de classificação serão exibidos aqui quando disponíveis.";
+"mushroom_info_characteristics" = "Características";
+"mushroom_info_scientific_classification" = "Classificação científica";
+"mushroom_info_additional_classification" = "Informações de classificação adicionais:";
+"mushroom_info_more" = "Mais>>";
 
 // MARK: - Identification
 "identify_recognition_failed" = "Identificação falhada";
@@ -206,7 +206,7 @@
 "suggestion_required_field" = "*";
 "my_collection_no_more" = "Não há mais coleções";
 "snap_tip_photography_tips" = "Dicas de fotografia";
-"snap_tip_keep_stone_centered" = "Mantenha a pedra centrada no enquadramento";
+"snap_tip_keep_mushroom_centered" = "Mantenha a pedra centrada no enquadramento";
 
 // MARK: - Share
 "share_image_failed" = "Falha ao carregar imagem";
@@ -218,7 +218,7 @@
 "share_no_content" = "Nenhum conteúdo para partilhar";
 "share_failed" = "Partilha falhada";
 "share_ok" = "OK";
-"share_stone_not_found" = "Informações da pedra não encontradas";
+"share_mushroom_not_found" = "Informações da pedra não encontradas";
 "share_error" = "Erro";
 "share_image_not_available" = "Imagem não disponível, não é possível guardar";
 "share_success" = "Sucesso";
@@ -232,18 +232,18 @@
 "share_image_load_failed" = "Falha ao carregar imagem";
 
 // MARK: - Mushroom Features
-"stone_basic_information" = "Informações básicas";
-"stone_color_features" = "Características de cor";
-"stone_habitat" = "Habitat";
-"stone_behavior" = "Comportamento";
-"stone_flying" = "Voo";
-"stone_size" = "Tamanho";
-"stone_no_data" = "Sem dados";
-"stone_season_info" = "Informações sazonais";
-"stone_visible_months" = "Meses visíveis:";
-"stone_visible_year_round" = "Todo o ano";
-"stone_plumage" = "Plumagem";
-"stone_observation_number" = "Número de observação";
+"mushroom_basic_information" = "Informações básicas";
+"mushroom_color_features" = "Características de cor";
+"mushroom_habitat" = "Habitat";
+"mushroom_behavior" = "Comportamento";
+"mushroom_flying" = "Voo";
+"mushroom_size" = "Tamanho";
+"mushroom_no_data" = "Sem dados";
+"mushroom_season_info" = "Informações sazonais";
+"mushroom_visible_months" = "Meses visíveis:";
+"mushroom_visible_year_round" = "Todo o ano";
+"mushroom_plumage" = "Plumagem";
+"mushroom_observation_number" = "Número de observação";
 
 // MARK: - Subscription Page Specific
 "subscription_app_name" = "RockAiSnap";
@@ -258,12 +258,12 @@
 "valuation_step_identification" = "Identificação";
 "valuation_step_quality_evaluation" = "Avaliação de qualidade";
 "valuation_step_market_price_search" = "Pesquisa de preço de mercado";
-"stone_estimated_value" = "Valor estimado";
+"mushroom_estimated_value" = "Valor estimado";
 "metal_detector_tips_content" = "Esta ferramenta é alimentada pelo sensor magnético integrado no seu telemóvel. Este detector funciona com rochas ou minerais magnéticos, como magnetite, pirrotite e meteorito. Também pode detectar metal composto principalmente por ferro, cobalto ou níquel. Como o sensor magnético está localizado de forma diferente em cada telemóvel, mova o objecto de detecção à volta do seu telefone para encontrar a sua melhor sensibilidade e obter uma leitura clara no mostrador. A leitura do mostrador indica a força do seu objecto detectado; não representa o valor exacto do magnetismo.";
 "valuation_not_found" = "Nenhuma pedra encontrada";
 "valuation_camera_tips" = "Fotografias nítidas e de alta qualidade levam a resultados de avaliação mais precisos";
 "subscription_feature_high_accuracy" = "Identificação de pedras de alta precisão com fotografia e som";
-"subscription_feature_attract_stones" = "Aprenda como atrair pedras para a sua casa";
+"subscription_feature_attract_mushrooms" = "Aprenda como atrair pedras para a sua casa";
 "subscription_feature_unlimited_id" = "Identificações ilimitadas de pedras";
 "subscription_feature_expand_knowledge" = "Expanda o seu estudo e conhecimento de pedras";
 "subscription_try_it_free" = "Experimente grátis";
@@ -363,16 +363,16 @@
 "wishlist_estimated_value" = "Valor estimado";
 
 // MARK: - Mushroom Characteristics
-"stone_usage" = "Utilização";
-"stone_health_risks" = "Riscos para a saúde";
-"stone_authenticity_identification" = "Identificação de autenticidade";
-"stone_storage_method" = "Método de armazenamento";
-"stone_cleaning_tips" = "Dicas de limpeza";
-"stone_chemical_formula" = "Fórmula química";
-"stone_crystal_system" = "Sistema cristalino";
-"stone_hardness" = "Dureza";
-"stone_density" = "Densidade";
-"stone_chemical_elements" = "Elementos químicos";
+"mushroom_usage" = "Utilização";
+"mushroom_health_risks" = "Riscos para a saúde";
+"mushroom_authenticity_identification" = "Identificação de autenticidade";
+"mushroom_storage_method" = "Método de armazenamento";
+"mushroom_cleaning_tips" = "Dicas de limpeza";
+"mushroom_chemical_formula" = "Fórmula química";
+"mushroom_crystal_system" = "Sistema cristalino";
+"mushroom_hardness" = "Dureza";
+"mushroom_density" = "Densidade";
+"mushroom_chemical_elements" = "Elementos químicos";
 
 // MARK: - Purchase
 "purchase_choose_subscription_plan" = "Escolher plano de subscrição";
@@ -464,8 +464,8 @@
 
 // MARK: - UI Text
 "ui_detailed_info_unavailable" = "Informações detalhadas temporariamente indisponíveis";
-"ui_more_stone_info_future" = "Mais informações sobre características de pedras estarão disponíveis em versões futuras";
-"ui_stone_characteristics" = "Características da pedra";
+"ui_more_mushroom_info_future" = "Mais informações sobre características de pedras estarão disponíveis em versões futuras";
+"ui_mushroom_characteristics" = "Características da pedra";
 "ui_description" = "Descrição";
 "ui_usage" = "Utilização";
 "ui_health_risks" = "Riscos para a saúde";
@@ -500,7 +500,7 @@
 "find_treasure_metal_detector" = "Detetor de metais";
 
 // MARK: - Mushroom Detail
-"stone_durability_rating" = "Classificação de durabilidade";
+"mushroom_durability_rating" = "Classificação de durabilidade";
 
 // MARK: - Home Action Types (extraído de HomeActionView.swift)
 "home_action_type_valuation" = "Avaliação";
@@ -524,4 +524,4 @@
 "subscription_cancel_confirmation" = "Tem a certeza de que quer cancelar a subscrição?";
 
 // MARK: - Identificação de som
-"sound_take_to_identify_stones" = "Grave som para identificar pedra e manter o objeto";
+"sound_take_to_identify_mushrooms" = "Grave som para identificar pedra e manter o objeto";

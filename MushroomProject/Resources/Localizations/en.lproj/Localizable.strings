@@ -75,8 +75,8 @@
 "home_action_identify" = "Identify";
 "home_action_record" = "Record";
 "home_action_ai_beautify" = "AI Beautify";
-"home_your_daily_stone" = "Your Daily Mushroom";
-"home_stones_near_you" = "Mushrooms Near You";
+"home_your_daily_mushroom" = "Your Daily Mushroom";
+"home_mushrooms_near_you" = "Mushrooms Near You";
 "home_app_usage_title" = "App usage instructions";
 "home_app_usage_desc" = "Help you get familiar with us more quickly.";
 
@@ -153,10 +153,10 @@
 "camera_permission_request_title" = "We need Camera permission";
 "camera_permission_request_desc" = "Camera permission is required";
 "camera_permisson_request_button" = "Allow";
-"camera_preview_tip" = "Take photos to identify stones and keep the subject clear when shooting";
+"camera_preview_tip" = "Take photos to identify mushrooms and keep the subject clear when shooting";
 "camera_zoom" = "Zoom";
 "camera_photography_tips" = "Photography tips";
-"camera_keep_stone_centered" = "Keep stone centered in frame";
+"camera_keep_mushroom_centered" = "Keep mushroom centered in frame";
 "camera_good_image_quality" = "Good image quality can help improve the accuracy of identification.";
 "camera_retake" = "Retake";
 "camera_mode_ai_enhancer" = "AI Enhancer";
@@ -179,12 +179,12 @@
 "settings_manage_account" = "Manage Account";
 
 // MARK: - Mushroom Information
-"stone_info_detailed_not_available" = "Detailed information not available";
-"stone_info_additional_characteristics" = "Additional characteristics and classification data will be displayed here when available.";
-"stone_info_characteristics" = "Characteristics";
-"stone_info_scientific_classification" = "Scientific classification";
-"stone_info_additional_classification" = "Additional Classification Info:";
-"stone_info_more" = "More>>";
+"mushroom_info_detailed_not_available" = "Detailed information not available";
+"mushroom_info_additional_characteristics" = "Additional characteristics and classification data will be displayed here when available.";
+"mushroom_info_characteristics" = "Characteristics";
+"mushroom_info_scientific_classification" = "Scientific classification";
+"mushroom_info_additional_classification" = "Additional Classification Info:";
+"mushroom_info_more" = "More>>";
 
 // MARK: - Identification
 "identify_recognition_failed" = "Recognition Failed";
@@ -193,8 +193,8 @@
 
 // MARK: - Sound
 "sound_permission_required" = "Sound permission is required";
-"sound_take_to_identify" = "Take sound to identify stones and keep the subject";
-"sound_take_to_identify_stones" = "Take sound to identify stones and keep the subject";
+"sound_take_to_identify" = "Take sound to identify mushrooms and keep the subject";
+"sound_take_to_identify_mushrooms" = "Take sound to identify mushrooms and keep the subject";
 
 // MARK: - Search
 "search_enter_keywords" = "Please enter keywords to search for relevant information";
@@ -213,11 +213,11 @@
 "subscription_restore" = "Restore";
 "subscription_cancel_notice" = "No need to pay if you cancel the subscription at least a day before the 7-day free trial ends.";
 "subscription_app_name" = "RockAiSnap";
-"subscription_feature_12000_species" = "In-depth info for 12000+ stone species";
-"subscription_feature_high_accuracy" = "High-accuracy stone ID with photo & sound";
-"subscription_feature_attract_stones" = "Learn how to attract stones to your home";
-"subscription_feature_unlimited_id" = "Unlimited stone identifications";
-"subscription_feature_expand_knowledge" = "Expand your study and knowledge of stones";
+"subscription_feature_12000_species" = "In-depth info for 12000+ mushroom species";
+"subscription_feature_high_accuracy" = "High-accuracy mushroom ID with photo & sound";
+"subscription_feature_attract_mushrooms" = "Learn how to attract mushrooms to your home";
+"subscription_feature_unlimited_id" = "Unlimited mushroom identifications";
+"subscription_feature_expand_knowledge" = "Expand your study and knowledge of mushrooms";
 "subscription_try_it_free" = "TRY IT FREE";
 "subscription_continue" = "CONTINUE";
 "subscription_7_days_then_yearly" = "7 days for free, then %@/yearly";
@@ -239,7 +239,7 @@
 // MARK: - About
 "about_app_name" = "RockAiSnap";
 "about_version" = "V%@";
-"about_description" = "Don't know the stone's name? RockAiSnap helps you identify unknown stones and discover nature in the simplest and most fun way. We are also constantly working to provide a better user experience and optimize our identification features! We hope that anyone who loves stones can join our family. Let's start meeting the most adorable stones from around the world.";
+"about_description" = "Don't know the mushroom's name? RockAiSnap helps you identify unknown mushrooms and discover nature in the simplest and most fun way. We are also constantly working to provide a better user experience and optimize our identification features! We hope that anyone who loves mushrooms can join our family. Let's start meeting the most adorable mushrooms from around the world.";
 "about_email" = "lingjuetech@gmail.com";
 "about_email_address" = "lingjuetech@gmail.com";
 "about_page_title" = "App Info";
@@ -263,7 +263,7 @@
 "share_no_content" = "No content to share";
 "share_failed" = "Share Failed";
 "share_ok" = "OK";
-"share_stone_not_found" = "Mushroom information not found";
+"share_mushroom_not_found" = "Mushroom information not found";
 "share_error" = "Error";
 "share_image_not_available" = "Image is not available to save";
 "share_success" = "Success";
@@ -276,75 +276,75 @@
 "share_error_no_content" = "No content to share";
 
 // MARK: - Mushroom Features
-"stone_basic_information" = "Basic Information";
-"stone_color_features" = "Color Features";
-"stone_habitat" = "Habitat";
-"stone_behavior" = "Behavior";
-"stone_flying" = "Flying";
-"stone_size" = "Size";
-"stone_no_data" = "No Data";
-"stone_season_info" = "Season Info";
-"stone_visible_months" = "Visible Months:";
-"stone_visible_year_round" = "Year-round";
-"stone_plumage" = "Plumage";
-"stone_observation_number" = "Observation Number";
-"stone_usage" = "Usage";
-"stone_health_risks" = "Health risks";
-"stone_authenticity_identification" = "Authenticity identification";
-"stone_storage_method" = "Storage method";
-"stone_cleaning_tips" = "Cleaning tips";
-"stone_chemical_formula" = "Chemical formula";
-"stone_crystal_system" = "Crystal system";
-"stone_hardness" = "Hardness";
-"stone_density" = "Density";
-"stone_chemical_elements" = "Chemical elements";
-"stone_estimated_value" = "Estimated value";
+"mushroom_basic_information" = "Basic Information";
+"mushroom_color_features" = "Color Features";
+"mushroom_habitat" = "Habitat";
+"mushroom_behavior" = "Behavior";
+"mushroom_flying" = "Flying";
+"mushroom_size" = "Size";
+"mushroom_no_data" = "No Data";
+"mushroom_season_info" = "Season Info";
+"mushroom_visible_months" = "Visible Months:";
+"mushroom_visible_year_round" = "Year-round";
+"mushroom_plumage" = "Plumage";
+"mushroom_observation_number" = "Observation Number";
+"mushroom_usage" = "Usage";
+"mushroom_health_risks" = "Health risks";
+"mushroom_authenticity_identification" = "Authenticity identification";
+"mushroom_storage_method" = "Storage method";
+"mushroom_cleaning_tips" = "Cleaning tips";
+"mushroom_chemical_formula" = "Chemical formula";
+"mushroom_crystal_system" = "Crystal system";
+"mushroom_hardness" = "Hardness";
+"mushroom_density" = "Density";
+"mushroom_chemical_elements" = "Chemical elements";
+"mushroom_estimated_value" = "Estimated value";
 "add_to_collection" = "Add to my collection";
 
 // MARK: - Mushroom Detail Components
-"stone_chemical_properties" = "Chemical properties";
-"stone_impurities" = "Impurities";
-"stone_variety" = "Variety";
-"stone_physical_properties" = "Physical properties";
-"stone_colors" = "Colors";
-"stone_luster" = "Luster";
-"stone_diaphaneity" = "Diaphaneity";
-"stone_magnetism" = "Magnetism";
-"stone_streak" = "Streak";
-"stone_tenacity" = "Tenacity";
-"stone_cleavage" = "Cleavage";
-"stone_fracture" = "Fracture";
-"stone_durability_rating" = "Durability rating";
-"stone_scratch_resistance" = "Scratch resistance";
-"stone_toughness" = "Toughness";
-"stone_stability" = "Stability";
-"stone_care_instructions" = "Care instructions";
-"stone_light" = "Light";
-"stone_temperature" = "Temperature";
-"stone_price_information" = "Price information";
-"stone_per_carat" = "Per carat";
-"stone_per_pound" = "Per pound";
-"stone_metaphysical_properties" = "Metaphysical properties";
-"stone_chakra_root" = "Root chakra";
-"stone_chakra_sacral" = "Sacral chakra";
-"stone_chakra_solar" = "Solar plexus chakra";
-"stone_chakra_heart" = "Heart chakra";
-"stone_chakra_throat" = "Throat chakra";
-"stone_chakra_third_eye" = "Third eye chakra";
-"stone_chakra_crown" = "Crown chakra";
-"stone_quality_tranquillity" = "Tranquillity";
-"stone_quality_grounding" = "Grounding";
-"stone_quality_protection" = "Protection";
-"stone_quality_healing" = "Healing";
-"stone_quality_clarity" = "Clarity";
-"stone_quality_spiritual" = "Spiritual";
-"stone_quality_energy" = "Energy";
-"stone_quality_prosperity" = "Prosperity";
-"stone_quality_balance" = "Balance";
-"stone_quality_love" = "Love";
-"stone_enhancing" = "Enhancing";
-"stone_charging" = "Charging";
-"stone_cleansing" = "Cleansing";
+"mushroom_chemical_properties" = "Chemical properties";
+"mushroom_impurities" = "Impurities";
+"mushroom_variety" = "Variety";
+"mushroom_physical_properties" = "Physical properties";
+"mushroom_colors" = "Colors";
+"mushroom_luster" = "Luster";
+"mushroom_diaphaneity" = "Diaphaneity";
+"mushroom_magnetism" = "Magnetism";
+"mushroom_streak" = "Streak";
+"mushroom_tenacity" = "Tenacity";
+"mushroom_cleavage" = "Cleavage";
+"mushroom_fracture" = "Fracture";
+"mushroom_durability_rating" = "Durability rating";
+"mushroom_scratch_resistance" = "Scratch resistance";
+"mushroom_toughness" = "Toughness";
+"mushroom_stability" = "Stability";
+"mushroom_care_instructions" = "Care instructions";
+"mushroom_light" = "Light";
+"mushroom_temperature" = "Temperature";
+"mushroom_price_information" = "Price information";
+"mushroom_per_carat" = "Per carat";
+"mushroom_per_pound" = "Per pound";
+"mushroom_metaphysical_properties" = "Metaphysical properties";
+"mushroom_chakra_root" = "Root chakra";
+"mushroom_chakra_sacral" = "Sacral chakra";
+"mushroom_chakra_solar" = "Solar plexus chakra";
+"mushroom_chakra_heart" = "Heart chakra";
+"mushroom_chakra_throat" = "Throat chakra";
+"mushroom_chakra_third_eye" = "Third eye chakra";
+"mushroom_chakra_crown" = "Crown chakra";
+"mushroom_quality_tranquillity" = "Tranquillity";
+"mushroom_quality_grounding" = "Grounding";
+"mushroom_quality_protection" = "Protection";
+"mushroom_quality_healing" = "Healing";
+"mushroom_quality_clarity" = "Clarity";
+"mushroom_quality_spiritual" = "Spiritual";
+"mushroom_quality_energy" = "Energy";
+"mushroom_quality_prosperity" = "Prosperity";
+"mushroom_quality_balance" = "Balance";
+"mushroom_quality_love" = "Love";
+"mushroom_enhancing" = "Enhancing";
+"mushroom_charging" = "Charging";
+"mushroom_cleansing" = "Cleansing";
 
 // MARK: - Retain Page
 "retain_today" = "Today";
@@ -375,7 +375,7 @@
 "snap_tip_blurry" = "Blurry";
 "snap_tip_multiple_species" = "Multiple species";
 "snap_tip_photography_tips" = "Photography tips";
-"snap_tip_keep_stone_centered" = "Keep stone centered in frame";
+"snap_tip_keep_mushroom_centered" = "Keep mushroom centered in frame";
 
 // MARK: - More Images
 "more_images" = "More Images";
@@ -550,41 +550,41 @@
 
 // MARK: - Recognize Page
 "recognize_auto_saved_collection" = "Auto-saved to collection";
-"recognize_stone_loading" = "Mushroom information is loading, please wait";
+"recognize_mushroom_loading" = "Mushroom information is loading, please wait";
 "recognize_invalid_id" = "Invalid identification ID";
 "recognize_added_collection_success" = "Added to collection successfully";
 "recognize_added_collection_failed" = "Failed to add to collection, please try again";
-"recognize_stone_loading_wait" = "Mushroom information is loading, please wait";
+"recognize_mushroom_loading_wait" = "Mushroom information is loading, please wait";
 "recognize_added_wishlist_success" = "Added to wishlist";
 "recognize_added_wishlist_failed" = "Failed to add to wishlist, please try again";
 
 // MARK: - Detail Page
 "detail_page_title" = "Result";
-"detail_stone_loading" = "Mushroom information is loading, please wait";
+"detail_mushroom_loading" = "Mushroom information is loading, please wait";
 "detail_collected" = "Collected";
 "detail_collected_failed" = "Collected Failed";
 "detail_collected_error" = "add Collected Error";
-"detail_stone_loading_wait" = "Mushroom information is loading, please wait";
+"detail_mushroom_loading_wait" = "Mushroom information is loading, please wait";
 "detail_added_wishlist_success" = "Added to wishlist";
 "detail_added_wishlist_failed" = "Failed to add to wishlist, please try again";
 
 // MARK: - Instruction Page
 "instruction_page_title" = "Picture Mushroom instructions";
-"instruction_step_1" = "1. Keep stone centered in frame, make sure it isn't too far away.";
-"instruction_step_2" = "2. Try to avoid having vegetation, cages, or other things in front of the stone.";
-"instruction_step_3" = "3. Ensure good lighting for high contrast. If you can't see the stone, the app can't either.";
-"instruction_step_4" = "4. Try to capture the front of the stone. At the very least, the head should be visible.";
-"instruction_step_5" = "5. Only one species in picture. Too many stones in picture may result in false identification.";
+"instruction_step_1" = "1. Keep mushroom centered in frame, make sure it isn't too far away.";
+"instruction_step_2" = "2. Try to avoid having vegetation, cages, or other things in front of the mushroom.";
+"instruction_step_3" = "3. Ensure good lighting for high contrast. If you can't see the mushroom, the app can't either.";
+"instruction_step_4" = "4. Try to capture the front of the mushroom. At the very least, the head should be visible.";
+"instruction_step_5" = "5. Only one species in picture. Too many mushrooms in picture may result in false identification.";
 "instruction_good_image_quality" = "Good image quality can help improve the accuracy of identification.";
 "instruction_identify" = "Identify";
 
 // MARK: - ConvertPage
 "convert_title" = "RockAiSnap";
-"convert_feature_1" = "In-depth info for 12000+ stone species";
-"convert_feature_2" = "High-accuracy stone ID with photo & sound";
-"convert_feature_3" = "Learn how to attract stones to your home";
-"convert_feature_4" = "Unlimited stone identifications";
-"convert_feature_5" = "Expand your study and knowledge of stones";
+"convert_feature_1" = "In-depth info for 12000+ mushroom species";
+"convert_feature_2" = "High-accuracy mushroom ID with photo & sound";
+"convert_feature_3" = "Learn how to attract mushrooms to your home";
+"convert_feature_4" = "Unlimited mushroom identifications";
+"convert_feature_5" = "Expand your study and knowledge of mushrooms";
 "convert_yearly" = "Yearly";
 "convert_monthly" = "Monthly";
 "convert_loading_price" = "Loading price...";
@@ -613,6 +613,6 @@
 "valuation_step_identification" = "Identification";
 "valuation_step_quality_evaluation" = "Quality evaluation";
 "valuation_step_market_price_search" = "Market price search";
-"valuation_not_found" = "No stone found";
+"valuation_not_found" = "No mushroom found";
 "valuation_camera_tips" = "Clear,high-quality photos lead to more accurate valuation results";
 "metal_detector_tips_content" = "This tool is empowered by the magneticsensor that is built into your cell phone.Thisdetector works with magnetic rocks orminerals, such as magnetite, pyrrhotite, andmeteorite. It can also detect metal that iscomposed mainly of iron, cobalt, or nickel.Since the magnetic sensor is located differently on each cell phone, move thedetecting object around your phone to findits best sensitivity and get a clear read onthe dial gauge.The read of the dial gaugeindicates the strength of your detectedobject; it does not represent the exact valueof magnetism.";

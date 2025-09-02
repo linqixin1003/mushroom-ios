@@ -58,12 +58,12 @@ struct RecognizePage: View {
         .fullScreenCover(isPresented: .constant(viewModel.identifyState == .result)) {
             if let currentMushroom = viewModel.currentMushroom{
                 let images = viewModel.identifyItems.map { identifyItem in
-                    identifyItem.stone.photos?.first.map { stonePhoto in
-                        stonePhoto.url ?? ""
+                    identifyItem.mushroom.photos?.first.map { mushroomPhoto in
+                        mushroomPhoto.url ?? ""
                     } ?? ""
                 }
                 
-                IdentifyResultPage(stone: currentMushroom,
+                IdentifyResultPage(mushroom: currentMushroom,
                                    images: images,
                                    isInWish: viewModel.isInWish,
                                    isInFavorite: viewModel.isInFavorite,

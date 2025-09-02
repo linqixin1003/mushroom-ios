@@ -63,8 +63,8 @@
 "home_action_identify" = "Identifizieren";
 "home_action_record" = "Aufnehmen";
 "home_action_ai_beautify" = "KI-Verschönerung";
-"home_your_daily_stone" = "Ihr täglicher Vogel";
-"home_stones_near_you" = "Vögel in Ihrer Nähe";
+"home_your_daily_mushroom" = "Ihr täglicher Vogel";
+"home_mushrooms_near_you" = "Vögel in Ihrer Nähe";
 "home_app_usage_title" = "Anwendungsanweisungen";
 "home_app_usage_desc" = "Hilft Ihnen, sich schneller mit uns vertraut zu machen.";
 
@@ -141,12 +141,12 @@
 "settings_manage_account" = "Konto verwalten";
 
 // MARK: - Mushroom Information
-"stone_info_detailed_not_available" = "Detaillierte Informationen nicht verfügbar";
-"stone_info_additional_characteristics" = "Zusätzliche Eigenschaften und Klassifizierungsdaten werden hier angezeigt, wenn verfügbar.";
-"stone_info_characteristics" = "Eigenschaften";
-"stone_info_scientific_classification" = "Wissenschaftliche Klassifizierung";
-"stone_info_additional_classification" = "Zusätzliche Klassifizierungsinformationen:";
-"stone_info_more" = "Mehr>>";
+"mushroom_info_detailed_not_available" = "Detaillierte Informationen nicht verfügbar";
+"mushroom_info_additional_characteristics" = "Zusätzliche Eigenschaften und Klassifizierungsdaten werden hier angezeigt, wenn verfügbar.";
+"mushroom_info_characteristics" = "Eigenschaften";
+"mushroom_info_scientific_classification" = "Wissenschaftliche Klassifizierung";
+"mushroom_info_additional_classification" = "Zusätzliche Klassifizierungsinformationen:";
+"mushroom_info_more" = "Mehr>>";
 
 // MARK: - Identification
 "identify_recognition_failed" = "Erkennung fehlgeschlagen";
@@ -156,7 +156,7 @@
 // MARK: - Camera
 "camera_zoom" = "Zoom";
 "camera_photography_tips" = "Aufnahmetipps";
-"camera_keep_stone_centered" = "Vogel im Bildmittelpunkt halten";
+"camera_keep_mushroom_centered" = "Vogel im Bildmittelpunkt halten";
 "camera_good_image_quality" = "Gute Bildqualität kann die Genauigkeit der Identifizierung verbessern.";
 
 // MARK: - Sound
@@ -206,8 +206,8 @@
 "suggestion_required_field" = "*";
 "my_collection_no_more" = "Keine weitere Sammlung";
 "snap_tip_photography_tips" = "Fotografie-Tipps";
-"snap_tip_keep_stone_centered" = "Vogel im Bildmittelpunkt halten";
-"sound_take_to_identify_stones" = "Ton aufnehmen, um Vögel zu identifizieren und das Motiv zu halten";
+"snap_tip_keep_mushroom_centered" = "Vogel im Bildmittelpunkt halten";
+"sound_take_to_identify_mushrooms" = "Ton aufnehmen, um Vögel zu identifizieren und das Motiv zu halten";
 
 // MARK: - Camera Mode Selection
 "camera_mode_by_photo" = "Über Foto";
@@ -326,7 +326,7 @@
 "microphone_permission_button" = "Erlauben";
 
 // Mushroom Season
-"stone_visible_year_round" = "Ganzjährig";
+"mushroom_visible_year_round" = "Ganzjährig";
 
 // MARK: - Home Action Types
 "home_action_type_valuation" = "Bewertung";
@@ -348,18 +348,18 @@
 "profile_no_more_data" = "Keine weiteren Daten";
 
 // MARK: - Mushroom Info Section
-"stone_usage" = "Verwendung";
-"stone_health_risks" = "Gesundheitsrisiken";
-"stone_original_vs_fake" = "Echtheitsprüfung";
-"stone_storage" = "Lagerung";
-"stone_cleaning_tips" = "Reinigungstipps";
-"stone_chemical_formula" = "Chemische Formel";
-"stone_chemical_classification" = "Chemische Klassifizierung";
-"stone_crystal_system" = "Kristallsystem";
-"stone_hardness" = "Härte";
-"stone_density" = "Dichte";
-"stone_chemical_elements" = "Chemische Elemente";
-"stone_estimated_value" = "Geschätzter Wert";
+"mushroom_usage" = "Verwendung";
+"mushroom_health_risks" = "Gesundheitsrisiken";
+"mushroom_original_vs_fake" = "Echtheitsprüfung";
+"mushroom_storage" = "Lagerung";
+"mushroom_cleaning_tips" = "Reinigungstipps";
+"mushroom_chemical_formula" = "Chemische Formel";
+"mushroom_chemical_classification" = "Chemische Klassifizierung";
+"mushroom_crystal_system" = "Kristallsystem";
+"mushroom_hardness" = "Härte";
+"mushroom_density" = "Dichte";
+"mushroom_chemical_elements" = "Chemische Elemente";
+"mushroom_estimated_value" = "Geschätzter Wert";
 "metal_detector_tips_content" = "Dieses Werkzeug wird von dem Magnetsensor angetrieben, der in Ihr Mobiltelefon eingebaut ist. Dieser Detektor funktioniert mit magnetischen Gesteinen oder Mineralien wie Magnetit, Pyrrhotin und Meteorit. Er kann auch Metall erkennen, das hauptsächlich aus Eisen, Kobalt oder Nickel besteht. Da der Magnetsensor bei jedem Mobiltelefon unterschiedlich positioniert ist, bewegen Sie das zu erkennende Objekt um Ihr Telefon herum, um seine beste Empfindlichkeit zu finden und eine klare Ablesung auf dem Zifferblatt zu erhalten. Die Ablesung des Zifferblatts zeigt die Stärke Ihres erkannten Objekts an; sie stellt nicht den exakten Wert des Magnetismus dar.";
 "add_to_collection" = "Zur Sammlung hinzufügen";
 

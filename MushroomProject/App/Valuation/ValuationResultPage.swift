@@ -45,7 +45,7 @@ struct ValuationResultPage: View {
 
                     // 详细信息
                     Group {
-                        keyValueRow(key: Language.stone_estimated_value, value: formatPrice(result.estimatedPrice))
+                        keyValueRow(key: Language.mushroom_estimated_value, value: formatPrice(result.estimatedPrice))
                         keyValueRow(key: Language.possible_price_range, value: formatRange(result.minPrice, result.maxPrice))
                     }
                     .padding(.horizontal, 4.rpx)

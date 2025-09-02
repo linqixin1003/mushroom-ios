@@ -63,8 +63,8 @@
 "home_action_identify" = "Identifikovať";
 "home_action_record" = "Nahrávať";
 "home_action_ai_beautify" = "AI skrášlenie";
-"home_your_daily_stone" = "Váš denný kameň";
-"home_stones_near_you" = "Kamene vo vašom okolí";
+"home_your_daily_mushroom" = "Váš denný kameň";
+"home_mushrooms_near_you" = "Kamene vo vašom okolí";
 "home_app_usage_title" = "Návod na používanie aplikácie";
 "home_app_usage_desc" = "Pomôže vám rýchlejšie sa s nami oboznámiť.";
 
@@ -134,7 +134,7 @@
 "camera_preview_tip" = "Odfotografujte kameň na identifikáciu, pri fotografovaní udržujte objekt ostrý";
 "camera_zoom" = "Priblíženie";
 "camera_photography_tips" = "Tipy na fotografovanie";
-"camera_keep_stone_centered" = "Udržujte kameň v strede záberu";
+"camera_keep_mushroom_centered" = "Udržujte kameň v strede záberu";
 "camera_retake" = "Odfotiť znovu";
 "camera_mode_ai_enhancer" = "AI vylepšovač";
 
@@ -153,12 +153,12 @@
 "settings_manage_account" = "Spravovať účet";
 
 // MARK: - Mushroom Information
-"stone_info_detailed_not_available" = "Podrobné informácie nie sú k dispozícii";
-"stone_info_additional_characteristics" = "Ďalšie charakteristiky a klasifikačné údaje sa zobrazia tu, keď budú k dispozícii.";
-"stone_info_characteristics" = "Charakteristiky";
-"stone_info_scientific_classification" = "Vedecká klasifikácia";
-"stone_info_additional_classification" = "Ďalšie klasifikačné informácie:";
-"stone_info_more" = "Viac>>";
+"mushroom_info_detailed_not_available" = "Podrobné informácie nie sú k dispozícii";
+"mushroom_info_additional_characteristics" = "Ďalšie charakteristiky a klasifikačné údaje sa zobrazia tu, keď budú k dispozícii.";
+"mushroom_info_characteristics" = "Charakteristiky";
+"mushroom_info_scientific_classification" = "Vedecká klasifikácia";
+"mushroom_info_additional_classification" = "Ďalšie klasifikačné informácie:";
+"mushroom_info_more" = "Viac>>";
 
 // MARK: - Identification
 "identify_recognition_failed" = "Identifikácia zlyhala";
@@ -206,7 +206,7 @@
 "suggestion_required_field" = "*";
 "my_collection_no_more" = "Žiadne ďalšie zbierky";
 "snap_tip_photography_tips" = "Tipy na fotografovanie";
-"snap_tip_keep_stone_centered" = "Udržujte kameň v strede záberu";
+"snap_tip_keep_mushroom_centered" = "Udržujte kameň v strede záberu";
 
 // MARK: - Share
 "share_image_failed" = "Načítanie obrázka zlyhalo";
@@ -218,7 +218,7 @@
 "share_no_content" = "Žiadny obsah na zdieľanie";
 "share_failed" = "Zdieľanie zlyhalo";
 "share_ok" = "OK";
-"share_stone_not_found" = "Informácie o kameni sa nenašli";
+"share_mushroom_not_found" = "Informácie o kameni sa nenašli";
 "share_error" = "Chyba";
 "share_image_not_available" = "Obrázok nie je k dispozícii, nedá sa uložiť";
 "share_success" = "Úspech";
@@ -232,18 +232,18 @@
 "share_image_load_failed" = "Načítanie obrázka zlyhalo";
 
 // MARK: - Mushroom Features
-"stone_basic_information" = "Základné informácie";
-"stone_color_features" = "Farebné charakteristiky";
-"stone_habitat" = "Habitat";
-"stone_behavior" = "Správanie";
-"stone_flying" = "Lietanie";
-"stone_size" = "Veľkosť";
-"stone_no_data" = "Žiadne údaje";
-"stone_season_info" = "Sezónne informácie";
-"stone_visible_months" = "Viditeľné mesiace:";
-"stone_visible_year_round" = "Celoročne";
-"stone_plumage" = "Perie";
-"stone_observation_number" = "Číslo pozorovania";
+"mushroom_basic_information" = "Základné informácie";
+"mushroom_color_features" = "Farebné charakteristiky";
+"mushroom_habitat" = "Habitat";
+"mushroom_behavior" = "Správanie";
+"mushroom_flying" = "Lietanie";
+"mushroom_size" = "Veľkosť";
+"mushroom_no_data" = "Žiadne údaje";
+"mushroom_season_info" = "Sezónne informácie";
+"mushroom_visible_months" = "Viditeľné mesiace:";
+"mushroom_visible_year_round" = "Celoročne";
+"mushroom_plumage" = "Perie";
+"mushroom_observation_number" = "Číslo pozorovania";
 
 // MARK: - Subscription Page Specific
 "subscription_app_name" = "RockAiSnap";
@@ -258,12 +258,12 @@
 "valuation_step_identification" = "Identifikácia";
 "valuation_step_quality_evaluation" = "Hodnotenie kvality";
 "valuation_step_market_price_search" = "Vyhľadávanie trhovej ceny";
-"stone_estimated_value" = "Odhadovaná hodnota";
+"mushroom_estimated_value" = "Odhadovaná hodnota";
 "metal_detector_tips_content" = "Tento nástroj je poháňaný magnetickým senzorom, ktorý je zabudovaný vo vašom mobilnom telefóne. Tento detektor funguje s magnetickými horninami alebo minerálmi, ako sú magnetit, pyrotín a meteorit. Môže tiež detegovať kov, ktorý sa skladá hlavne zo železa, kobaltu alebo niklu. Keďže magnetický senzor je na každom mobilnom telefóne umiestnený inak, pohybujte detekovaným objektom okolo vášho telefónu, aby ste našli jeho najlepšiu citlivosť a získali jasný údaj na ciferníku. Údaj na ciferníku označuje silu vášho detekovaného objektu; nepredstavuje presnú hodnotu magnetizmu.";
 "valuation_not_found" = "Nenašiel sa žiadny kameň";
 "valuation_camera_tips" = "Jasné, vysokokvalitné fotografie vedú k presnejším výsledkom ocenenia";
 "subscription_feature_high_accuracy" = "Vysoká presnosť identifikácie kameňov pomocou fotografií a zvuku";
-"subscription_feature_attract_stones" = "Naučte sa, ako prilákať kamene do vášho domova";
+"subscription_feature_attract_mushrooms" = "Naučte sa, ako prilákať kamene do vášho domova";
 "subscription_feature_unlimited_id" = "Neobmedzená identifikácia kameňov";
 "subscription_feature_expand_knowledge" = "Rozšírte svoje učenie a vedomosti o kameňoch";
 "subscription_try_it_free" = "Vyskúšajte zadarmo";
@@ -363,16 +363,16 @@
 "wishlist_estimated_value" = "Odhadovaná hodnota";
 
 // MARK: - Mushroom Characteristics
-"stone_usage" = "Použitie";
-"stone_health_risks" = "Zdravotné riziká";
-"stone_authenticity_identification" = "Identifikácia pravosti";
-"stone_storage_method" = "Spôsob skladovania";
-"stone_cleaning_tips" = "Tipy na čistenie";
-"stone_chemical_formula" = "Chemický vzorec";
-"stone_crystal_system" = "Kryštálový systém";
-"stone_hardness" = "Tvrdosť";
-"stone_density" = "Hustota";
-"stone_chemical_elements" = "Chemické prvky";
+"mushroom_usage" = "Použitie";
+"mushroom_health_risks" = "Zdravotné riziká";
+"mushroom_authenticity_identification" = "Identifikácia pravosti";
+"mushroom_storage_method" = "Spôsob skladovania";
+"mushroom_cleaning_tips" = "Tipy na čistenie";
+"mushroom_chemical_formula" = "Chemický vzorec";
+"mushroom_crystal_system" = "Kryštálový systém";
+"mushroom_hardness" = "Tvrdosť";
+"mushroom_density" = "Hustota";
+"mushroom_chemical_elements" = "Chemické prvky";
 
 // MARK: - Purchase
 "purchase_choose_subscription_plan" = "Vyberte plán predplatného";
@@ -464,8 +464,8 @@
 
 // MARK: - UI Text
 "ui_detailed_info_unavailable" = "Podrobné informácie momentálne nie sú k dispozícii";
-"ui_more_stone_info_future" = "Viac informácií o charakteristikách kameňov bude k dispozícii v budúcich verziách";
-"ui_stone_characteristics" = "Charakteristiky kameňa";
+"ui_more_mushroom_info_future" = "Viac informácií o charakteristikách kameňov bude k dispozícii v budúcich verziách";
+"ui_mushroom_characteristics" = "Charakteristiky kameňa";
 "ui_description" = "Popis";
 "ui_usage" = "Použitie";
 "ui_health_risks" = "Zdravotné riziká";
@@ -500,7 +500,7 @@
 "find_treasure_metal_detector" = "Detektor kovov";
 
 // MARK: - Mushroom Detail
-"stone_durability_rating" = "Hodnotenie odolnosti";
+"mushroom_durability_rating" = "Hodnotenie odolnosti";
 
 // MARK: - Home Action Types (z HomeActionView.swift)
 "home_action_type_valuation" = "Ohodnotenie";
@@ -524,7 +524,7 @@
 "subscription_cancel_confirmation" = "Ste si istí, že chcete zrušiť predplatné?";
 
 // MARK: - Identifikácia zvuku
-"sound_take_to_identify_stones" = "Nahrajte zvuk na identifikáciu kameňa a udržujte objekt";
+"sound_take_to_identify_mushrooms" = "Nahrajte zvuk na identifikáciu kameňa a udržujte objekt";
 
 // MARK: - Warnings
 "warning_no_camera_permission" = "Chýba povolenie pre kameru";
