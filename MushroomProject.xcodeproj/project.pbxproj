@@ -545,9 +545,9 @@
 		83F6E7002D6B1DE30021A319 = {
 			isa = PBXGroup;
 			children = (
-				83F6E74A2D6B1FC80021A319 /* RockProject */,
-				83F6E7532D6B1FD90021A319 /* RockProjectTests */,
-				83F6E7572D6B1FD90021A319 /* RockProjectUITests */,
+				83F6E74A2D6B1FC80021A319 /* MushroomProject */,
+				83F6E7532D6B1FD90021A319 /* MushroomProjectTests */,
+				83F6E7572D6B1FD90021A319 /* MushroomProjectUITests */,
 				83F6E7862D6CB9250021A319 /* Frameworks */,
 				83F6E70A2D6B1DE30021A319 /* Products */,
 			);
@@ -563,7 +563,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		83F6E74A2D6B1FC80021A319 /* RockProject */ = {
+		83F6E74A2D6B1FC80021A319 /* MushroomProject */ = {
 			isa = PBXGroup;
 			children = (
 				14EDF18C2E1CF63D00F0F1ED /* Resources */,
@@ -578,24 +578,24 @@
 				83F6E7482D6B1FC80021A319 /* Main.storyboard */,
 				83A5CFAA2E365E3C00B18BD5 /* Repository */,
 			);
-			path = RockProject;
+			path = MushroomProject;
 			sourceTree = "<group>";
 		};
-		83F6E7532D6B1FD90021A319 /* RockProjectTests */ = {
+		83F6E7532D6B1FD90021A319 /* MushroomProjectTests */ = {
 			isa = PBXGroup;
 			children = (
 				83F6E7522D6B1FD90021A319 /* RockProjectTests.swift */,
 			);
-			path = RockProjectTests;
+			path = MushroomProjectTests;
 			sourceTree = "<group>";
 		};
-		83F6E7572D6B1FD90021A319 /* RockProjectUITests */ = {
+		83F6E7572D6B1FD90021A319 /* MushroomProjectUITests */ = {
 			isa = PBXGroup;
 			children = (
 				83F6E7552D6B1FD90021A319 /* RockProjectUITests.swift */,
 				83F6E7562D6B1FD90021A319 /* RockProjectUITestsLaunchTests.swift */,
 			);
-			path = RockProjectUITests;
+			path = MushroomProjectUITests;
 			sourceTree = "<group>";
 		};
 		83F6E75A2D6B200B0021A319 /* Base */ = {
@@ -1338,8 +1338,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = S653WT8CCV;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RockProject/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = RockAiSnap;
+				INFOPLIST_FILE = MushroomProject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MushroomAiSnap;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_NSCameraUsageDescription = "需要访问相机来拍摄鸟类照片，用于鸟类识别功能。This app needs camera access to take photos of stones for species identification.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "需要位置信息来显示附近的鸟类信息和提供更准确的识别结果。This app needs location access to show nearby stone information and provide more accurate identification results.";
@@ -1378,8 +1378,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = S653WT8CCV;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RockProject/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = RockAiSnap;
+				INFOPLIST_FILE = MushroomProject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MushroomAiSnap;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_NSCameraUsageDescription = "需要访问相机来拍摄鸟类照片，用于鸟类识别功能。This app needs camera access to take photos of stones for species identification.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "需要位置信息来显示附近的鸟类信息和提供更准确的识别结果。This app needs location access to show nearby stone information and provide more accurate identification results.";
@@ -1535,9 +1535,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MushroomProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.stoneidentifier.RockProjectTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stoneidentifier.mushroomProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -1553,9 +1554,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MushroomProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.stoneidentifier.RockProjectTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stoneidentifier.mushroomProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -1570,8 +1572,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MushroomProject/Info.plist;
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.stoneidentifier.RockProjectUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stoneidentifier.MushroomProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -1586,8 +1589,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MushroomProject/Info.plist;
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.stoneidentifier.RockProjectUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stoneidentifier.MushroomProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
